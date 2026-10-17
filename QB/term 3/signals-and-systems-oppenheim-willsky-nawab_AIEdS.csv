@@ -1,0 +1,1001 @@
+question,opt1,opt2,opt3,opt4,correct_opt,di
+What is a continuous-time signal?,limit of (1/2T)*integral|x(t)|^2 as T->inf,defined only at integer values of n,defined for every value of continuous variable t,equals 0 for t<0 and 1 for t>=0,3,0.05
+What is a discrete-time signal?,equals 0 for t<0 and 1 for t>=0,generalized function of unit area concentrated at t=0,has total energy E < infinity,defined only at integer values of n,4,0.05
+What is the unit step u(t)?,defined only at integer values of n,equals zero for all t<0 (or n<0 for DT),equals 0 for t<0 and 1 for t>=0,defined for every value of continuous variable t,3,0.05
+What is the unit impulse delta(t)?,equals 0 for n<0 and 1 for n>=0,satisfies x(-t)=-x(t) for all t,generalized function of unit area concentrated at t=0,has total energy E < infinity,3,0.05
+What is the DT unit step u[n]?,equals 0 for n<0 and 1 for n>=0,defined for every value of continuous variable t,equals 1 at n=0 and 0 elsewhere,integral of |x(t)|^2 from -inf to inf,1,0.05
+What is the DT unit impulse delta[n]?,equals 0 for n<0 and 1 for n>=0,equals 1 at n=0 and 0 elsewhere,equals 0 for t<0 and 1 for t>=0,satisfies x(t+T)=x(t) for all t and some nonzero T,2,0.05
+What is a periodic signal?,satisfies x(t+T)=x(t) for all t and some nonzero T,equals zero for all t<0 (or n<0 for DT),defined only at integer values of n,smallest positive T such that x(t+T)=x(t),1,0.05
+What is the fundamental period T0?,"real part=cos(w0*t), imaginary part=sin(w0*t)",smallest positive T such that x(t+T)=x(t),defined for every value of continuous variable t,has total energy E < infinity,2,0.05
+What is an even signal?,satisfies x(-t)=x(t) for all t,satisfies x(t+T)=x(t) for all t and some nonzero T,satisfies x(-t)=-x(t) for all t,defined only at integer values of n,1,0.05
+What is an odd signal?,integral of |x(t)|^2 from -inf to inf,generalized function of unit area concentrated at t=0,has total energy E < infinity,satisfies x(-t)=-x(t) for all t,4,0.05
+What is signal energy E?,equals 0 for n<0 and 1 for n>=0,defined only at integer values of n,integral of |x(t)|^2 from -inf to inf,"real part=cos(w0*t), imaginary part=sin(w0*t)",3,0.05
+What is signal power P?,integral of |x(t)|^2 from -inf to inf,equals 0 for n<0 and 1 for n>=0,limit of (1/2T)*integral|x(t)|^2 as T->inf,smallest positive T such that x(t+T)=x(t),3,0.05
+What is a finite-energy signal?,equals 1 at n=0 and 0 elsewhere,has total energy E < infinity,integral of |x(t)|^2 from -inf to inf,generalized function of unit area concentrated at t=0,2,0.05
+What is a complex exponential e^(j*w0*t)?,integral of |x(t)|^2 from -inf to inf,equals 0 for t<0 and 1 for t>=0,"real part=cos(w0*t), imaginary part=sin(w0*t)",satisfies x(-t)=-x(t) for all t,3,0.05
+What is a causal signal?,equals zero for all t<0 (or n<0 for DT),integral of |x(t)|^2 from -inf to inf,equals 0 for n<0 and 1 for n>=0,satisfies x(t+T)=x(t) for all t and some nonzero T,1,0.05
+Which best describes a continuous-time signal?,"real part=cos(w0*t), imaginary part=sin(w0*t)",defined only at integer values of n,defined for every value of continuous variable t,equals zero for all t<0 (or n<0 for DT),3,0.05
+Which best describes a discrete-time signal?,defined only at integer values of n,equals 0 for t<0 and 1 for t>=0,equals 1 at n=0 and 0 elsewhere,smallest positive T such that x(t+T)=x(t),1,0.05
+Which best describes the unit step u(t)?,equals 0 for t<0 and 1 for t>=0,equals 0 for n<0 and 1 for n>=0,limit of (1/2T)*integral|x(t)|^2 as T->inf,satisfies x(-t)=x(t) for all t,1,0.05
+Which best describes the unit impulse delta(t)?,generalized function of unit area concentrated at t=0,equals zero for all t<0 (or n<0 for DT),equals 1 at n=0 and 0 elsewhere,equals 0 for t<0 and 1 for t>=0,1,0.05
+Which best describes the DT unit step u[n]?,integral of |x(t)|^2 from -inf to inf,equals 0 for n<0 and 1 for n>=0,has total energy E < infinity,smallest positive T such that x(t+T)=x(t),2,0.05
+Which best describes the DT unit impulse delta[n]?,equals 0 for t<0 and 1 for t>=0,satisfies x(-t)=-x(t) for all t,satisfies x(-t)=x(t) for all t,equals 1 at n=0 and 0 elsewhere,4,0.05
+Which best describes a periodic signal?,equals 0 for t<0 and 1 for t>=0,satisfies x(t+T)=x(t) for all t and some nonzero T,limit of (1/2T)*integral|x(t)|^2 as T->inf,equals zero for all t<0 (or n<0 for DT),2,0.05
+Which best describes the fundamental period T0?,smallest positive T such that x(t+T)=x(t),satisfies x(t+T)=x(t) for all t and some nonzero T,equals zero for all t<0 (or n<0 for DT),integral of |x(t)|^2 from -inf to inf,1,0.05
+Which best describes an even signal?,limit of (1/2T)*integral|x(t)|^2 as T->inf,satisfies x(-t)=-x(t) for all t,defined for every value of continuous variable t,satisfies x(-t)=x(t) for all t,4,0.05
+Which best describes an odd signal?,equals 1 at n=0 and 0 elsewhere,limit of (1/2T)*integral|x(t)|^2 as T->inf,"real part=cos(w0*t), imaginary part=sin(w0*t)",satisfies x(-t)=-x(t) for all t,4,0.05
+Which best describes signal energy E?,equals 0 for t<0 and 1 for t>=0,integral of |x(t)|^2 from -inf to inf,defined for every value of continuous variable t,smallest positive T such that x(t+T)=x(t),2,0.05
+Which best describes signal power P?,satisfies x(-t)=x(t) for all t,limit of (1/2T)*integral|x(t)|^2 as T->inf,integral of |x(t)|^2 from -inf to inf,defined only at integer values of n,2,0.05
+Which best describes a finite-energy signal?,equals zero for all t<0 (or n<0 for DT),equals 0 for t<0 and 1 for t>=0,equals 1 at n=0 and 0 elsewhere,has total energy E < infinity,4,0.05
+Which best describes a complex exponential e^(j*w0*t)?,defined only at integer values of n,"real part=cos(w0*t), imaginary part=sin(w0*t)",smallest positive T such that x(t+T)=x(t),defined for every value of continuous variable t,2,0.05
+Which best describes a causal signal?,generalized function of unit area concentrated at t=0,defined for every value of continuous variable t,satisfies x(-t)=-x(t) for all t,equals zero for all t<0 (or n<0 for DT),4,0.05
+"In signals and systems, a continuous-time signal refers to?",equals 0 for t<0 and 1 for t>=0,satisfies x(-t)=-x(t) for all t,defined for every value of continuous variable t,equals zero for all t<0 (or n<0 for DT),3,0.05
+"In signals and systems, a discrete-time signal refers to?",satisfies x(-t)=-x(t) for all t,generalized function of unit area concentrated at t=0,defined only at integer values of n,equals 1 at n=0 and 0 elsewhere,3,0.05
+"In signals and systems, the unit step u(t) refers to?",equals 0 for t<0 and 1 for t>=0,smallest positive T such that x(t+T)=x(t),has total energy E < infinity,equals 1 at n=0 and 0 elsewhere,1,0.05
+"In signals and systems, the unit impulse delta(t) refers to?",equals 0 for n<0 and 1 for n>=0,"real part=cos(w0*t), imaginary part=sin(w0*t)",defined only at integer values of n,generalized function of unit area concentrated at t=0,4,0.05
+"In signals and systems, the DT unit step u[n] refers to?",generalized function of unit area concentrated at t=0,satisfies x(-t)=-x(t) for all t,equals 0 for n<0 and 1 for n>=0,integral of |x(t)|^2 from -inf to inf,3,0.05
+"In signals and systems, the DT unit impulse delta[n] refers to?",defined for every value of continuous variable t,limit of (1/2T)*integral|x(t)|^2 as T->inf,equals 1 at n=0 and 0 elsewhere,has total energy E < infinity,3,0.05
+"In signals and systems, a periodic signal refers to?",satisfies x(t+T)=x(t) for all t and some nonzero T,equals 1 at n=0 and 0 elsewhere,defined only at integer values of n,equals zero for all t<0 (or n<0 for DT),1,0.05
+"In signals and systems, the fundamental period T0 refers to?",satisfies x(-t)=-x(t) for all t,generalized function of unit area concentrated at t=0,smallest positive T such that x(t+T)=x(t),equals 0 for t<0 and 1 for t>=0,3,0.05
+"In signals and systems, an even signal refers to?",satisfies x(t+T)=x(t) for all t and some nonzero T,"real part=cos(w0*t), imaginary part=sin(w0*t)",generalized function of unit area concentrated at t=0,satisfies x(-t)=x(t) for all t,4,0.05
+"In signals and systems, an odd signal refers to?",equals 1 at n=0 and 0 elsewhere,satisfies x(-t)=-x(t) for all t,satisfies x(t+T)=x(t) for all t and some nonzero T,"real part=cos(w0*t), imaginary part=sin(w0*t)",2,0.05
+"In signals and systems, signal energy E refers to?",equals zero for all t<0 (or n<0 for DT),limit of (1/2T)*integral|x(t)|^2 as T->inf,"real part=cos(w0*t), imaginary part=sin(w0*t)",integral of |x(t)|^2 from -inf to inf,4,0.05
+"In signals and systems, signal power P refers to?",defined only at integer values of n,equals 1 at n=0 and 0 elsewhere,limit of (1/2T)*integral|x(t)|^2 as T->inf,has total energy E < infinity,3,0.05
+"In signals and systems, a finite-energy signal refers to?",smallest positive T such that x(t+T)=x(t),satisfies x(-t)=x(t) for all t,has total energy E < infinity,equals 0 for t<0 and 1 for t>=0,3,0.05
+"In signals and systems, a complex exponential e^(j*w0*t) refers to?",smallest positive T such that x(t+T)=x(t),"real part=cos(w0*t), imaginary part=sin(w0*t)",generalized function of unit area concentrated at t=0,defined only at integer values of n,2,0.05
+"In signals and systems, a causal signal refers to?",defined for every value of continuous variable t,integral of |x(t)|^2 from -inf to inf,satisfies x(-t)=x(t) for all t,equals zero for all t<0 (or n<0 for DT),4,0.05
+How is a continuous-time signal defined?,smallest positive T such that x(t+T)=x(t),generalized function of unit area concentrated at t=0,defined for every value of continuous variable t,satisfies x(-t)=x(t) for all t,3,0.05
+How is a discrete-time signal defined?,smallest positive T such that x(t+T)=x(t),generalized function of unit area concentrated at t=0,defined for every value of continuous variable t,defined only at integer values of n,4,0.05
+How is the unit step u(t) defined?,equals 0 for t<0 and 1 for t>=0,satisfies x(-t)=x(t) for all t,"real part=cos(w0*t), imaginary part=sin(w0*t)",equals zero for all t<0 (or n<0 for DT),1,0.05
+How is the unit impulse delta(t) defined?,equals 1 at n=0 and 0 elsewhere,equals 0 for n<0 and 1 for n>=0,generalized function of unit area concentrated at t=0,equals 0 for t<0 and 1 for t>=0,3,0.05
+How is the DT unit step u[n] defined?,defined for every value of continuous variable t,has total energy E < infinity,satisfies x(t+T)=x(t) for all t and some nonzero T,equals 0 for n<0 and 1 for n>=0,4,0.05
+What is time shift x(t-t0) with t0>0?,shifts x[n] to the right by n0 samples,compresses x(t) in time by factor a,extracts x(t) over that interval; zeros elsewhere,shifts x(t) to the right by t0  [delayed],4,0.1
+What is time shift x(t+t0) with t0>0?,extracts x(t) over that interval; zeros elsewhere,reflects x(t) about the t=0 axis,compresses x(t) in time by factor a,shifts x(t) to the left by t0  [advanced],4,0.1
+What is time reversal x(-t)?,reflects x[n] about n=0,reflects x(t) about the t=0 axis,shifts x(t) to the left by t0  [advanced],equals [x(t)-x(-t)]/2,2,0.1
+What is time compression x(at) with |a|>1?,equals [x(t)-x(-t)]/2,compresses x(t) in time by factor a,reflects x[n] about n=0,shifts x(t) to the left by t0  [advanced],2,0.1
+What is time expansion x(t/a) with a>1?,stretches x(t) in time by factor a,"first scales time by a, then shifts by b/a",equals [x(t)+x(-t)]/2,keeps every M-th sample; reduces rate by M,1,0.1
+What is amplitude scaling A*x(t)?,scales the amplitude of x(t) by constant A,shifts spectrum of x(t) by w0 in frequency  [modulation],reflects x(t) about the t=0 axis,keeps every M-th sample; reduces rate by M,1,0.1
+What is even part of x(t)?,shifts spectrum of x(t) by w0 in frequency  [modulation],equals [x(t)+x(-t)]/2,shifts x(t) to the left by t0  [advanced],shifts x(t) to the right by t0  [delayed],2,0.1
+What is odd part of x(t)?,compresses x(t) in time by factor a,shifts x(t) to the left by t0  [advanced],equals [x(t)-x(-t)]/2,shifts x[n] to the right by n0 samples,3,0.1
+What is x(t)*u(t)?,scales the amplitude of x(t) by constant A,shifts x(t) to the left by t0  [advanced],zeroes x(t) for t<0 and leaves it unchanged for t>=0,compresses x(t) in time by factor a,3,0.1
+What is DT shift x[n-n0] with n0>0?,extracts x(t) over that interval; zeros elsewhere,shifts x[n] to the right by n0 samples,"first scales time by a, then shifts by b/a",zeroes x(t) for t<0 and leaves it unchanged for t>=0,2,0.1
+What is DT time reversal x[-n]?,zeroes x(t) for t<0 and leaves it unchanged for t>=0,keeps every M-th sample; reduces rate by M,stretches x(t) in time by factor a,reflects x[n] about n=0,4,0.1
+What is downsampling x[Mn]?,keeps every M-th sample; reduces rate by M,extracts x(t) over that interval; zeros elsewhere,"first scales time by a, then shifts by b/a",shifts x(t) to the left by t0  [advanced],1,0.1
+What is transformation t->at+b in x(t)?,keeps every M-th sample; reduces rate by M,shifts x[n] to the right by n0 samples,"first scales time by a, then shifts by b/a",compresses x(t) in time by factor a,3,0.1
+What is multiplying x(t) by e^(j*w0*t)?,equals [x(t)-x(-t)]/2,zeroes x(t) for t<0 and leaves it unchanged for t>=0,stretches x(t) in time by factor a,shifts spectrum of x(t) by w0 in frequency  [modulation],4,0.1
+What is windowing x(t) by rect pulse of duration T?,stretches x(t) in time by factor a,shifts x(t) to the right by t0  [delayed],shifts spectrum of x(t) by w0 in frequency  [modulation],extracts x(t) over that interval; zeros elsewhere,4,0.1
+Which best describes time shift x(t-t0) with t0>0?,shifts x(t) to the right by t0  [delayed],keeps every M-th sample; reduces rate by M,scales the amplitude of x(t) by constant A,compresses x(t) in time by factor a,1,0.1
+Which best describes time shift x(t+t0) with t0>0?,shifts x[n] to the right by n0 samples,reflects x(t) about the t=0 axis,shifts x(t) to the right by t0  [delayed],shifts x(t) to the left by t0  [advanced],4,0.1
+Which best describes time reversal x(-t)?,shifts x(t) to the right by t0  [delayed],reflects x(t) about the t=0 axis,equals [x(t)+x(-t)]/2,shifts x[n] to the right by n0 samples,2,0.1
+Which best describes time compression x(at) with |a|>1?,scales the amplitude of x(t) by constant A,equals [x(t)+x(-t)]/2,shifts x(t) to the right by t0  [delayed],compresses x(t) in time by factor a,4,0.1
+Which best describes time expansion x(t/a) with a>1?,extracts x(t) over that interval; zeros elsewhere,compresses x(t) in time by factor a,keeps every M-th sample; reduces rate by M,stretches x(t) in time by factor a,4,0.1
+Which best describes amplitude scaling A*x(t)?,reflects x(t) about the t=0 axis,"first scales time by a, then shifts by b/a",scales the amplitude of x(t) by constant A,reflects x[n] about n=0,3,0.1
+Which best describes even part of x(t)?,reflects x(t) about the t=0 axis,equals [x(t)+x(-t)]/2,equals [x(t)-x(-t)]/2,shifts x(t) to the right by t0  [delayed],2,0.1
+Which best describes odd part of x(t)?,reflects x(t) about the t=0 axis,"first scales time by a, then shifts by b/a",stretches x(t) in time by factor a,equals [x(t)-x(-t)]/2,4,0.1
+Which best describes x(t)*u(t)?,zeroes x(t) for t<0 and leaves it unchanged for t>=0,equals [x(t)-x(-t)]/2,compresses x(t) in time by factor a,extracts x(t) over that interval; zeros elsewhere,1,0.1
+Which best describes DT shift x[n-n0] with n0>0?,compresses x(t) in time by factor a,shifts spectrum of x(t) by w0 in frequency  [modulation],shifts x[n] to the right by n0 samples,stretches x(t) in time by factor a,3,0.1
+Which best describes DT time reversal x[-n]?,stretches x(t) in time by factor a,scales the amplitude of x(t) by constant A,equals [x(t)+x(-t)]/2,reflects x[n] about n=0,4,0.1
+Which best describes downsampling x[Mn]?,reflects x[n] about n=0,equals [x(t)+x(-t)]/2,keeps every M-th sample; reduces rate by M,zeroes x(t) for t<0 and leaves it unchanged for t>=0,3,0.1
+Which best describes transformation t->at+b in x(t)?,stretches x(t) in time by factor a,shifts x[n] to the right by n0 samples,"first scales time by a, then shifts by b/a",reflects x(t) about the t=0 axis,3,0.1
+Which best describes multiplying x(t) by e^(j*w0*t)?,scales the amplitude of x(t) by constant A,shifts spectrum of x(t) by w0 in frequency  [modulation],shifts x[n] to the right by n0 samples,equals [x(t)+x(-t)]/2,2,0.1
+Which best describes windowing x(t) by rect pulse of duration T?,compresses x(t) in time by factor a,equals [x(t)+x(-t)]/2,extracts x(t) over that interval; zeros elsewhere,shifts x[n] to the right by n0 samples,3,0.1
+"In signals and systems, time shift x(t-t0) with t0>0 refers to?",shifts x(t) to the right by t0  [delayed],shifts x[n] to the right by n0 samples,shifts spectrum of x(t) by w0 in frequency  [modulation],shifts x(t) to the left by t0  [advanced],1,0.1
+"In signals and systems, time shift x(t+t0) with t0>0 refers to?",reflects x(t) about the t=0 axis,shifts x(t) to the left by t0  [advanced],equals [x(t)+x(-t)]/2,keeps every M-th sample; reduces rate by M,2,0.1
+"In signals and systems, time reversal x(-t) refers to?",reflects x(t) about the t=0 axis,"first scales time by a, then shifts by b/a",shifts x[n] to the right by n0 samples,scales the amplitude of x(t) by constant A,1,0.1
+"In signals and systems, time compression x(at) with |a|>1 refers to?",equals [x(t)+x(-t)]/2,compresses x(t) in time by factor a,"first scales time by a, then shifts by b/a",equals [x(t)-x(-t)]/2,2,0.1
+"In signals and systems, time expansion x(t/a) with a>1 refers to?",compresses x(t) in time by factor a,stretches x(t) in time by factor a,equals [x(t)-x(-t)]/2,keeps every M-th sample; reduces rate by M,2,0.1
+"In signals and systems, amplitude scaling A*x(t) refers to?",reflects x[n] about n=0,scales the amplitude of x(t) by constant A,extracts x(t) over that interval; zeros elsewhere,stretches x(t) in time by factor a,2,0.1
+"In signals and systems, even part of x(t) refers to?",equals [x(t)+x(-t)]/2,stretches x(t) in time by factor a,extracts x(t) over that interval; zeros elsewhere,compresses x(t) in time by factor a,1,0.1
+"In signals and systems, odd part of x(t) refers to?",equals [x(t)-x(-t)]/2,shifts spectrum of x(t) by w0 in frequency  [modulation],extracts x(t) over that interval; zeros elsewhere,zeroes x(t) for t<0 and leaves it unchanged for t>=0,1,0.1
+"In signals and systems, x(t)*u(t) refers to?","first scales time by a, then shifts by b/a",zeroes x(t) for t<0 and leaves it unchanged for t>=0,extracts x(t) over that interval; zeros elsewhere,shifts spectrum of x(t) by w0 in frequency  [modulation],2,0.1
+"In signals and systems, DT shift x[n-n0] with n0>0 refers to?",stretches x(t) in time by factor a,keeps every M-th sample; reduces rate by M,shifts x[n] to the right by n0 samples,zeroes x(t) for t<0 and leaves it unchanged for t>=0,3,0.1
+"In signals and systems, DT time reversal x[-n] refers to?",compresses x(t) in time by factor a,stretches x(t) in time by factor a,reflects x[n] about n=0,keeps every M-th sample; reduces rate by M,3,0.1
+"In signals and systems, downsampling x[Mn] refers to?",equals [x(t)-x(-t)]/2,compresses x(t) in time by factor a,shifts x(t) to the right by t0  [delayed],keeps every M-th sample; reduces rate by M,4,0.1
+"In signals and systems, transformation t->at+b in x(t) refers to?","first scales time by a, then shifts by b/a",shifts x[n] to the right by n0 samples,reflects x[n] about n=0,compresses x(t) in time by factor a,1,0.1
+"In signals and systems, multiplying x(t) by e^(j*w0*t) refers to?",reflects x(t) about the t=0 axis,compresses x(t) in time by factor a,reflects x[n] about n=0,shifts spectrum of x(t) by w0 in frequency  [modulation],4,0.1
+"In signals and systems, windowing x(t) by rect pulse of duration T refers to?",compresses x(t) in time by factor a,reflects x(t) about the t=0 axis,extracts x(t) over that interval; zeros elsewhere,keeps every M-th sample; reduces rate by M,3,0.1
+How is time shift x(t-t0) with t0>0 defined?,shifts x(t) to the right by t0  [delayed],reflects x(t) about the t=0 axis,zeroes x(t) for t<0 and leaves it unchanged for t>=0,extracts x(t) over that interval; zeros elsewhere,1,0.1
+How is time shift x(t+t0) with t0>0 defined?,shifts x(t) to the left by t0  [advanced],shifts spectrum of x(t) by w0 in frequency  [modulation],zeroes x(t) for t<0 and leaves it unchanged for t>=0,reflects x[n] about n=0,1,0.1
+How is time reversal x(-t) defined?,"first scales time by a, then shifts by b/a",reflects x(t) about the t=0 axis,compresses x(t) in time by factor a,zeroes x(t) for t<0 and leaves it unchanged for t>=0,2,0.1
+How is time compression x(at) with |a|>1 defined?,extracts x(t) over that interval; zeros elsewhere,compresses x(t) in time by factor a,keeps every M-th sample; reduces rate by M,scales the amplitude of x(t) by constant A,2,0.1
+How is time expansion x(t/a) with a>1 defined?,shifts x(t) to the left by t0  [advanced],scales the amplitude of x(t) by constant A,stretches x(t) in time by factor a,zeroes x(t) for t<0 and leaves it unchanged for t>=0,3,0.1
+What is a memoryless system?,input-output relationship does not change with a time shift,output when input is zero; due to initial conditions only,x->y implies a*x->a*y for any scalar a,output at any time depends only on input at the same time,4,0.15
+What is a system with memory?,output of one system feeds as input to the next,output may depend on past or future values of the input,is both linear and time-invariant,every bounded input produces a bounded output,2,0.15
+What is a causal system?,output at any time depends only on present and past inputs,output may depend on past or future values of the input,same input applied to all systems; outputs summed,is both linear and time-invariant,1,0.15
+What is a non-causal system?,output at any time depends only on input at the same time,output may depend on future values of the input,is both linear and time-invariant,every bounded input produces a bounded output,2,0.15
+What is a BIBO-stable system?,same input applied to all systems; outputs summed,every bounded input produces a bounded output,output when input is zero; due to initial conditions only,has a unique output for each distinct input,2,0.15
+What is a linear system?,input-output relationship does not change with a time shift,satisfies both additivity and homogeneity  [superposition],every bounded input produces a bounded output,is both linear and time-invariant,2,0.15
+What is a time-invariant system?,output may depend on future values of the input,input-output relationship does not change with a time shift,x1->y1 and x2->y2 implies x1+x2->y1+y2,every bounded input produces a bounded output,2,0.15
+What is an LTI system?,input-output relationship does not change with a time shift,is both linear and time-invariant,satisfies both additivity and homogeneity  [superposition],shift of input by t0 produces the same shift in the output,2,0.15
+What is additivity in a linear system?,is both linear and time-invariant,output at any time depends only on present and past inputs,output when input is zero; due to initial conditions only,x1->y1 and x2->y2 implies x1+x2->y1+y2,4,0.15
+What is homogeneity in a linear system?,shift of input by t0 produces the same shift in the output,x->y implies a*x->a*y for any scalar a,input-output relationship does not change with a time shift,output may depend on past or future values of the input,2,0.15
+What is an invertible system?,input-output relationship does not change with a time shift,output at any time depends only on input at the same time,has a unique output for each distinct input,every bounded input produces a bounded output,3,0.15
+What is time-invariance test?,shift of input by t0 produces the same shift in the output,input-output relationship does not change with a time shift,satisfies both additivity and homogeneity  [superposition],output when input is zero; due to initial conditions only,1,0.15
+What is cascade (series) connection?,output when input is zero; due to initial conditions only,is both linear and time-invariant,output may depend on past or future values of the input,output of one system feeds as input to the next,4,0.15
+What is parallel connection?,satisfies both additivity and homogeneity  [superposition],has a unique output for each distinct input,output may depend on future values of the input,same input applied to all systems; outputs summed,4,0.15
+What is the zero-input response?,output may depend on future values of the input,output at any time depends only on input at the same time,output when input is zero; due to initial conditions only,output of one system feeds as input to the next,3,0.15
+Which best describes a memoryless system?,every bounded input produces a bounded output,x1->y1 and x2->y2 implies x1+x2->y1+y2,output may depend on future values of the input,output at any time depends only on input at the same time,4,0.15
+Which best describes a system with memory?,x1->y1 and x2->y2 implies x1+x2->y1+y2,satisfies both additivity and homogeneity  [superposition],output may depend on past or future values of the input,output of one system feeds as input to the next,3,0.15
+Which best describes a causal system?,same input applied to all systems; outputs summed,satisfies both additivity and homogeneity  [superposition],output may depend on future values of the input,output at any time depends only on present and past inputs,4,0.15
+Which best describes a non-causal system?,has a unique output for each distinct input,output may depend on future values of the input,satisfies both additivity and homogeneity  [superposition],shift of input by t0 produces the same shift in the output,2,0.15
+Which best describes a BIBO-stable system?,has a unique output for each distinct input,output of one system feeds as input to the next,every bounded input produces a bounded output,output may depend on past or future values of the input,3,0.15
+Which best describes a linear system?,output when input is zero; due to initial conditions only,has a unique output for each distinct input,shift of input by t0 produces the same shift in the output,satisfies both additivity and homogeneity  [superposition],4,0.15
+Which best describes a time-invariant system?,is both linear and time-invariant,satisfies both additivity and homogeneity  [superposition],input-output relationship does not change with a time shift,x->y implies a*x->a*y for any scalar a,3,0.15
+Which best describes an LTI system?,x1->y1 and x2->y2 implies x1+x2->y1+y2,input-output relationship does not change with a time shift,output at any time depends only on input at the same time,is both linear and time-invariant,4,0.15
+Which best describes additivity in a linear system?,is both linear and time-invariant,x1->y1 and x2->y2 implies x1+x2->y1+y2,output of one system feeds as input to the next,shift of input by t0 produces the same shift in the output,2,0.15
+Which best describes homogeneity in a linear system?,x->y implies a*x->a*y for any scalar a,output of one system feeds as input to the next,shift of input by t0 produces the same shift in the output,x1->y1 and x2->y2 implies x1+x2->y1+y2,1,0.15
+Which best describes an invertible system?,output of one system feeds as input to the next,has a unique output for each distinct input,is both linear and time-invariant,input-output relationship does not change with a time shift,2,0.15
+Which best describes time-invariance test?,output may depend on past or future values of the input,output when input is zero; due to initial conditions only,shift of input by t0 produces the same shift in the output,every bounded input produces a bounded output,3,0.15
+Which best describes cascade (series) connection?,output when input is zero; due to initial conditions only,output of one system feeds as input to the next,x->y implies a*x->a*y for any scalar a,has a unique output for each distinct input,2,0.15
+Which best describes parallel connection?,satisfies both additivity and homogeneity  [superposition],is both linear and time-invariant,same input applied to all systems; outputs summed,output at any time depends only on present and past inputs,3,0.15
+Which best describes the zero-input response?,output when input is zero; due to initial conditions only,output of one system feeds as input to the next,satisfies both additivity and homogeneity  [superposition],every bounded input produces a bounded output,1,0.15
+"In signals and systems, a memoryless system refers to?",output when input is zero; due to initial conditions only,output may depend on past or future values of the input,output at any time depends only on input at the same time,x->y implies a*x->a*y for any scalar a,3,0.15
+"In signals and systems, a system with memory refers to?",output may depend on past or future values of the input,x1->y1 and x2->y2 implies x1+x2->y1+y2,is both linear and time-invariant,output of one system feeds as input to the next,1,0.15
+"In signals and systems, a causal system refers to?",shift of input by t0 produces the same shift in the output,output of one system feeds as input to the next,output at any time depends only on present and past inputs,x1->y1 and x2->y2 implies x1+x2->y1+y2,3,0.15
+"In signals and systems, a non-causal system refers to?",output may depend on future values of the input,every bounded input produces a bounded output,is both linear and time-invariant,satisfies both additivity and homogeneity  [superposition],1,0.15
+"In signals and systems, a BIBO-stable system refers to?",every bounded input produces a bounded output,same input applied to all systems; outputs summed,x1->y1 and x2->y2 implies x1+x2->y1+y2,x->y implies a*x->a*y for any scalar a,1,0.15
+"In signals and systems, a linear system refers to?",satisfies both additivity and homogeneity  [superposition],x1->y1 and x2->y2 implies x1+x2->y1+y2,input-output relationship does not change with a time shift,output of one system feeds as input to the next,1,0.15
+"In signals and systems, a time-invariant system refers to?",output may depend on past or future values of the input,input-output relationship does not change with a time shift,output of one system feeds as input to the next,output may depend on future values of the input,2,0.15
+"In signals and systems, an LTI system refers to?",output when input is zero; due to initial conditions only,x->y implies a*x->a*y for any scalar a,is both linear and time-invariant,output of one system feeds as input to the next,3,0.15
+"In signals and systems, additivity in a linear system refers to?",output of one system feeds as input to the next,every bounded input produces a bounded output,x1->y1 and x2->y2 implies x1+x2->y1+y2,is both linear and time-invariant,3,0.15
+"In signals and systems, homogeneity in a linear system refers to?",output may depend on future values of the input,x->y implies a*x->a*y for any scalar a,satisfies both additivity and homogeneity  [superposition],every bounded input produces a bounded output,2,0.15
+"In signals and systems, an invertible system refers to?",output of one system feeds as input to the next,output at any time depends only on present and past inputs,has a unique output for each distinct input,x1->y1 and x2->y2 implies x1+x2->y1+y2,3,0.15
+"In signals and systems, time-invariance test refers to?",shift of input by t0 produces the same shift in the output,output of one system feeds as input to the next,every bounded input produces a bounded output,x1->y1 and x2->y2 implies x1+x2->y1+y2,1,0.15
+"In signals and systems, cascade (series) connection refers to?",output of one system feeds as input to the next,x->y implies a*x->a*y for any scalar a,output may depend on past or future values of the input,output at any time depends only on input at the same time,1,0.15
+"In signals and systems, parallel connection refers to?",output at any time depends only on present and past inputs,satisfies both additivity and homogeneity  [superposition],is both linear and time-invariant,same input applied to all systems; outputs summed,4,0.15
+"In signals and systems, the zero-input response refers to?",output may depend on past or future values of the input,same input applied to all systems; outputs summed,output when input is zero; due to initial conditions only,input-output relationship does not change with a time shift,3,0.15
+How is a memoryless system defined?,output may depend on future values of the input,has a unique output for each distinct input,output at any time depends only on input at the same time,output when input is zero; due to initial conditions only,3,0.15
+How is a system with memory defined?,output may depend on past or future values of the input,is both linear and time-invariant,x->y implies a*x->a*y for any scalar a,output at any time depends only on present and past inputs,1,0.15
+How is a causal system defined?,output when input is zero; due to initial conditions only,output at any time depends only on present and past inputs,x1->y1 and x2->y2 implies x1+x2->y1+y2,satisfies both additivity and homogeneity  [superposition],2,0.15
+How is a non-causal system defined?,output may depend on past or future values of the input,output may depend on future values of the input,output of one system feeds as input to the next,has a unique output for each distinct input,2,0.15
+How is a BIBO-stable system defined?,output may depend on past or future values of the input,shift of input by t0 produces the same shift in the output,every bounded input produces a bounded output,satisfies both additivity and homogeneity  [superposition],3,0.15
+What is impulse response h(t) of CT LTI system?,y(t)=integral x(tau)*h(t-tau) dtau,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],h(t)=0 for t<0,output when input is delta(t),4,0.2
+What is impulse response h[n] of DT LTI system?,sum x[k]*delta[n-k] = x[n],h[n] must satisfy sum|h[n]| < inf,output when input is delta[n],h[n]=0 for n<0,3,0.2
+What is convolution sum y[n]=x[n]*h[n]?,(x*h1)*h2 = x*(h1*h2),sum x[k]*delta[n-k] = x[n],y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],impulse response h[n] is nonzero over an infinite range of n,3,0.2
+What is convolution integral y(t)=x(t)*h(t)?,(x*h1)*h2 = x*(h1*h2),y(t)=integral x(tau)*h(t-tau) dtau,output when input is u(t); running integral of h(t),impulse response h[n] is nonzero over an infinite range of n,2,0.2
+What is commutativity of convolution?,y(t)=integral x(tau)*h(t-tau) dtau,x*h = h*x,integral x(tau)*delta(t-tau)dtau = x(t),h(t)=0 for t<0,2,0.2
+What is associativity of convolution?,(x*h1)*h2 = x*(h1*h2),output when input is delta[n],y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],output when input is delta(t),1,0.2
+What is distributivity of convolution over addition?,x*(h1+h2) = x*h1 + x*h2,h[n] must satisfy sum|h[n]| < inf,impulse response h[n] is nonzero over an infinite range of n,output when input is delta[n],1,0.2
+What is CT LTI stability condition?,h(t)=0 for t<0,h(t) must satisfy integral|h(t)|dt < inf,x*h = h*x,impulse response h[n] is nonzero only over a finite range of n,2,0.2
+What is DT LTI stability condition?,h[n] must satisfy sum|h[n]| < inf,h[n]=0 for n<0,x*(h1+h2) = x*h1 + x*h2,output when input is delta(t),1,0.2
+What is causality for CT LTI?,y(t)=integral x(tau)*h(t-tau) dtau,output when input is delta(t),output when input is delta[n],h(t)=0 for t<0,4,0.2
+What is causality for DT LTI?,h[n]=0 for n<0,output when input is delta(t),output when input is u(t); running integral of h(t),h(t)=0 for t<0,1,0.2
+What is sifting property of delta(t)?,integral x(tau)*delta(t-tau)dtau = x(t),impulse response h[n] is nonzero over an infinite range of n,x*h = h*x,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],1,0.2
+What is sifting property of delta[n]?,sum x[k]*delta[n-k] = x[n],h(t) must satisfy integral|h(t)|dt < inf,output when input is delta[n],(x*h1)*h2 = x*(h1*h2),1,0.2
+What is step response of LTI system?,output when input is u(t); running integral of h(t),y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],h[n]=0 for n<0,output when input is delta[n],1,0.2
+What is FIR system?,h[n]=0 for n<0,x*(h1+h2) = x*h1 + x*h2,x*h = h*x,impulse response h[n] is nonzero only over a finite range of n,4,0.2
+What is IIR system?,x*h = h*x,impulse response h[n] is nonzero only over a finite range of n,(x*h1)*h2 = x*(h1*h2),impulse response h[n] is nonzero over an infinite range of n,4,0.2
+Which best describes impulse response h(t) of CT LTI system?,impulse response h[n] is nonzero only over a finite range of n,output when input is delta(t),integral x(tau)*delta(t-tau)dtau = x(t),h(t)=0 for t<0,2,0.2
+Which best describes impulse response h[n] of DT LTI system?,output when input is delta[n],x*h = h*x,h(t)=0 for t<0,x*(h1+h2) = x*h1 + x*h2,1,0.2
+Which best describes convolution sum y[n]=x[n]*h[n]?,output when input is u(t); running integral of h(t),y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],x*h = h*x,output when input is delta(t),2,0.2
+Which best describes convolution integral y(t)=x(t)*h(t)?,impulse response h[n] is nonzero over an infinite range of n,(x*h1)*h2 = x*(h1*h2),y(t)=integral x(tau)*h(t-tau) dtau,h[n] must satisfy sum|h[n]| < inf,3,0.2
+Which best describes commutativity of convolution?,output when input is u(t); running integral of h(t),x*h = h*x,h[n]=0 for n<0,integral x(tau)*delta(t-tau)dtau = x(t),2,0.2
+Which best describes associativity of convolution?,x*h = h*x,h(t)=0 for t<0,(x*h1)*h2 = x*(h1*h2),output when input is delta(t),3,0.2
+Which best describes distributivity of convolution over addition?,impulse response h[n] is nonzero only over a finite range of n,h[n] must satisfy sum|h[n]| < inf,output when input is delta[n],x*(h1+h2) = x*h1 + x*h2,4,0.2
+Which best describes CT LTI stability condition?,h(t) must satisfy integral|h(t)|dt < inf,x*h = h*x,h[n] must satisfy sum|h[n]| < inf,sum x[k]*delta[n-k] = x[n],1,0.2
+Which best describes DT LTI stability condition?,y(t)=integral x(tau)*h(t-tau) dtau,h[n] must satisfy sum|h[n]| < inf,impulse response h[n] is nonzero over an infinite range of n,h(t) must satisfy integral|h(t)|dt < inf,2,0.2
+Which best describes causality for CT LTI?,h[n]=0 for n<0,h[n] must satisfy sum|h[n]| < inf,h(t)=0 for t<0,impulse response h[n] is nonzero over an infinite range of n,3,0.2
+Which best describes causality for DT LTI?,h[n]=0 for n<0,output when input is u(t); running integral of h(t),x*(h1+h2) = x*h1 + x*h2,impulse response h[n] is nonzero over an infinite range of n,1,0.2
+Which best describes sifting property of delta(t)?,integral x(tau)*delta(t-tau)dtau = x(t),impulse response h[n] is nonzero only over a finite range of n,x*h = h*x,output when input is delta(t),1,0.2
+Which best describes sifting property of delta[n]?,sum x[k]*delta[n-k] = x[n],y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],impulse response h[n] is nonzero only over a finite range of n,h(t) must satisfy integral|h(t)|dt < inf,1,0.2
+Which best describes step response of LTI system?,output when input is u(t); running integral of h(t),sum x[k]*delta[n-k] = x[n],h[n] must satisfy sum|h[n]| < inf,impulse response h[n] is nonzero over an infinite range of n,1,0.2
+Which best describes FIR system?,impulse response h[n] is nonzero only over a finite range of n,integral x(tau)*delta(t-tau)dtau = x(t),y(t)=integral x(tau)*h(t-tau) dtau,output when input is u(t); running integral of h(t),1,0.2
+Which best describes IIR system?,output when input is u(t); running integral of h(t),y(t)=integral x(tau)*h(t-tau) dtau,impulse response h[n] is nonzero over an infinite range of n,sum x[k]*delta[n-k] = x[n],3,0.2
+"In signals and systems, impulse response h(t) of CT LTI system refers to?",h[n] must satisfy sum|h[n]| < inf,output when input is delta(t),sum x[k]*delta[n-k] = x[n],impulse response h[n] is nonzero over an infinite range of n,2,0.2
+"In signals and systems, impulse response h[n] of DT LTI system refers to?",y(t)=integral x(tau)*h(t-tau) dtau,h[n] must satisfy sum|h[n]| < inf,output when input is delta[n],output when input is delta(t),3,0.2
+"In signals and systems, convolution sum y[n]=x[n]*h[n] refers to?",output when input is delta[n],h[n] must satisfy sum|h[n]| < inf,h(t)=0 for t<0,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],4,0.2
+"In signals and systems, convolution integral y(t)=x(t)*h(t) refers to?",impulse response h[n] is nonzero only over a finite range of n,integral x(tau)*delta(t-tau)dtau = x(t),y(t)=integral x(tau)*h(t-tau) dtau,h(t) must satisfy integral|h(t)|dt < inf,3,0.2
+"In signals and systems, commutativity of convolution refers to?",output when input is u(t); running integral of h(t),x*h = h*x,(x*h1)*h2 = x*(h1*h2),x*(h1+h2) = x*h1 + x*h2,2,0.2
+"In signals and systems, associativity of convolution refers to?",(x*h1)*h2 = x*(h1*h2),x*(h1+h2) = x*h1 + x*h2,impulse response h[n] is nonzero only over a finite range of n,integral x(tau)*delta(t-tau)dtau = x(t),1,0.2
+"In signals and systems, distributivity of convolution over addition refers to?",h(t)=0 for t<0,impulse response h[n] is nonzero only over a finite range of n,output when input is delta(t),x*(h1+h2) = x*h1 + x*h2,4,0.2
+"In signals and systems, CT LTI stability condition refers to?",y(t)=integral x(tau)*h(t-tau) dtau,sum x[k]*delta[n-k] = x[n],h(t) must satisfy integral|h(t)|dt < inf,output when input is delta[n],3,0.2
+"In signals and systems, DT LTI stability condition refers to?",h(t) must satisfy integral|h(t)|dt < inf,sum x[k]*delta[n-k] = x[n],h[n] must satisfy sum|h[n]| < inf,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],3,0.2
+"In signals and systems, causality for CT LTI refers to?",h(t)=0 for t<0,output when input is delta(t),(x*h1)*h2 = x*(h1*h2),output when input is u(t); running integral of h(t),1,0.2
+"In signals and systems, causality for DT LTI refers to?",x*(h1+h2) = x*h1 + x*h2,h[n]=0 for n<0,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],y(t)=integral x(tau)*h(t-tau) dtau,2,0.2
+"In signals and systems, sifting property of delta(t) refers to?",y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],integral x(tau)*delta(t-tau)dtau = x(t),impulse response h[n] is nonzero over an infinite range of n,output when input is delta[n],2,0.2
+"In signals and systems, sifting property of delta[n] refers to?",sum x[k]*delta[n-k] = x[n],h(t)=0 for t<0,y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],h(t) must satisfy integral|h(t)|dt < inf,1,0.2
+"In signals and systems, step response of LTI system refers to?",h[n]=0 for n<0,x*h = h*x,h(t) must satisfy integral|h(t)|dt < inf,output when input is u(t); running integral of h(t),4,0.2
+"In signals and systems, FIR system refers to?",y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],h[n] must satisfy sum|h[n]| < inf,h[n]=0 for n<0,impulse response h[n] is nonzero only over a finite range of n,4,0.2
+"In signals and systems, IIR system refers to?",impulse response h[n] is nonzero over an infinite range of n,h(t)=0 for t<0,x*h = h*x,h[n]=0 for n<0,1,0.2
+How is impulse response h(t) of CT LTI system defined?,output when input is delta(t),impulse response h[n] is nonzero only over a finite range of n,(x*h1)*h2 = x*(h1*h2),h[n] must satisfy sum|h[n]| < inf,1,0.2
+How is impulse response h[n] of DT LTI system defined?,output when input is delta[n],y[n]=sum_{k=-inf}^{inf} x[k]*h[n-k],h(t) must satisfy integral|h(t)|dt < inf,x*h = h*x,1,0.2
+Evaluate: delta[n] * delta[n],delta[n]_c,delta[n],delta[n]_a,delta[n]_b,2,0.25
+Evaluate: delta[n] * x[n],x[n]_a,x[n]_b,x[n]_c,x[n],4,0.25
+Evaluate: u[n] * delta[n],u[n]_c,u[n],u[n]_b,u[n]_a,2,0.25
+Evaluate: delta[n-1] * delta[n-2],delta[n-3]_a,delta[n-3],delta[n-3]_b,delta[n-3]_c,2,0.25
+Evaluate: h[n]=delta[n]-delta[n-1] applied to u[n],delta[n]  [differencer output]_a,delta[n]  [differencer output]_c,delta[n]  [differencer output]_b,delta[n]  [differencer output],4,0.25
+Evaluate: delta[n] * u[n-2],u[n-2],u[n-2]_c,u[n-2]_b,u[n-2]_a,1,0.25
+Evaluate: u[n] * u[n],(n+1)*u[n]_a,(n+1)*u[n],(n+1)*u[n]_b,(n+1)*u[n]_c,2,0.25
+Evaluate: (0.5)^n*u[n] * delta[n],(0.5)^n*u[n],(0.5)^n*u[n]_a,(0.5)^n*u[n]_c,(0.5)^n*u[n]_b,1,0.25
+Evaluate: x[n] * (delta[n]+delta[n-1]),x[n]+x[n-1],x[n]+x[n-1]_c,x[n]+x[n-1]_a,x[n]+x[n-1]_b,1,0.25
+Evaluate: h[n]=(1/2)^n*u[n] input delta[n] y[0],2 [h[0]=1],-1 [h[0]=1],1  [h[0]=1],0 [h[0]=1],3,0.25
+Evaluate: h[n]=(1/2)^n*u[n] input delta[n] y[2],0.25  [h[2]=(1/2)^2],-0.25 [h[2]=(1/2)^2],2.50 [h[2]=(1/2)^2],1.00 [h[2]=(1/2)^2],1,0.25
+Evaluate: length-M convolved with length-N,length M+N-1,length M+N-1_a,length M+N-1_c,length M+N-1_b,1,0.25
+"Evaluate: x={1,2,1} h={1,1} convolution y[0]",-1,0,10,1,4,0.25
+"Evaluate: x={1,2,1} h={1,1} convolution y[1]",4 [1*2+2*1],2 [1*2+2*1],3  [1*2+2*1],1 [1*2+2*1],3,0.25
+"Evaluate: x={1,2,1} h={1,1} convolution y[2]",4 [2*1+1*2? no: 2+1=3],2 [2*1+1*2? no: 2+1=3],-3 [2*1+1*2? no: 2+1=3],3  [2*1+1*2? no: 2+1=3],4,0.25
+"Evaluate: x={1,2,1} h={1,1} convolution y[3]",1  [x[2]*h[0]=1],4 [x[2]*h[0]=1],10 [x[2]*h[0]=1],2 [x[2]*h[0]=1],1,0.25
+Evaluate: h[n]=a^n*u[n] * u[n] for n>=0,(1-a^(n+1))/(1-a) for a!=1_c,(1-a^(n+1))/(1-a) for a!=1,(1-a^(n+1))/(1-a) for a!=1_b,(1-a^(n+1))/(1-a) for a!=1_a,2,0.25
+Evaluate: h[n]=delta[n]+delta[n-2] input u[n],u[n]+u[n-2]_b,u[n]+u[n-2]_c,u[n]+u[n-2]_a,u[n]+u[n-2],4,0.25
+Evaluate: delta[n-2] * delta[n-3],delta[n-5]_a,delta[n-5]_b,delta[n-5],delta[n-5]_c,3,0.25
+Evaluate: x[n]=u[n]-u[n-3] * delta[n] nonzero sample count,6 nonzero samples,30 nonzero samples,3 nonzero samples,2 nonzero samples,3,0.25
+Evaluate: h[n]=(1/3)^n*u[n] input delta[n] y[1],0 /3  [h[1]=(1/3)^1],approx 1/3  [h[1]=(1/3)^1]*2,4 /3  [h[1]=(1/3)^1],1/3  [h[1]=(1/3)^1],4,0.25
+Evaluate: h[n]=(1/2)^n*u[n] input u[n] y[0],10 [sum from k=0 to 0],1  [sum from k=0 to 0],4 [sum from k=0 to 0],1 [sum from k=0 to 0],2,0.25
+Evaluate: h[n]=(1/2)^n*u[n] input u[n] y[1],0.8 [1+0.5],0.2 [1+0.5],1.5  [1+0.5],2.2 [1+0.5],3,0.25
+Evaluate: delta[n-3] * delta[n-4],delta[n-7]_b,delta[n-7],delta[n-7]_a,delta[n-7]_c,2,0.25
+Evaluate: x[n]*delta[n-k] result,x[n-k]  [shift by k],x[n-k]  [shift by k]_c,x[n-k]  [shift by k]_b,x[n-k]  [shift by k]_a,1,0.25
+What is the result of delta[n] * delta[n]?,delta[n],delta[n]_c,delta[n]_b,delta[n]_a,1,0.25
+What is the result of delta[n] * x[n]?,x[n],x[n]_b,x[n]_c,x[n]_a,1,0.25
+What is the result of u[n] * delta[n]?,u[n]_b,u[n],u[n]_c,u[n]_a,2,0.25
+What is the result of delta[n-1] * delta[n-2]?,delta[n-3]_b,delta[n-3],delta[n-3]_c,delta[n-3]_a,2,0.25
+What is the result of h[n]=delta[n]-delta[n-1] applied to u[n]?,delta[n]  [differencer output]_b,delta[n]  [differencer output]_c,delta[n]  [differencer output]_a,delta[n]  [differencer output],4,0.25
+What is the result of delta[n] * u[n-2]?,u[n-2],u[n-2]_c,u[n-2]_b,u[n-2]_a,1,0.25
+What is the result of u[n] * u[n]?,(n+1)*u[n]_a,(n+1)*u[n],(n+1)*u[n]_c,(n+1)*u[n]_b,2,0.25
+What is the result of (0.5)^n*u[n] * delta[n]?,(0.5)^n*u[n]_b,(0.5)^n*u[n]_c,(0.5)^n*u[n],(0.5)^n*u[n]_a,3,0.25
+What is the result of x[n] * (delta[n]+delta[n-1])?,x[n]+x[n-1]_b,x[n]+x[n-1],x[n]+x[n-1]_a,x[n]+x[n-1]_c,2,0.25
+What is the result of h[n]=(1/2)^n*u[n] input delta[n] y[0]?,0 [h[0]=1],approx 1  [h[0]=1]*2,1  [h[0]=1],2 [h[0]=1],3,0.25
+What is the result of h[n]=(1/2)^n*u[n] input delta[n] y[2]?,0.25  [h[2]=(1/2)^2],0.38 [h[2]=(1/2)^2],-0.25 [h[2]=(1/2)^2],0.75 [h[2]=(1/2)^2],1,0.25
+What is the result of length-M convolved with length-N?,length M+N-1_b,length M+N-1_c,length M+N-1,length M+N-1_a,3,0.25
+"What is the result of x={1,2,1} h={1,1} convolution y[0]?",1,3,approx 1*2,2,1,0.25
+"What is the result of x={1,2,1} h={1,1} convolution y[1]?",6 [1*2+2*1],2 [1*2+2*1],3  [1*2+2*1],1 [1*2+2*1],3,0.25
+"What is the result of x={1,2,1} h={1,1} convolution y[2]?",3  [2*1+1*2? no: 2+1=3],1 [2*1+1*2? no: 2+1=3],9 [2*1+1*2? no: 2+1=3],4 [2*1+1*2? no: 2+1=3],1,0.25
+"What is the result of x={1,2,1} h={1,1} convolution y[3]?",0 [x[2]*h[0]=1],2 [x[2]*h[0]=1],4 [x[2]*h[0]=1],1  [x[2]*h[0]=1],4,0.25
+What is the result of h[n]=a^n*u[n] * u[n] for n>=0?,(1-a^(n+1))/(1-a) for a!=1,(1-a^(n+1))/(1-a) for a!=1_b,(1-a^(n+1))/(1-a) for a!=1_c,(1-a^(n+1))/(1-a) for a!=1_a,1,0.25
+What is the result of h[n]=delta[n]+delta[n-2] input u[n]?,u[n]+u[n-2],u[n]+u[n-2]_a,u[n]+u[n-2]_b,u[n]+u[n-2]_c,1,0.25
+What is the result of delta[n-2] * delta[n-3]?,delta[n-5]_a,delta[n-5],delta[n-5]_b,delta[n-5]_c,2,0.25
+What is the result of x[n]=u[n]-u[n-3] * delta[n] nonzero sample count?,-3 nonzero samples,approx 3 nonzero samples*2,3 nonzero samples,1 nonzero samples,3,0.25
+What is the result of h[n]=(1/3)^n*u[n] input delta[n] y[1]?,0 /3  [h[1]=(1/3)^1],1/3  [h[1]=(1/3)^1],2 /3  [h[1]=(1/3)^1],4 /3  [h[1]=(1/3)^1],2,0.25
+What is the result of h[n]=(1/2)^n*u[n] input u[n] y[0]?,1  [sum from k=0 to 0],10 [sum from k=0 to 0],0 [sum from k=0 to 0],approx 1  [sum from k=0 to 0]*2,1,0.25
+What is the result of h[n]=(1/2)^n*u[n] input u[n] y[1]?,0.5 [1+0.5],1.1 [1+0.5],3.0 [1+0.5],1.5  [1+0.5],4,0.25
+What is the result of delta[n-3] * delta[n-4]?,delta[n-7],delta[n-7]_c,delta[n-7]_a,delta[n-7]_b,1,0.25
+What is the result of x[n]*delta[n-k] result?,x[n-k]  [shift by k]_b,x[n-k]  [shift by k],x[n-k]  [shift by k]_c,x[n-k]  [shift by k]_a,2,0.25
+Evaluate: e^(-a*t)*u(t) * delta(t) a>0,e^(-a*t)*u(t)_b,e^(-a*t)*u(t)_c,e^(-a*t)*u(t)_a,e^(-a*t)*u(t),4,0.3
+Evaluate: e^(-a*t)*u(t) * u(t) a>0,(1/a)*(1-e^(-a*t))*u(t),(1/a)*(1-e^(-a*t))*u(t)_a,(1/a)*(1-e^(-a*t))*u(t)_c,(1/a)*(1-e^(-a*t))*u(t)_b,1,0.3
+Evaluate: u(t) * u(t),t*u(t)  [ramp]_b,t*u(t)  [ramp],t*u(t)  [ramp]_c,t*u(t)  [ramp]_a,2,0.3
+Evaluate: delta(t) * x(t),x(t)_b,x(t),x(t)_a,x(t)_c,2,0.3
+Evaluate: delta(t-t1) * delta(t-t2),delta(t-t1-t2)_a,delta(t-t1-t2),delta(t-t1-t2)_b,delta(t-t1-t2)_c,2,0.3
+Evaluate: e^(-t)*u(t) * e^(-2t)*u(t),(e^(-t) - e^(-2t))*u(t)_b,(e^(-t) - e^(-2t))*u(t),(e^(-t) - e^(-2t))*u(t)_a,(e^(-t) - e^(-2t))*u(t)_c,2,0.3
+Evaluate: e^(-a*t)*u(t) * e^(-a*t)*u(t) a>0,t*e^(-a*t)*u(t)_c,t*e^(-a*t)*u(t),t*e^(-a*t)*u(t)_a,t*e^(-a*t)*u(t)_b,2,0.3
+Evaluate: h(t)=u(t)-u(t-1) input delta(t),u(t)-u(t-1),u(t)-u(t-1)_c,u(t)-u(t-1)_b,u(t)-u(t-1)_a,1,0.3
+Evaluate: h(t)=e^(-t)*u(t) input u(t) y(t) for t>=0,(1-e^(-t))*u(t)_b,(1-e^(-t))*u(t),(1-e^(-t))*u(t)_c,(1-e^(-t))*u(t)_a,2,0.3
+Evaluate: if y=x*h then x(t-3)*h(t),y(t-3),y(t-3)_c,y(t-3)_a,y(t-3)_b,1,0.3
+Evaluate: if y=x*h then x(t)*h(t-2),y(t-2),y(t-2)_c,y(t-2)_b,y(t-2)_a,1,0.3
+Evaluate: h(t)=delta(t-1) input u(t),u(t-1),u(t-1)_b,u(t-1)_a,u(t-1)_c,1,0.3
+Evaluate: e^(t)*u(t): is this LTI system stable?,No  [integral|h|dt diverges]_a,No  [integral|h|dt diverges]_c,No  [integral|h|dt diverges]_b,No  [integral|h|dt diverges],4,0.3
+Evaluate: e^(-t)*u(t): is this LTI system stable?,Yes  [integral|h|dt=1 < inf]_c,Yes  [integral|h|dt=1 < inf],Yes  [integral|h|dt=1 < inf]_b,Yes  [integral|h|dt=1 < inf]_a,2,0.3
+Evaluate: x(t)*delta_prime(t)  [derivative of impulse],x_prime(t)  [derivative of x(t)]_a,x_prime(t)  [derivative of x(t)]_b,x_prime(t)  [derivative of x(t)],x_prime(t)  [derivative of x(t)]_c,3,0.3
+Evaluate: rect(width T1) * rect(width T2) T1<T2,trapezoid with base T1+T2 and flat-top T2-T1,trapezoid with base T1+T2 and flat-top T2-T1_c,trapezoid with base T1+T2 and flat-top T2-T1_a,trapezoid with base T1+T2 and flat-top T2-T1_b,1,0.3
+Evaluate: rect(width tau) * rect(width tau),triangle of width 2*tau_a,triangle of width 2*tau,triangle of width 2*tau_b,triangle of width 2*tau_c,2,0.3
+Evaluate: running integral s(t)=integral_{-inf}^{t}h(tau)dtau,step response of LTI system_a,step response of LTI system_b,step response of LTI system,step response of LTI system_c,3,0.3
+"Evaluate: cascade CT LTI: h1(t) then h2(t), overall h(t)",h1(t)*h2(t)  [convolution]_a,h1(t)*h2(t)  [convolution],h1(t)*h2(t)  [convolution]_b,h1(t)*h2(t)  [convolution]_c,2,0.3
+Evaluate: h(t)=e^(-2t)*u(t) x(t)=e^(-t)*u(t) Y(s) numerator,e^(-2t)-e^(-t) in time domain_c,e^(-2t)-e^(-t) in time domain_b,e^(-2t)-e^(-t) in time domain,e^(-2t)-e^(-t) in time domain_a,3,0.3
+Evaluate: h(t)=e^(-3t)*u(t) step response,(1/3)*(1-e^(-3t))*u(t)_c,(1/3)*(1-e^(-3t))*u(t)_a,(1/3)*(1-e^(-3t))*u(t),(1/3)*(1-e^(-3t))*u(t)_b,3,0.3
+Evaluate: e^(-2t)*u(t) * e^(-3t)*u(t),(e^(-2t)-e^(-3t))*u(t),(e^(-2t)-e^(-3t))*u(t)_a,(e^(-2t)-e^(-3t))*u(t)_b,(e^(-2t)-e^(-3t))*u(t)_c,1,0.3
+Evaluate: delta(t-2) * u(t),u(t-2)_a,u(t-2)_b,u(t-2)_c,u(t-2),4,0.3
+"Evaluate: parallel CT LTI: h1(t) and h2(t), overall h(t)",h1(t)+h2(t)_a,h1(t)+h2(t)_b,h1(t)+h2(t)_c,h1(t)+h2(t),4,0.3
+Evaluate: h(t)=delta(t)-delta(t-T) input ramp r(t)=t*u(t) for t>T,T  [constant; differentiator at DC]_c,T  [constant; differentiator at DC]_a,T  [constant; differentiator at DC],T  [constant; differentiator at DC]_b,3,0.3
+What is the result of e^(-a*t)*u(t) * delta(t) a>0?,e^(-a*t)*u(t),e^(-a*t)*u(t)_c,e^(-a*t)*u(t)_a,e^(-a*t)*u(t)_b,1,0.3
+What is the result of e^(-a*t)*u(t) * u(t) a>0?,(1/a)*(1-e^(-a*t))*u(t)_a,(1/a)*(1-e^(-a*t))*u(t)_b,(1/a)*(1-e^(-a*t))*u(t),(1/a)*(1-e^(-a*t))*u(t)_c,3,0.3
+What is the result of u(t) * u(t)?,t*u(t)  [ramp]_c,t*u(t)  [ramp]_b,t*u(t)  [ramp],t*u(t)  [ramp]_a,3,0.3
+What is the result of delta(t) * x(t)?,x(t)_a,x(t),x(t)_b,x(t)_c,2,0.3
+What is the result of delta(t-t1) * delta(t-t2)?,delta(t-t1-t2)_c,delta(t-t1-t2)_a,delta(t-t1-t2),delta(t-t1-t2)_b,3,0.3
+What is the result of e^(-t)*u(t) * e^(-2t)*u(t)?,(e^(-t) - e^(-2t))*u(t)_a,(e^(-t) - e^(-2t))*u(t)_c,(e^(-t) - e^(-2t))*u(t),(e^(-t) - e^(-2t))*u(t)_b,3,0.3
+What is the result of e^(-a*t)*u(t) * e^(-a*t)*u(t) a>0?,t*e^(-a*t)*u(t)_a,t*e^(-a*t)*u(t)_c,t*e^(-a*t)*u(t)_b,t*e^(-a*t)*u(t),4,0.3
+What is the result of h(t)=u(t)-u(t-1) input delta(t)?,u(t)-u(t-1)_a,u(t)-u(t-1)_b,u(t)-u(t-1),u(t)-u(t-1)_c,3,0.3
+What is the result of h(t)=e^(-t)*u(t) input u(t) y(t) for t>=0?,(1-e^(-t))*u(t)_a,(1-e^(-t))*u(t)_b,(1-e^(-t))*u(t)_c,(1-e^(-t))*u(t),4,0.3
+What is the result of if y=x*h then x(t-3)*h(t)?,y(t-3),y(t-3)_a,y(t-3)_b,y(t-3)_c,1,0.3
+What is the result of if y=x*h then x(t)*h(t-2)?,y(t-2)_a,y(t-2)_b,y(t-2)_c,y(t-2),4,0.3
+What is the result of h(t)=delta(t-1) input u(t)?,u(t-1)_a,u(t-1)_b,u(t-1)_c,u(t-1),4,0.3
+What is the result of e^(t)*u(t): is this LTI system stable??,No  [integral|h|dt diverges],No  [integral|h|dt diverges]_c,No  [integral|h|dt diverges]_b,No  [integral|h|dt diverges]_a,1,0.3
+What is the result of e^(-t)*u(t): is this LTI system stable??,Yes  [integral|h|dt=1 < inf]_b,Yes  [integral|h|dt=1 < inf]_a,Yes  [integral|h|dt=1 < inf]_c,Yes  [integral|h|dt=1 < inf],4,0.3
+What is the result of x(t)*delta_prime(t)  [derivative of impulse]?,x_prime(t)  [derivative of x(t)]_b,x_prime(t)  [derivative of x(t)]_c,x_prime(t)  [derivative of x(t)]_a,x_prime(t)  [derivative of x(t)],4,0.3
+What is the result of rect(width T1) * rect(width T2) T1<T2?,trapezoid with base T1+T2 and flat-top T2-T1_a,trapezoid with base T1+T2 and flat-top T2-T1,trapezoid with base T1+T2 and flat-top T2-T1_c,trapezoid with base T1+T2 and flat-top T2-T1_b,2,0.3
+What is the result of rect(width tau) * rect(width tau)?,triangle of width 2*tau_b,triangle of width 2*tau,triangle of width 2*tau_c,triangle of width 2*tau_a,2,0.3
+What is the result of running integral s(t)=integral_{-inf}^{t}h(tau)dtau?,step response of LTI system,step response of LTI system_a,step response of LTI system_b,step response of LTI system_c,1,0.3
+"What is the result of cascade CT LTI: h1(t) then h2(t), overall h(t)?",h1(t)*h2(t)  [convolution]_b,h1(t)*h2(t)  [convolution]_a,h1(t)*h2(t)  [convolution],h1(t)*h2(t)  [convolution]_c,3,0.3
+What is the result of h(t)=e^(-2t)*u(t) x(t)=e^(-t)*u(t) Y(s) numerator?,e^(-2t)-e^(-t) in time domain,e^(-2t)-e^(-t) in time domain_b,e^(-2t)-e^(-t) in time domain_c,e^(-2t)-e^(-t) in time domain_a,1,0.3
+What is the result of h(t)=e^(-3t)*u(t) step response?,(1/3)*(1-e^(-3t))*u(t)_c,(1/3)*(1-e^(-3t))*u(t)_b,(1/3)*(1-e^(-3t))*u(t)_a,(1/3)*(1-e^(-3t))*u(t),4,0.3
+What is the result of e^(-2t)*u(t) * e^(-3t)*u(t)?,(e^(-2t)-e^(-3t))*u(t)_b,(e^(-2t)-e^(-3t))*u(t)_c,(e^(-2t)-e^(-3t))*u(t),(e^(-2t)-e^(-3t))*u(t)_a,3,0.3
+What is the result of delta(t-2) * u(t)?,u(t-2)_c,u(t-2)_a,u(t-2)_b,u(t-2),4,0.3
+"What is the result of parallel CT LTI: h1(t) and h2(t), overall h(t)?",h1(t)+h2(t)_c,h1(t)+h2(t)_b,h1(t)+h2(t)_a,h1(t)+h2(t),4,0.3
+What is the result of h(t)=delta(t)-delta(t-T) input ramp r(t)=t*u(t) for t>T?,T  [constant; differentiator at DC]_b,T  [constant; differentiator at DC]_c,T  [constant; differentiator at DC],T  [constant; differentiator at DC]_a,3,0.3
+What is fundamental angular frequency w0 for period T0?,~9% overshoot near jump discontinuity regardless of harmonics kept,w0 = 2*pi/T0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,2,0.35
+What is CT Fourier series synthesis equation?,a_k are real; a_k=a_{-k},x(t) = sum a_k * e^(j*k*w0*t),a1=1/(2j)  a-1=-1/(2j)  others=0,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,2,0.35
+What is CT Fourier series analysis equation?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,x(t) = sum a_k * e^(j*k*w0*t),~9% overshoot near jump discontinuity regardless of harmonics kept,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),1,0.35
+What is a0 for any real periodic signal?,a1=1/(2j)  a-1=-1/(2j)  others=0,a_k are real; a_k=a_{-k},average (DC) value of x(t) over one period,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),3,0.35
+What is Fourier series coefficients of cos(w0*t)?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,a1=a-1=1/2  all other a_k=0,~9% overshoot near jump discontinuity regardless of harmonics kept,x(t) = sum a_k * e^(j*k*w0*t),2,0.35
+What is Fourier series coefficients of sin(w0*t)?,a1=1/(2j)  a-1=-1/(2j)  others=0,x(t) = sum a_k * e^(j*k*w0*t),a_k are real; a_k=a_{-k},a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,1,0.35
+What is Parseval theorem for CT Fourier series?,(1/T0)*integral|x|^2 dt = sum|a_k|^2,~9% overshoot near jump discontinuity regardless of harmonics kept,a1=a-1=1/2  all other a_k=0,a_k are real; a_k=a_{-k},1,0.35
+What is Gibbs phenomenon?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,w0 = 2*pi/T0,~9% overshoot near jump discontinuity regardless of harmonics kept,a1=a-1=1/2  all other a_k=0,3,0.35
+What is Dirichlet conditions for Fourier series?,(1/T0)*integral|x|^2 dt = sum|a_k|^2,a1=1/(2j)  a-1=-1/(2j)  others=0,finite discontinuities and extrema per period; absolutely integrable,w0 = 2*pi/T0,3,0.35
+What is time-shift property of CT Fourier series?,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),w0 = 2*pi/T0,a1=a-1=1/2  all other a_k=0,a1=1/(2j)  a-1=-1/(2j)  others=0,1,0.35
+What is conjugate symmetry for real periodic x(t)?,a1=a-1=1/2  all other a_k=0,~9% overshoot near jump discontinuity regardless of harmonics kept,coefficients are discrete convolution of {a_k} and {b_k},a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,4,0.35
+What is linearity of Fourier series?,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,~9% overshoot near jump discontinuity regardless of harmonics kept,a1=a-1=1/2  all other a_k=0,coefficients are discrete convolution of {a_k} and {b_k},1,0.35
+What is multiplication of two periodic signals (Fourier series)?,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,coefficients are discrete convolution of {a_k} and {b_k},x(t) = sum a_k * e^(j*k*w0*t),x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),2,0.35
+What is Fourier series of an odd signal?,a_k are purely imaginary; a0=0,a_k are real; a_k=a_{-k},(1/T0)*integral|x|^2 dt = sum|a_k|^2,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,1,0.35
+What is Fourier series of an even signal?,w0 = 2*pi/T0,finite discontinuities and extrema per period; absolutely integrable,a_k are real; a_k=a_{-k},a_k are purely imaginary; a0=0,3,0.35
+Which best describes fundamental angular frequency w0 for period T0?,~9% overshoot near jump discontinuity regardless of harmonics kept,w0 = 2*pi/T0,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),coefficients are discrete convolution of {a_k} and {b_k},2,0.35
+Which best describes CT Fourier series synthesis equation?,average (DC) value of x(t) over one period,a1=a-1=1/2  all other a_k=0,a_k are purely imaginary; a0=0,x(t) = sum a_k * e^(j*k*w0*t),4,0.35
+Which best describes CT Fourier series analysis equation?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,w0 = 2*pi/T0,(1/T0)*integral|x|^2 dt = sum|a_k|^2,finite discontinuities and extrema per period; absolutely integrable,1,0.35
+Which best describes a0 for any real periodic signal?,a_k are real; a_k=a_{-k},average (DC) value of x(t) over one period,finite discontinuities and extrema per period; absolutely integrable,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),2,0.35
+Which best describes Fourier series coefficients of cos(w0*t)?,a1=a-1=1/2  all other a_k=0,average (DC) value of x(t) over one period,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,w0 = 2*pi/T0,1,0.35
+Which best describes Fourier series coefficients of sin(w0*t)?,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,a1=1/(2j)  a-1=-1/(2j)  others=0,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,finite discontinuities and extrema per period; absolutely integrable,2,0.35
+Which best describes Parseval theorem for CT Fourier series?,a1=a-1=1/2  all other a_k=0,coefficients are discrete convolution of {a_k} and {b_k},a_k are real; a_k=a_{-k},(1/T0)*integral|x|^2 dt = sum|a_k|^2,4,0.35
+Which best describes Gibbs phenomenon?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,w0 = 2*pi/T0,~9% overshoot near jump discontinuity regardless of harmonics kept,(1/T0)*integral|x|^2 dt = sum|a_k|^2,3,0.35
+Which best describes Dirichlet conditions for Fourier series?,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,finite discontinuities and extrema per period; absolutely integrable,average (DC) value of x(t) over one period,a1=a-1=1/2  all other a_k=0,2,0.35
+Which best describes time-shift property of CT Fourier series?,a_k are purely imaginary; a0=0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a_k are real; a_k=a_{-k},x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),4,0.35
+Which best describes conjugate symmetry for real periodic x(t)?,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,4,0.35
+Which best describes linearity of Fourier series?,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a1=a-1=1/2  all other a_k=0,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),a_k are purely imaginary; a0=0,1,0.35
+Which best describes multiplication of two periodic signals (Fourier series)?,~9% overshoot near jump discontinuity regardless of harmonics kept,a_k are real; a_k=a_{-k},coefficients are discrete convolution of {a_k} and {b_k},a1=1/(2j)  a-1=-1/(2j)  others=0,3,0.35
+Which best describes Fourier series of an odd signal?,a1=a-1=1/2  all other a_k=0,a_k are purely imaginary; a0=0,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,finite discontinuities and extrema per period; absolutely integrable,2,0.35
+Which best describes Fourier series of an even signal?,a_k are real; a_k=a_{-k},w0 = 2*pi/T0,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,finite discontinuities and extrema per period; absolutely integrable,1,0.35
+"In signals and systems, fundamental angular frequency w0 for period T0 refers to?",A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a1=1/(2j)  a-1=-1/(2j)  others=0,w0 = 2*pi/T0,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,3,0.35
+"In signals and systems, CT Fourier series synthesis equation refers to?",x(t) = sum a_k * e^(j*k*w0*t),(1/T0)*integral|x|^2 dt = sum|a_k|^2,a1=1/(2j)  a-1=-1/(2j)  others=0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,1,0.35
+"In signals and systems, CT Fourier series analysis equation refers to?",average (DC) value of x(t) over one period,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,a1=a-1=1/2  all other a_k=0,3,0.35
+"In signals and systems, a0 for any real periodic signal refers to?",a_k are real; a_k=a_{-k},average (DC) value of x(t) over one period,(1/T0)*integral|x|^2 dt = sum|a_k|^2,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,2,0.35
+"In signals and systems, Fourier series coefficients of cos(w0*t) refers to?",a1=a-1=1/2  all other a_k=0,a1=1/(2j)  a-1=-1/(2j)  others=0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,finite discontinuities and extrema per period; absolutely integrable,1,0.35
+"In signals and systems, Fourier series coefficients of sin(w0*t) refers to?",coefficients are discrete convolution of {a_k} and {b_k},a1=1/(2j)  a-1=-1/(2j)  others=0,w0 = 2*pi/T0,~9% overshoot near jump discontinuity regardless of harmonics kept,2,0.35
+"In signals and systems, Parseval theorem for CT Fourier series refers to?",(1/T0)*integral|x|^2 dt = sum|a_k|^2,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),a_k are real; a_k=a_{-k},1,0.35
+"In signals and systems, Gibbs phenomenon refers to?",a1=a-1=1/2  all other a_k=0,~9% overshoot near jump discontinuity regardless of harmonics kept,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),2,0.35
+"In signals and systems, Dirichlet conditions for Fourier series refers to?",~9% overshoot near jump discontinuity regardless of harmonics kept,finite discontinuities and extrema per period; absolutely integrable,coefficients are discrete convolution of {a_k} and {b_k},a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,2,0.35
+"In signals and systems, time-shift property of CT Fourier series refers to?",a1=1/(2j)  a-1=-1/(2j)  others=0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a_k are real; a_k=a_{-k},x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),4,0.35
+"In signals and systems, conjugate symmetry for real periodic x(t) refers to?",a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,coefficients are discrete convolution of {a_k} and {b_k},average (DC) value of x(t) over one period,a1=a-1=1/2  all other a_k=0,1,0.35
+"In signals and systems, linearity of Fourier series refers to?",x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),a1=a-1=1/2  all other a_k=0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,a_k are real; a_k=a_{-k},3,0.35
+"In signals and systems, multiplication of two periodic signals (Fourier series) refers to?",a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,x(t-t0) has coefficients a_k*e^(-j*k*w0*t0),w0 = 2*pi/T0,coefficients are discrete convolution of {a_k} and {b_k},4,0.35
+"In signals and systems, Fourier series of an odd signal refers to?",a_k are purely imaginary; a0=0,finite discontinuities and extrema per period; absolutely integrable,x(t) = sum a_k * e^(j*k*w0*t),a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,1,0.35
+"In signals and systems, Fourier series of an even signal refers to?",w0 = 2*pi/T0,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,a_k are real; a_k=a_{-k},(1/T0)*integral|x|^2 dt = sum|a_k|^2,3,0.35
+How is fundamental angular frequency w0 for period T0 defined?,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,w0 = 2*pi/T0,finite discontinuities and extrema per period; absolutely integrable,~9% overshoot near jump discontinuity regardless of harmonics kept,2,0.35
+How is CT Fourier series synthesis equation defined?,a_k are purely imaginary; a0=0,x(t) = sum a_k * e^(j*k*w0*t),finite discontinuities and extrema per period; absolutely integrable,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,2,0.35
+How is CT Fourier series analysis equation defined?,w0 = 2*pi/T0,A*x(t)+B*y(t) has coefficients A*a_k+B*b_k,(1/T0)*integral|x|^2 dt = sum|a_k|^2,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,4,0.35
+How is a0 for any real periodic signal defined?,a_k are purely imaginary; a0=0,average (DC) value of x(t) over one period,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,a1=a-1=1/2  all other a_k=0,2,0.35
+How is Fourier series coefficients of cos(w0*t) defined?,a1=a-1=1/2  all other a_k=0,a_{-k}=a_k* so |a_k|=|a_{-k}| and phase is antisymmetric,a_k = (1/T0)*integral x(t)*e^(-j*k*w0*t) dt,~9% overshoot near jump discontinuity regardless of harmonics kept,1,0.35
+What is F{delta(t)}?,(pi/j)*[delta(w-w0)-delta(w+w0)],2*pi*delta(w),pi*[delta(w-w0)+delta(w+w0)],1  [all w],4,0.4
+What is F{1}  [constant]?,j*w*X(j*w),2*pi*delta(w),1  [all w],2*pi*delta(w-w0),2,0.4
+What is F{u(t)}?,1/(a+j*w)^2,X(j*(w-w0))  [spectrum shifted by w0],pi*delta(w) + 1/(j*w),1  [all w],3,0.4
+What is F{e^(-a*t)*u(t)} a>0?,1/(a+j*w),2*a/(a^2+w^2),pi*delta(w) + 1/(j*w),2*pi*delta(w),1,0.4
+What is F{e^(a*t)*u(-t)} a>0?,1/(a-j*w),1  [all w],pi*delta(w) + 1/(j*w),2*pi*delta(w),1,0.4
+What is F{e^(-a*|t|)} a>0?,e^(-j*w*t0),2*a/(a^2+w^2),j*w*X(j*w),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,2,0.4
+What is F{e^(j*w0*t)}?,(pi/j)*[delta(w-w0)-delta(w+w0)],X(j*(w-w0))  [spectrum shifted by w0],2*pi*delta(w-w0),2*a/(a^2+w^2),3,0.4
+What is F{cos(w0*t)}?,X(j*w)/(j*w) + pi*X(0)*delta(w),1/(a+j*w),pi*[delta(w-w0)+delta(w+w0)],1  [all w],3,0.4
+What is F{sin(w0*t)}?,tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,pi*delta(w) + 1/(j*w),e^(-j*w*t0),(pi/j)*[delta(w-w0)-delta(w+w0)],4,0.4
+What is F{rect(t/tau)}  unit-height pulse width tau?,2*pi*delta(w-w0),1/(a-j*w),1/(a+j*w)^2,tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,4,0.4
+What is F{delta(t-t0)}?,1/(a+j*w)^2,2*pi*delta(w),X(j*(w-w0))  [spectrum shifted by w0],e^(-j*w*t0),4,0.4
+What is F{t*e^(-a*t)*u(t)} a>0?,X(j*(w-w0))  [spectrum shifted by w0],2*pi*delta(w-w0),pi*[delta(w-w0)+delta(w+w0)],1/(a+j*w)^2,4,0.4
+What is F{d/dt x(t)}?,pi*delta(w) + 1/(j*w),j*w*X(j*w),1/(a+j*w)^2,pi*[delta(w-w0)+delta(w+w0)],2,0.4
+What is F{integral_{-inf}^{t} x(tau)dtau}?,e^(-j*w*t0),1/(a-j*w),2*pi*delta(w-w0),X(j*w)/(j*w) + pi*X(0)*delta(w),4,0.4
+What is F{x(t)*e^(j*w0*t)}  [modulation]?,X(j*w)/(j*w) + pi*X(0)*delta(w),X(j*(w-w0))  [spectrum shifted by w0],1/(a+j*w)^2,tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,2,0.4
+Which best describes F{delta(t)}?,j*w*X(j*w),e^(-j*w*t0),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,1  [all w],4,0.4
+Which best describes F{1}  [constant]?,(pi/j)*[delta(w-w0)-delta(w+w0)],2*pi*delta(w),pi*delta(w) + 1/(j*w),X(j*w)/(j*w) + pi*X(0)*delta(w),2,0.4
+Which best describes F{u(t)}?,pi*delta(w) + 1/(j*w),2*a/(a^2+w^2),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,X(j*w)/(j*w) + pi*X(0)*delta(w),1,0.4
+Which best describes F{e^(-a*t)*u(t)} a>0?,pi*delta(w) + 1/(j*w),2*a/(a^2+w^2),1/(a+j*w),1  [all w],3,0.4
+Which best describes F{e^(a*t)*u(-t)} a>0?,2*pi*delta(w-w0),1  [all w],1/(a+j*w),1/(a-j*w),4,0.4
+Which best describes F{e^(-a*|t|)} a>0?,2*pi*delta(w),e^(-j*w*t0),2*a/(a^2+w^2),1/(a+j*w)^2,3,0.4
+Which best describes F{e^(j*w0*t)}?,tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,2*pi*delta(w),X(j*w)/(j*w) + pi*X(0)*delta(w),2*pi*delta(w-w0),4,0.4
+Which best describes F{cos(w0*t)}?,(pi/j)*[delta(w-w0)-delta(w+w0)],1/(a-j*w),pi*[delta(w-w0)+delta(w+w0)],X(j*w)/(j*w) + pi*X(0)*delta(w),3,0.4
+Which best describes F{sin(w0*t)}?,(pi/j)*[delta(w-w0)-delta(w+w0)],1  [all w],X(j*(w-w0))  [spectrum shifted by w0],pi*delta(w) + 1/(j*w),1,0.4
+Which best describes F{rect(t/tau)}  unit-height pulse width tau?,2*pi*delta(w-w0),j*w*X(j*w),2*pi*delta(w),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,4,0.4
+Which best describes F{delta(t-t0)}?,e^(-j*w*t0),pi*delta(w) + 1/(j*w),1/(a+j*w)^2,X(j*(w-w0))  [spectrum shifted by w0],1,0.4
+Which best describes F{t*e^(-a*t)*u(t)} a>0?,1/(a-j*w),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,pi*[delta(w-w0)+delta(w+w0)],1/(a+j*w)^2,4,0.4
+Which best describes F{d/dt x(t)}?,j*w*X(j*w),2*pi*delta(w),pi*delta(w) + 1/(j*w),2*pi*delta(w-w0),1,0.4
+Which best describes F{integral_{-inf}^{t} x(tau)dtau}?,2*pi*delta(w-w0),X(j*w)/(j*w) + pi*X(0)*delta(w),X(j*(w-w0))  [spectrum shifted by w0],1/(a+j*w)^2,2,0.4
+Which best describes F{x(t)*e^(j*w0*t)}  [modulation]?,2*pi*delta(w),pi*delta(w) + 1/(j*w),1/(a+j*w)^2,X(j*(w-w0))  [spectrum shifted by w0],4,0.4
+"In signals and systems, F{delta(t)} refers to?",e^(-j*w*t0),pi*[delta(w-w0)+delta(w+w0)],1  [all w],(pi/j)*[delta(w-w0)-delta(w+w0)],3,0.4
+"In signals and systems, F{1}  [constant] refers to?",X(j*w)/(j*w) + pi*X(0)*delta(w),e^(-j*w*t0),2*pi*delta(w-w0),2*pi*delta(w),4,0.4
+"In signals and systems, F{u(t)} refers to?",X(j*(w-w0))  [spectrum shifted by w0],pi*delta(w) + 1/(j*w),(pi/j)*[delta(w-w0)-delta(w+w0)],2*pi*delta(w),2,0.4
+"In signals and systems, F{e^(-a*t)*u(t)} a>0 refers to?",2*pi*delta(w),1/(a+j*w)^2,1/(a+j*w),2*a/(a^2+w^2),3,0.4
+"In signals and systems, F{e^(a*t)*u(-t)} a>0 refers to?",2*pi*delta(w-w0),tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,1/(a+j*w)^2,1/(a-j*w),4,0.4
+"In signals and systems, F{e^(-a*|t|)} a>0 refers to?",(pi/j)*[delta(w-w0)-delta(w+w0)],2*pi*delta(w-w0),2*a/(a^2+w^2),1/(a+j*w)^2,3,0.4
+"In signals and systems, F{e^(j*w0*t)} refers to?",1/(a+j*w)^2,2*pi*delta(w-w0),1  [all w],pi*delta(w) + 1/(j*w),2,0.4
+"In signals and systems, F{cos(w0*t)} refers to?",(pi/j)*[delta(w-w0)-delta(w+w0)],2*pi*delta(w),pi*[delta(w-w0)+delta(w+w0)],X(j*w)/(j*w) + pi*X(0)*delta(w),3,0.4
+"In signals and systems, F{sin(w0*t)} refers to?",(pi/j)*[delta(w-w0)-delta(w+w0)],tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,1  [all w],1/(a-j*w),1,0.4
+"In signals and systems, F{rect(t/tau)}  unit-height pulse width tau refers to?",tau*sinc(w*tau/2)  where sinc(x)=sin(x)/x,1/(a+j*w),2*pi*delta(w-w0),2*pi*delta(w),1,0.4
+"In signals and systems, F{delta(t-t0)} refers to?",X(j*w)/(j*w) + pi*X(0)*delta(w),2*pi*delta(w),e^(-j*w*t0),pi*[delta(w-w0)+delta(w+w0)],3,0.4
+"In signals and systems, F{t*e^(-a*t)*u(t)} a>0 refers to?",1  [all w],e^(-j*w*t0),j*w*X(j*w),1/(a+j*w)^2,4,0.4
+"In signals and systems, F{d/dt x(t)} refers to?",(pi/j)*[delta(w-w0)-delta(w+w0)],1  [all w],X(j*w)/(j*w) + pi*X(0)*delta(w),j*w*X(j*w),4,0.4
+"In signals and systems, F{integral_{-inf}^{t} x(tau)dtau} refers to?",X(j*w)/(j*w) + pi*X(0)*delta(w),X(j*(w-w0))  [spectrum shifted by w0],(pi/j)*[delta(w-w0)-delta(w+w0)],1/(a+j*w),1,0.4
+"In signals and systems, F{x(t)*e^(j*w0*t)}  [modulation] refers to?",X(j*(w-w0))  [spectrum shifted by w0],1  [all w],X(j*w)/(j*w) + pi*X(0)*delta(w),1/(a+j*w),1,0.4
+How is F{delta(t)} defined?,j*w*X(j*w),1/(a+j*w)^2,1  [all w],2*pi*delta(w-w0),3,0.4
+How is F{1}  [constant] defined?,1/(a-j*w),1/(a+j*w)^2,X(j*w)/(j*w) + pi*X(0)*delta(w),2*pi*delta(w),4,0.4
+How is F{u(t)} defined?,X(j*(w-w0))  [spectrum shifted by w0],pi*delta(w) + 1/(j*w),2*a/(a^2+w^2),1/(a+j*w)^2,2,0.4
+How is F{e^(-a*t)*u(t)} a>0 defined?,1/(a+j*w),(pi/j)*[delta(w-w0)-delta(w+w0)],pi*delta(w) + 1/(j*w),1  [all w],1,0.4
+How is F{e^(a*t)*u(-t)} a>0 defined?,e^(-j*w*t0),2*a/(a^2+w^2),1/(a-j*w),2*pi*delta(w),3,0.4
+What is convolution property of CTFT?,"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",range of frequencies with significant spectral energy,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],F{x(a*t)}=(1/|a|)*X(j*w/a),3,0.45
+What is multiplication property of CTFT?,F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",F{(-j*t)*x(t)}=d/dw X(j*w),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),4,0.45
+What is time-shift property of CTFT?,CT Fourier transform of the impulse response h(t),F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],range of frequencies with significant spectral energy,F{(-j*t)*x(t)}=d/dw X(j*w),2,0.45
+What is frequency-shift property of CTFT?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],compressing time by a>1 expands spectrum by factor a,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],1,0.45
+What is time-scaling property of CTFT?,F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],F{x(a*t)}=(1/|a|)*X(j*w/a),F{(-j*t)*x(t)}=d/dw X(j*w),h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],2,0.45
+What is duality property of CTFT?,if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",1,0.45
+What is Parseval theorem for CTFT?,integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",compressing time by a>1 expands spectrum by factor a,"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",1,0.45
+What is conjugate symmetry of CTFT for real x(t)?,F{x(a*t)}=(1/|a|)*X(j*w/a),CT Fourier transform of the impulse response h(t),"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),3,0.45
+What is frequency response H(j*w) of LTI system?,CT Fourier transform of the impulse response h(t),"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",F{(-j*t)*x(t)}=d/dw X(j*w),compressing time by a>1 expands spectrum by factor a,1,0.45
+What is ideal lowpass filter impulse response?,CT Fourier transform of the impulse response h(t),range of frequencies with significant spectral energy,h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],compressing time by a>1 expands spectrum by factor a,3,0.45
+What is distortionless transmission?,h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",F{x(a*t)}=(1/|a|)*X(j*w/a),compressing time by a>1 expands spectrum by factor a,2,0.45
+What is group delay of a filter?,compressing time by a>1 expands spectrum by factor a,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",2,0.45
+What is time compression effect on spectrum?,compressing time by a>1 expands spectrum by factor a,F{(-j*t)*x(t)}=d/dw X(j*w),if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),CT Fourier transform of the impulse response h(t),1,0.45
+What is differentiation in frequency property?,CT Fourier transform of the impulse response h(t),F{(-j*t)*x(t)}=d/dw X(j*w),"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",tau(w)=-d(angle H)/dw  [signal delay as function of frequency],2,0.45
+What is bandwidth of a signal?,CT Fourier transform of the impulse response h(t),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),range of frequencies with significant spectral energy,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],3,0.45
+Which best describes convolution property of CTFT?,F{x(a*t)}=(1/|a|)*X(j*w/a),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),3,0.45
+Which best describes multiplication property of CTFT?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),4,0.45
+Which best describes time-shift property of CTFT?,h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{(-j*t)*x(t)}=d/dw X(j*w),F{x(a*t)}=(1/|a|)*X(j*w/a),F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],4,0.45
+Which best describes frequency-shift property of CTFT?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),1,0.45
+Which best describes time-scaling property of CTFT?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),F{x(a*t)}=(1/|a|)*X(j*w/a),compressing time by a>1 expands spectrum by factor a,h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],2,0.45
+Which best describes duality property of CTFT?,"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),F{(-j*t)*x(t)}=d/dw X(j*w),range of frequencies with significant spectral energy,2,0.45
+Which best describes Parseval theorem for CTFT?,integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,F{x(a*t)}=(1/|a|)*X(j*w/a),compressing time by a>1 expands spectrum by factor a,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],1,0.45
+Which best describes conjugate symmetry of CTFT for real x(t)?,range of frequencies with significant spectral energy,"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),2,0.45
+Which best describes frequency response H(j*w) of LTI system?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),CT Fourier transform of the impulse response h(t),F{(-j*t)*x(t)}=d/dw X(j*w),compressing time by a>1 expands spectrum by factor a,2,0.45
+Which best describes ideal lowpass filter impulse response?,F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],2,0.45
+Which best describes distortionless transmission?,"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,range of frequencies with significant spectral energy,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],1,0.45
+Which best describes group delay of a filter?,h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],tau(w)=-d(angle H)/dw  [signal delay as function of frequency],range of frequencies with significant spectral energy,3,0.45
+Which best describes time compression effect on spectrum?,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],compressing time by a>1 expands spectrum by factor a,4,0.45
+Which best describes differentiation in frequency property?,F{(-j*t)*x(t)}=d/dw X(j*w),"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],1,0.45
+Which best describes bandwidth of a signal?,F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),range of frequencies with significant spectral energy,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],compressing time by a>1 expands spectrum by factor a,2,0.45
+"In signals and systems, convolution property of CTFT refers to?",F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),1,0.45
+"In signals and systems, multiplication property of CTFT refers to?",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),F{x(a*t)}=(1/|a|)*X(j*w/a),integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],1,0.45
+"In signals and systems, time-shift property of CTFT refers to?",F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),range of frequencies with significant spectral energy,integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,1,0.45
+"In signals and systems, frequency-shift property of CTFT refers to?",F{(-j*t)*x(t)}=d/dw X(j*w),h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),4,0.45
+"In signals and systems, time-scaling property of CTFT refers to?",F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{x(a*t)}=(1/|a|)*X(j*w/a),CT Fourier transform of the impulse response h(t),3,0.45
+"In signals and systems, duality property of CTFT refers to?",if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),F{(-j*t)*x(t)}=d/dw X(j*w),"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),1,0.45
+"In signals and systems, Parseval theorem for CTFT refers to?",h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),2,0.45
+"In signals and systems, conjugate symmetry of CTFT for real x(t) refers to?",F{x(a*t)}=(1/|a|)*X(j*w/a),"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],2,0.45
+"In signals and systems, frequency response H(j*w) of LTI system refers to?",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],CT Fourier transform of the impulse response h(t),4,0.45
+"In signals and systems, ideal lowpass filter impulse response refers to?",h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],F{(-j*t)*x(t)}=d/dw X(j*w),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),1,0.45
+"In signals and systems, distortionless transmission refers to?",range of frequencies with significant spectral energy,"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),2,0.45
+"In signals and systems, group delay of a filter refers to?",F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",compressing time by a>1 expands spectrum by factor a,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],4,0.45
+"In signals and systems, time compression effect on spectrum refers to?",F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],F{(-j*t)*x(t)}=d/dw X(j*w),compressing time by a>1 expands spectrum by factor a,4,0.45
+"In signals and systems, differentiation in frequency property refers to?",F{(-j*t)*x(t)}=d/dw X(j*w),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),h(t)=sin(wc*t)/(pi*t)  [sinc function; non-causal],CT Fourier transform of the impulse response h(t),1,0.45
+"In signals and systems, bandwidth of a signal refers to?",range of frequencies with significant spectral energy,"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",1,0.45
+How is convolution property of CTFT defined?,F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),tau(w)=-d(angle H)/dw  [signal delay as function of frequency],"X(-j*w)=X*(j*w)  [magnitude even, phase odd in w]",F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],4,0.45
+How is multiplication property of CTFT defined?,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",compressing time by a>1 expands spectrum by factor a,F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),4,0.45
+How is time-shift property of CTFT defined?,integral|x(t)|^2 dt = (1/2*pi)*integral|X(j*w)|^2 dw,F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),compressing time by a>1 expands spectrum by factor a,F{x(t-t0)}=e^(-j*w*t0)*X(j*w)  [magnitude unchanged],4,0.45
+How is frequency-shift property of CTFT defined?,F{e^(j*w0*t)*x(t)}=X(j*(w-w0)),F{x(t)*y(t)}=(1/2*pi)*X(j*w) convolved with Y(j*w),"H(j*w)=K*e^(-j*w*t0)  [flat magnitude, linear phase]",if F{x(t)}=X(j*w) then F{X(j*t)}=2*pi*x(-w),1,0.45
+How is time-scaling property of CTFT defined?,range of frequencies with significant spectral energy,tau(w)=-d(angle H)/dw  [signal delay as function of frequency],F{x(a*t)}=(1/|a|)*X(j*w/a),F{x*h}=X(j*w)*H(j*w)  [convolution in time = mult in freq],3,0.45
+Evaluate: energy of x(t)=e^(-2t)*u(t) using Parseval,0.50,0.25,0.03,1.00,2,0.5
+Evaluate: |X(j*0)| for x(t)=e^(-2t)*u(t),0.5,1.5,0.1,2.0,1,0.5
+Evaluate: |X(j*2)| for X(j*w)=1/(2+j*w),2 /sqrt(8) approx 0.354,4 /sqrt(8) approx 0.354,3 /sqrt(8) approx 0.354,1/sqrt(8) approx 0.354,4,0.5
+Evaluate: phase of F{delta(t-2)} at w=pi,approx -2*pi rad*2,-2*pi rad,-2 *pi rad,-1 *pi rad,2,0.5
+Evaluate: |F{cos(3t)}| at w=3,pi_c,pi_a,pi_b,pi,4,0.5
+Evaluate: 3dB bandwidth of H(j*w)=1/(1+j*w),approx 1 rad/s*2,2 rad/s,1 rad/s,0 rad/s,3,0.5
+Evaluate: |H(j*2)| for H(j*w)=1/(j*w+1)^2,3 /5 = 0.2,1/5 = 0.2,1 /5 = 0.2,4 /5 = 0.2,2,0.5
+Evaluate: |F{e^(-2*|t|)}| at w=2,0.4,5.0,0.5,1.0,3,0.5
+Evaluate: |X(j*0)| for x(t)=1 on |t|<=1 zero elsewhere,6,2,1,0,2,0.5
+Evaluate: X(j*pi) for x(t)=1 on |t|<=1 zero elsewhere,0,1/sqrt(8) approx 0.354,-0,1,1,0.5
+Evaluate: integral sinc^2(t) dt using Parseval,3,2,0,1,4,0.5
+Evaluate: X(j*0) = integral x(t)dt for x(t)=e^(-t)*u(t),3,10,1,2,3,0.5
+Evaluate: |H(j*a)| for H(j*w)=1/(j*w+a),10 /(a*sqrt(2)),1/(a*sqrt(2)),4 /(a*sqrt(2)),0 /(a*sqrt(2)),2,0.5
+Evaluate: first null of X(j*w)=tau*sinc(w*tau/2),w = 2*pi/tau,w = 2*pi/tau_b,w = 2*pi/tau_c,w = 2*pi/tau_a,1,0.5
+Evaluate: energy of x(t)=e^(-t)*u(t),0.8,1.5,0.5,0.1,3,0.5
+Evaluate: |X(j*1)| for x(t)=e^(-t)*u(t),1 /sqrt(2) approx 0.707,1/sqrt(2) approx 0.707,2 /sqrt(2) approx 0.707,3 /sqrt(2) approx 0.707,2,0.5
+Evaluate: |H(j*0)| for H(j*w)=j*w/(j*w+2),0  [highpass: zero DC gain],approx 0  [highpass: zero DC gain]*2,-0 [highpass: zero DC gain],0 [highpass: zero DC gain],1,0.5
+Evaluate: X(j*0) for x(t)=e^(-3t)*u(t),0 /3,3 /3,1/3,approx 1/3*2,3,0.5
+Evaluate: energy of x(t)=e^(-3t)*u(t),0 /6,1 /6,1/6,10 /6,3,0.5
+Evaluate: |X(j*3)| for x(t)=e^(-3t)*u(t),approx 1/(3*sqrt(2)) approx 0.236*2,0 /(3*sqrt(2)) approx 0.236,1/(3*sqrt(2)) approx 0.236,2 /(3*sqrt(2)) approx 0.236,3,0.5
+Evaluate: |H(j*1)| for H(j*w)=1/(1+j*w),0 /sqrt(2) approx 0.707,1/sqrt(2) approx 0.707,-1 /sqrt(2) approx 0.707,10 /sqrt(2) approx 0.707,2,0.5
+"Evaluate: energy of x(t)=rect(t) [width 1, height 1]",1,3,4,0,1,0.5
+What is the result of energy of x(t)=e^(-2t)*u(t) using Parseval?,0.25,0.08,0.03,-0.25,1,0.5
+What is the result of |X(j*0)| for x(t)=e^(-2t)*u(t)?,0.4,0.1,0.5,1.0,3,0.5
+What is the result of |X(j*2)| for X(j*w)=1/(2+j*w)?,-1 /sqrt(8) approx 0.354,0 /sqrt(8) approx 0.354,1/sqrt(8) approx 0.354,2 /sqrt(8) approx 0.354,3,0.5
+What is the result of phase of F{delta(t-2)} at w=pi?,-0 *pi rad,-2 *pi rad,-2*pi rad,-20 *pi rad,3,0.5
+What is the result of |F{cos(3t)}| at w=3?,pi_a,pi,pi_c,pi_b,2,0.5
+What is the result of 3dB bandwidth of H(j*w)=1/(1+j*w)?,0 rad/s,1 rad/s,4 rad/s,3 rad/s,2,0.5
+What is the result of |H(j*2)| for H(j*w)=1/(j*w+1)^2?,1/5 = 0.2,approx 1/5 = 0.2*2,0 /5 = 0.2,2 /5 = 0.2,1,0.5
+What is the result of |F{e^(-2*|t|)}| at w=2?,5.0,1.5,0.5,0.1,3,0.5
+What is the result of |X(j*0)| for x(t)=1 on |t|<=1 zero elsewhere?,2,1,0,6,1,0.5
+What is the result of X(j*pi) for x(t)=1 on |t|<=1 zero elsewhere?,-0,0.25,0,1/sqrt(2) approx 0.707,3,0.5
+What is the result of integral sinc^2(t) dt using Parseval?,0,1,approx 1*2,approx 1/2,2,0.5
+What is the result of X(j*0) = integral x(t)dt for x(t)=e^(-t)*u(t)?,0,2,-1,1,4,0.5
+What is the result of |H(j*a)| for H(j*w)=1/(j*w+a)?,1/(a*sqrt(2)),4 /(a*sqrt(2)),0 /(a*sqrt(2)),2 /(a*sqrt(2)),1,0.5
+What is the result of first null of X(j*w)=tau*sinc(w*tau/2)?,w = 2*pi/tau_c,w = 2*pi/tau_a,w = 2*pi/tau_b,w = 2*pi/tau,4,0.5
+What is the result of energy of x(t)=e^(-t)*u(t)?,0.2,0.4,0.5,0.8,3,0.5
+What is the result of |X(j*1)| for x(t)=e^(-t)*u(t)?,-1 /sqrt(2) approx 0.707,0 /sqrt(2) approx 0.707,approx 1/sqrt(2) approx 0.707*2,1/sqrt(2) approx 0.707,4,0.5
+What is the result of |H(j*0)| for H(j*w)=j*w/(j*w+2)?,0  [highpass: zero DC gain],approx 0  [highpass: zero DC gain]*2,-0 [highpass: zero DC gain],0 [highpass: zero DC gain],1,0.5
+What is the result of X(j*0) for x(t)=e^(-3t)*u(t)?,4 /3,1/3,0 /3,-1 /3,2,0.5
+What is the result of energy of x(t)=e^(-3t)*u(t)?,approx 1/6*2,2 /6,1/6,3 /6,3,0.5
+What is the result of |X(j*3)| for x(t)=e^(-3t)*u(t)?,-1 /(3*sqrt(2)) approx 0.236,2 /(3*sqrt(2)) approx 0.236,1/(3*sqrt(2)) approx 0.236,10 /(3*sqrt(2)) approx 0.236,3,0.5
+What is the result of |H(j*1)| for H(j*w)=1/(1+j*w)?,1/sqrt(2) approx 0.707,2 /sqrt(2) approx 0.707,3 /sqrt(2) approx 0.707,0 /sqrt(2) approx 0.707,1,0.5
+"What is the result of energy of x(t)=rect(t) [width 1, height 1]?",2,0,1,approx 1*2,3,0.5
+Calculate: energy of x(t)=e^(-2t)*u(t) using Parseval,0.38,0.25,0.75,-0.25,2,0.5
+Calculate: |X(j*0)| for x(t)=e^(-2t)*u(t),0.1,0.2,0.5,-0.5,3,0.5
+Calculate: |X(j*2)| for X(j*w)=1/(2+j*w),1/sqrt(8) approx 0.354,-1 /sqrt(8) approx 0.354,0 /sqrt(8) approx 0.354,1 /sqrt(8) approx 0.354,1,0.5
+Calculate: phase of F{delta(t-2)} at w=pi,-2*pi rad,-1 *pi rad,-2 *pi rad,-6 *pi rad,1,0.5
+Calculate: |F{cos(3t)}| at w=3,pi_b,pi,pi_a,pi_c,2,0.5
+Calculate: 3dB bandwidth of H(j*w)=1/(1+j*w),-1 rad/s,1 rad/s,3 rad/s,2 rad/s,2,0.5
+What is DTFT X(e^(j*w)) of x[n]?,X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),1,0.55
+What is inverse DTFT?,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,DTFT{x[-n]} = X(e^(-j*w)),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,1,0.55
+What is periodicity of DTFT?,X(e^(j*w)) is 2*pi-periodic in w,X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),DTFT{x[-n]} = X(e^(-j*w)),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1,0.55
+What is DTFT of delta[n]?,DTFT{x[-n]} = X(e^(-j*w)),X(e^(-j*w)) = X*(e^(j*w)),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),1  for all w,4,0.55
+What is DTFT of delta[n-n0]?,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,e^(-j*w*n0),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),2,0.55
+What is DTFT of a^n*u[n] |a|<1?,x[n] absolutely summable: sum|x[n]| < inf,1/(1-a*e^(-j*w)),DTFT{x[-n]} = X(e^(-j*w)),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),2,0.55
+What is DTFT of u[n]?,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,DTFT{x[-n]} = X(e^(-j*w)),X(e^(-j*w)) = X*(e^(j*w)),1,0.55
+What is convergence condition for DTFT?,X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,x[n] absolutely summable: sum|x[n]| < inf,e^(-j*w*n0),3,0.55
+What is time-shift property of DTFT?,1  for all w,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),DTFT{x[-n]} = X(e^(-j*w)),1/(1-a*e^(-j*w)),2,0.55
+What is frequency-shift property of DTFT?,e^(-j*w*n0),X(e^(j*w)) is 2*pi-periodic in w,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),4,0.55
+What is convolution property of DTFT?,X(e^(-j*w)) = X*(e^(j*w)),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),1  for all w,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,2,0.55
+What is multiplication property of DTFT?,x[n] absolutely summable: sum|x[n]| < inf,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,X(e^(-j*w)) = X*(e^(j*w)),3,0.55
+What is Parseval theorem for DTFT?,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,DTFT{x[-n]} = X(e^(-j*w)),x[n] absolutely summable: sum|x[n]| < inf,2,0.55
+What is conjugate symmetry of DTFT for real x[n]?,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,X(e^(-j*w)) = X*(e^(j*w)),sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,3,0.55
+What is DTFT of cos(w0*n)?,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),x[n] absolutely summable: sum|x[n]| < inf,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,4,0.55
+What is time-reversal property of DTFT?,DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,DTFT{x[-n]} = X(e^(-j*w)),4,0.55
+Which best describes DTFT X(e^(j*w)) of x[n]?,X(e^(j*w)) is 2*pi-periodic in w,DTFT{x[-n]} = X(e^(-j*w)),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,3,0.55
+Which best describes inverse DTFT?,e^(-j*w*n0),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,3,0.55
+Which best describes periodicity of DTFT?,1/(1-a*e^(-j*w)),X(e^(j*w)) is 2*pi-periodic in w,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),2,0.55
+Which best describes DTFT of delta[n]?,1/(1-a*e^(-j*w)),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,1  for all w,X(e^(j*w)) is 2*pi-periodic in w,3,0.55
+Which best describes DTFT of delta[n-n0]?,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,e^(-j*w*n0),4,0.55
+Which best describes DTFT of a^n*u[n] |a|<1?,1/(1-a*e^(-j*w)),e^(-j*w*n0),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1,0.55
+Which best describes DTFT of u[n]?,X(e^(j*w)) is 2*pi-periodic in w,1  for all w,DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),4,0.55
+Which best describes convergence condition for DTFT?,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),x[n] absolutely summable: sum|x[n]| < inf,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),3,0.55
+Which best describes time-shift property of DTFT?,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),DTFT{x[-n]} = X(e^(-j*w)),DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),4,0.55
+Which best describes frequency-shift property of DTFT?,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,1,0.55
+Which best describes convolution property of DTFT?,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),e^(-j*w*n0),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),1/(1-a*e^(-j*w)),3,0.55
+Which best describes multiplication property of DTFT?,DTFT{x[-n]} = X(e^(-j*w)),DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,X(e^(-j*w)) = X*(e^(j*w)),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,2,0.55
+Which best describes Parseval theorem for DTFT?,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,X(e^(-j*w)) = X*(e^(j*w)),3,0.55
+Which best describes conjugate symmetry of DTFT for real x[n]?,DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),X(e^(-j*w)) = X*(e^(j*w)),e^(-j*w*n0),pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,2,0.55
+Which best describes DTFT of cos(w0*n)?,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1  for all w,X(e^(j*w)) is 2*pi-periodic in w,1,0.55
+Which best describes time-reversal property of DTFT?,DTFT{x[-n]} = X(e^(-j*w)),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),X(e^(j*w)) is 2*pi-periodic in w,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,1,0.55
+"In signals and systems, DTFT X(e^(j*w)) of x[n] refers to?",x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),X(e^(j*w)) is 2*pi-periodic in w,3,0.55
+"In signals and systems, inverse DTFT refers to?",1  for all w,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),DTFT{x[-n]} = X(e^(-j*w)),2,0.55
+"In signals and systems, periodicity of DTFT refers to?",x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,x[n] absolutely summable: sum|x[n]| < inf,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),X(e^(j*w)) is 2*pi-periodic in w,4,0.55
+"In signals and systems, DTFT of delta[n] refers to?",1  for all w,1/(1-a*e^(-j*w)),X(e^(-j*w)) = X*(e^(j*w)),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1,0.55
+"In signals and systems, DTFT of delta[n-n0] refers to?",e^(-j*w*n0),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),DTFT{x[-n]} = X(e^(-j*w)),1  for all w,1,0.55
+"In signals and systems, DTFT of a^n*u[n] |a|<1 refers to?",1/(1-a*e^(-j*w)),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,1  for all w,1,0.55
+"In signals and systems, DTFT of u[n] refers to?",1  for all w,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),2,0.55
+"In signals and systems, convergence condition for DTFT refers to?",DTFT{x[-n]} = X(e^(-j*w)),sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,x[n] absolutely summable: sum|x[n]| < inf,DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),3,0.55
+"In signals and systems, time-shift property of DTFT refers to?",DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),1/(1-a*e^(-j*w)),DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,3,0.55
+"In signals and systems, frequency-shift property of DTFT refers to?",DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),4,0.55
+"In signals and systems, convolution property of DTFT refers to?",1/(1-a*e^(-j*w)),x[n] absolutely summable: sum|x[n]| < inf,DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),4,0.55
+"In signals and systems, multiplication property of DTFT refers to?",pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,X(e^(j*w)) is 2*pi-periodic in w,DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,4,0.55
+"In signals and systems, Parseval theorem for DTFT refers to?",sum|x[n]|^2 = (1/2*pi)*integral|X(e^(j*w))|^2 dw,x[n] absolutely summable: sum|x[n]| < inf,DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),e^(-j*w*n0),1,0.55
+"In signals and systems, conjugate symmetry of DTFT for real x[n] refers to?",X(e^(-j*w)) = X*(e^(j*w)),DTFT{x[n]*h[n]} = X(e^(j*w))*H(e^(j*w)),1  for all w,DTFT{x[-n]} = X(e^(-j*w)),1,0.55
+"In signals and systems, DTFT of cos(w0*n) refers to?",DTFT{x[-n]} = X(e^(-j*w)),DTFT{x[n]*w[n]} = (1/2*pi)*periodic convolution of X and W,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),3,0.55
+"In signals and systems, time-reversal property of DTFT refers to?",DTFT{x[n-n0]} = e^(-j*w*n0)*X(e^(j*w)),DTFT{x[-n]} = X(e^(-j*w)),1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),2,0.55
+How is DTFT X(e^(j*w)) of x[n] defined?,x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,1/(1-e^(-j*w)) + pi*sum_k delta(w-2*pi*k),DTFT{e^(j*w0*n)*x[n]} = X(e^(j*(w-w0))),X(e^(j*w)) = sum_{n=-inf}^{inf} x[n]*e^(-j*w*n),4,0.55
+How is inverse DTFT defined?,pi*[delta(w-w0)+delta(w+w0)]  periodic with period 2*pi,X(e^(j*w)) is 2*pi-periodic in w,1/(1-a*e^(-j*w)),x[n] = (1/2*pi)*integral_{-pi}^{pi} X(e^(j*w))*e^(j*w*n) dw,4,0.55
+Evaluate: DTFT of (1/2)^n*u[n] at w=0,6,4,2,20,3,0.6
+Evaluate: DTFT of (1/2)^n*u[n] at w=pi,0 /3,4 /3,2/3,1 /3,3,0.6
+Evaluate: |X(e^(j*0))| for x[n]=(0.8)^n*u[n],5,20,-5,1,1,0.6
+Evaluate: energy of (1/2)^n*u[n] via Parseval,0 /3 approx 1.333,4/3 approx 1.333,2 /3 approx 1.333,-4 /3 approx 1.333,2,0.6
+"Evaluate: DTFT of x={1,1,1} at n=0,1,2 at w=0",-3,3,1,0,2,0.6
+"Evaluate: DTFT of x={1,-1} at n=0,1 at w=pi",2,3,0,1,1,0.6
+"Evaluate: DTFT of x={1,-1} at n=0,1 at w=0",-0,0,1/(1-0.5*e^(-j*w))^2,5,2,0.6
+Evaluate: |H(e^(j*pi))| for H(e^(j*w))=1/(1-0.5*e^(-j*w)),2/3,0 /3,8 /3,3 /3,1,0.6
+Evaluate: |X(e^(j*0))| for x[n]=a^n*u[n] |a|<1,1/(1-a),2 /(1-a),0 /(1-a),4 /(1-a),1,0.6
+Evaluate: sum_{n=0}^{inf} (0.9)^n,100,30,40,10,4,0.6
+Evaluate: DTFT of (-1)^n*x[n],X(e^(j*(w-pi)))  [spectrum shifted by pi]_b,X(e^(j*(w-pi)))  [spectrum shifted by pi]_a,X(e^(j*(w-pi)))  [spectrum shifted by pi]_c,X(e^(j*(w-pi)))  [spectrum shifted by pi],4,0.6
+Evaluate: DTFT of (n+1)*(1/2)^n*u[n],10 /(1-0.5*e^(-j*w))^2,1/(1-0.5*e^(-j*w))^2,2 /(1-0.5*e^(-j*w))^2,4 /(1-0.5*e^(-j*w))^2,2,0.6
+Evaluate: group delay of linear-phase FIR of length N,(N-1)/2 samples_a,(N-1)/2 samples_c,(N-1)/2 samples_b,(N-1)/2 samples,4,0.6
+Evaluate: energy of x[n]=(0.5)^n*u[n] sum|x|^2,4/3,6 /3,8 /3,1 /3,1,0.6
+Evaluate: energy of x[n]=delta[n]-delta[n-1],-2,1,2,4,3,0.6
+Evaluate: DTFT of x[n-2] when X(e^(j*w))=1/(1-0.5*e^(-j*w)),e^(-j*2*w)/(1-0.5*e^(-j*w))_a,e^(-j*2*w)/(1-0.5*e^(-j*w))_c,e^(-j*2*w)/(1-0.5*e^(-j*w))_b,e^(-j*2*w)/(1-0.5*e^(-j*w)),4,0.6
+Evaluate: inverse DTFT of X=1 for |w|<=pi/4 zero elsewhere,sin(pi*n/4)/(pi*n)  [DT ideal LPF]_c,sin(pi*n/4)/(pi*n)  [DT ideal LPF]_b,sin(pi*n/4)/(pi*n)  [DT ideal LPF],sin(pi*n/4)/(pi*n)  [DT ideal LPF]_a,3,0.6
+Evaluate: fundamental period of e^(j*2*pi*n/N) for integer N,N samples_c,N samples,N samples_a,N samples_b,2,0.6
+Evaluate: sum|x[n]|^2 for x[n]=(1/3)^n*u[n],-9 /8 = 1.125,2 /8 = 1.125,9/8 = 1.125,27 /8 = 1.125,3,0.6
+Evaluate: DTFT of x[n]=(0.5)^n*u[n] at w=pi/3,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_a,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_c,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_b,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|,4,0.6
+Evaluate: |X(e^(j*0))| for x[n]=(0.9)^n*u[n],15,2,40,10,4,0.6
+Evaluate: DTFT of delta[n-3] at w=pi/2,e^(-j*3*pi/2) = -j_c,e^(-j*3*pi/2) = -j,e^(-j*3*pi/2) = -j_b,e^(-j*3*pi/2) = -j_a,2,0.6
+What is the result of DTFT of (1/2)^n*u[n] at w=0?,2,-2,3,0,1,0.6
+What is the result of DTFT of (1/2)^n*u[n] at w=pi?,20 /3,2/3,1 /3,6 /3,2,0.6
+What is the result of |X(e^(j*0))| for x[n]=(0.8)^n*u[n]?,8,20,5,2,3,0.6
+What is the result of energy of (1/2)^n*u[n] via Parseval?,6 /3 approx 1.333,0 /3 approx 1.333,8 /3 approx 1.333,4/3 approx 1.333,4,0.6
+"What is the result of DTFT of x={1,1,1} at n=0,1,2 at w=0?",-3,0,2,3,4,0.6
+"What is the result of DTFT of x={1,-1} at n=0,1 at w=pi?",3,6,1,2,4,0.6
+"What is the result of DTFT of x={1,-1} at n=0,1 at w=0?",4/3,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|,0,-0,3,0.6
+What is the result of |H(e^(j*pi))| for H(e^(j*w))=1/(1-0.5*e^(-j*w))?,1 /3,0 /3,2/3,approx 2/3*2,3,0.6
+What is the result of |X(e^(j*0))| for x[n]=a^n*u[n] |a|<1?,10 /(1-a),approx 1/(1-a)*2,0 /(1-a),1/(1-a),4,0.6
+What is the result of sum_{n=0}^{inf} (0.9)^n?,1,10,20,8,2,0.6
+What is the result of DTFT of (-1)^n*x[n]?,X(e^(j*(w-pi)))  [spectrum shifted by pi]_c,X(e^(j*(w-pi)))  [spectrum shifted by pi],X(e^(j*(w-pi)))  [spectrum shifted by pi]_b,X(e^(j*(w-pi)))  [spectrum shifted by pi]_a,2,0.6
+What is the result of DTFT of (n+1)*(1/2)^n*u[n]?,1/(1-0.5*e^(-j*w))^2,approx 1/(1-0.5*e^(-j*w))^2*2,0 /(1-0.5*e^(-j*w))^2,2 /(1-0.5*e^(-j*w))^2,1,0.6
+What is the result of group delay of linear-phase FIR of length N?,(N-1)/2 samples_a,(N-1)/2 samples_c,(N-1)/2 samples,(N-1)/2 samples_b,3,0.6
+What is the result of energy of x[n]=(0.5)^n*u[n] sum|x|^2?,8 /3,-4 /3,4/3,16 /3,3,0.6
+What is the result of energy of x[n]=delta[n]-delta[n-1]?,4,-2,2,1,3,0.6
+What is the result of DTFT of x[n-2] when X(e^(j*w))=1/(1-0.5*e^(-j*w))?,e^(-j*2*w)/(1-0.5*e^(-j*w))_b,e^(-j*2*w)/(1-0.5*e^(-j*w)),e^(-j*2*w)/(1-0.5*e^(-j*w))_c,e^(-j*2*w)/(1-0.5*e^(-j*w))_a,2,0.6
+What is the result of inverse DTFT of X=1 for |w|<=pi/4 zero elsewhere?,sin(pi*n/4)/(pi*n)  [DT ideal LPF]_c,sin(pi*n/4)/(pi*n)  [DT ideal LPF]_a,sin(pi*n/4)/(pi*n)  [DT ideal LPF]_b,sin(pi*n/4)/(pi*n)  [DT ideal LPF],4,0.6
+What is the result of fundamental period of e^(j*2*pi*n/N) for integer N?,N samples_a,N samples_b,N samples,N samples_c,3,0.6
+What is the result of sum|x[n]|^2 for x[n]=(1/3)^n*u[n]?,18 /8 = 1.125,36 /8 = 1.125,3 /8 = 1.125,9/8 = 1.125,4,0.6
+What is the result of DTFT of x[n]=(0.5)^n*u[n] at w=pi/3?,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_c,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_a,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|,|X|=1/(1-0.25)^0.5... use formula: |1/(1-0.5e^(-jpi/3))|_b,3,0.6
+What is the result of |X(e^(j*0))| for x[n]=(0.9)^n*u[n]?,5,10,2,-10,2,0.6
+What is the result of DTFT of delta[n-3] at w=pi/2?,e^(-j*3*pi/2) = -j_b,e^(-j*3*pi/2) = -j_a,e^(-j*3*pi/2) = -j,e^(-j*3*pi/2) = -j_c,3,0.6
+Calculate: DTFT of (1/2)^n*u[n] at w=0,-2,4,0,2,4,0.6
+Calculate: DTFT of (1/2)^n*u[n] at w=pi,2/3,6 /3,4 /3,-2 /3,1,0.6
+Calculate: |X(e^(j*0))| for x[n]=(0.8)^n*u[n],2,5,4,15,2,0.6
+Calculate: energy of (1/2)^n*u[n] via Parseval,6 /3 approx 1.333,-4 /3 approx 1.333,4/3 approx 1.333,8 /3 approx 1.333,3,0.6
+"Calculate: DTFT of x={1,1,1} at n=0,1,2 at w=0",3,2,0,30,1,0.6
+"Calculate: DTFT of x={1,-1} at n=0,1 at w=pi",1,2,20,approx 2*2,2,0.6
+What is an ideal lowpass filter?,H(j*w)=1/(1+j*w/wc),H=1 for |w|<=wc and 0 otherwise; non-causal,H=0 for |w|<=wc and 1 for |w|>wc,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),2,0.65
+What is an ideal highpass filter?,H=0 for |w|<=wc and 1 for |w|>wc,H(j*w)=1/(1+j*w/wc),wc = 1/(R*C) rad/s,"passes frequencies in band [w1,w2] and rejects all others",1,0.65
+What is an ideal bandpass filter?,|H(j*w)|=1 for all w; passes all frequencies at unity gain,"passes frequencies in band [w1,w2] and rejects all others",minus 20*n dB per decade beyond cutoff,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,2,0.65
+What is cutoff frequency of first-order RC lowpass?,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,wc = 1/(R*C) rad/s,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),"passes frequencies in band [w1,w2] and rejects all others",2,0.65
+What is frequency response of first-order CT LPF?,H(j*w)=1/(1+j*w/wc),frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),minus 20*n dB per decade beyond cutoff,H=0 for |w|<=wc and 1 for |w|>wc,1,0.65
+What is Butterworth LPF of order n?,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,phase is linear in w; constant group delay for all frequencies,wc = 1/(R*C) rad/s,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),4,0.65
+What is roll-off of nth-order Butterworth?,H=0 for |w|<=wc and 1 for |w|>wc,minus 20*n dB per decade beyond cutoff,wc = 1/(R*C) rad/s,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,2,0.65
+What is -3 dB point of a filter?,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),H=1 for |w|<=wc and 0 otherwise; non-causal,minus 20*n dB per decade beyond cutoff,phase is linear in w; constant group delay for all frequencies,1,0.65
+What is distortionless transmission system?,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H=0 for |w|<=wc and 1 for |w|>wc,"passes frequencies in band [w1,w2] and rejects all others",2,0.65
+What is a linear-phase filter?,wc = 1/(R*C) rad/s,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,phase is linear in w; constant group delay for all frequencies,H=0 for |w|<=wc and 1 for |w|>wc,3,0.65
+What is DT ideal lowpass with cutoff wn?,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,H(j*w)=1/(1+j*w/wc),H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),3,0.65
+What is DT first-order LPF y[n]=alpha*y[n-1]+x[n]?,wc = 1/(R*C) rad/s,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,tau(w)=-d(angle H)/dw,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,2,0.65
+What is an all-pass filter?,"passes frequencies in band [w1,w2] and rejects all others",H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,|H(j*w)|=1 for all w; passes all frequencies at unity gain,minus 20*n dB per decade beyond cutoff,3,0.65
+What is ideal differentiator?,wc = 1/(R*C) rad/s,H(j*w)=1/(1+j*w/wc),H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,tau(w)=-d(angle H)/dw,3,0.65
+Which best describes an ideal lowpass filter?,phase is linear in w; constant group delay for all frequencies,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,H=1 for |w|<=wc and 0 otherwise; non-causal,|H(j*w)|=1 for all w; passes all frequencies at unity gain,3,0.65
+Which best describes an ideal highpass filter?,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H=0 for |w|<=wc and 1 for |w|>wc,wc = 1/(R*C) rad/s,minus 20*n dB per decade beyond cutoff,2,0.65
+Which best describes an ideal bandpass filter?,"passes frequencies in band [w1,w2] and rejects all others",H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,1,0.65
+Which best describes cutoff frequency of first-order RC lowpass?,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,H=0 for |w|<=wc and 1 for |w|>wc,tau(w)=-d(angle H)/dw,wc = 1/(R*C) rad/s,4,0.65
+Which best describes frequency response of first-order CT LPF?,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,wc = 1/(R*C) rad/s,minus 20*n dB per decade beyond cutoff,H(j*w)=1/(1+j*w/wc),4,0.65
+Which best describes Butterworth LPF of order n?,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),tau(w)=-d(angle H)/dw,phase is linear in w; constant group delay for all frequencies,1,0.65
+Which best describes roll-off of nth-order Butterworth?,tau(w)=-d(angle H)/dw,minus 20*n dB per decade beyond cutoff,H=1 for |w|<=wc and 0 otherwise; non-causal,"passes frequencies in band [w1,w2] and rejects all others",2,0.65
+Which best describes -3 dB point of a filter?,tau(w)=-d(angle H)/dw,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),3,0.65
+Which best describes distortionless transmission system?,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,tau(w)=-d(angle H)/dw,3,0.65
+Which best describes a linear-phase filter?,phase is linear in w; constant group delay for all frequencies,minus 20*n dB per decade beyond cutoff,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),1,0.65
+Which best describes DT ideal lowpass with cutoff wn?,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),minus 20*n dB per decade beyond cutoff,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,1,0.65
+Which best describes DT first-order LPF y[n]=alpha*y[n-1]+x[n]?,|H(j*w)|=1 for all w; passes all frequencies at unity gain,"passes frequencies in band [w1,w2] and rejects all others",H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,3,0.65
+Which best describes an all-pass filter?,H=1 for |w|<=wc and 0 otherwise; non-causal,wc = 1/(R*C) rad/s,|H(j*w)|=1 for all w; passes all frequencies at unity gain,"passes frequencies in band [w1,w2] and rejects all others",3,0.65
+Which best describes ideal differentiator?,"passes frequencies in band [w1,w2] and rejects all others",H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,H(j*w)=1/(1+j*w/wc),H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,2,0.65
+"In signals and systems, an ideal lowpass filter refers to?",H=1 for |w|<=wc and 0 otherwise; non-causal,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,H=0 for |w|<=wc and 1 for |w|>wc,1,0.65
+"In signals and systems, an ideal highpass filter refers to?",H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,"passes frequencies in band [w1,w2] and rejects all others",H=0 for |w|<=wc and 1 for |w|>wc,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,3,0.65
+"In signals and systems, an ideal bandpass filter refers to?",H(j*w)=1/(1+j*w/wc),maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),"passes frequencies in band [w1,w2] and rejects all others",H=0 for |w|<=wc and 1 for |w|>wc,3,0.65
+"In signals and systems, cutoff frequency of first-order RC lowpass refers to?",H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,wc = 1/(R*C) rad/s,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,phase is linear in w; constant group delay for all frequencies,2,0.65
+"In signals and systems, frequency response of first-order CT LPF refers to?",|H(j*w)|=1 for all w; passes all frequencies at unity gain,H(j*w)=1/(1+j*w/wc),phase is linear in w; constant group delay for all frequencies,tau(w)=-d(angle H)/dw,2,0.65
+"In signals and systems, Butterworth LPF of order n refers to?",|H(j*w)|=1 for all w; passes all frequencies at unity gain,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,wc = 1/(R*C) rad/s,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),4,0.65
+"In signals and systems, roll-off of nth-order Butterworth refers to?",|H(j*w)|=1 for all w; passes all frequencies at unity gain,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,H(j*w)=1/(1+j*w/wc),minus 20*n dB per decade beyond cutoff,4,0.65
+"In signals and systems, -3 dB point of a filter refers to?",maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),H=0 for |w|<=wc and 1 for |w|>wc,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),phase is linear in w; constant group delay for all frequencies,3,0.65
+"In signals and systems, distortionless transmission system refers to?",H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,1,0.65
+"In signals and systems, a linear-phase filter refers to?",|H(j*w)|=1 for all w; passes all frequencies at unity gain,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,phase is linear in w; constant group delay for all frequencies,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),3,0.65
+"In signals and systems, DT ideal lowpass with cutoff wn refers to?",|H(j*w)|=1 for all w; passes all frequencies at unity gain,H(j*w)=1/(1+j*w/wc),H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,phase is linear in w; constant group delay for all frequencies,3,0.65
+"In signals and systems, DT first-order LPF y[n]=alpha*y[n-1]+x[n] refers to?",minus 20*n dB per decade beyond cutoff,tau(w)=-d(angle H)/dw,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,4,0.65
+"In signals and systems, an all-pass filter refers to?","passes frequencies in band [w1,w2] and rejects all others",wc = 1/(R*C) rad/s,minus 20*n dB per decade beyond cutoff,|H(j*w)|=1 for all w; passes all frequencies at unity gain,4,0.65
+"In signals and systems, ideal differentiator refers to?","passes frequencies in band [w1,w2] and rejects all others",H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,minus 20*n dB per decade beyond cutoff,2,0.65
+How is an ideal lowpass filter defined?,H=1 for |w|<=wc and 0 otherwise; non-causal,"passes frequencies in band [w1,w2] and rejects all others",maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,1,0.65
+How is an ideal highpass filter defined?,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,H=0 for |w|<=wc and 1 for |w|>wc,wc = 1/(R*C) rad/s,phase is linear in w; constant group delay for all frequencies,2,0.65
+How is an ideal bandpass filter defined?,"passes frequencies in band [w1,w2] and rejects all others",minus 20*n dB per decade beyond cutoff,tau(w)=-d(angle H)/dw,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,1,0.65
+How is cutoff frequency of first-order RC lowpass defined?,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),wc = 1/(R*C) rad/s,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),3,0.65
+How is frequency response of first-order CT LPF defined?,H(j*w)=1/(1+j*w/wc),minus 20*n dB per decade beyond cutoff,phase is linear in w; constant group delay for all frequencies,|H(j*w)|=1 for all w; passes all frequencies at unity gain,1,0.65
+How is Butterworth LPF of order n defined?,tau(w)=-d(angle H)/dw,maximally flat: |H(j*w)|^2=1/(1+(w/wc)^(2n)),H=0 for |w|<=wc and 1 for |w|>wc,H=1 for |w|<=wc and 0 otherwise; non-causal,2,0.65
+How is roll-off of nth-order Butterworth defined?,H(j*w)=j*w; gain proportional to frequency; 90 deg phase lead,minus 20*n dB per decade beyond cutoff,H(e^(j*w))=1/(1-alpha*e^(-j*w)); LPF for 0<alpha<1,H(e^(j*w))=1 for |w|<=wn and 0 for wn<|w|<=pi,2,0.65
+How is -3 dB point of a filter defined?,minus 20*n dB per decade beyond cutoff,H(j*w)=K*e^(-j*w*t0): flat magnitude linear phase,H(j*w)=1/(1+j*w/wc),frequency where |H|^2=0.5 i.e. |H|=1/sqrt(2),4,0.65
+What is AM of x(t) by carrier cos(wc*t)?,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),signals modulated to different carriers; separated by BPFs,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,down-converts RF to fixed intermediate frequency (IF),3,0.7
+What is synchronous demodulation of AM?,y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,rectify then lowpass filter to extract envelope,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,multiply by cos(wc*t) then lowpass filter,4,0.7
+What is no spectral overlap condition in AM?,w_i(t) = wc + kf*x(t),W  [one sideband only],multiple signals assigned different time slots,wc > W  [carrier frequency exceeds message bandwidth],4,0.7
+What is frequency-division multiplexing (FDM)?,2*W  [two sidebands around carrier],rectify then lowpass filter to extract envelope,y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,signals modulated to different carriers; separated by BPFs,4,0.7
+What is single-sideband (SSB) AM?,multiply by cos(wc*t) then lowpass filter,beta = kf*Am/wm,transmits only one sideband; bandwidth = W,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),3,0.7
+What is DSB-SC AM?,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,W  [one sideband only],down-converts RF to fixed intermediate frequency (IF),y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,4,0.7
+What is DSB-SC AM signal bandwidth?,2*W  [two sidebands around carrier],y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,rectify then lowpass filter to extract envelope,beta = kf*Am/wm,1,0.7
+What is SSB AM signal bandwidth?,rectify then lowpass filter to extract envelope,transmits only one sideband; bandwidth = W,W  [one sideband only],w_i(t) = wc + kf*x(t),3,0.7
+What is pulse-amplitude modulation (PAM)?,wc > W  [carrier frequency exceeds message bandwidth],sample amplitudes modulate periodic pulse train,beta = kf*Am/wm,multiply by cos(wc*t) then lowpass filter,2,0.7
+What is time-division multiplexing (TDM)?,sample amplitudes modulate periodic pulse train,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,2*W  [two sidebands around carrier],multiple signals assigned different time slots,4,0.7
+What is envelope detection of standard AM?,rectify then lowpass filter to extract envelope,wc > W  [carrier frequency exceeds message bandwidth],y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),1,0.7
+What is frequency modulation (FM)?,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),rectify then lowpass filter to extract envelope,down-converts RF to fixed intermediate frequency (IF),beta = kf*Am/wm,1,0.7
+What is FM modulation index beta for sinusoidal message?,rectify then lowpass filter to extract envelope,beta = kf*Am/wm,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),down-converts RF to fixed intermediate frequency (IF),2,0.7
+What is instantaneous frequency in FM?,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,down-converts RF to fixed intermediate frequency (IF),w_i(t) = wc + kf*x(t),wc > W  [carrier frequency exceeds message bandwidth],3,0.7
+What is superheterodyne receiver?,signals modulated to different carriers; separated by BPFs,down-converts RF to fixed intermediate frequency (IF),y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),2,0.7
+Which best describes AM of x(t) by carrier cos(wc*t)?,transmits only one sideband; bandwidth = W,W  [one sideband only],y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),3,0.7
+Which best describes synchronous demodulation of AM?,sample amplitudes modulate periodic pulse train,multiply by cos(wc*t) then lowpass filter,w_i(t) = wc + kf*x(t),signals modulated to different carriers; separated by BPFs,2,0.7
+Which best describes no spectral overlap condition in AM?,wc > W  [carrier frequency exceeds message bandwidth],signals modulated to different carriers; separated by BPFs,multiply by cos(wc*t) then lowpass filter,w_i(t) = wc + kf*x(t),1,0.7
+Which best describes frequency-division multiplexing (FDM)?,sample amplitudes modulate periodic pulse train,rectify then lowpass filter to extract envelope,signals modulated to different carriers; separated by BPFs,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,3,0.7
+Which best describes single-sideband (SSB) AM?,rectify then lowpass filter to extract envelope,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,transmits only one sideband; bandwidth = W,W  [one sideband only],3,0.7
+Which best describes DSB-SC AM?,y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,beta = kf*Am/wm,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),W  [one sideband only],1,0.7
+Which best describes DSB-SC AM signal bandwidth?,2*W  [two sidebands around carrier],y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,sample amplitudes modulate periodic pulse train,W  [one sideband only],1,0.7
+Which best describes SSB AM signal bandwidth?,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,beta = kf*Am/wm,signals modulated to different carriers; separated by BPFs,W  [one sideband only],4,0.7
+Which best describes pulse-amplitude modulation (PAM)?,multiply by cos(wc*t) then lowpass filter,sample amplitudes modulate periodic pulse train,multiple signals assigned different time slots,transmits only one sideband; bandwidth = W,2,0.7
+Which best describes time-division multiplexing (TDM)?,multiple signals assigned different time slots,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),W  [one sideband only],rectify then lowpass filter to extract envelope,1,0.7
+Which best describes envelope detection of standard AM?,rectify then lowpass filter to extract envelope,wc > W  [carrier frequency exceeds message bandwidth],transmits only one sideband; bandwidth = W,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,1,0.7
+Which best describes frequency modulation (FM)?,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),sample amplitudes modulate periodic pulse train,signals modulated to different carriers; separated by BPFs,W  [one sideband only],1,0.7
+Which best describes FM modulation index beta for sinusoidal message?,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),multiple signals assigned different time slots,beta = kf*Am/wm,rectify then lowpass filter to extract envelope,3,0.7
+Which best describes instantaneous frequency in FM?,w_i(t) = wc + kf*x(t),y(t)=A*cos(wc*t + kf*integral x(tau)dtau),down-converts RF to fixed intermediate frequency (IF),2*W  [two sidebands around carrier],1,0.7
+Which best describes superheterodyne receiver?,W  [one sideband only],down-converts RF to fixed intermediate frequency (IF),wc > W  [carrier frequency exceeds message bandwidth],beta = kf*Am/wm,2,0.7
+"In signals and systems, AM of x(t) by carrier cos(wc*t) refers to?",signals modulated to different carriers; separated by BPFs,sample amplitudes modulate periodic pulse train,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,y(t)=A*cos(wc*t + kf*integral x(tau)dtau),3,0.7
+"In signals and systems, synchronous demodulation of AM refers to?",multiply by cos(wc*t) then lowpass filter,sample amplitudes modulate periodic pulse train,rectify then lowpass filter to extract envelope,wc > W  [carrier frequency exceeds message bandwidth],1,0.7
+"In signals and systems, no spectral overlap condition in AM refers to?",down-converts RF to fixed intermediate frequency (IF),transmits only one sideband; bandwidth = W,multiple signals assigned different time slots,wc > W  [carrier frequency exceeds message bandwidth],4,0.7
+"In signals and systems, frequency-division multiplexing (FDM) refers to?",y(t)=A*cos(wc*t + kf*integral x(tau)dtau),2*W  [two sidebands around carrier],signals modulated to different carriers; separated by BPFs,y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,3,0.7
+"In signals and systems, single-sideband (SSB) AM refers to?",w_i(t) = wc + kf*x(t),multiply by cos(wc*t) then lowpass filter,transmits only one sideband; bandwidth = W,2*W  [two sidebands around carrier],3,0.7
+"In signals and systems, DSB-SC AM refers to?",y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,multiple signals assigned different time slots,multiply by cos(wc*t) then lowpass filter,signals modulated to different carriers; separated by BPFs,1,0.7
+"In signals and systems, DSB-SC AM signal bandwidth refers to?",w_i(t) = wc + kf*x(t),y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,2*W  [two sidebands around carrier],y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,3,0.7
+"In signals and systems, SSB AM signal bandwidth refers to?",beta = kf*Am/wm,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,W  [one sideband only],sample amplitudes modulate periodic pulse train,3,0.7
+"In signals and systems, pulse-amplitude modulation (PAM) refers to?",w_i(t) = wc + kf*x(t),down-converts RF to fixed intermediate frequency (IF),rectify then lowpass filter to extract envelope,sample amplitudes modulate periodic pulse train,4,0.7
+"In signals and systems, time-division multiplexing (TDM) refers to?",multiply by cos(wc*t) then lowpass filter,sample amplitudes modulate periodic pulse train,wc > W  [carrier frequency exceeds message bandwidth],multiple signals assigned different time slots,4,0.7
+"In signals and systems, envelope detection of standard AM refers to?",rectify then lowpass filter to extract envelope,wc > W  [carrier frequency exceeds message bandwidth],beta = kf*Am/wm,transmits only one sideband; bandwidth = W,1,0.7
+"In signals and systems, frequency modulation (FM) refers to?",wc > W  [carrier frequency exceeds message bandwidth],y(t)=A*cos(wc*t + kf*integral x(tau)dtau),beta = kf*Am/wm,multiply by cos(wc*t) then lowpass filter,2,0.7
+"In signals and systems, FM modulation index beta for sinusoidal message refers to?",multiply by cos(wc*t) then lowpass filter,signals modulated to different carriers; separated by BPFs,beta = kf*Am/wm,W  [one sideband only],3,0.7
+"In signals and systems, instantaneous frequency in FM refers to?",W  [one sideband only],w_i(t) = wc + kf*x(t),down-converts RF to fixed intermediate frequency (IF),beta = kf*Am/wm,2,0.7
+"In signals and systems, superheterodyne receiver refers to?",transmits only one sideband; bandwidth = W,down-converts RF to fixed intermediate frequency (IF),multiply by cos(wc*t) then lowpass filter,y(t)=x(t)*cos(wc*t); no carrier; requires coherent demodulation,2,0.7
+How is AM of x(t) by carrier cos(wc*t) defined?,signals modulated to different carriers; separated by BPFs,w_i(t) = wc + kf*x(t),y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,multiple signals assigned different time slots,3,0.7
+How is synchronous demodulation of AM defined?,multiply by cos(wc*t) then lowpass filter,W  [one sideband only],w_i(t) = wc + kf*x(t),down-converts RF to fixed intermediate frequency (IF),1,0.7
+How is no spectral overlap condition in AM defined?,y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,signals modulated to different carriers; separated by BPFs,sample amplitudes modulate periodic pulse train,wc > W  [carrier frequency exceeds message bandwidth],4,0.7
+How is frequency-division multiplexing (FDM) defined?,2*W  [two sidebands around carrier],multiply by cos(wc*t) then lowpass filter,signals modulated to different carriers; separated by BPFs,w_i(t) = wc + kf*x(t),3,0.7
+How is single-sideband (SSB) AM defined?,down-converts RF to fixed intermediate frequency (IF),transmits only one sideband; bandwidth = W,W  [one sideband only],y(t)=x(t)*cos(wc*t); spectrum shifted to wc and -wc,2,0.7
+What is Nyquist-Shannon sampling theorem?,band-limited signal with max freq fmax reconstructable if fs>2*fmax,C/D -> DT system -> D/C,insert L-1 zeros between samples then LPF,apply ideal LPF with cutoff ws/2,1,0.75
+What is the Nyquist rate?,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),minimum sampling rate 2*fmax to avoid aliasing,band-limited signal with max freq fmax reconstructable if fs>2*fmax,insert L-1 zeros between samples then LPF,2,0.75
+What is aliasing?,spectral overlap from undersampling; accurate reconstruction impossible,sampling well above Nyquist rate; simplifies anti-alias filter,LPF before A/D to remove components above fs/2,creates copies of X(j*w) at multiples of ws=2*pi/Ts,1,0.75
+What is the Nyquist frequency?,insert L-1 zeros between samples then LPF,creates copies of X(j*w) at multiples of ws=2*pi/Ts,fs/2; components above this alias into baseband,sampling well above Nyquist rate; simplifies anti-alias filter,3,0.75
+What is sampling in the frequency domain?,creates copies of X(j*w) at multiples of ws=2*pi/Ts,sampling well above Nyquist rate; simplifies anti-alias filter,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),C/D -> DT system -> D/C,1,0.75
+What is ideal reconstruction from samples?,apply ideal LPF with cutoff ws/2,fs/2; components above this alias into baseband,C/D -> DT system -> D/C,minimum sampling rate 2*fmax to avoid aliasing,1,0.75
+What is sinc interpolation formula?,band-limited signal with max freq fmax reconstructable if fs>2*fmax,insert L-1 zeros between samples then LPF,spectral overlap from undersampling; accurate reconstruction impossible,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),4,0.75
+What is oversampling?,fs/2; components above this alias into baseband,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),creates copies of X(j*w) at multiples of ws=2*pi/Ts,sampling well above Nyquist rate; simplifies anti-alias filter,4,0.75
+What is anti-aliasing filter?,apply ideal LPF with cutoff ws/2,C/D -> DT system -> D/C,LPF before A/D to remove components above fs/2,creates copies of X(j*w) at multiples of ws=2*pi/Ts,3,0.75
+What is DT processing of CT signals?,insert L-1 zeros between samples then LPF,C/D -> DT system -> D/C,sampling well above Nyquist rate; simplifies anti-alias filter,minimum sampling rate 2*fmax to avoid aliasing,2,0.75
+What is decimation by factor M?,keep every M-th sample; potential aliasing without pre-filter,apply ideal LPF with cutoff ws/2,fs/2; components above this alias into baseband,sampling well above Nyquist rate; simplifies anti-alias filter,1,0.75
+What is interpolation by factor L?,creates copies of X(j*w) at multiples of ws=2*pi/Ts,insert L-1 zeros between samples then LPF,C/D -> DT system -> D/C,spectral overlap from undersampling; accurate reconstruction impossible,2,0.75
+Which best describes Nyquist-Shannon sampling theorem?,band-limited signal with max freq fmax reconstructable if fs>2*fmax,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),C/D -> DT system -> D/C,spectral overlap from undersampling; accurate reconstruction impossible,1,0.75
+Which best describes the Nyquist rate?,spectral overlap from undersampling; accurate reconstruction impossible,fs/2; components above this alias into baseband,minimum sampling rate 2*fmax to avoid aliasing,sampling well above Nyquist rate; simplifies anti-alias filter,3,0.75
+Which best describes aliasing?,sampling well above Nyquist rate; simplifies anti-alias filter,band-limited signal with max freq fmax reconstructable if fs>2*fmax,spectral overlap from undersampling; accurate reconstruction impossible,fs/2; components above this alias into baseband,3,0.75
+Which best describes the Nyquist frequency?,fs/2; components above this alias into baseband,minimum sampling rate 2*fmax to avoid aliasing,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),C/D -> DT system -> D/C,1,0.75
+Which best describes sampling in the frequency domain?,creates copies of X(j*w) at multiples of ws=2*pi/Ts,keep every M-th sample; potential aliasing without pre-filter,apply ideal LPF with cutoff ws/2,LPF before A/D to remove components above fs/2,1,0.75
+Which best describes ideal reconstruction from samples?,apply ideal LPF with cutoff ws/2,spectral overlap from undersampling; accurate reconstruction impossible,keep every M-th sample; potential aliasing without pre-filter,sampling well above Nyquist rate; simplifies anti-alias filter,1,0.75
+Which best describes sinc interpolation formula?,spectral overlap from undersampling; accurate reconstruction impossible,keep every M-th sample; potential aliasing without pre-filter,C/D -> DT system -> D/C,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),4,0.75
+Which best describes oversampling?,sampling well above Nyquist rate; simplifies anti-alias filter,band-limited signal with max freq fmax reconstructable if fs>2*fmax,insert L-1 zeros between samples then LPF,LPF before A/D to remove components above fs/2,1,0.75
+Which best describes anti-aliasing filter?,keep every M-th sample; potential aliasing without pre-filter,minimum sampling rate 2*fmax to avoid aliasing,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),LPF before A/D to remove components above fs/2,4,0.75
+Which best describes DT processing of CT signals?,creates copies of X(j*w) at multiples of ws=2*pi/Ts,band-limited signal with max freq fmax reconstructable if fs>2*fmax,C/D -> DT system -> D/C,keep every M-th sample; potential aliasing without pre-filter,3,0.75
+Which best describes decimation by factor M?,insert L-1 zeros between samples then LPF,keep every M-th sample; potential aliasing without pre-filter,creates copies of X(j*w) at multiples of ws=2*pi/Ts,apply ideal LPF with cutoff ws/2,2,0.75
+Which best describes interpolation by factor L?,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),keep every M-th sample; potential aliasing without pre-filter,spectral overlap from undersampling; accurate reconstruction impossible,insert L-1 zeros between samples then LPF,4,0.75
+"In signals and systems, Nyquist-Shannon sampling theorem refers to?",fs/2; components above this alias into baseband,creates copies of X(j*w) at multiples of ws=2*pi/Ts,LPF before A/D to remove components above fs/2,band-limited signal with max freq fmax reconstructable if fs>2*fmax,4,0.75
+"In signals and systems, the Nyquist rate refers to?",minimum sampling rate 2*fmax to avoid aliasing,spectral overlap from undersampling; accurate reconstruction impossible,band-limited signal with max freq fmax reconstructable if fs>2*fmax,sampling well above Nyquist rate; simplifies anti-alias filter,1,0.75
+"In signals and systems, aliasing refers to?",LPF before A/D to remove components above fs/2,spectral overlap from undersampling; accurate reconstruction impossible,keep every M-th sample; potential aliasing without pre-filter,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),2,0.75
+"In signals and systems, the Nyquist frequency refers to?",fs/2; components above this alias into baseband,spectral overlap from undersampling; accurate reconstruction impossible,C/D -> DT system -> D/C,LPF before A/D to remove components above fs/2,1,0.75
+"In signals and systems, sampling in the frequency domain refers to?",x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),creates copies of X(j*w) at multiples of ws=2*pi/Ts,spectral overlap from undersampling; accurate reconstruction impossible,minimum sampling rate 2*fmax to avoid aliasing,2,0.75
+"In signals and systems, ideal reconstruction from samples refers to?",C/D -> DT system -> D/C,sampling well above Nyquist rate; simplifies anti-alias filter,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),apply ideal LPF with cutoff ws/2,4,0.75
+"In signals and systems, sinc interpolation formula refers to?",spectral overlap from undersampling; accurate reconstruction impossible,creates copies of X(j*w) at multiples of ws=2*pi/Ts,minimum sampling rate 2*fmax to avoid aliasing,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),4,0.75
+"In signals and systems, oversampling refers to?",C/D -> DT system -> D/C,minimum sampling rate 2*fmax to avoid aliasing,insert L-1 zeros between samples then LPF,sampling well above Nyquist rate; simplifies anti-alias filter,4,0.75
+"In signals and systems, anti-aliasing filter refers to?",keep every M-th sample; potential aliasing without pre-filter,LPF before A/D to remove components above fs/2,C/D -> DT system -> D/C,fs/2; components above this alias into baseband,2,0.75
+"In signals and systems, DT processing of CT signals refers to?",LPF before A/D to remove components above fs/2,spectral overlap from undersampling; accurate reconstruction impossible,minimum sampling rate 2*fmax to avoid aliasing,C/D -> DT system -> D/C,4,0.75
+"In signals and systems, decimation by factor M refers to?",sampling well above Nyquist rate; simplifies anti-alias filter,fs/2; components above this alias into baseband,C/D -> DT system -> D/C,keep every M-th sample; potential aliasing without pre-filter,4,0.75
+"In signals and systems, interpolation by factor L refers to?",C/D -> DT system -> D/C,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),insert L-1 zeros between samples then LPF,band-limited signal with max freq fmax reconstructable if fs>2*fmax,3,0.75
+How is Nyquist-Shannon sampling theorem defined?,insert L-1 zeros between samples then LPF,sampling well above Nyquist rate; simplifies anti-alias filter,fs/2; components above this alias into baseband,band-limited signal with max freq fmax reconstructable if fs>2*fmax,4,0.75
+How is the Nyquist rate defined?,sampling well above Nyquist rate; simplifies anti-alias filter,apply ideal LPF with cutoff ws/2,spectral overlap from undersampling; accurate reconstruction impossible,minimum sampling rate 2*fmax to avoid aliasing,4,0.75
+How is aliasing defined?,apply ideal LPF with cutoff ws/2,keep every M-th sample; potential aliasing without pre-filter,spectral overlap from undersampling; accurate reconstruction impossible,fs/2; components above this alias into baseband,3,0.75
+How is the Nyquist frequency defined?,spectral overlap from undersampling; accurate reconstruction impossible,apply ideal LPF with cutoff ws/2,sampling well above Nyquist rate; simplifies anti-alias filter,fs/2; components above this alias into baseband,4,0.75
+How is sampling in the frequency domain defined?,keep every M-th sample; potential aliasing without pre-filter,creates copies of X(j*w) at multiples of ws=2*pi/Ts,spectral overlap from undersampling; accurate reconstruction impossible,band-limited signal with max freq fmax reconstructable if fs>2*fmax,2,0.75
+How is ideal reconstruction from samples defined?,apply ideal LPF with cutoff ws/2,sampling well above Nyquist rate; simplifies anti-alias filter,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),spectral overlap from undersampling; accurate reconstruction impossible,1,0.75
+How is sinc interpolation formula defined?,fs/2; components above this alias into baseband,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),band-limited signal with max freq fmax reconstructable if fs>2*fmax,minimum sampling rate 2*fmax to avoid aliasing,2,0.75
+How is oversampling defined?,C/D -> DT system -> D/C,LPF before A/D to remove components above fs/2,sampling well above Nyquist rate; simplifies anti-alias filter,keep every M-th sample; potential aliasing without pre-filter,3,0.75
+How is anti-aliasing filter defined?,apply ideal LPF with cutoff ws/2,band-limited signal with max freq fmax reconstructable if fs>2*fmax,LPF before A/D to remove components above fs/2,sampling well above Nyquist rate; simplifies anti-alias filter,3,0.75
+How is DT processing of CT signals defined?,x(t)=sum x(n*Ts)*sinc(pi*(t-n*Ts)/Ts),fs/2; components above this alias into baseband,band-limited signal with max freq fmax reconstructable if fs>2*fmax,C/D -> DT system -> D/C,4,0.75
+How is decimation by factor M defined?,keep every M-th sample; potential aliasing without pre-filter,fs/2; components above this alias into baseband,spectral overlap from undersampling; accurate reconstruction impossible,LPF before A/D to remove components above fs/2,1,0.75
+How is interpolation by factor L defined?,minimum sampling rate 2*fmax to avoid aliasing,LPF before A/D to remove components above fs/2,insert L-1 zeros between samples then LPF,sampling well above Nyquist rate; simplifies anti-alias filter,3,0.75
+Which statement correctly defines Nyquist-Shannon sampling theorem?,band-limited signal with max freq fmax reconstructable if fs>2*fmax,C/D -> DT system -> D/C,fs/2; components above this alias into baseband,creates copies of X(j*w) at multiples of ws=2*pi/Ts,1,0.75
+Which statement correctly defines the Nyquist rate?,band-limited signal with max freq fmax reconstructable if fs>2*fmax,minimum sampling rate 2*fmax to avoid aliasing,LPF before A/D to remove components above fs/2,insert L-1 zeros between samples then LPF,2,0.75
+What is bilateral Laplace transform?,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,set of s where integral converges,s/(s^2+w0^2)  [Re{s}>0],L{x*h} = X(s)*H(s),1,0.8
+What is ROC of Laplace transform?,L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,set of s where integral converges,n!/(s+a)^(n+1)  [Re{s}>-a],x(0+) = lim_{s->inf} s*X(s),2,0.8
+What is L{delta(t)}?,e^(-s*t0)  [all s],w0/(s^2+w0^2)  [Re{s}>0],1  [all s],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,3,0.8
+What is L{u(t)}?,w0/(s^2+w0^2)  [Re{s}>0],e^(-s*t0)  [all s],lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1/s  [Re{s}>0],4,0.8
+What is L{e^(-a*t)*u(t)} a>0?,1/(s+a)  [Re{s}>-a],set of s where integral converges,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],n!/(s+a)^(n+1)  [Re{s}>-a],1,0.8
+What is L{e^(a*t)*u(-t)} a>0?,1/(s-a)  [Re{s}<a],L{x*h} = X(s)*H(s),1/s  [Re{s}>0],n!/(s+a)^(n+1)  [Re{s}>-a],1,0.8
+What is L{t*u(t)}?,1/(s+a)  [Re{s}>-a],1/s^2  [Re{s}>0],x(0+) = lim_{s->inf} s*X(s),L{dx/dt} = s*X(s)-x(0-),2,0.8
+What is L{t^n*e^(-a*t)*u(t)}?,n!/(s+a)^(n+1)  [Re{s}>-a],1/(s-a)  [Re{s}<a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,x(0+) = lim_{s->inf} s*X(s),1,0.8
+What is L{cos(w0*t)*u(t)}?,1  [all s],X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],s/(s^2+w0^2)  [Re{s}>0],4,0.8
+What is L{sin(w0*t)*u(t)}?,w0/(s^2+w0^2)  [Re{s}>0],L{x*h} = X(s)*H(s),x(0+) = lim_{s->inf} s*X(s),X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,1,0.8
+What is L{delta(t-t0)}?,L{dx/dt} = s*X(s)-x(0-),s/(s^2+w0^2)  [Re{s}>0],1/s^2  [Re{s}>0],e^(-s*t0)  [all s],4,0.8
+What is initial value theorem  [Laplace]?,s/(s^2+w0^2)  [Re{s}>0],x(0+) = lim_{s->inf} s*X(s),X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,e^(-s*t0)  [all s],2,0.8
+What is final value theorem  [Laplace]?,1/s^2  [Re{s}>0],lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1/(s-a)  [Re{s}<a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,2,0.8
+What is time differentiation property of Laplace?,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,L{x*h} = X(s)*H(s),L{dx/dt} = s*X(s)-x(0-),4,0.8
+What is time integration property of Laplace?,1/(s-a)  [Re{s}<a],1/s  [Re{s}>0],n!/(s+a)^(n+1)  [Re{s}>-a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,4,0.8
+What is convolution property of Laplace?,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],e^(-s*t0)  [all s],L{x*h} = X(s)*H(s),1/(s+a)  [Re{s}>-a],3,0.8
+Which best describes bilateral Laplace transform?,L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,x(0+) = lim_{s->inf} s*X(s),e^(-s*t0)  [all s],2,0.8
+Which best describes ROC of Laplace transform?,1/s^2  [Re{s}>0],s/(s^2+w0^2)  [Re{s}>0],1/(s+a)  [Re{s}>-a],set of s where integral converges,4,0.8
+Which best describes L{delta(t)}?,L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1  [all s],L{x*h} = X(s)*H(s),3,0.8
+Which best describes L{u(t)}?,n!/(s+a)^(n+1)  [Re{s}>-a],x(0+) = lim_{s->inf} s*X(s),L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1/s  [Re{s}>0],4,0.8
+Which best describes L{e^(-a*t)*u(t)} a>0?,1/s  [Re{s}>0],w0/(s^2+w0^2)  [Re{s}>0],1/(s+a)  [Re{s}>-a],1  [all s],3,0.8
+Which best describes L{e^(a*t)*u(-t)} a>0?,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1/(s-a)  [Re{s}<a],1  [all s],set of s where integral converges,2,0.8
+Which best describes L{t*u(t)}?,L{x*h} = X(s)*H(s),lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1/s^2  [Re{s}>0],w0/(s^2+w0^2)  [Re{s}>0],3,0.8
+Which best describes L{t^n*e^(-a*t)*u(t)}?,n!/(s+a)^(n+1)  [Re{s}>-a],lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],w0/(s^2+w0^2)  [Re{s}>0],x(0+) = lim_{s->inf} s*X(s),1,0.8
+Which best describes L{cos(w0*t)*u(t)}?,x(0+) = lim_{s->inf} s*X(s),1/s^2  [Re{s}>0],X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,s/(s^2+w0^2)  [Re{s}>0],4,0.8
+Which best describes L{sin(w0*t)*u(t)}?,1/(s+a)  [Re{s}>-a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1/s^2  [Re{s}>0],w0/(s^2+w0^2)  [Re{s}>0],4,0.8
+Which best describes L{delta(t-t0)}?,n!/(s+a)^(n+1)  [Re{s}>-a],s/(s^2+w0^2)  [Re{s}>0],1/(s-a)  [Re{s}<a],e^(-s*t0)  [all s],4,0.8
+Which best describes initial value theorem  [Laplace]?,1/(s+a)  [Re{s}>-a],x(0+) = lim_{s->inf} s*X(s),X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,1/s^2  [Re{s}>0],2,0.8
+Which best describes final value theorem  [Laplace]?,1/s^2  [Re{s}>0],1/(s-a)  [Re{s}<a],1/s  [Re{s}>0],lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],4,0.8
+Which best describes time differentiation property of Laplace?,x(0+) = lim_{s->inf} s*X(s),1/s  [Re{s}>0],L{dx/dt} = s*X(s)-x(0-),L{x*h} = X(s)*H(s),3,0.8
+Which best describes time integration property of Laplace?,1/s  [Re{s}>0],1/(s-a)  [Re{s}<a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1  [all s],3,0.8
+Which best describes convolution property of Laplace?,1/s^2  [Re{s}>0],X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,n!/(s+a)^(n+1)  [Re{s}>-a],L{x*h} = X(s)*H(s),4,0.8
+"In signals and systems, bilateral Laplace transform refers to?",1/(s-a)  [Re{s}<a],1/(s+a)  [Re{s}>-a],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,4,0.8
+"In signals and systems, ROC of Laplace transform refers to?",1/s^2  [Re{s}>0],set of s where integral converges,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,2,0.8
+"In signals and systems, L{delta(t)} refers to?",L{dx/dt} = s*X(s)-x(0-),set of s where integral converges,1  [all s],e^(-s*t0)  [all s],3,0.8
+"In signals and systems, L{u(t)} refers to?",set of s where integral converges,e^(-s*t0)  [all s],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1/s  [Re{s}>0],4,0.8
+"In signals and systems, L{e^(-a*t)*u(t)} a>0 refers to?",1/s^2  [Re{s}>0],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1/(s+a)  [Re{s}>-a],4,0.8
+"In signals and systems, L{e^(a*t)*u(-t)} a>0 refers to?",s/(s^2+w0^2)  [Re{s}>0],L{dx/dt} = s*X(s)-x(0-),L{x*h} = X(s)*H(s),1/(s-a)  [Re{s}<a],4,0.8
+"In signals and systems, L{t*u(t)} refers to?",set of s where integral converges,x(0+) = lim_{s->inf} s*X(s),L{x*h} = X(s)*H(s),1/s^2  [Re{s}>0],4,0.8
+"In signals and systems, L{t^n*e^(-a*t)*u(t)} refers to?",L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1/(s+a)  [Re{s}>-a],n!/(s+a)^(n+1)  [Re{s}>-a],1/s^2  [Re{s}>0],3,0.8
+"In signals and systems, L{cos(w0*t)*u(t)} refers to?",e^(-s*t0)  [all s],L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,1/s  [Re{s}>0],s/(s^2+w0^2)  [Re{s}>0],4,0.8
+"In signals and systems, L{sin(w0*t)*u(t)} refers to?",L{dx/dt} = s*X(s)-x(0-),1/s^2  [Re{s}>0],n!/(s+a)^(n+1)  [Re{s}>-a],w0/(s^2+w0^2)  [Re{s}>0],4,0.8
+"In signals and systems, L{delta(t-t0)} refers to?",1/(s-a)  [Re{s}<a],s/(s^2+w0^2)  [Re{s}>0],e^(-s*t0)  [all s],n!/(s+a)^(n+1)  [Re{s}>-a],3,0.8
+"In signals and systems, initial value theorem  [Laplace] refers to?",X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],w0/(s^2+w0^2)  [Re{s}>0],x(0+) = lim_{s->inf} s*X(s),4,0.8
+"In signals and systems, final value theorem  [Laplace] refers to?",lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1  [all s],L{x*h} = X(s)*H(s),w0/(s^2+w0^2)  [Re{s}>0],1,0.8
+"In signals and systems, time differentiation property of Laplace refers to?",n!/(s+a)^(n+1)  [Re{s}>-a],x(0+) = lim_{s->inf} s*X(s),L{dx/dt} = s*X(s)-x(0-),w0/(s^2+w0^2)  [Re{s}>0],3,0.8
+"In signals and systems, time integration property of Laplace refers to?",lim_{t->inf} x(t) = lim_{s->0} s*X(s)  [if limit exists],1  [all s],X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,L{integral_{-inf}^{t} x(tau)dtau} = X(s)/s,4,0.8
+"In signals and systems, convolution property of Laplace refers to?",s/(s^2+w0^2)  [Re{s}>0],L{x*h} = X(s)*H(s),w0/(s^2+w0^2)  [Re{s}>0],1/s^2  [Re{s}>0],2,0.8
+How is bilateral Laplace transform defined?,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,1/(s-a)  [Re{s}<a],1/s  [Re{s}>0],s/(s^2+w0^2)  [Re{s}>0],1,0.8
+How is ROC of Laplace transform defined?,e^(-s*t0)  [all s],w0/(s^2+w0^2)  [Re{s}>0],set of s where integral converges,X(s)=integral x(t)*e^(-s*t)dt  s=sigma+j*w,3,0.8
+What is system function H(s) of LTI system?,sum of modes e^(p_k*t) for each pole p_k,H(s)=L{h(t)}=Y(s)/X(s),X(s-s0)  [ROC shifted by Re{s0}],values of s where H(s)->inf; set natural response modes,2,0.85
+What is poles of H(s)?,zero ICs: Y(s)=H(s)*X(s)  [causal system],sum of modes e^(p_k*t) for each pole p_k,has poles on j*w axis with no repeated poles there,values of s where H(s)->inf; set natural response modes,4,0.85
+What is zeros of H(s)?,values of s where H(s)=0; from numerator polynomial,zero ICs: Y(s)=H(s)*X(s)  [causal system],(1/|a|)*X(s/a) with scaled ROC,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,1,0.85
+What is BIBO stability in s-domain (causal system)?,all poles must lie in left half plane Re{pole}<0,sum of modes e^(p_k*t) for each pole p_k,denominator polynomial set to zero; roots are poles,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,1,0.85
+What is marginally stable LTI system?,split into A_k/(s-p_k); use known pairs,values of s where H(s)=0; from numerator polynomial,evaluate H(s) at s=j*w [if j*w axis in ROC],has poles on j*w axis with no repeated poles there,4,0.85
+What is ROC for causal LTI?,H(s)=L{h(t)}=Y(s)/X(s),right half-plane: Re{s} > Re{rightmost pole},all poles must lie in left half plane Re{pole}<0,(1/|a|)*X(s/a) with scaled ROC,2,0.85
+What is inverse Laplace via partial fractions?,split into A_k/(s-p_k); use known pairs,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,all poles must lie in left half plane Re{pole}<0,(1/|a|)*X(s/a) with scaled ROC,1,0.85
+What is frequency response H(j*w) from H(s)?,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,evaluate H(s) at s=j*w [if j*w axis in ROC],split into A_k/(s-p_k); use known pairs,denominator polynomial set to zero; roots are poles,2,0.85
+What is time-scaling property L{x(a*t)}?,H(s)=L{h(t)}=Y(s)/X(s),sum of modes e^(p_k*t) for each pole p_k,right half-plane: Re{s} > Re{rightmost pole},(1/|a|)*X(s/a) with scaled ROC,4,0.85
+What is s-domain shifting L{e^(s0*t)*x(t)}?,X(s-s0)  [ROC shifted by Re{s0}],(1/|a|)*X(s/a) with scaled ROC,values of s where H(s)->inf; set natural response modes,H(s)=L{h(t)}=Y(s)/X(s),1,0.85
+What is unilateral Laplace transform?,all poles must lie in left half plane Re{pole}<0,X(s-s0)  [ROC shifted by Re{s0}],L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,zero ICs: Y(s)=H(s)*X(s)  [causal system],3,0.85
+What is initial rest condition?,sum of modes e^(p_k*t) for each pole p_k,has poles on j*w axis with no repeated poles there,zero ICs: Y(s)=H(s)*X(s)  [causal system],all poles must lie in left half plane Re{pole}<0,3,0.85
+What is second-order H(s)=wn^2/(s^2+2*zeta*wn*s+wn^2)?,right half-plane: Re{s} > Re{rightmost pole},values of s where H(s)=0; from numerator polynomial,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,zero ICs: Y(s)=H(s)*X(s)  [causal system],3,0.85
+What is characteristic equation of LTI system?,H(s)=L{h(t)}=Y(s)/X(s),values of s where H(s)=0; from numerator polynomial,has poles on j*w axis with no repeated poles there,denominator polynomial set to zero; roots are poles,4,0.85
+What is natural response of causal LTI?,values of s where H(s)->inf; set natural response modes,split into A_k/(s-p_k); use known pairs,sum of modes e^(p_k*t) for each pole p_k,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,3,0.85
+Which best describes system function H(s) of LTI system?,(1/|a|)*X(s/a) with scaled ROC,H(s)=L{h(t)}=Y(s)/X(s),split into A_k/(s-p_k); use known pairs,has poles on j*w axis with no repeated poles there,2,0.85
+Which best describes poles of H(s)?,X(s-s0)  [ROC shifted by Re{s0}],values of s where H(s)->inf; set natural response modes,denominator polynomial set to zero; roots are poles,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,2,0.85
+Which best describes zeros of H(s)?,all poles must lie in left half plane Re{pole}<0,denominator polynomial set to zero; roots are poles,values of s where H(s)=0; from numerator polynomial,values of s where H(s)->inf; set natural response modes,3,0.85
+Which best describes BIBO stability in s-domain (causal system)?,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,all poles must lie in left half plane Re{pole}<0,split into A_k/(s-p_k); use known pairs,denominator polynomial set to zero; roots are poles,2,0.85
+Which best describes marginally stable LTI system?,has poles on j*w axis with no repeated poles there,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,denominator polynomial set to zero; roots are poles,H(s)=L{h(t)}=Y(s)/X(s),1,0.85
+Which best describes ROC for causal LTI?,values of s where H(s)=0; from numerator polynomial,split into A_k/(s-p_k); use known pairs,right half-plane: Re{s} > Re{rightmost pole},denominator polynomial set to zero; roots are poles,3,0.85
+Which best describes inverse Laplace via partial fractions?,sum of modes e^(p_k*t) for each pole p_k,values of s where H(s)=0; from numerator polynomial,split into A_k/(s-p_k); use known pairs,X(s-s0)  [ROC shifted by Re{s0}],3,0.85
+Which best describes frequency response H(j*w) from H(s)?,(1/|a|)*X(s/a) with scaled ROC,denominator polynomial set to zero; roots are poles,zero ICs: Y(s)=H(s)*X(s)  [causal system],evaluate H(s) at s=j*w [if j*w axis in ROC],4,0.85
+Which best describes time-scaling property L{x(a*t)}?,(1/|a|)*X(s/a) with scaled ROC,X(s-s0)  [ROC shifted by Re{s0}],denominator polynomial set to zero; roots are poles,zero ICs: Y(s)=H(s)*X(s)  [causal system],1,0.85
+Which best describes s-domain shifting L{e^(s0*t)*x(t)}?,X(s-s0)  [ROC shifted by Re{s0}],values of s where H(s)=0; from numerator polynomial,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,right half-plane: Re{s} > Re{rightmost pole},1,0.85
+Which best describes unilateral Laplace transform?,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,denominator polynomial set to zero; roots are poles,evaluate H(s) at s=j*w [if j*w axis in ROC],1,0.85
+Which best describes initial rest condition?,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,denominator polynomial set to zero; roots are poles,X(s-s0)  [ROC shifted by Re{s0}],zero ICs: Y(s)=H(s)*X(s)  [causal system],4,0.85
+Which best describes second-order H(s)=wn^2/(s^2+2*zeta*wn*s+wn^2)?,evaluate H(s) at s=j*w [if j*w axis in ROC],all poles must lie in left half plane Re{pole}<0,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,sum of modes e^(p_k*t) for each pole p_k,3,0.85
+Which best describes characteristic equation of LTI system?,denominator polynomial set to zero; roots are poles,sum of modes e^(p_k*t) for each pole p_k,X(s-s0)  [ROC shifted by Re{s0}],split into A_k/(s-p_k); use known pairs,1,0.85
+Which best describes natural response of causal LTI?,values of s where H(s)=0; from numerator polynomial,values of s where H(s)->inf; set natural response modes,(1/|a|)*X(s/a) with scaled ROC,sum of modes e^(p_k*t) for each pole p_k,4,0.85
+"In signals and systems, system function H(s) of LTI system refers to?",has poles on j*w axis with no repeated poles there,split into A_k/(s-p_k); use known pairs,X(s-s0)  [ROC shifted by Re{s0}],H(s)=L{h(t)}=Y(s)/X(s),4,0.85
+"In signals and systems, poles of H(s) refers to?",values of s where H(s)->inf; set natural response modes,(1/|a|)*X(s/a) with scaled ROC,evaluate H(s) at s=j*w [if j*w axis in ROC],denominator polynomial set to zero; roots are poles,1,0.85
+"In signals and systems, zeros of H(s) refers to?",split into A_k/(s-p_k); use known pairs,values of s where H(s)=0; from numerator polynomial,denominator polynomial set to zero; roots are poles,(1/|a|)*X(s/a) with scaled ROC,2,0.85
+"In signals and systems, BIBO stability in s-domain (causal system) refers to?",values of s where H(s)=0; from numerator polynomial,all poles must lie in left half plane Re{pole}<0,has poles on j*w axis with no repeated poles there,(1/|a|)*X(s/a) with scaled ROC,2,0.85
+"In signals and systems, marginally stable LTI system refers to?",values of s where H(s)->inf; set natural response modes,right half-plane: Re{s} > Re{rightmost pole},split into A_k/(s-p_k); use known pairs,has poles on j*w axis with no repeated poles there,4,0.85
+"In signals and systems, ROC for causal LTI refers to?",values of s where H(s)->inf; set natural response modes,denominator polynomial set to zero; roots are poles,right half-plane: Re{s} > Re{rightmost pole},sum of modes e^(p_k*t) for each pole p_k,3,0.85
+"In signals and systems, inverse Laplace via partial fractions refers to?",split into A_k/(s-p_k); use known pairs,zero ICs: Y(s)=H(s)*X(s)  [causal system],right half-plane: Re{s} > Re{rightmost pole},all poles must lie in left half plane Re{pole}<0,1,0.85
+"In signals and systems, frequency response H(j*w) from H(s) refers to?",wn=natural freq; zeta=damping; underdamped if 0<zeta<1,zero ICs: Y(s)=H(s)*X(s)  [causal system],evaluate H(s) at s=j*w [if j*w axis in ROC],denominator polynomial set to zero; roots are poles,3,0.85
+"In signals and systems, time-scaling property L{x(a*t)} refers to?",wn=natural freq; zeta=damping; underdamped if 0<zeta<1,sum of modes e^(p_k*t) for each pole p_k,(1/|a|)*X(s/a) with scaled ROC,denominator polynomial set to zero; roots are poles,3,0.85
+"In signals and systems, s-domain shifting L{e^(s0*t)*x(t)} refers to?",has poles on j*w axis with no repeated poles there,X(s-s0)  [ROC shifted by Re{s0}],right half-plane: Re{s} > Re{rightmost pole},split into A_k/(s-p_k); use known pairs,2,0.85
+"In signals and systems, unilateral Laplace transform refers to?",zero ICs: Y(s)=H(s)*X(s)  [causal system],L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,(1/|a|)*X(s/a) with scaled ROC,evaluate H(s) at s=j*w [if j*w axis in ROC],2,0.85
+"In signals and systems, initial rest condition refers to?",wn=natural freq; zeta=damping; underdamped if 0<zeta<1,zero ICs: Y(s)=H(s)*X(s)  [causal system],denominator polynomial set to zero; roots are poles,all poles must lie in left half plane Re{pole}<0,2,0.85
+"In signals and systems, second-order H(s)=wn^2/(s^2+2*zeta*wn*s+wn^2) refers to?",wn=natural freq; zeta=damping; underdamped if 0<zeta<1,(1/|a|)*X(s/a) with scaled ROC,X(s-s0)  [ROC shifted by Re{s0}],sum of modes e^(p_k*t) for each pole p_k,1,0.85
+"In signals and systems, characteristic equation of LTI system refers to?",values of s where H(s)->inf; set natural response modes,right half-plane: Re{s} > Re{rightmost pole},denominator polynomial set to zero; roots are poles,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,3,0.85
+"In signals and systems, natural response of causal LTI refers to?",sum of modes e^(p_k*t) for each pole p_k,zero ICs: Y(s)=H(s)*X(s)  [causal system],split into A_k/(s-p_k); use known pairs,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,1,0.85
+How is system function H(s) of LTI system defined?,sum of modes e^(p_k*t) for each pole p_k,values of s where H(s)->inf; set natural response modes,H(s)=L{h(t)}=Y(s)/X(s),X(s-s0)  [ROC shifted by Re{s0}],3,0.85
+How is poles of H(s) defined?,values of s where H(s)->inf; set natural response modes,right half-plane: Re{s} > Re{rightmost pole},wn=natural freq; zeta=damping; underdamped if 0<zeta<1,H(s)=L{h(t)}=Y(s)/X(s),1,0.85
+How is zeros of H(s) defined?,values of s where H(s)=0; from numerator polynomial,split into A_k/(s-p_k); use known pairs,has poles on j*w axis with no repeated poles there,evaluate H(s) at s=j*w [if j*w axis in ROC],1,0.85
+How is BIBO stability in s-domain (causal system) defined?,wn=natural freq; zeta=damping; underdamped if 0<zeta<1,all poles must lie in left half plane Re{pole}<0,denominator polynomial set to zero; roots are poles,sum of modes e^(p_k*t) for each pole p_k,2,0.85
+How is marginally stable LTI system defined?,denominator polynomial set to zero; roots are poles,H(s)=L{h(t)}=Y(s)/X(s),has poles on j*w axis with no repeated poles there,L+{x}=integral_0^inf x(t)*e^(-s*t) dt; handles ICs naturally,3,0.85
+What is bilateral z-transform?,evaluate X(z) on unit circle |z|=1,X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),Z{x*h}=X(z)*H(z),entire z-plane except possibly z=0 or z=inf,2,0.9
+What is ROC of z-transform?,1  [all z],a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],set of z where sum|x[n]*z^(-n)| converges,X(z/a) with scaled ROC,3,0.9
+What is Z{delta[n]}?,1  [all z],set of z where sum|x[n]*z^(-n)| converges,z/(z-a)  [|z|<|a|]  [same X(z) different ROC],Z{x*h}=X(z)*H(z),1,0.9
+What is Z{delta[n-k]}?,1  [all z],(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],z^(-k)  [all z except 0 or inf],set of z where sum|x[n]*z^(-n)| converges,3,0.9
+What is Z{u[n]}?,z^(-k)  [all z except 0 or inf],1  [all z],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),z/(z-1)=1/(1-z^(-1))  [|z|>1],4,0.9
+What is Z{a^n*u[n]}?,(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],z/(z-1)=1/(1-z^(-1))  [|z|>1],z^(-k)  [all z except 0 or inf],z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],4,0.9
+What is Z{-a^n*u[-n-1]}?,z/(z-a)  [|z|<|a|]  [same X(z) different ROC],X(z/a) with scaled ROC,X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],1,0.9
+What is Z{n*a^n*u[n]}?,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],set of z where sum|x[n]*z^(-n)| converges,1  [all z],z/(z-a)  [|z|<|a|]  [same X(z) different ROC],1,0.9
+What is time-shift property of z-transform?,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],x[0]=lim_{z->inf} X(z),Z{x[n-n0]}=z^(-n0)*X(z),set of z where sum|x[n]*z^(-n)| converges,3,0.9
+What is scaling property Z{a^n*x[n]}?,X(z/a) with scaled ROC,|z| > r_max  [exterior of circle at outermost pole],z^(-k)  [all z except 0 or inf],z/(z-1)=1/(1-z^(-1))  [|z|>1],1,0.9
+What is convolution property of z-transform?,1  [all z],Z{x*h}=X(z)*H(z),|z| > r_max  [exterior of circle at outermost pole],X(z/a) with scaled ROC,2,0.9
+What is DTFT from z-transform?,x[0]=lim_{z->inf} X(z),evaluate X(z) on unit circle |z|=1,Z{x[n-n0]}=z^(-n0)*X(z),Z{x*h}=X(z)*H(z),2,0.9
+What is initial value theorem z-transform (causal)?,1  [all z],a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),x[0]=lim_{z->inf} X(z),4,0.9
+What is ROC of finite-duration FIR sequence?,entire z-plane except possibly z=0 or z=inf,z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],Z{x[n-n0]}=z^(-n0)*X(z),X(z/a) with scaled ROC,1,0.9
+What is ROC of causal right-sided sequence?,evaluate X(z) on unit circle |z|=1,X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),X(z/a) with scaled ROC,|z| > r_max  [exterior of circle at outermost pole],4,0.9
+What is Z{cos(w0*n)*u[n]}?,entire z-plane except possibly z=0 or z=inf,(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],evaluate X(z) on unit circle |z|=1,2,0.9
+Which best describes bilateral z-transform?,X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),z/(z-1)=1/(1-z^(-1))  [|z|>1],a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],z^(-k)  [all z except 0 or inf],1,0.9
+Which best describes ROC of z-transform?,evaluate X(z) on unit circle |z|=1,z^(-k)  [all z except 0 or inf],(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],set of z where sum|x[n]*z^(-n)| converges,4,0.9
+Which best describes Z{delta[n]}?,1  [all z],z/(z-1)=1/(1-z^(-1))  [|z|>1],z^(-k)  [all z except 0 or inf],|z| > r_max  [exterior of circle at outermost pole],1,0.9
+Which best describes Z{delta[n-k]}?,z^(-k)  [all z except 0 or inf],set of z where sum|x[n]*z^(-n)| converges,x[0]=lim_{z->inf} X(z),evaluate X(z) on unit circle |z|=1,1,0.9
+Which best describes Z{u[n]}?,entire z-plane except possibly z=0 or z=inf,set of z where sum|x[n]*z^(-n)| converges,z/(z-1)=1/(1-z^(-1))  [|z|>1],X(z/a) with scaled ROC,3,0.9
+Which best describes Z{a^n*u[n]}?,z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],|z| > r_max  [exterior of circle at outermost pole],X(z/a) with scaled ROC,entire z-plane except possibly z=0 or z=inf,1,0.9
+Which best describes Z{-a^n*u[-n-1]}?,z/(z-1)=1/(1-z^(-1))  [|z|>1],z^(-k)  [all z except 0 or inf],1  [all z],z/(z-a)  [|z|<|a|]  [same X(z) different ROC],4,0.9
+Which best describes Z{n*a^n*u[n]}?,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],evaluate X(z) on unit circle |z|=1,set of z where sum|x[n]*z^(-n)| converges,x[0]=lim_{z->inf} X(z),1,0.9
+Which best describes time-shift property of z-transform?,x[0]=lim_{z->inf} X(z),z/(z-a)  [|z|<|a|]  [same X(z) different ROC],Z{x[n-n0]}=z^(-n0)*X(z),z^(-k)  [all z except 0 or inf],3,0.9
+Which best describes scaling property Z{a^n*x[n]}?,X(z/a) with scaled ROC,set of z where sum|x[n]*z^(-n)| converges,x[0]=lim_{z->inf} X(z),z/(z-1)=1/(1-z^(-1))  [|z|>1],1,0.9
+Which best describes convolution property of z-transform?,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],set of z where sum|x[n]*z^(-n)| converges,(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],Z{x*h}=X(z)*H(z),4,0.9
+Which best describes DTFT from z-transform?,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],evaluate X(z) on unit circle |z|=1,x[0]=lim_{z->inf} X(z),1  [all z],2,0.9
+Which best describes initial value theorem z-transform (causal)?,|z| > r_max  [exterior of circle at outermost pole],1  [all z],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),x[0]=lim_{z->inf} X(z),4,0.9
+Which best describes ROC of finite-duration FIR sequence?,set of z where sum|x[n]*z^(-n)| converges,Z{x[n-n0]}=z^(-n0)*X(z),entire z-plane except possibly z=0 or z=inf,evaluate X(z) on unit circle |z|=1,3,0.9
+Which best describes ROC of causal right-sided sequence?,X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),Z{x*h}=X(z)*H(z),|z| > r_max  [exterior of circle at outermost pole],x[0]=lim_{z->inf} X(z),3,0.9
+Which best describes Z{cos(w0*n)*u[n]}?,z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],z^(-k)  [all z except 0 or inf],1  [all z],(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],4,0.9
+"In signals and systems, bilateral z-transform refers to?",set of z where sum|x[n]*z^(-n)| converges,x[0]=lim_{z->inf} X(z),Z{x[n-n0]}=z^(-n0)*X(z),X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),4,0.9
+"In signals and systems, ROC of z-transform refers to?",X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),Z{x[n-n0]}=z^(-n0)*X(z),Z{x*h}=X(z)*H(z),set of z where sum|x[n]*z^(-n)| converges,4,0.9
+"In signals and systems, Z{delta[n]} refers to?",entire z-plane except possibly z=0 or z=inf,|z| > r_max  [exterior of circle at outermost pole],1  [all z],z/(z-1)=1/(1-z^(-1))  [|z|>1],3,0.9
+"In signals and systems, Z{delta[n-k]} refers to?",X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),set of z where sum|x[n]*z^(-n)| converges,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],z^(-k)  [all z except 0 or inf],4,0.9
+"In signals and systems, Z{u[n]} refers to?",|z| > r_max  [exterior of circle at outermost pole],z^(-k)  [all z except 0 or inf],evaluate X(z) on unit circle |z|=1,z/(z-1)=1/(1-z^(-1))  [|z|>1],4,0.9
+"In signals and systems, Z{a^n*u[n]} refers to?",evaluate X(z) on unit circle |z|=1,z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],|z| > r_max  [exterior of circle at outermost pole],entire z-plane except possibly z=0 or z=inf,2,0.9
+"In signals and systems, Z{-a^n*u[-n-1]} refers to?",X(z/a) with scaled ROC,a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),z/(z-a)  [|z|<|a|]  [same X(z) different ROC],4,0.9
+"In signals and systems, Z{n*a^n*u[n]} refers to?",a*z^(-1)/(1-a*z^(-1))^2  [|z|>|a|],z^(-k)  [all z except 0 or inf],evaluate X(z) on unit circle |z|=1,X(z/a) with scaled ROC,1,0.9
+"In signals and systems, time-shift property of z-transform refers to?",set of z where sum|x[n]*z^(-n)| converges,z^(-k)  [all z except 0 or inf],Z{x[n-n0]}=z^(-n0)*X(z),z/(z-a)  [|z|<|a|]  [same X(z) different ROC],3,0.9
+"In signals and systems, scaling property Z{a^n*x[n]} refers to?",X(z/a) with scaled ROC,z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],1  [all z],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),1,0.9
+"In signals and systems, convolution property of z-transform refers to?",X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),z/(z-a)  [|z|<|a|]  [same X(z) different ROC],Z{x*h}=X(z)*H(z),z^(-k)  [all z except 0 or inf],3,0.9
+"In signals and systems, DTFT from z-transform refers to?",Z{x*h}=X(z)*H(z),z/(z-1)=1/(1-z^(-1))  [|z|>1],evaluate X(z) on unit circle |z|=1,|z| > r_max  [exterior of circle at outermost pole],3,0.9
+"In signals and systems, initial value theorem z-transform (causal) refers to?",x[0]=lim_{z->inf} X(z),(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],z/(z-a)  [|z|<|a|]  [same X(z) different ROC],z^(-k)  [all z except 0 or inf],1,0.9
+"In signals and systems, ROC of finite-duration FIR sequence refers to?",evaluate X(z) on unit circle |z|=1,entire z-plane except possibly z=0 or z=inf,Z{x[n-n0]}=z^(-n0)*X(z),set of z where sum|x[n]*z^(-n)| converges,2,0.9
+"In signals and systems, ROC of causal right-sided sequence refers to?",X(z/a) with scaled ROC,|z| > r_max  [exterior of circle at outermost pole],z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],Z{x*h}=X(z)*H(z),2,0.9
+"In signals and systems, Z{cos(w0*n)*u[n]} refers to?",(z*(z-cos(w0)))/(z^2-2*cos(w0)*z+1)  [|z|>1],z/(z-a)=1/(1-a*z^(-1))  [|z|>|a|],Z{x*h}=X(z)*H(z),1  [all z],1,0.9
+How is bilateral z-transform defined?,z/(z-a)  [|z|<|a|]  [same X(z) different ROC],X(z)=sum_{n=-inf}^{inf} x[n]*z^(-n),1  [all z],set of z where sum|x[n]*z^(-n)| converges,2,0.9
+How is ROC of z-transform defined?,X(z/a) with scaled ROC,Z{x*h}=X(z)*H(z),x[0]=lim_{z->inf} X(z),set of z where sum|x[n]*z^(-n)| converges,4,0.9
+What is system function H(z) of causal DT LTI?,|z|>max|pole|; includes unit circle,H(z)=1/(1-a*z^(-1))=z/(z-a),H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,p_k^n for each pole p_k; decay iff |p_k|<1,3,0.95
+What is BIBO stability for causal DT LTI?,p_k^n for each pole p_k; decay iff |p_k|<1,roots of numerator,H(z)=1/(1-a*z^(-1))=z/(z-a),all poles strictly inside unit circle |pole|<1,4,0.95
+What is ROC of causal stable system?,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],H(z)=sum b_k*z^(-k); denominator=1; always stable,|z|>max|pole|; includes unit circle,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,3,0.95
+What is poles of H(z)?,roots of denominator; natural modes p_k^n,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,FIR; zero at z=-1  [highpass characteristic],roots of numerator,1,0.95
+What is zeros of H(z)?,|z|>max|pole|; includes unit circle,roots of numerator,single pole satisfies |a|<1,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,2,0.95
+What is FIR in z-domain?,z=a  [stable if |a|<1],H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,H(z)=sum b_k*z^(-k); denominator=1; always stable,p_k^n for each pole p_k; decay iff |p_k|<1,3,0.95
+What is IIR DT system?,overall H(z)=H1(z)*H2(z); poles and zeros combine,H(z)=sum b_k*z^(-k); denominator=1; always stable,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,single pole satisfies |a|<1,3,0.95
+What is frequency response from H(z)?,FIR; zero at z=-1  [highpass characteristic],H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,z=a  [stable if |a|<1],2,0.95
+What is inverse z-transform partial fractions (causal)?,z=a  [stable if |a|<1],H(z)=1/(1-a*z^(-1))=z/(z-a),A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,3,0.95
+What is H(z)=1/(1-a*z^(-1)) causal system: pole at?,FIR; zero at z=-1  [highpass characteristic],H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,z=a  [stable if |a|<1],all poles strictly inside unit circle |pole|<1,3,0.95
+What is DT system y[n]-a*y[n-1]=x[n]: H(z)?,|z|>max|pole|; includes unit circle,FIR; zero at z=-1  [highpass characteristic],H(z)=1/(1-a*z^(-1))=z/(z-a),H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,3,0.95
+What is H(z)=1+z^(-1): system type?,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],z=a  [stable if |a|<1],FIR; zero at z=-1  [highpass characteristic],|z|>max|pole|; includes unit circle,3,0.95
+What is first-order DT system stable iff?,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,single pole satisfies |a|<1,FIR; zero at z=-1  [highpass characteristic],3,0.95
+What is natural modes of DT LTI system?,p_k^n for each pole p_k; decay iff |p_k|<1,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,|z|>max|pole|; includes unit circle,roots of denominator; natural modes p_k^n,1,0.95
+What is cascade H1(z) and H2(z)?,overall H(z)=H1(z)*H2(z); poles and zeros combine,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,H(z)=1/(1-a*z^(-1))=z/(z-a),z=a  [stable if |a|<1],1,0.95
+Which best describes system function H(z) of causal DT LTI?,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,|z|>max|pole|; includes unit circle,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,3,0.95
+Which best describes BIBO stability for causal DT LTI?,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],all poles strictly inside unit circle |pole|<1,z=a  [stable if |a|<1],3,0.95
+Which best describes ROC of causal stable system?,p_k^n for each pole p_k; decay iff |p_k|<1,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,|z|>max|pole|; includes unit circle,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,3,0.95
+Which best describes poles of H(z)?,roots of denominator; natural modes p_k^n,z=a  [stable if |a|<1],|z|>max|pole|; includes unit circle,H(z)=1/(1-a*z^(-1))=z/(z-a),1,0.95
+Which best describes zeros of H(z)?,roots of numerator,overall H(z)=H1(z)*H2(z); poles and zeros combine,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],H(z)=sum b_k*z^(-k); denominator=1; always stable,1,0.95
+Which best describes FIR in z-domain?,all poles strictly inside unit circle |pole|<1,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,H(z)=sum b_k*z^(-k); denominator=1; always stable,|z|>max|pole|; includes unit circle,3,0.95
+Which best describes IIR DT system?,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,p_k^n for each pole p_k; decay iff |p_k|<1,roots of denominator; natural modes p_k^n,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,1,0.95
+Which best describes frequency response from H(z)?,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,single pole satisfies |a|<1,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,overall H(z)=H1(z)*H2(z); poles and zeros combine,1,0.95
+Which best describes inverse z-transform partial fractions (causal)?,FIR; zero at z=-1  [highpass characteristic],H(z)=1/(1-a*z^(-1))=z/(z-a),roots of numerator,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],4,0.95
+Which best describes H(z)=1/(1-a*z^(-1)) causal system: pole at?,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,H(z)=1/(1-a*z^(-1))=z/(z-a),z=a  [stable if |a|<1],all poles strictly inside unit circle |pole|<1,3,0.95
+Which best describes DT system y[n]-a*y[n-1]=x[n]: H(z)?,H(z)=1/(1-a*z^(-1))=z/(z-a),roots of numerator,single pole satisfies |a|<1,p_k^n for each pole p_k; decay iff |p_k|<1,1,0.95
+Which best describes H(z)=1+z^(-1): system type?,H(z)=sum b_k*z^(-k); denominator=1; always stable,H(z)=1/(1-a*z^(-1))=z/(z-a),single pole satisfies |a|<1,FIR; zero at z=-1  [highpass characteristic],4,0.95
+Which best describes first-order DT system stable iff?,FIR; zero at z=-1  [highpass characteristic],single pole satisfies |a|<1,roots of denominator; natural modes p_k^n,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,2,0.95
+Which best describes natural modes of DT LTI system?,overall H(z)=H1(z)*H2(z); poles and zeros combine,H(z)=1/(1-a*z^(-1))=z/(z-a),H(z)=sum b_k*z^(-k); denominator=1; always stable,p_k^n for each pole p_k; decay iff |p_k|<1,4,0.95
+Which best describes cascade H1(z) and H2(z)?,z=a  [stable if |a|<1],overall H(z)=H1(z)*H2(z); poles and zeros combine,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,roots of numerator,2,0.95
+"In signals and systems, system function H(z) of causal DT LTI refers to?",FIR; zero at z=-1  [highpass characteristic],overall H(z)=H1(z)*H2(z); poles and zeros combine,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,H(z)=1/(1-a*z^(-1))=z/(z-a),3,0.95
+"In signals and systems, BIBO stability for causal DT LTI refers to?",|z|>max|pole|; includes unit circle,all poles strictly inside unit circle |pole|<1,p_k^n for each pole p_k; decay iff |p_k|<1,FIR; zero at z=-1  [highpass characteristic],2,0.95
+"In signals and systems, ROC of causal stable system refers to?",|z|>max|pole|; includes unit circle,roots of numerator,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,z=a  [stable if |a|<1],1,0.95
+"In signals and systems, poles of H(z) refers to?",roots of denominator; natural modes p_k^n,single pole satisfies |a|<1,H(z)=sum b_k*z^(-k); denominator=1; always stable,z=a  [stable if |a|<1],1,0.95
+"In signals and systems, zeros of H(z) refers to?",H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,single pole satisfies |a|<1,overall H(z)=H1(z)*H2(z); poles and zeros combine,roots of numerator,4,0.95
+"In signals and systems, FIR in z-domain refers to?",H(z)=sum b_k*z^(-k); denominator=1; always stable,roots of numerator,|z|>max|pole|; includes unit circle,overall H(z)=H1(z)*H2(z); poles and zeros combine,1,0.95
+"In signals and systems, IIR DT system refers to?",roots of numerator,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,single pole satisfies |a|<1,2,0.95
+"In signals and systems, frequency response from H(z) refers to?",H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,all poles strictly inside unit circle |pole|<1,overall H(z)=H1(z)*H2(z); poles and zeros combine,single pole satisfies |a|<1,1,0.95
+"In signals and systems, inverse z-transform partial fractions (causal) refers to?",FIR; zero at z=-1  [highpass characteristic],roots of numerator,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],single pole satisfies |a|<1,3,0.95
+"In signals and systems, H(z)=1/(1-a*z^(-1)) causal system: pole at refers to?",|z|>max|pole|; includes unit circle,single pole satisfies |a|<1,z=a  [stable if |a|<1],H(z)=sum b_k*z^(-k); denominator=1; always stable,3,0.95
+"In signals and systems, DT system y[n]-a*y[n-1]=x[n]: H(z) refers to?",|z|>max|pole|; includes unit circle,H(z)=1/(1-a*z^(-1))=z/(z-a),A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],all poles strictly inside unit circle |pole|<1,2,0.95
+"In signals and systems, H(z)=1+z^(-1): system type refers to?",roots of denominator; natural modes p_k^n,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,FIR; zero at z=-1  [highpass characteristic],|z|>max|pole|; includes unit circle,3,0.95
+"In signals and systems, first-order DT system stable iff refers to?",overall H(z)=H1(z)*H2(z); poles and zeros combine,H(e^(j*w))=H(z)|_{z=e^(j*w)}; valid if unit circle in ROC,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,single pole satisfies |a|<1,4,0.95
+"In signals and systems, natural modes of DT LTI system refers to?",roots of numerator,all poles strictly inside unit circle |pole|<1,p_k^n for each pole p_k; decay iff |p_k|<1,overall H(z)=H1(z)*H2(z); poles and zeros combine,3,0.95
+"In signals and systems, cascade H1(z) and H2(z) refers to?",overall H(z)=H1(z)*H2(z); poles and zeros combine,H(z)=sum b_k*z^(-k); denominator=1; always stable,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,all poles strictly inside unit circle |pole|<1,1,0.95
+How is system function H(z) of causal DT LTI defined?,p_k^n for each pole p_k; decay iff |p_k|<1,FIR; zero at z=-1  [highpass characteristic],|z|>max|pole|; includes unit circle,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,4,0.95
+How is BIBO stability for causal DT LTI defined?,p_k^n for each pole p_k; decay iff |p_k|<1,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,FIR; zero at z=-1  [highpass characteristic],all poles strictly inside unit circle |pole|<1,4,0.95
+How is ROC of causal stable system defined?,|z|>max|pole|; includes unit circle,z=a  [stable if |a|<1],p_k^n for each pole p_k; decay iff |p_k|<1,H(z)=Z{h[n]}=Y(z)/X(z); rational for difference-eq systems,1,0.95
+How is poles of H(z) defined?,roots of denominator; natural modes p_k^n,overall H(z)=H1(z)*H2(z); poles and zeros combine,A_k/(1-p_k*z^(-1)) -> p_k^n*u[n],H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,1,0.95
+How is zeros of H(z) defined?,roots of numerator,H(z)=B(z)/A(z) with A!=1; feedback; stability depends on pole locations,p_k^n for each pole p_k; decay iff |p_k|<1,FIR; zero at z=-1  [highpass characteristic],1,0.95
+What is closed-loop TF with unity feedback forward gain G(s)?,1+G(s)*H(s)=0; roots are closed-loop poles,T(s)=G(s)/(1+G(s)),frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,reduce sensitivity; reject disturbances; improve response; stabilize plants,2,1
+What is characteristic equation of feedback system?,T(s)=G(s)/(1+G(s)),1+G(s)*H(s)=0; roots are closed-loop poles,frequency where angle G(j*w)*H(j*w) = -180 deg,|G(s)*H(s)|=1/K at root-locus point for gain K,2,1
+What is root locus?,T(s)=G(s)/(1+G(s)),locus of CL pole positions as loop gain K varies from 0 to inf,1+G(s)*H(s)=0; roots are closed-loop poles,reduce sensitivity; reject disturbances; improve response; stabilize plants,2,1
+What is Nyquist stability criterion?,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],necessary conditions for closed-loop stability,frequency where angle G(j*w)*H(j*w) = -180 deg,reduce sensitivity; reject disturbances; improve response; stabilize plants,1,1
+What is gain margin?,T(s)=G(s)/(1+G(s)),angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,factor by which gain can increase before closed-loop instability,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],3,1
+What is phase margin?,additional phase lag at gain crossover frequency before instability,equals number of OL poles of G(s)*H(s),uses Routh array to count RHP roots of polynomial without computing roots,T(s)=G(s)/(1+G(s)),1,1
+What is gain>0dB and PM>0 deg?,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],necessary conditions for closed-loop stability,reduce sensitivity; reject disturbances; improve response; stabilize plants,frequency where angle G(j*w)*H(j*w) = -180 deg,2,1
+What is gain crossover frequency wgc?,frequency where angle G(j*w)*H(j*w) = -180 deg,additional phase lag at gain crossover frequency before instability,necessary conditions for closed-loop stability,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,4,1
+What is phase crossover frequency wpc?,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],frequency where angle G(j*w)*H(j*w) = -180 deg,reduce sensitivity; reject disturbances; improve response; stabilize plants,factor by which gain can increase before closed-loop instability,2,1
+What is gain margin in dB?,uses Routh array to count RHP roots of polynomial without computing roots,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,locus of CL pole positions as loop gain K varies from 0 to inf,-20*log10|G(j*wpc)*H(j*wpc)|,4,1
+What is purpose of feedback in control systems?,locus of CL pole positions as loop gain K varies from 0 to inf,reduce sensitivity; reject disturbances; improve response; stabilize plants,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,1+G(s)*H(s)=0; roots are closed-loop poles,2,1
+What is angle condition on root locus?,real-axis point where branches leave or enter the real axis,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],locus of CL pole positions as loop gain K varies from 0 to inf,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,4,1
+What is magnitude condition on root locus?,|G(s)*H(s)|=1/K at root-locus point for gain K,locus of CL pole positions as loop gain K varies from 0 to inf,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,T(s)=G(s)/(1+G(s)),1,1
+What is Routh-Hurwitz criterion?,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],uses Routh array to count RHP roots of polynomial without computing roots,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,factor by which gain can increase before closed-loop instability,2,1
+What is number of root locus branches?,locus of CL pole positions as loop gain K varies from 0 to inf,reduce sensitivity; reject disturbances; improve response; stabilize plants,equals number of OL poles of G(s)*H(s),frequency where angle G(j*w)*H(j*w) = -180 deg,3,1
+What is breakaway point on root locus?,-20*log10|G(j*wpc)*H(j*wpc)|,uses Routh array to count RHP roots of polynomial without computing roots,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],real-axis point where branches leave or enter the real axis,4,1
+Which best describes closed-loop TF with unity feedback forward gain G(s)?,T(s)=G(s)/(1+G(s)),frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,|G(s)*H(s)|=1/K at root-locus point for gain K,equals number of OL poles of G(s)*H(s),1,1
+Which best describes characteristic equation of feedback system?,equals number of OL poles of G(s)*H(s),uses Routh array to count RHP roots of polynomial without computing roots,1+G(s)*H(s)=0; roots are closed-loop poles,factor by which gain can increase before closed-loop instability,3,1
+Which best describes root locus?,1+G(s)*H(s)=0; roots are closed-loop poles,locus of CL pole positions as loop gain K varies from 0 to inf,equals number of OL poles of G(s)*H(s),real-axis point where branches leave or enter the real axis,2,1
+Which best describes Nyquist stability criterion?,reduce sensitivity; reject disturbances; improve response; stabilize plants,|G(s)*H(s)|=1/K at root-locus point for gain K,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],1+G(s)*H(s)=0; roots are closed-loop poles,3,1
+Which best describes gain margin?,reduce sensitivity; reject disturbances; improve response; stabilize plants,|G(s)*H(s)|=1/K at root-locus point for gain K,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,factor by which gain can increase before closed-loop instability,4,1
+Which best describes phase margin?,additional phase lag at gain crossover frequency before instability,-20*log10|G(j*wpc)*H(j*wpc)|,reduce sensitivity; reject disturbances; improve response; stabilize plants,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],1,1
+Which best describes gain>0dB and PM>0 deg?,real-axis point where branches leave or enter the real axis,necessary conditions for closed-loop stability,additional phase lag at gain crossover frequency before instability,uses Routh array to count RHP roots of polynomial without computing roots,2,1
+Which best describes gain crossover frequency wgc?,necessary conditions for closed-loop stability,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,1+G(s)*H(s)=0; roots are closed-loop poles,T(s)=G(s)/(1+G(s)),2,1
+Which best describes phase crossover frequency wpc?,frequency where angle G(j*w)*H(j*w) = -180 deg,equals number of OL poles of G(s)*H(s),factor by which gain can increase before closed-loop instability,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],1,1
+Which best describes gain margin in dB?,factor by which gain can increase before closed-loop instability,-20*log10|G(j*wpc)*H(j*wpc)|,reduce sensitivity; reject disturbances; improve response; stabilize plants,locus of CL pole positions as loop gain K varies from 0 to inf,2,1
+Which best describes purpose of feedback in control systems?,factor by which gain can increase before closed-loop instability,additional phase lag at gain crossover frequency before instability,-20*log10|G(j*wpc)*H(j*wpc)|,reduce sensitivity; reject disturbances; improve response; stabilize plants,4,1
+Which best describes angle condition on root locus?,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,equals number of OL poles of G(s)*H(s),reduce sensitivity; reject disturbances; improve response; stabilize plants,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],1,1
+Which best describes magnitude condition on root locus?,additional phase lag at gain crossover frequency before instability,|G(s)*H(s)|=1/K at root-locus point for gain K,uses Routh array to count RHP roots of polynomial without computing roots,T(s)=G(s)/(1+G(s)),2,1
+Which best describes Routh-Hurwitz criterion?,|G(s)*H(s)|=1/K at root-locus point for gain K,uses Routh array to count RHP roots of polynomial without computing roots,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,equals number of OL poles of G(s)*H(s),2,1
+Which best describes number of root locus branches?,equals number of OL poles of G(s)*H(s),uses Routh array to count RHP roots of polynomial without computing roots,|G(s)*H(s)|=1/K at root-locus point for gain K,real-axis point where branches leave or enter the real axis,1,1
+Which best describes breakaway point on root locus?,uses Routh array to count RHP roots of polynomial without computing roots,reduce sensitivity; reject disturbances; improve response; stabilize plants,real-axis point where branches leave or enter the real axis,factor by which gain can increase before closed-loop instability,3,1
+"In signals and systems, closed-loop TF with unity feedback forward gain G(s) refers to?",T(s)=G(s)/(1+G(s)),frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,necessary conditions for closed-loop stability,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,1,1
+"In signals and systems, characteristic equation of feedback system refers to?",-20*log10|G(j*wpc)*H(j*wpc)|,1+G(s)*H(s)=0; roots are closed-loop poles,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,locus of CL pole positions as loop gain K varies from 0 to inf,2,1
+"In signals and systems, root locus refers to?",|G(s)*H(s)|=1/K at root-locus point for gain K,equals number of OL poles of G(s)*H(s),locus of CL pole positions as loop gain K varies from 0 to inf,-20*log10|G(j*wpc)*H(j*wpc)|,3,1
+"In signals and systems, Nyquist stability criterion refers to?",equals number of OL poles of G(s)*H(s),necessary conditions for closed-loop stability,uses Routh array to count RHP roots of polynomial without computing roots,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],4,1
+"In signals and systems, gain margin refers to?",factor by which gain can increase before closed-loop instability,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,locus of CL pole positions as loop gain K varies from 0 to inf,frequency where angle G(j*w)*H(j*w) = -180 deg,1,1
+"In signals and systems, phase margin refers to?",Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],additional phase lag at gain crossover frequency before instability,locus of CL pole positions as loop gain K varies from 0 to inf,factor by which gain can increase before closed-loop instability,2,1
+"In signals and systems, gain>0dB and PM>0 deg refers to?",|G(s)*H(s)|=1/K at root-locus point for gain K,necessary conditions for closed-loop stability,T(s)=G(s)/(1+G(s)),angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,2,1
+"In signals and systems, gain crossover frequency wgc refers to?",uses Routh array to count RHP roots of polynomial without computing roots,frequency where |G(j*w)*H(j*w)|=1 i.e. 0 dB,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,locus of CL pole positions as loop gain K varies from 0 to inf,2,1
+"In signals and systems, phase crossover frequency wpc refers to?",1+G(s)*H(s)=0; roots are closed-loop poles,frequency where angle G(j*w)*H(j*w) = -180 deg,real-axis point where branches leave or enter the real axis,T(s)=G(s)/(1+G(s)),2,1
+"In signals and systems, gain margin in dB refers to?",-20*log10|G(j*wpc)*H(j*wpc)|,T(s)=G(s)/(1+G(s)),frequency where angle G(j*w)*H(j*w) = -180 deg,1+G(s)*H(s)=0; roots are closed-loop poles,1,1
+"In signals and systems, purpose of feedback in control systems refers to?",locus of CL pole positions as loop gain K varies from 0 to inf,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,reduce sensitivity; reject disturbances; improve response; stabilize plants,|G(s)*H(s)|=1/K at root-locus point for gain K,3,1
+"In signals and systems, angle condition on root locus refers to?",Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,1+G(s)*H(s)=0; roots are closed-loop poles,necessary conditions for closed-loop stability,2,1
+"In signals and systems, magnitude condition on root locus refers to?",necessary conditions for closed-loop stability,angle G(s)*H(s) = +/-180*(2k+1) deg for integer k,reduce sensitivity; reject disturbances; improve response; stabilize plants,|G(s)*H(s)|=1/K at root-locus point for gain K,4,1
+"In signals and systems, Routh-Hurwitz criterion refers to?",reduce sensitivity; reject disturbances; improve response; stabilize plants,uses Routh array to count RHP roots of polynomial without computing roots,factor by which gain can increase before closed-loop instability,equals number of OL poles of G(s)*H(s),2,1
+"In signals and systems, number of root locus branches refers to?",real-axis point where branches leave or enter the real axis,uses Routh array to count RHP roots of polynomial without computing roots,1+G(s)*H(s)=0; roots are closed-loop poles,equals number of OL poles of G(s)*H(s),4,1
+"In signals and systems, breakaway point on root locus refers to?",-20*log10|G(j*wpc)*H(j*wpc)|,real-axis point where branches leave or enter the real axis,T(s)=G(s)/(1+G(s)),uses Routh array to count RHP roots of polynomial without computing roots,2,1
+How is closed-loop TF with unity feedback forward gain G(s) defined?,T(s)=G(s)/(1+G(s)),reduce sensitivity; reject disturbances; improve response; stabilize plants,uses Routh array to count RHP roots of polynomial without computing roots,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],1,1
+How is characteristic equation of feedback system defined?,reduce sensitivity; reject disturbances; improve response; stabilize plants,Z=N+P; stable if Z=0 [Z=CL RHP poles N=CW encirclements P=OL RHP poles],additional phase lag at gain crossover frequency before instability,1+G(s)*H(s)=0; roots are closed-loop poles,4,1

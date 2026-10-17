@@ -1,0 +1,19 @@
+
+=== SQLite concurrent-write test — 20 writes per thread ===
+Simulates many cadets submitting feedback/session writes at once.
+
+  writers=  1  wall=   1.3s  ok=1/1
+  writers=  4  wall=   6.0s  ok=4/4
+  writers= 16  wall=  11.2s  ok=7/16
+      sample error: database is locked
+  writers= 32  wall=  10.2s  ok=6/32
+      sample error: database is locked
+
+--- Summary ---
+ Writers |  Wall time | Errors
+       1 |       1.3s |      0
+       4 |       6.0s |      0
+      16 |      11.2s |      9  <-- 'database is locked' errors appearing
+      32 |      10.2s |     26  <-- 'database is locked' errors appearing
+
+If errors appear at realistic concurrency levels, switch sahayak.db to WAL mode (conn.execute('PRAGMA journal_mode=WAL')) and add a busy_timeout — this alone usually fixes SQLite contention without needing to cap users for this reason specifically.

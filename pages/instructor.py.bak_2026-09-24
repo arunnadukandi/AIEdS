@@ -1,0 +1,1036 @@
+import streamlit as st
+import os
+import json
+import faiss
+import numpy as np
+import fitz  # PyMuPDF
+import re
+import base64
+from sentence_transformers import SentenceTransformer
+
+# ── 1. CONFIGURATION ──────────────────────────────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+@st.cache_resource
+def load_embedder_model():
+    model_path = os.path.join(BASE_DIR, "Python-3.12.9", "embedding_model")
+    target = model_path if os.path.exists(model_path) else 'all-MiniLM-L6-v2'
+    return SentenceTransformer(target)
+
+def universal_cleaner(text):
+    """Converts common technical symbols to LaTeX for better LLM rendering."""
+    greek = {
+        "λ": "\\lambda", "σ": "\\sigma", "θ": "\\theta", "Δ": "\\Delta",
+        "ω": "\\omega", "μ": "\\mu", "π": "\\pi", "α": "\\alpha", "β": "\\beta"
+    }
+    for char, latex in greek.items():
+        text = text.replace(char, latex)
+    text = re.sub(r'10\s*\^?\s*([-+]?\d+)', r'10^{\1}', text)
+    return text
+
+# ── 2. AUTH CHECK ─────────────────────────────────────────────────────────────
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+from session_guard import require_role, logout
+from theme import inject_theme_polish
+require_role("instructor")
+
+st.set_page_config(page_title="AIEdS - Instructor Panel", layout="wide",
+                   initial_sidebar_state="collapsed")
+
+# ── 3. BACKGROUND ─────────────────────────────────────────────────────────────
+@st.cache_data(show_spinner=False)
+def _bg_b64():
+    for name in ["instructor_background.jpeg", "instructor_background.png",
+                 "instructor_background.jpg", "mainpage.jpeg"]:
+        p = os.path.join(BASE_DIR, name)
+        if os.path.exists(p):
+            with open(p, "rb") as f:
+                data = f.read()
+            ext = "png" if data[:8] == b'\x89PNG\r\n\x1a\n' else "jpeg"
+            return base64.b64encode(data).decode(), ext
+    return "", "jpeg"
+
+_bg_data, _bg_ext = _bg_b64()
+_bg_url = f"data:image/{_bg_ext};base64,{_bg_data}" if _bg_data else ""
+
+# ── 4. COMPLETE VIBRANT CSS ────────────────────────────────────────────────────
+st.markdown(f"""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700&display=swap');
+
+*,*::before,*::after{{margin:0;padding:0;box-sizing:border-box}}
+:root{{
+    --gold: #c9a45c;
+    --gold-bright: #f5d98a;
+    --border-gold: rgba(201, 164, 92, 0.5);
+    --glass-card-bg: rgba(3, 13, 28, 0.92);
+}}
+
+.stApp {{
+    background: linear-gradient(rgba(2,8,20,0.85),rgba(2,8,20,0.85)), url('{_bg_url}') center/cover no-repeat fixed !important;
+    min-height: 100vh;
+}}
+
+/* ── AURORA DRIFT ANIMATION ── */
+.stApp::before{{
+    content:''; position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background: radial-gradient(ellipse 80% 40% at 20% 80%, rgba(201,164,92,.12) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 30% at 80% 20%, rgba(12,40,90,.22) 0%, transparent 55%);
+    animation: auroraDrift 22s ease-in-out infinite alternate;
+}}
+@keyframes auroraDrift {{
+    0%   {{ transform: scale(1) translateY(0); opacity: 0.6; }}
+    50%  {{ transform: scale(1.05) translateY(-10px); opacity: 1; }}
+    100% {{ transform: scale(1) translateY(5px); opacity: 0.8; }}
+}}
+
+/* ── FLOATING TOGGLE (Pill-style navigation) ── */
+[data-testid="collapsedControl"], [data-testid="stSidebarCollapsedControl"] {{
+    display:flex !important; visibility:visible !important; position:fixed !important;
+    top:50% !important; left:0px !important; transform:translateY(-50%) !important;
+    background: linear-gradient(135deg, rgba(201,164,92,0.4), rgba(201,164,92,0.15)) !important;
+    border: 1px solid var(--gold) !important; border-left: none !important;
+    border-radius: 0 12px 12px 0 !important; width: 32px !important; height: 64px !important;
+    z-index: 99999 !important; cursor: pointer !important; backdrop-filter: blur(10px);
+    animation: sidebarPulse 2.5s ease-in-out infinite !important;
+}}
+[data-testid="collapsedControl"] svg {{ fill: var(--gold-bright) !important; width: 22px; height: 22px; }}
+@keyframes sidebarPulse {{
+    0%,100% {{ box-shadow: 0 0 10px rgba(201,164,92,0.2); border-color: rgba(201,164,92,0.6); }}
+    50%      {{ box-shadow: 0 0 25px rgba(201,164,92,0.5); border-color: white; }}
+}}
+
+/* ── SIDEBAR CLEANUP ── */
+[data-testid="stSidebarNav"], [data-testid="stSidebarNavItems"],
+section[data-testid="stSidebar"] > div:first-child > div:first-child ul {{ display: none !important; }}
+
+[data-testid="stSidebar"]{{
+    background: linear-gradient(180deg, #020814 0%, #051026 100%) !important;
+    border-right: 2px solid var(--gold) !important;
+}}
+[data-testid="stSidebar"] * {{ color: #ffffff !important; font-family: 'Rajdhani', sans-serif !important; font-size: 15px !important; }}
+
+/* ── PAGE HEADERS & SUBTITLES ── */
+.stApp h1 {{
+    font-family: 'Cinzel', serif !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f5d98a 40%, #c9a45c 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 12px rgba(201,164,92,0.4));
+    font-weight: 900 !important; font-size: 36px !important; margin-bottom: 5px !important;
+}}
+
+.header-subtitle {{
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size: 20px !important; font-weight: 700 !important;
+    color: #ffffff !important; text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0,0,0,1); letter-spacing: 0.1em;
+}}
+
+/* ── GLASS CARDS ── */
+.glass-card {{
+    background: var(--glass-card-bg) !important;
+    border: 1px solid var(--border-gold);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 18px; padding: 35px; margin-bottom: 25px;
+    backdrop-filter: blur(15px); box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}}
+
+/* ── VIBRANT PROCESS BUTTON (Total Visibility) ── */
+div[data-testid="stFormSubmitButton"] > button, .stButton > button {{
+    background: linear-gradient(90deg, #c9a45c 0%, #f5d98a 50%, #c9a45c 100%) !important;
+    color: #000000 !important; -webkit-text-fill-color: #000000 !important;
+    font-family: 'Cinzel', serif !important; font-weight: 900 !important;
+    font-size: 17px !important; letter-spacing: 0.12em !important;
+    border: none !important; border-radius: 10px !important; height: 54px !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5) !important; text-transform: uppercase !important;
+    white-space: nowrap !important;
+}}
+
+/* ── FORM LABELS ── */
+.stApp label p {{
+    color: var(--gold-bright) !important; font-family: 'Cinzel', serif !important;
+    font-size: 14px !important; font-weight: 800 !important;
+    text-transform: uppercase !important; text-shadow: 1px 1px 2px black;
+}}
+
+/* ── ALERTS (Success/Error Glow) ── */
+div[data-testid="stAlert"] {{
+    background: rgba(0, 0, 0, 0.85) !important;
+    border-radius: 12px !important; border: 1px solid var(--border-gold) !important;
+}}
+div[data-testid="stAlert"][kind="success"] {{ border-left: 6px solid #00ff88 !important; }}
+div[data-testid="stAlert"][kind="success"] p {{ color: #00ff88 !important; font-weight: 700 !important; }}
+
+/* ── EVALUATION BOX ── */
+.eval-box{{ background: rgba(4, 15, 32, 0.95); border: 2px solid var(--gold); border-radius: 14px; padding: 25px; margin-top: 16px; }}
+.eval-score{{ font-family: 'Orbitron', sans-serif; font-size: 2.8rem; font-weight: 700; color: var(--gold-bright) !important; line-height: 1.1; }}
+.eval-text{{ color: #ffffff !important; font-size: 16px; line-height: 1.7; font-family: 'Rajdhani', sans-serif !important; font-weight: 500; }}
+
+/* ── SUBMISSIONS QUEUE STATS STRIP ── */
+.queue-stat{{ text-align:center; padding:10px 4px; }}
+.queue-stat-num{{ font-family:'Orbitron',sans-serif; font-size:1.8rem; font-weight:700; color:var(--gold-bright); }}
+.queue-stat-label{{ font-family:'Cinzel',serif; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:rgba(201,164,92,.80); margin-top:2px; }}
+
+/* ── PROGRESS BAR ── */
+.stProgress>div>div>div{{ background: var(--gold-bright) !important; height: 10px !important; border-radius: 10px !important; }}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {{ width: 8px; }}
+::-webkit-scrollbar-thumb {{ background: var(--gold); border-radius: 10px; }}
+
+/* ── TAB HEADERS: BOLD, LARGE & CLEAR ── */
+
+/* 1. The container for the tabs */
+.stTabs [data-baseweb="tab-list"] {{
+    gap: 30px !important;
+    background: rgba(0, 0, 0, 0.5) !important; /* Darker background for contrast */
+    padding: 12px 20px !important;
+    border-radius: 15px !important;
+    border-bottom: 2px solid rgba(201, 164, 92, 0.3) !important;
+}}
+
+/* 2. Styling for all Tabs (Unselected) */
+.stTabs [data-baseweb="tab"] {{
+    height: 50px !important;
+}}
+
+.stTabs [data-baseweb="tab"] p {{
+    font-size: 20px !important;         /* Much larger font */
+    font-weight: 800 !important;         /* Extra Bold */
+    font-family: 'Rajdhani', sans-serif !important;
+    color: rgba(255, 255, 255, 0.5) !important; /* Faded white when not selected */
+    letter-spacing: 0.05em !important;
+    transition: all 0.3s ease !important;
+}}
+
+/* 3. Styling for the Selected Tab */
+.stTabs [aria-selected="true"] p {{
+    color: #f5d98a !important;          /* Bright Vibrant Gold */
+    font-weight: 900 !important;         /* Max Boldness */
+    text-shadow: 0 0 15px rgba(245, 217, 138, 0.6) !important; /* Glow effect */
+}}
+
+/* 4. The moving indicator line under the tab */
+[data-baseweb="tab-highlight-point"] {{
+    background-color: #f5d98a !important; /* Gold line instead of red */
+    height: 4px !important;
+}}
+</style>
+""", unsafe_allow_html=True)
+
+inject_theme_polish()
+
+# ── 5. SIDEBAR (collapsed by default, toggle via button) ──────────────────────
+instructor_name = st.session_state.get("full_name",
+                  st.session_state.get("username", "Instructor")).upper()
+
+with st.sidebar:
+    st.markdown(f"""
+    <div style='padding:16px 4px 14px 4px;'>
+        <p style='font-family:Cinzel,serif;font-size:20px;font-weight:900;
+           background:linear-gradient(180deg,#fff 0%,#f5d98a 35%,#c9a45c 100%);
+           -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+           background-clip:text;letter-spacing:0.12em;margin-bottom:12px;'>
+           INSTRUCTOR PANEL</p>
+        <p style='font-size:12px;color:rgba(201,164,92,0.85);font-family:Cinzel,serif;
+           letter-spacing:0.12em;margin-bottom:4px;font-weight:700;'>
+           INSTRUCTOR</p>
+        <p style='font-size:13px;color:#f0d898;font-family:Cinzel,serif;
+           letter-spacing:0.10em;font-weight:900;margin-bottom:4px;'>
+           {instructor_name}</p>
+        <p style='font-size:11px;color:rgba(201,164,92,0.55);font-family:Cinzel,serif;
+           letter-spacing:0.10em;'>
+           ID: {st.session_state.get('username','N/A')}</p>
+    </div>
+    """, unsafe_allow_html=True)
+    st.divider()
+
+    st.markdown('<p class="sec-label">Navigation</p>', unsafe_allow_html=True)
+    if st.button("🏠  Home / Dashboard", use_container_width=True):
+        st.switch_page("login.py")
+    if st.button("🚪  Logout", use_container_width=True):
+        logout("login.py")
+        st.switch_page("login.py")
+
+    st.divider()
+    st.markdown("""
+    <div style='padding:6px 0;'>
+        <p style='font-family:Cinzel,serif;font-size:9px;letter-spacing:.18em;
+                  color:rgba(201,164,92,.55);text-transform:uppercase;margin-bottom:10px;'>
+                  Quick Guide</p>
+        <div style='display:flex;flex-direction:column;gap:8px;'>
+            <div style='display:flex;align-items:flex-start;gap:8px;'>
+                <span style='color:#e8c87a;font-size:14px;'>📚</span>
+                <span style='font-family:Rajdhani,sans-serif;font-size:12px;
+                      color:rgba(240,220,180,.70);'>Upload PDFs to index for RAG chatbot</span>
+            </div>
+            <div style='display:flex;align-items:flex-start;gap:8px;'>
+                <span style='color:#e8c87a;font-size:14px;'>📝</span>
+                <span style='font-family:Rajdhani,sans-serif;font-size:12px;
+                      color:rgba(240,220,180,.70);'>Upload assignment sheets + answer keys</span>
+            </div>
+            <div style='display:flex;align-items:flex-start;gap:8px;'>
+                <span style='color:#e8c87a;font-size:14px;'>🤖</span>
+                <span style='font-family:Rajdhani,sans-serif;font-size:12px;
+                      color:rgba(240,220,180,.70);'>AI evaluates cadet answer images automatically</span>
+            </div>
+            <div style='display:flex;align-items:flex-start;gap:8px;'>
+                <span style='color:#e8c87a;font-size:14px;'>🗂️</span>
+                <span style='font-family:Rajdhani,sans-serif;font-size:12px;
+                      color:rgba(240,220,180,.70);'>Manage & delete indexed materials by term</span>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# ── 6. PAGE HEADER ────────────────────────────────────────────────────────────
+st.markdown("""
+<div style='padding:18px 0 6px 0;'>
+    <h1 style='font-family:Cinzel,serif;font-size:clamp(18px,2.2vw,28px);font-weight:900;
+       background:linear-gradient(180deg,#ffffff 0%,#f5d98a 40%,#c9a45c 100%);
+       -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+       background-clip:text;letter-spacing:0.10em;margin-bottom:4px;'>
+       AIEdS — INSTRUCTOR PANEL</h1>
+    <p style='font-family:Rajdhani,sans-serif;font-size:14px;
+       color:rgba(201,164,92,0.60);letter-spacing:0.08em;'>
+       Knowledge Management · Assignment Evaluation · Materials Manager</p>
+</div>
+""", unsafe_allow_html=True)
+
+# ── 7. TABS ───────────────────────────────────────────────────────────────────
+tab1, tab2, tab3 = st.tabs([
+    "📚  Knowledge Upload",
+    "📝  Assignment Evaluation",
+    "🗂️  Materials Manager",
+])
+
+# ════════════════════════════════════════════════════════════════════════════════
+#  TAB 1 — KNOWLEDGE UPLOAD
+# ════════════════════════════════════════════════════════════════════════════════
+with tab1:
+    st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+    st.markdown("""
+    <p style='font-family:Cinzel,serif;font-size:15px;font-weight:700;
+       color:#e8c87a;letter-spacing:.08em;margin-bottom:4px;'>
+       Add New Academic Material</p>
+    <p style='font-family:Rajdhani,sans-serif;font-size:13px;
+       color:rgba(201,164,92,.55);margin-bottom:16px;'>
+       Upload a PDF manaul for the Cadet access.</p>
+    """, unsafe_allow_html=True)
+
+    with st.form("upload_form", clear_on_submit=True):
+        col1, col2 = st.columns(2)
+        with col1:
+            sub_name = st.text_input("Subject Name", placeholder="e.g., Marine Engineering")
+        with col2:
+            term_selection = st.selectbox("Assign to Term", [f"Term_{i}" for i in range(1, 9)])
+        up_file  = st.file_uploader("Upload Manual (PDF)", type="pdf")
+        submitted = st.form_submit_button("⚡  Process and Index Material", use_container_width=True)
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    if submitted:
+        if sub_name and up_file:
+            # Indexing is done by the shared pdf_ingest module (same code as
+            # reindex_books.py): native text where the PDF has it, Tesseract OCR
+            # for scanned pages, and the same {stem}_faiss.index / _doc.json /
+            # _meta.json files + static/images/<stem>/ illustrations as before.
+            from pdf_ingest import build_index, tesseract_available
+
+            def process_pdf_advanced(pdf_file, subject_name, term_folder_name, model):
+                safe_subject = subject_name.strip().replace(" ", "_").lower()
+                manual_name  = os.path.splitext(pdf_file.name)[0]
+                safe_manual  = manual_name.strip().replace(" ", "_").lower()
+                file_stem    = f"{safe_subject}_{safe_manual}" if safe_manual != safe_subject else safe_subject
+                term_dir     = os.path.join(BASE_DIR, "user_profiles", term_folder_name)
+                IMAGE_DIR    = os.path.join(BASE_DIR, "static", "images", file_stem)
+                os.makedirs(term_dir, exist_ok=True)
+                os.makedirs(IMAGE_DIR, exist_ok=True)
+
+                # Save original PDF to term folder first (study_materials.py lists it,
+                # and it is the file we index from).
+                pdf_dest = os.path.join(term_dir, pdf_file.name)
+                with open(pdf_dest, "wb") as f:
+                    f.write(pdf_file.getbuffer())
+
+                progress_bar = st.progress(0, text="Reading pages")
+                def _progress(frac, msg):
+                    progress_bar.progress(frac, text=msg)
+
+                n_chunks, stats = build_index(
+                    pdf_dest, subject_name, manual_name, term_dir, file_stem, model,
+                    progress_cb=_progress,
+                    image_dir=IMAGE_DIR,
+                    image_web_prefix=f"/app/static/images/{file_stem}",
+                )
+                return n_chunks, file_stem, stats
+
+            if not tesseract_available():
+                st.warning("Tesseract OCR not found on this server — scanned pages cannot be read. "
+                           "Text-based PDFs will still index normally.")
+            embedder = load_embedder_model()
+            try:
+                count, stem, stats = process_pdf_advanced(up_file, sub_name, term_selection, embedder)
+                st.success(f"✅  Successfully indexed **{count}** context chunks for **'{sub_name}'** → Term {term_selection}.")
+                st.caption(f"{stats['pages']} pages · {stats['ocr_pages']} read with OCR · "
+                           f"{stats['empty_pages']} without readable text · {stats['seconds']}s")
+            except ValueError as e:
+                st.error(str(e))
+            except Exception as e:
+                st.error(f"Indexing failed: {e}")
+        else:
+            st.error("Please provide both a Subject Name and a PDF file.")
+
+
+# ════════════════════════════════════════════════════════════════════════════════
+#  TAB 2 — ASSIGNMENT EVALUATION
+# ════════════════════════════════════════════════════════════════════════════════
+with tab2:
+
+    import sqlite3 as _sq3
+    from datetime import datetime as _dt
+
+    DB_PATH = os.path.join(BASE_DIR, "sahayak.db")
+
+    def _init_assign_db():
+        conn = _sq3.connect(DB_PATH)
+        c = conn.cursor()
+        c.execute("""CREATE TABLE IF NOT EXISTS assignments (
+            id               INTEGER PRIMARY KEY AUTOINCREMENT,
+            term             TEXT,
+            subject          TEXT,
+            title            TEXT,
+            description      TEXT,
+            due_date         TEXT,
+            marks            INTEGER DEFAULT 0,
+            posted_by        TEXT,
+            created_at       TEXT,
+            answer_key       BLOB,
+            answer_key_name  TEXT
+        )""")
+        for col in [("marks","INTEGER DEFAULT 0"),
+                    ("answer_key","BLOB"),
+                    ("answer_key_name","TEXT")]:
+            try: c.execute(f"ALTER TABLE assignments ADD COLUMN {col[0]} {col[1]}")
+            except: pass
+        conn.commit(); conn.close()
+
+    _init_assign_db()
+    sub1, sub2, sub3 = st.tabs(
+        ["\U0001F4CB  POST ASSIGNMENT", "\U0001F4E5  SUBMISSIONS QUEUE", "\U0001F4E4  UPLOAD SCAN"]
+    )
+
+
+    with sub1:
+        # ══════════════════════════════════════════════════════════════════
+        #  SECTION 1 — POST ASSIGNMENT
+        # ══════════════════════════════════════════════════════════════════
+        st.markdown("""
+        <p style='font-family:Cinzel,serif;font-size:17px;font-weight:700;
+           color:#e8c87a;letter-spacing:.10em;margin-bottom:4px;'>
+           📋 POST ASSIGNMENT</p>
+        <p style='font-family:Rajdhani,sans-serif;font-size:13px;
+           color:rgba(201,164,92,.55);margin-bottom:16px;'>
+           Post a new assignment. It will appear immediately in the student Assignment Portal.</p>
+        """, unsafe_allow_html=True)
+
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+
+        # Load indexed subjects dynamically when term changes
+        def _get_subjects_for_term(term):
+            """Returns list of subjects indexed for the given term."""
+            term_path = os.path.join(BASE_DIR, "user_profiles", term)
+            subjects = []
+            if os.path.exists(term_path):
+                for f in os.listdir(term_path):
+                    if f.endswith("_meta.json"):
+                        try:
+                            import json as _json
+                            with open(os.path.join(term_path, f)) as jf:
+                                meta = _json.load(jf)
+                            subj = meta.get("subject", "").strip()
+                            if subj and subj not in subjects:
+                                subjects.append(subj)
+                        except Exception:
+                            pass
+            return sorted(subjects)
+
+        pa_c1, pa_c2 = st.columns(2, gap="large")
+        with pa_c1:
+            pa_term = st.selectbox("Term", [f"Term_{i}" for i in range(1,9)], key="pa_term")
+
+            # Dynamic subject dropdown based on selected term
+            indexed_subjects = _get_subjects_for_term(pa_term)
+            if indexed_subjects:
+                subject_options = indexed_subjects + ["Other (type manually)"]
+                pa_subj_sel = st.selectbox("Subject", subject_options, key="pa_subj_sel")
+                if pa_subj_sel == "Other (type manually)":
+                    pa_subject = st.text_input("Enter Subject Name", placeholder="e.g., Power Systems", key="pa_subj_manual")
+                else:
+                    pa_subject = pa_subj_sel
+            else:
+                st.caption(f"No indexed subjects found for {pa_term}. Type manually.")
+                pa_subject = st.text_input("Subject", placeholder="e.g., Power Systems", key="pa_subj")
+
+            pa_title   = st.text_input("Assignment Title", placeholder="e.g., Generator Block Diagram", key="pa_title")
+            pa_marks   = st.number_input("Total Marks", min_value=1, max_value=200, value=20, key="pa_marks")
+        with pa_c2:
+            pa_due  = st.date_input("Due Date", key="pa_due")
+            pa_desc = st.text_area("Assignment Instructions",
+                                   placeholder="Describe the task clearly for cadets...",
+                                   height=100, key="pa_desc")
+            st.markdown('<p class="sec-label">Assignment Sheet (PDF or Image — Visible to students)</p>',
+                        unsafe_allow_html=True)
+            pa_sheet_file = st.file_uploader("Upload Assignment Sheet",
+                                             type=["pdf","png","jpg","jpeg"],
+                                             key="pa_sheet", label_visibility="collapsed")
+            st.markdown('<p class="sec-label">Answer Key (PDF or Image — Hidden from students)</p>',
+                        unsafe_allow_html=True)
+            pa_key_file = st.file_uploader("Upload Answer Key",
+                                           type=["pdf","png","jpg","jpeg"],
+                                           key="pa_key", label_visibility="collapsed")
+
+        if st.button("📌  Post Assignment to Student Portal", use_container_width=True, key="post_btn", type="primary"):
+            if not pa_title.strip() or not pa_subject.strip():
+                st.error("Please fill in at least the Subject and Assignment Title.")
+            else:
+                conn = _sq3.connect(DB_PATH)
+                # Guard against duplicate posts from a re-click (e.g. instructor unsure the
+                # first click registered) — same term/subject/title/instructor within 1 minute.
+                dupe = conn.execute(
+                    "SELECT id FROM assignments WHERE term=? AND subject=? AND title=? AND posted_by=? "
+                    "AND created_at >= datetime('now', '-1 minutes')",
+                    (pa_term, pa_subject.strip(), pa_title.strip(),
+                     st.session_state.get("username", "Instructor"))).fetchone()
+                if dupe:
+                    conn.close()
+                    st.warning("This assignment was already posted moments ago — not posting a duplicate.")
+                else:
+                    key_data = pa_key_file.read() if pa_key_file else None
+                    key_name = pa_key_file.name   if pa_key_file else None
+                    sheet_data = pa_sheet_file.read() if pa_sheet_file else None
+                    sheet_name = pa_sheet_file.name   if pa_sheet_file else None
+                    # Add sheet columns if not exist
+                    try: conn.execute("ALTER TABLE assignments ADD COLUMN sheet_data BLOB")
+                    except: pass
+                    try: conn.execute("ALTER TABLE assignments ADD COLUMN sheet_name TEXT")
+                    except: pass
+                    conn.execute("""INSERT INTO assignments
+                        (term,subject,title,description,due_date,marks,posted_by,created_at,
+                         answer_key,answer_key_name,sheet_data,sheet_name)
+                        VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
+                        (pa_term, pa_subject.strip(), pa_title.strip(), pa_desc.strip(),
+                         str(pa_due), int(pa_marks),
+                         st.session_state.get("username","Instructor"),
+                         _dt.now().strftime("%Y-%m-%d %H:%M:%S"),
+                         key_data, key_name, sheet_data, sheet_name))
+                    conn.commit(); conn.close()
+                    st.success(f"Assignment posted successfully to {pa_term}!")
+                    st.rerun()
+
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
+
+    with sub2:
+        # ══════════════════════════════════════════════════════════════════
+        #  SECTION 2 — SUBMISSIONS QUEUE (real cadet submissions, AI + manual grading)
+        # ══════════════════════════════════════════════════════════════════
+        def _init_submissions_db():
+            """submissions is normally created by pages/assignments.py's init_db();
+            mirrored here so the Instructor Panel doesn't depend on a cadet having
+            opened the Assignments page first on a fresh database."""
+            conn = _sq3.connect(DB_PATH)
+            c = conn.cursor()
+            c.execute("""CREATE TABLE IF NOT EXISTS submissions (
+                id            INTEGER PRIMARY KEY AUTOINCREMENT,
+                assignment_id INTEGER,
+                student_id    TEXT,
+                file_name     TEXT,
+                file_data     BLOB,
+                remarks       TEXT,
+                submitted_at  TEXT,
+                FOREIGN KEY(assignment_id) REFERENCES assignments(id)
+            )""")
+            for _col, _defn in [
+                ("ai_score",     "REAL"),
+                ("ai_feedback",  "TEXT"),
+                ("manual_score", "REAL"),
+                ("status",       "TEXT DEFAULT 'submitted'"),
+                ("flagged",      "INTEGER DEFAULT 0"),
+            ]:
+                try: c.execute(f"ALTER TABLE submissions ADD COLUMN {_col} {_defn}")
+                except Exception: pass
+            conn.commit(); conn.close()
+        _init_submissions_db()
+
+        # Vision model detection — shared by AI grading below and by cadet-detection
+        # in the instructor-scan panel (Section 3).
+        VISION_MODELS = ["moondream","llava","llava-llama3","bakllava",
+                         "minicpm-v","llama3.2-vision","gemma3"]
+        def _detect_vm():
+            try:
+                from ollama import Client
+                from httpx import Timeout
+                cl = Client(host="http://127.0.0.1:11434", timeout=Timeout(10.0))
+                ml = cl.list()
+                names = [getattr(m,"model",None) or m.get("model","")
+                         for m in (ml.models if hasattr(ml,"models") else ml.get("models",[]))]
+                for n in names:
+                    for vm in VISION_MODELS:
+                        if vm in n.lower(): return n
+            except Exception: pass
+            return None
+
+        detected_vision = _detect_vm()
+
+        def _file_to_image_b64(fname, data):
+            """Best-effort: render a submitted file as one PNG for the vision
+            model. Images pass straight through; a PDF's first page is rasterised
+            with the same PyMuPDF handle used for textbook indexing above. Any
+            other file type (docx/zip/txt) can't be graded by AI directly — the
+            caller falls back to manual scoring for those."""
+            ext = (fname or "").lower().rsplit(".", 1)[-1] if fname and "." in fname else ""
+            if ext in ("png", "jpg", "jpeg"):
+                return base64.b64encode(data).decode("utf-8")
+            if ext == "pdf":
+                try:
+                    _doc = fitz.open(stream=data, filetype="pdf")
+                    _pix = _doc[0].get_pixmap(dpi=150)
+                    return base64.b64encode(_pix.tobytes("png")).decode("utf-8")
+                except Exception:
+                    return None
+            return None
+
+        def _build_grading_prompt(model_name, title, subject, marks, cadet_label, key_present, notes):
+            notes_ctx = f"\nAdditional notes: {notes}" if notes and notes.strip() else ""
+            cadet_ctx = f"Cadet: {cadet_label}" if cadet_label else ""
+            if "moondream" in model_name:
+                return (
+                    f"Look at this image of a cadet answer sheet.\n"
+                    f"Assignment: {title}. Subject: {subject}. {cadet_ctx}\n"
+                    f"1. What has the cadet written? Describe in detail.\n"
+                    f"2. Is the answer correct and complete?\n"
+                    f"3. Give a SCORE out of {marks}.\n"
+                    f"4. Strengths and weaknesses?{notes_ctx}"
+                )
+            key_ctx = "\nANSWER KEY: [See second image provided]" if key_present else ""
+            return (
+                f"You are an experienced naval academy instructor.\n"
+                f"Assignment: {title}. Subject: {subject}. {cadet_ctx}\n"
+                f"Total marks: {marks}.{key_ctx}{notes_ctx}\n\n"
+                f"CADET ANSWER: [See image provided]\n\n"
+                f"Provide:\n"
+                f"- SCORE: X / {marks}\n"
+                f"- STRENGTHS: What was answered correctly\n"
+                f"- WEAKNESSES: What was missing or incorrect\n"
+                f"- SUGGESTIONS: Specific advice\n"
+                f"- OVERALL REMARKS: 2-3 sentence summary"
+            )
+
+        def _run_ai_grading(model_name, cadet_img_b64, key_img_b64, title, subject, marks, cadet_label, notes):
+            prompt_text = _build_grading_prompt(model_name, title, subject, marks, cadet_label,
+                                                bool(key_img_b64), notes)
+            images = [cadet_img_b64]
+            if key_img_b64 and "moondream" not in model_name:
+                images.append(key_img_b64)
+            from ollama import Client
+            from httpx import Timeout
+            client = Client(host="http://127.0.0.1:11434", timeout=Timeout(120.0))
+            resp = client.chat(
+                model=model_name,
+                messages=[{"role":"user","content":prompt_text,"images":images}],
+                stream=False, keep_alive=-1,
+                options={"num_gpu": 50, "temperature": 0.1,
+                         "num_ctx": 512 if "moondream" in model_name else 4096}
+            )
+            eval_result = (resp["message"]["content"] if isinstance(resp, dict)
+                           else resp.message.content).strip()
+            # Match: 15/20 or 15 / 20 or 15 out of 20 or SCORE: 15
+            score_m = (
+                re.search(r'(\d+(?:\.\d+)?)\s*/\s*' + str(marks), eval_result) or
+                re.search(r'(\d+(?:\.\d+)?)\s+out\s+of\s+' + str(marks), eval_result, re.IGNORECASE) or
+                re.search(r'SCORE[:\s]+(\d+(?:\.\d+)?)', eval_result, re.IGNORECASE)
+            )
+            score_val = None
+            if score_m:
+                try: score_val = float(score_m.group(1))
+                except (TypeError, ValueError): pass
+            return eval_result, score_val
+
+        st.markdown("""
+        <p style='font-family:Cinzel,serif;font-size:17px;font-weight:700;
+           color:#e8c87a;letter-spacing:.10em;margin-bottom:4px;'>
+           📥 SUBMISSIONS QUEUE</p>
+        <p style='font-family:Rajdhani,sans-serif;font-size:13px;
+           color:rgba(201,164,92,.55);margin-bottom:16px;'>
+           Every cadet submission for the selected assignment — grade with AI, override by hand, then release.</p>
+        """, unsafe_allow_html=True)
+
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+
+        conn = _sq3.connect(DB_PATH)
+        posted = conn.execute(
+            "SELECT id,title,subject,term,marks,answer_key FROM assignments ORDER BY created_at DESC"
+        ).fetchall()
+        conn.close()
+
+        assign_options = {}
+        if not posted:
+            st.info("No assignments posted yet. Post one above first.")
+        else:
+            assign_options = {f"[{a[2]}] {a[1]} ({a[3]}) — {a[4]} marks": a for a in posted}
+            sel_label = st.selectbox("Select Assignment", list(assign_options.keys()), key="queue_asgn_sel")
+            sel_id, sel_title, sel_subj, sel_term, sel_marks, sel_key = assign_options[sel_label]
+
+            if not detected_vision:
+                st.markdown("""
+                <div style='background:rgba(180,120,0,0.12);border:1px solid rgba(201,164,92,0.40);
+                     border-radius:12px;padding:14px 18px;margin:10px 0;'>
+                    <p style='font-family:Cinzel,serif;font-size:12px;color:#e8c87a;font-weight:700;'>
+                    ⚠️ NO VISION MODEL DETECTED — AI grading is disabled; manual scoring still works.</p>
+                    <p style='font-family:Rajdhani,sans-serif;font-size:13px;color:rgba(240,220,180,.75);'>
+                    Run: <code>ollama pull moondream</code> (fastest, 1.8 GB)</p>
+                </div>""", unsafe_allow_html=True)
+
+            conn = _sq3.connect(DB_PATH)
+            subs = conn.execute("""SELECT id, student_id, file_name, file_data, remarks, submitted_at,
+                                           ai_score, ai_feedback, manual_score, status, flagged
+                                    FROM submissions WHERE assignment_id=? ORDER BY submitted_at DESC""",
+                                 (sel_id,)).fetchall()
+            conn.close()
+
+            n_total    = len(subs)
+            n_pending  = sum(1 for s in subs if s[9] == 'submitted')
+            n_graded   = sum(1 for s in subs if s[9] == 'graded')
+            n_released = sum(1 for s in subs if s[9] == 'released')
+
+            sm_c1, sm_c2, sm_c3, sm_c4 = st.columns(4)
+            for _c, _lbl, _val in [(sm_c1, "Total", n_total), (sm_c2, "Pending", n_pending),
+                                   (sm_c3, "Graded", n_graded), (sm_c4, "Released", n_released)]:
+                with _c:
+                    st.markdown(f"""<div class="queue-stat"><div class="queue-stat-num">{_val}</div>
+                        <div class="queue-stat-label">{_lbl}</div></div>""", unsafe_allow_html=True)
+
+            if n_graded > 0:
+                if st.button("📢  Release All Graded Results", use_container_width=True, key="release_all_btn"):
+                    conn = _sq3.connect(DB_PATH)
+                    conn.execute("UPDATE submissions SET status='released' WHERE assignment_id=? AND status='graded'",
+                                (sel_id,))
+                    conn.commit(); conn.close()
+                    st.success(f"Released {n_graded} result(s) to cadets.")
+                    st.rerun()
+
+            if not subs:
+                st.info("No cadet submissions for this assignment yet.")
+            else:
+                for sub in subs:
+                    (sub_id, student_id, file_name, file_data, remarks, submitted_at,
+                     ai_score, ai_feedback, manual_score, status, flagged) = sub
+                    effective  = manual_score if manual_score is not None else ai_score
+                    score_disp = f"{effective:g} / {sel_marks}" if effective is not None else "Not graded"
+                    flag_mark  = " 🚩" if flagged else ""
+
+                    with st.expander(f"{student_id}{flag_mark}  —  {file_name}  —  "
+                                     f"{status.upper()}  —  {score_disp}"):
+                        row_c1, row_c2 = st.columns(2, gap="large")
+                        with row_c1:
+                            st.download_button("⬇  Download Submission", data=file_data,
+                                               file_name=file_name, key=f"dl_sub_{sub_id}",
+                                               use_container_width=True)
+                            st.caption(f"Submitted: {submitted_at}")
+                            if remarks:
+                                st.caption(f"Cadet note: {remarks}")
+                            new_flag = st.checkbox("Flag for review", value=bool(flagged), key=f"flag_{sub_id}")
+                            if new_flag != bool(flagged):
+                                conn = _sq3.connect(DB_PATH)
+                                conn.execute("UPDATE submissions SET flagged=? WHERE id=?",
+                                            (1 if new_flag else 0, sub_id))
+                                conn.commit(); conn.close()
+                                st.rerun()
+
+                        with row_c2:
+                            q_key_file = st.file_uploader("Answer key override (optional)",
+                                                          type=["pdf","png","jpg","jpeg"],
+                                                          key=f"key_ovr_{sub_id}")
+                            q_notes = st.text_input("Notes for AI (optional)", key=f"notes_{sub_id}")
+                            ai_go = st.button("🤖  Evaluate with AI", key=f"ai_{sub_id}",
+                                             use_container_width=True, disabled=not detected_vision)
+
+                        if ai_go:
+                            img_b64 = _file_to_image_b64(file_name, file_data)
+                            if not img_b64:
+                                st.error("This file type can't be read by the AI grader directly "
+                                         "(needs an image or a PDF). Use the manual score below instead.")
+                            else:
+                                key_b64 = None
+                                if q_key_file:
+                                    key_b64 = base64.b64encode(q_key_file.getvalue()).decode("utf-8")
+                                elif sel_key:
+                                    key_b64 = base64.b64encode(sel_key).decode("utf-8")
+                                speed_note = "~10-15 sec" if "moondream" in detected_vision else "20-40 sec"
+                                with st.spinner(f"Evaluating with {detected_vision} — {speed_note}..."):
+                                    try:
+                                        eval_text, score_val = _run_ai_grading(
+                                            detected_vision, img_b64, key_b64,
+                                            sel_title, sel_subj, sel_marks, student_id, q_notes)
+                                        conn = _sq3.connect(DB_PATH)
+                                        conn.execute(
+                                            "UPDATE submissions SET ai_score=?, ai_feedback=?, "
+                                            "status=CASE WHEN status='submitted' THEN 'graded' ELSE status END "
+                                            "WHERE id=?", (score_val, eval_text, sub_id))
+                                        conn.commit(); conn.close()
+                                        st.rerun()
+                                    except Exception as e:
+                                        st.error(f"Evaluation failed: {e}")
+
+                        if ai_feedback:
+                            st.markdown(f"""<div class="eval-box" style="margin-top:14px;">
+                                <div class="eval-text">{ai_feedback.replace(chr(10), "<br>")}</div>
+                            </div>""", unsafe_allow_html=True)
+
+                        st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
+                        m_c1, m_c2, m_c3 = st.columns(3, gap="large")
+                        with m_c1:
+                            default_score = manual_score if manual_score is not None else (ai_score or 0.0)
+                            new_manual = st.number_input("Manual score", min_value=0.0, max_value=float(sel_marks),
+                                                         value=float(default_score), step=0.5, key=f"man_{sub_id}")
+                        with m_c2:
+                            if st.button("💾  Save Score", key=f"save_{sub_id}", use_container_width=True):
+                                conn = _sq3.connect(DB_PATH)
+                                conn.execute(
+                                    "UPDATE submissions SET manual_score=?, "
+                                    "status=CASE WHEN status='submitted' THEN 'graded' ELSE status END "
+                                    "WHERE id=?", (new_manual, sub_id))
+                                conn.commit(); conn.close()
+                                st.rerun()
+                        with m_c3:
+                            if status == "released":
+                                st.success("✓ Released to cadet")
+                            elif effective is not None:
+                                if st.button("📌  Release to Cadet", key=f"rel_{sub_id}", use_container_width=True):
+                                    conn = _sq3.connect(DB_PATH)
+                                    conn.execute("UPDATE submissions SET status='released' WHERE id=?", (sub_id,))
+                                    conn.commit(); conn.close()
+                                    st.rerun()
+
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
+
+    with sub3:
+        # ══════════════════════════════════════════════════════════════════
+        #  SECTION 3 — INSTRUCTOR-SUPPLIED SCAN (adds a row to the queue above)
+        # ══════════════════════════════════════════════════════════════════
+        st.markdown("""
+        <p style='font-family:Cinzel,serif;font-size:17px;font-weight:700;
+           color:#e8c87a;letter-spacing:.10em;margin-bottom:4px;'>
+           📤 UPLOAD A SCANNED ANSWER SHEET</p>
+        <p style='font-family:Rajdhani,sans-serif;font-size:13px;
+           color:rgba(201,164,92,.55);margin-bottom:16px;'>
+           For sheets collected on paper rather than submitted through the cadet portal.
+           The AI will try to read the cadet's name or academy number off the sheet itself —
+           confirm the match below, or pick the cadet by hand if it can't find one.</p>
+        """, unsafe_allow_html=True)
+
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+
+        if not assign_options:
+            st.info("Post an assignment above first.")
+        else:
+            up_sel_label = st.selectbox("Assignment", list(assign_options.keys()), key="upload_asgn_sel")
+            up_id, up_title = assign_options[up_sel_label][0], assign_options[up_sel_label][1]
+
+            scan_file = st.file_uploader("Cadet's Scanned Answer Sheet",
+                                         type=["pdf","png","jpg","jpeg"], key="scan_upload")
+
+            conn = _sq3.connect(DB_PATH)
+            cadets = conn.execute(
+                "SELECT username, full_name FROM users WHERE role='student' ORDER BY full_name").fetchall()
+            conn.close()
+            cadet_labels = ["— Select cadet —"] + [f"{name}  ({uname})" for uname, name in cadets]
+            cadet_lookup = {f"{name}  ({uname})": uname for uname, name in cadets}
+
+            detect_go = st.button("🔍  Detect Cadet From Sheet", key="detect_cadet_btn",
+                                  disabled=not (scan_file and detected_vision))
+
+            if detect_go and scan_file:
+                img_b64 = _file_to_image_b64(scan_file.name, scan_file.getvalue())
+                if not img_b64:
+                    st.error("Couldn't read this file as an image or PDF for detection.")
+                else:
+                    with st.spinner("Reading the sheet..."):
+                        try:
+                            from ollama import Client
+                            from httpx import Timeout
+                            client = Client(host="http://127.0.0.1:11434", timeout=Timeout(60.0))
+                            det_prompt = (
+                                "Look at this scanned answer sheet. If a cadet's name and/or academy "
+                                "number (format like 1234-A-110) is written anywhere on it — a header, "
+                                "a roll-number box, or handwritten — extract it.\n"
+                                "Reply in exactly this format, nothing else:\n"
+                                "NAME: <name or NONE>\nID: <academy number or NONE>"
+                            )
+                            resp = client.chat(
+                                model=detected_vision,
+                                messages=[{"role":"user","content":det_prompt,"images":[img_b64]}],
+                                stream=False, keep_alive=-1,
+                                options={"num_gpu": 50, "temperature": 0.0, "num_ctx": 512})
+                            det_text = (resp["message"]["content"] if isinstance(resp, dict)
+                                        else resp.message.content).strip()
+                            name_m = re.search(r'NAME:\s*(.+)', det_text)
+                            id_m   = re.search(r'ID:\s*(.+)', det_text)
+                            name_guess = name_m.group(1).strip() if name_m else ""
+                            id_guess   = id_m.group(1).strip() if id_m else ""
+                            if name_guess.upper().startswith("NONE"): name_guess = ""
+                            if id_guess.upper().startswith("NONE"): id_guess = ""
+
+                            def _nk(s): return re.sub(r"[^a-z0-9]+", "", s.lower())
+                            matched = None
+                            if id_guess:
+                                for uname, full in cadets:
+                                    if _nk(uname) == _nk(id_guess):
+                                        matched = uname; break
+                            if not matched and name_guess:
+                                for uname, full in cadets:
+                                    if full and (_nk(name_guess) in _nk(full) or _nk(full) in _nk(name_guess)):
+                                        matched = uname; break
+
+                            st.session_state["scan_detect_name"]  = name_guess
+                            st.session_state["scan_detect_id"]    = id_guess
+                            st.session_state["scan_detect_match"] = matched
+                        except Exception as e:
+                            st.error(f"Detection failed: {e}")
+
+            default_cadet_label = "— Select cadet —"
+            if st.session_state.get("scan_detect_match"):
+                _muname = st.session_state["scan_detect_match"]
+                for uname, name in cadets:
+                    if uname == _muname:
+                        default_cadet_label = f"{name}  ({uname})"
+                        break
+                st.success("Matched to a cadet account — confirm below, or pick a different one.")
+            elif st.session_state.get("scan_detect_name") or st.session_state.get("scan_detect_id"):
+                st.warning(
+                    f"Detected on sheet — Name: {st.session_state.get('scan_detect_name') or '—'}, "
+                    f"ID: {st.session_state.get('scan_detect_id') or '—'} — no matching cadet account "
+                    f"found. Please select the cadet manually below."
+                )
+
+            chosen_label = st.selectbox(
+                "Cadet", cadet_labels,
+                index=cadet_labels.index(default_cadet_label) if default_cadet_label in cadet_labels else 0,
+                key="scan_cadet_sel")
+            scan_note = st.text_input("Note (optional — kept with the submission record)", key="scan_note")
+
+            if st.button("📥  Add to Submissions Queue", use_container_width=True, key="add_scan_btn"):
+                if chosen_label == "— Select cadet —":
+                    st.error("Please select which cadet this answer sheet belongs to.")
+                elif not scan_file:
+                    st.error("Please upload the scanned answer sheet.")
+                else:
+                    student_id = cadet_lookup[chosen_label]
+                    conn = _sq3.connect(DB_PATH)
+                    dupe = conn.execute(
+                        "SELECT id FROM submissions WHERE assignment_id=? AND student_id=?",
+                        (up_id, student_id)).fetchone()
+                    file_bytes = scan_file.getvalue()
+                    remark = "Uploaded by instructor" + (f" — {scan_note.strip()}" if scan_note.strip() else "")
+                    conn.execute(
+                        "INSERT INTO submissions (assignment_id, student_id, file_name, file_data, remarks, submitted_at) "
+                        "VALUES (?,?,?,?,?,?)",
+                        (up_id, student_id, scan_file.name, file_bytes, remark,
+                         _dt.now().strftime("%Y-%m-%d %H:%M:%S")))
+                    conn.commit(); conn.close()
+                    for k in ["scan_detect_name","scan_detect_id","scan_detect_match"]:
+                        st.session_state.pop(k, None)
+                    if dupe:
+                        st.success(f"Added a second submission for this cadet to '{up_title}' "
+                                  f"(one already existed) — grade it above.")
+                    else:
+                        st.success(f"Added to the Submissions Queue for '{up_title}'. Grade it above.")
+                    st.rerun()
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+
+    # ════════════════════════════════════════════════════════════════════════════════
+    #  TAB 3 — MATERIALS MANAGER
+    # ════════════════════════════════════════════════════════════════════════════════
+with tab3:
+    st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+    st.markdown("""
+    <p style='font-family:Cinzel,serif;font-size:15px;font-weight:700;
+       color:#e8c87a;letter-spacing:.08em;margin-bottom:4px;'>
+       Manage Indexed Materials</p>
+    <p style='font-family:Rajdhani,sans-serif;font-size:13px;
+       color:rgba(201,164,92,.55);margin-bottom:16px;'>
+       View and delete indexed manuals by term.</p>
+    """, unsafe_allow_html=True)
+
+    view_term = st.selectbox("Filter by Term:", [f"Term_{i}" for i in range(1, 9)], key="mgr_term")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    term_path = os.path.join(BASE_DIR, "user_profiles", view_term)
+
+    if os.path.exists(term_path):
+        meta_files = [f for f in os.listdir(term_path) if f.endswith("_meta.json")]
+        if not meta_files:
+            st.markdown("""
+            <div class="glass-card">
+                <p style='font-family:Rajdhani,sans-serif;font-size:14px;
+                   color:rgba(201,164,92,.50);text-align:center;padding:10px 0;'>
+                   No indexed materials found for this term.</p>
+            </div>""", unsafe_allow_html=True)
+        else:
+            for meta_f in meta_files:
+                with open(os.path.join(term_path, meta_f)) as j:
+                    data = json.load(j)
+                subj = data.get("subject", "Unknown")
+                man  = data.get("manual",  "Unknown")
+                stem = data.get("stem",    meta_f.replace("_meta.json", ""))
+
+                # Check file sizes
+                idx_size = ""
+                idx_path = os.path.join(term_path, f"{stem}_faiss.index")
+                if os.path.exists(idx_path):
+                    sz = os.path.getsize(idx_path)
+                    idx_size = f"{sz/1024:.0f} KB" if sz < 1024*1024 else f"{sz/1024/1024:.1f} MB"
+
+                st.markdown(f"""
+                <div class="glass-card" style="padding:16px 20px;margin-bottom:10px;">
+                    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+                        <div>
+                            <p style="font-family:Cinzel,serif;font-size:13px;color:#e8c87a;
+                               font-weight:700;margin-bottom:2px;">📖 {subj}</p>
+                            <p style="font-family:Rajdhani,sans-serif;font-size:12px;
+                               color:rgba(201,164,92,.55);margin:0;">Manual: {man}
+                               {"&nbsp;&nbsp;·&nbsp;&nbsp;Index: " + idx_size if idx_size else ""}</p>
+                        </div>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+
+                col_info, col_del = st.columns([0.85, 0.15])
+                with col_del:
+                    if st.button("🗑️ Delete", key=f"del_{stem}", use_container_width=True):
+                        for ext in ["_faiss.index", "_doc.json", "_meta.json"]:
+                            p = os.path.join(term_path, stem + ext)
+                            if os.path.exists(p):
+                                os.remove(p)
+                        # Also remove the original PDF from the term folder
+                        for f in os.listdir(term_path):
+                            if f.lower().endswith(".pdf") and (
+                                man.lower() in f.lower() or stem.lower() in f.lower()):
+                                pdf_p = os.path.join(term_path, f)
+                                if os.path.exists(pdf_p):
+                                    os.remove(pdf_p)
+                                break
+                        st.toast(f"Deleted: {subj}")
+                        st.rerun()
+    else:
+        st.markdown("""
+        <div class="glass-card">
+            <p style='font-family:Rajdhani,sans-serif;font-size:14px;
+               color:rgba(201,164,92,.50);text-align:center;padding:10px 0;'>
+               Term directory has not been initialized yet.</p>
+        </div>""", unsafe_allow_html=True)

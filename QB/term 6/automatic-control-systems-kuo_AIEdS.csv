@@ -1,0 +1,1001 @@
+question,opt1,opt2,opt3,opt4,correct_opt,di
+What is a control system?,a control system that maintains constant output despite disturbances,output has no effect on the control action; no feedback,a system that regulates or commands another system or process,output is fed back and compared with reference to form error,3,0.05
+What is an open-loop control system?,output is fed back and compared with reference to form error,the physical system to be controlled,the output quantity that is regulated,output has no effect on the control action; no feedback,4,0.05
+What is a closed-loop (feedback) control system?,output has no effect on the control action; no feedback,single-input single-output control system,output is fed back and compared with reference to form error,a system that regulates or commands another system or process,3,0.05
+What is the plant (process)?,the device that generates the control signal based on error,unwanted signal that affects the plant output,the physical system to be controlled,the output quantity that is regulated,3,0.05
+What is the controller?,desired value of the controlled variable,a control system that tracks a changing reference,graphical representation of system components and their relationships,the device that generates the control signal based on error,4,0.05
+What is the reference input (setpoint)?,the device that generates the control signal based on error,desired value of the controlled variable,output is fed back and compared with reference to form error,difference between reference input and feedback signal,2,0.05
+What is the error signal?,difference between reference input and feedback signal,single-input single-output control system,output has no effect on the control action; no feedback,device that drives the plant based on controller output,1,0.05
+What is the actuator?,graphical representation of system components and their relationships,device that drives the plant based on controller output,a system that regulates or commands another system or process,the output quantity that is regulated,2,0.05
+What is the sensor?,device that measures the plant output for feedback,single-input single-output control system,output has no effect on the control action; no feedback,difference between reference input and feedback signal,1,0.05
+What is a disturbance?,a control system that tracks a changing reference,the physical system to be controlled,the output quantity that is regulated,unwanted signal that affects the plant output,4,0.05
+What is servo system?,the device that generates the control signal based on error,output has no effect on the control action; no feedback,a control system that tracks a changing reference,graphical representation of system components and their relationships,3,0.05
+What is a regulator system?,a control system that tracks a changing reference,the device that generates the control signal based on error,a control system that maintains constant output despite disturbances,device that drives the plant based on controller output,3,0.05
+What is the controlled variable?,desired value of the controlled variable,the output quantity that is regulated,a control system that tracks a changing reference,the physical system to be controlled,2,0.05
+What is block diagram?,a control system that tracks a changing reference,output is fed back and compared with reference to form error,graphical representation of system components and their relationships,unwanted signal that affects the plant output,3,0.05
+What is transfer function?,ratio of Laplace transform of output to input with zero ICs,a control system that tracks a changing reference,the device that generates the control signal based on error,difference between reference input and feedback signal,1,0.05
+What is SISO system?,graphical representation of system components and their relationships,the output quantity that is regulated,ratio of Laplace transform of output to input with zero ICs,single-input single-output control system,4,0.05
+Which best describes a control system?,graphical representation of system components and their relationships,device that drives the plant based on controller output,a system that regulates or commands another system or process,difference between reference input and feedback signal,3,0.05
+Which best describes an open-loop control system?,the output quantity that is regulated,single-input single-output control system,output has no effect on the control action; no feedback,a control system that tracks a changing reference,3,0.05
+Which best describes a closed-loop (feedback) control system?,a control system that maintains constant output despite disturbances,output is fed back and compared with reference to form error,device that measures the plant output for feedback,device that drives the plant based on controller output,2,0.05
+Which best describes the plant (process)?,the physical system to be controlled,the device that generates the control signal based on error,unwanted signal that affects the plant output,the output quantity that is regulated,1,0.05
+Which best describes the controller?,single-input single-output control system,device that drives the plant based on controller output,the device that generates the control signal based on error,a control system that tracks a changing reference,3,0.05
+Which best describes the reference input (setpoint)?,unwanted signal that affects the plant output,device that measures the plant output for feedback,output has no effect on the control action; no feedback,desired value of the controlled variable,4,0.05
+Which best describes the error signal?,a control system that maintains constant output despite disturbances,difference between reference input and feedback signal,output is fed back and compared with reference to form error,graphical representation of system components and their relationships,2,0.05
+Which best describes the actuator?,device that drives the plant based on controller output,difference between reference input and feedback signal,single-input single-output control system,a control system that tracks a changing reference,1,0.05
+Which best describes the sensor?,a system that regulates or commands another system or process,unwanted signal that affects the plant output,ratio of Laplace transform of output to input with zero ICs,device that measures the plant output for feedback,4,0.05
+Which best describes a disturbance?,desired value of the controlled variable,a control system that maintains constant output despite disturbances,graphical representation of system components and their relationships,unwanted signal that affects the plant output,4,0.05
+Which best describes servo system?,output is fed back and compared with reference to form error,a control system that tracks a changing reference,a system that regulates or commands another system or process,device that drives the plant based on controller output,2,0.05
+Which best describes a regulator system?,device that measures the plant output for feedback,a control system that maintains constant output despite disturbances,a control system that tracks a changing reference,output has no effect on the control action; no feedback,2,0.05
+Which best describes the controlled variable?,graphical representation of system components and their relationships,the output quantity that is regulated,desired value of the controlled variable,output is fed back and compared with reference to form error,2,0.05
+Which best describes block diagram?,desired value of the controlled variable,unwanted signal that affects the plant output,device that drives the plant based on controller output,graphical representation of system components and their relationships,4,0.05
+Which best describes transfer function?,single-input single-output control system,the output quantity that is regulated,ratio of Laplace transform of output to input with zero ICs,graphical representation of system components and their relationships,3,0.05
+Which best describes SISO system?,output has no effect on the control action; no feedback,the physical system to be controlled,unwanted signal that affects the plant output,single-input single-output control system,4,0.05
+"In control systems, a control system refers to?",output is fed back and compared with reference to form error,graphical representation of system components and their relationships,a system that regulates or commands another system or process,ratio of Laplace transform of output to input with zero ICs,3,0.05
+"In control systems, an open-loop control system refers to?",unwanted signal that affects the plant output,the physical system to be controlled,output has no effect on the control action; no feedback,desired value of the controlled variable,3,0.05
+"In control systems, a closed-loop (feedback) control system refers to?",output is fed back and compared with reference to form error,device that drives the plant based on controller output,the output quantity that is regulated,desired value of the controlled variable,1,0.05
+"In control systems, the plant (process) refers to?",the device that generates the control signal based on error,ratio of Laplace transform of output to input with zero ICs,output has no effect on the control action; no feedback,the physical system to be controlled,4,0.05
+"In control systems, the controller refers to?",the physical system to be controlled,unwanted signal that affects the plant output,the device that generates the control signal based on error,a control system that tracks a changing reference,3,0.05
+"In control systems, the reference input (setpoint) refers to?",a system that regulates or commands another system or process,a control system that maintains constant output despite disturbances,desired value of the controlled variable,the output quantity that is regulated,3,0.05
+"In control systems, the error signal refers to?",difference between reference input and feedback signal,desired value of the controlled variable,output has no effect on the control action; no feedback,ratio of Laplace transform of output to input with zero ICs,1,0.05
+"In control systems, the actuator refers to?",unwanted signal that affects the plant output,the physical system to be controlled,device that drives the plant based on controller output,output is fed back and compared with reference to form error,3,0.05
+"In control systems, the sensor refers to?",difference between reference input and feedback signal,graphical representation of system components and their relationships,the physical system to be controlled,device that measures the plant output for feedback,4,0.05
+"In control systems, a disturbance refers to?",desired value of the controlled variable,unwanted signal that affects the plant output,difference between reference input and feedback signal,ratio of Laplace transform of output to input with zero ICs,2,0.05
+"In control systems, servo system refers to?",single-input single-output control system,a control system that maintains constant output despite disturbances,ratio of Laplace transform of output to input with zero ICs,a control system that tracks a changing reference,4,0.05
+"In control systems, a regulator system refers to?",the output quantity that is regulated,desired value of the controlled variable,graphical representation of system components and their relationships,a control system that maintains constant output despite disturbances,4,0.05
+"In control systems, the controlled variable refers to?",device that measures the plant output for feedback,the output quantity that is regulated,device that drives the plant based on controller output,the physical system to be controlled,2,0.05
+"In control systems, block diagram refers to?",device that drives the plant based on controller output,the physical system to be controlled,the device that generates the control signal based on error,graphical representation of system components and their relationships,4,0.05
+"In control systems, transfer function refers to?",a system that regulates or commands another system or process,a control system that tracks a changing reference,device that measures the plant output for feedback,ratio of Laplace transform of output to input with zero ICs,4,0.05
+"In control systems, SISO system refers to?",difference between reference input and feedback signal,output is fed back and compared with reference to form error,single-input single-output control system,device that drives the plant based on controller output,3,0.05
+How is a control system defined?,output has no effect on the control action; no feedback,single-input single-output control system,a system that regulates or commands another system or process,the physical system to be controlled,3,0.05
+How is an open-loop control system defined?,output has no effect on the control action; no feedback,graphical representation of system components and their relationships,desired value of the controlled variable,ratio of Laplace transform of output to input with zero ICs,1,0.05
+What is the Laplace transform of f(t)?,decomposes F(s) into sum of simple fractions for inversion,values of s making denominator zero,integral of f(t)*e^(-s*t) dt from 0 to infinity,contributes term A/(s-p) in partial fraction expansion,3,0.1
+What is L{delta(t)}?,integral of f(t)*e^(-s*t) dt from 0 to infinity,omega/(s^2+omega^2),1/(s+a)^2,1,4,0.1
+What is L{u(t)}?,integral of f(t)*e^(-s*t) dt from 0 to infinity,1/s,values of s making denominator zero,lim t->0+ f(t) = lim s->inf s*F(s),2,0.1
+What is L{e^(-at)*u(t)}?,1,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",1/(s+a),integral of f(t)*e^(-s*t) dt from 0 to infinity,3,0.1
+What is L{t*e^(-at)}?,L{f1*f2} = F1(s)*F2(s),contributes damped sinusoidal term in time domain,1/(s+a)^2,1/(s+a),3,0.1
+What is L{sin(omega*t)}?,integral of f(t)*e^(-s*t) dt from 0 to infinity,values of s making denominator zero,lim t->0+ f(t) = lim s->inf s*F(s),omega/(s^2+omega^2),4,0.1
+What is L{cos(omega*t)}?,1/(s+a),values of s making denominator zero,s/(s^2+omega^2),1/(s+a)^2,3,0.1
+What is the differentiation property?,L{df/dt} = s*F(s) - f(0-),L{f1*f2} = F1(s)*F2(s),s/(s^2+omega^2),1/s,1,0.1
+What is the integration property?,contributes term A/(s-p) in partial fraction expansion,1,values of s making denominator zero,L{integral f dt} = F(s)/s,4,0.1
+What is the final value theorem?,1/(s+a),1,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",L{integral f dt} = F(s)/s,3,0.1
+What is the initial value theorem?,1/(s+a),lim t->0+ f(t) = lim s->inf s*F(s),values of s making denominator zero,1,2,0.1
+What is the convolution theorem?,L{df/dt} = s*F(s) - f(0-),L{f1*f2} = F1(s)*F2(s),L{integral f dt} = F(s)/s,contributes damped sinusoidal term in time domain,2,0.1
+What is partial fraction expansion?,lim t->0+ f(t) = lim s->inf s*F(s),decomposes F(s) into sum of simple fractions for inversion,L{integral f dt} = F(s)/s,contributes damped sinusoidal term in time domain,2,0.1
+What is a simple (non-repeated) pole?,values of s making denominator zero,1/s,1/(s+a)^2,contributes term A/(s-p) in partial fraction expansion,4,0.1
+What is a complex conjugate pole pair?,contributes damped sinusoidal term in time domain,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",values of s making denominator zero,1/(s+a)^2,1,0.1
+What is poles of a transfer function?,values of s making denominator zero,1/(s+a),contributes term A/(s-p) in partial fraction expansion,lim t->0+ f(t) = lim s->inf s*F(s),1,0.1
+Which best describes the Laplace transform of f(t)?,1,omega/(s^2+omega^2),contributes damped sinusoidal term in time domain,integral of f(t)*e^(-s*t) dt from 0 to infinity,4,0.1
+Which best describes L{delta(t)}?,omega/(s^2+omega^2),integral of f(t)*e^(-s*t) dt from 0 to infinity,contributes damped sinusoidal term in time domain,1,4,0.1
+Which best describes L{u(t)}?,1/s,L{f1*f2} = F1(s)*F2(s),omega/(s^2+omega^2),1/(s+a),1,0.1
+Which best describes L{e^(-at)*u(t)}?,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",1,integral of f(t)*e^(-s*t) dt from 0 to infinity,1/(s+a),4,0.1
+Which best describes L{t*e^(-at)}?,integral of f(t)*e^(-s*t) dt from 0 to infinity,1/(s+a)^2,s/(s^2+omega^2),"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",2,0.1
+Which best describes L{sin(omega*t)}?,1/(s+a)^2,s/(s^2+omega^2),integral of f(t)*e^(-s*t) dt from 0 to infinity,omega/(s^2+omega^2),4,0.1
+Which best describes L{cos(omega*t)}?,values of s making denominator zero,1/(s+a),L{f1*f2} = F1(s)*F2(s),s/(s^2+omega^2),4,0.1
+Which best describes the differentiation property?,1/s,decomposes F(s) into sum of simple fractions for inversion,L{df/dt} = s*F(s) - f(0-),lim t->0+ f(t) = lim s->inf s*F(s),3,0.1
+Which best describes the integration property?,L{integral f dt} = F(s)/s,integral of f(t)*e^(-s*t) dt from 0 to infinity,s/(s^2+omega^2),values of s making denominator zero,1,0.1
+Which best describes the final value theorem?,s/(s^2+omega^2),"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",values of s making denominator zero,contributes term A/(s-p) in partial fraction expansion,2,0.1
+Which best describes the initial value theorem?,decomposes F(s) into sum of simple fractions for inversion,contributes term A/(s-p) in partial fraction expansion,lim t->0+ f(t) = lim s->inf s*F(s),1,3,0.1
+Which best describes the convolution theorem?,L{df/dt} = s*F(s) - f(0-),L{f1*f2} = F1(s)*F2(s),1/(s+a),values of s making denominator zero,2,0.1
+Which best describes partial fraction expansion?,decomposes F(s) into sum of simple fractions for inversion,integral of f(t)*e^(-s*t) dt from 0 to infinity,lim t->0+ f(t) = lim s->inf s*F(s),1/(s+a),1,0.1
+Which best describes a simple (non-repeated) pole?,contributes term A/(s-p) in partial fraction expansion,1,1/(s+a)^2,contributes damped sinusoidal term in time domain,1,0.1
+Which best describes a complex conjugate pole pair?,lim t->0+ f(t) = lim s->inf s*F(s),L{integral f dt} = F(s)/s,contributes damped sinusoidal term in time domain,contributes term A/(s-p) in partial fraction expansion,3,0.1
+Which best describes poles of a transfer function?,contributes damped sinusoidal term in time domain,1/s,values of s making denominator zero,1/(s+a)^2,3,0.1
+"In control systems, the Laplace transform of f(t) refers to?",s/(s^2+omega^2),integral of f(t)*e^(-s*t) dt from 0 to infinity,lim t->0+ f(t) = lim s->inf s*F(s),L{df/dt} = s*F(s) - f(0-),2,0.1
+"In control systems, L{delta(t)} refers to?",1/(s+a)^2,L{df/dt} = s*F(s) - f(0-),1,lim t->0+ f(t) = lim s->inf s*F(s),3,0.1
+"In control systems, L{u(t)} refers to?",1/s,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",contributes term A/(s-p) in partial fraction expansion,integral of f(t)*e^(-s*t) dt from 0 to infinity,1,0.1
+"In control systems, L{e^(-at)*u(t)} refers to?",1,1/(s+a),s/(s^2+omega^2),L{f1*f2} = F1(s)*F2(s),2,0.1
+"In control systems, L{t*e^(-at)} refers to?",1/(s+a)^2,decomposes F(s) into sum of simple fractions for inversion,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",omega/(s^2+omega^2),1,0.1
+"In control systems, L{sin(omega*t)} refers to?",s/(s^2+omega^2),omega/(s^2+omega^2),decomposes F(s) into sum of simple fractions for inversion,L{df/dt} = s*F(s) - f(0-),2,0.1
+"In control systems, L{cos(omega*t)} refers to?",1/(s+a),s/(s^2+omega^2),L{df/dt} = s*F(s) - f(0-),L{f1*f2} = F1(s)*F2(s),2,0.1
+"In control systems, the differentiation property refers to?",lim t->0+ f(t) = lim s->inf s*F(s),L{df/dt} = s*F(s) - f(0-),values of s making denominator zero,1/(s+a)^2,2,0.1
+"In control systems, the integration property refers to?",L{integral f dt} = F(s)/s,1/(s+a)^2,values of s making denominator zero,1/(s+a),1,0.1
+"In control systems, the final value theorem refers to?","lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",contributes damped sinusoidal term in time domain,values of s making denominator zero,L{df/dt} = s*F(s) - f(0-),1,0.1
+"In control systems, the initial value theorem refers to?",decomposes F(s) into sum of simple fractions for inversion,lim t->0+ f(t) = lim s->inf s*F(s),values of s making denominator zero,contributes term A/(s-p) in partial fraction expansion,2,0.1
+"In control systems, the convolution theorem refers to?",1/(s+a)^2,lim t->0+ f(t) = lim s->inf s*F(s),L{f1*f2} = F1(s)*F2(s),L{integral f dt} = F(s)/s,3,0.1
+"In control systems, partial fraction expansion refers to?",1/(s+a),1/(s+a)^2,decomposes F(s) into sum of simple fractions for inversion,lim t->0+ f(t) = lim s->inf s*F(s),3,0.1
+"In control systems, a simple (non-repeated) pole refers to?",L{df/dt} = s*F(s) - f(0-),1/(s+a),integral of f(t)*e^(-s*t) dt from 0 to infinity,contributes term A/(s-p) in partial fraction expansion,4,0.1
+"In control systems, a complex conjugate pole pair refers to?",contributes damped sinusoidal term in time domain,"lim t->inf f(t) = lim s->0 s*F(s), if poles in LHP",lim t->0+ f(t) = lim s->inf s*F(s),values of s making denominator zero,1,0.1
+"In control systems, poles of a transfer function refers to?",1/(s+a),values of s making denominator zero,s/(s^2+omega^2),L{df/dt} = s*F(s) - f(0-),2,0.1
+How is the Laplace transform of f(t) defined?,contributes term A/(s-p) in partial fraction expansion,contributes damped sinusoidal term in time domain,values of s making denominator zero,integral of f(t)*e^(-s*t) dt from 0 to infinity,4,0.1
+How is L{delta(t)} defined?,1/(s+a),contributes term A/(s-p) in partial fraction expansion,1,decomposes F(s) into sum of simple fractions for inversion,3,0.1
+Evaluate: L{3*e^(-2t)},6 /(s+2),3/(s+2),1 /(s+2),0 /(s+2),2,0.15
+Evaluate: inverse L of 1/(s+3),e^(-3t)*u(t)_b,e^(-3t)*u(t)_a,e^(-3t)*u(t),e^(-3t)*u(t)_c,3,0.15
+Evaluate: inverse L of 2/(s*(s+1)),2*(1-e^(-t))*u(t),1 *(1-e^(-t))*u(t),0 *(1-e^(-t))*u(t),4 *(1-e^(-t))*u(t),1,0.15
+Evaluate: final value of Y(s)=5/(s*(s+2)),7.5,2.5,5.0,1.2,2,0.15
+Evaluate: final value of Y(s)=1/(s+1) (no s factor),0,-0,3.46 rad/s,1/s^2,1,0.15
+Evaluate: initial value of F(s)=3s/(s+2),3,9,30,2,1,0.15
+Evaluate: pole of G(s)=1/((s+1)(s+2)),s=-1 and s=-2_a,s=-1 and s=-2,s=-1 and s=-2_b,s=-1 and s=-2_c,2,0.15
+Evaluate: zero of G(s)=(s+3)/((s+1)(s+2)),s=-3,s=-3_a,s=-3_c,s=-3_b,1,0.15
+Evaluate: partial fractions of 1/(s(s+1)),-1 /s - 1/(s+1),1 /s - 1/(s+1),2 /s - 1/(s+1),1/s - 1/(s+1),4,0.15
+Evaluate: L{t},4 /s^2,1/s^2,0 /s^2,1 /s^2,2,0.15
+Evaluate: L{1-e^(-t)},1/(s*(s+1)),2 /(s*(s+1)),approx 1/(s*(s+1))*2,0 /(s*(s+1)),1,0.15
+Evaluate: damped frequency wd for zeta=0.5 wn=4,34.60 rad/s,6.92 rad/s,3.46 rad/s,2.59 rad/s,3,0.15
+Evaluate: natural freq wn for poles at -2+/-j3,sqrt(13) = 3.61 rad/s_b,sqrt(13) = 3.61 rad/s_a,sqrt(13) = 3.61 rad/s,sqrt(13) = 3.61 rad/s_c,3,0.15
+Evaluate: damping ratio for poles at -2+/-j2,2.828,0.071,0.707,2.121,3,0.15
+Evaluate: settling time (2%) for zeta=0.5 wn=4,8 s,2 s,3 s,1 s,2,0.15
+Evaluate: peak overshoot Mp for zeta=0.5,0.082 = 16.3%,0.489 = 16.3%,0.054 = 16.3%,0.163 = 16.3%,4,0.15
+Evaluate: rise time approx for wn=4 zeta=0.5,0.06 s,2.20 s,0.18 s,0.55 s,4,0.15
+Evaluate: steady-state error for unit step type-0 system Kp=9,1.0,0.1,0.2,0.4,2,0.15
+Evaluate: steady-state error for unit step type-1 system,0.1,-0,0,3/(s+2),3,0.15
+Evaluate: velocity error constant Kv for G=10/s(s+2),5,1,4,0,1,0.15
+Evaluate: steady-state error for ramp input type-1 Kv=5,-0.2,0.1,0.2,0.0,3,0.15
+Evaluate: acceleration error Ka for G=K/s^2(s+1),K_a,K,K_b,K_c,2,0.15
+What is the result of L{3*e^(-2t)}?,1 /(s+2),0 /(s+2),9 /(s+2),3/(s+2),4,0.15
+What is the result of inverse L of 1/(s+3)?,e^(-3t)*u(t)_a,e^(-3t)*u(t)_c,e^(-3t)*u(t),e^(-3t)*u(t)_b,3,0.15
+What is the result of inverse L of 2/(s*(s+1))?,2*(1-e^(-t))*u(t),3 *(1-e^(-t))*u(t),2 *(1-e^(-t))*u(t),1 *(1-e^(-t))*u(t),1,0.15
+What is the result of final value of Y(s)=5/(s*(s+2))?,1.9,-2.5,2.5,0.2,3,0.15
+What is the result of final value of Y(s)=1/(s+1) (no s factor)?,2*(1-e^(-t))*u(t),0.55 s,0,-0,3,0.15
+What is the result of initial value of F(s)=3s/(s+2)?,3,12,-3,30,1,0.15
+What is the result of pole of G(s)=1/((s+1)(s+2))?,s=-1 and s=-2_b,s=-1 and s=-2,s=-1 and s=-2_a,s=-1 and s=-2_c,2,0.15
+What is the result of zero of G(s)=(s+3)/((s+1)(s+2))?,s=-3_b,s=-3_c,s=-3,s=-3_a,3,0.15
+What is the result of partial fractions of 1/(s(s+1))?,0 /s - 1/(s+1),1/s - 1/(s+1),10 /s - 1/(s+1),2 /s - 1/(s+1),2,0.15
+What is the result of L{t}?,4 /s^2,0 /s^2,1/s^2,1 /s^2,3,0.15
+What is the result of L{1-e^(-t)}?,1 /(s*(s+1)),-1 /(s*(s+1)),2 /(s*(s+1)),1/(s*(s+1)),4,0.15
+What is the result of damped frequency wd for zeta=0.5 wn=4?,3.46 rad/s,2.59 rad/s,34.60 rad/s,5.19 rad/s,1,0.15
+What is the result of natural freq wn for poles at -2+/-j3?,sqrt(13) = 3.61 rad/s_a,sqrt(13) = 3.61 rad/s_b,sqrt(13) = 3.61 rad/s,sqrt(13) = 3.61 rad/s_c,3,0.15
+What is the result of damping ratio for poles at -2+/-j2?,0.707,7.070,1.060,0.071,1,0.15
+What is the result of settling time (2%) for zeta=0.5 wn=4?,6 s,2 s,1 s,3 s,2,0.15
+What is the result of peak overshoot Mp for zeta=0.5?,0.016 = 16.3%,-0.163 = 16.3%,0.163 = 16.3%,0.652 = 16.3%,3,0.15
+What is the result of rise time approx for wn=4 zeta=0.5?,0.55 s,1.65 s,2.20 s,-0.55 s,1,0.15
+What is the result of steady-state error for unit step type-0 system Kp=9?,1.0,0.4,0.0,0.1,4,0.15
+What is the result of steady-state error for unit step type-1 system?,-0,e^(-3t)*u(t),0,s=-3,3,0.15
+What is the result of velocity error constant Kv for G=10/s(s+2)?,2,1,8,5,4,0.15
+What is the result of steady-state error for ramp input type-1 Kv=5?,0.2,approx 0.2*2,0.4,0.1,1,0.15
+What is the result of acceleration error Ka for G=K/s^2(s+1)?,K,K_b,K_c,K_a,1,0.15
+Calculate: L{3*e^(-2t)},6 /(s+2),3/(s+2),-3 /(s+2),4 /(s+2),2,0.15
+Calculate: inverse L of 1/(s+3),e^(-3t)*u(t)_a,e^(-3t)*u(t),e^(-3t)*u(t)_b,e^(-3t)*u(t)_c,2,0.15
+Calculate: inverse L of 2/(s*(s+1)),2*(1-e^(-t))*u(t),4 *(1-e^(-t))*u(t),-2 *(1-e^(-t))*u(t),2 *(1-e^(-t))*u(t),1,0.15
+Calculate: final value of Y(s)=5/(s*(s+2)),2.5,0.2,5.0,3.8,1,0.15
+Calculate: final value of Y(s)=1/(s+1) (no s factor),1/(s*(s+1)),0.55 s,-0,0,4,0.15
+Calculate: initial value of F(s)=3s/(s+2),2,3,approx 3*2,6,2,0.15
+What is the signal flow graph?,a directed graph representing linear algebraic relationships,a path from source to sink not visiting any node twice,a node from which a signal branches to multiple paths,1 + G(s)*H(s) = 0; determines closed-loop poles,1,0.2
+What is Mason's gain formula?,a node from which a signal branches to multiple paths,a block diagram element that algebraically adds or subtracts signals,plant G(s) with unity negative feedback,formula computing overall gain from input to output node,4,0.2
+What is a forward path?,a path from source to sink not visiting any node twice,closed-loop transfer function for unity or non-unity feedback,loops that share no common nodes,overall transfer function = sum of individual transfer functions,1,0.2
+What is a loop (Mason)?,a closed path not visiting any node twice,formula computing overall gain from input to output node,a node from which a signal branches to multiple paths,overall transfer function = sum of individual transfer functions,1,0.2
+What is non-touching loops?,1 + G(s)*H(s) = 0; determines closed-loop poles,closed-loop transfer function for unity or non-unity feedback,add a block 1/G in the moved branch,loops that share no common nodes,4,0.2
+What is the block diagram reduction technique?,systematic simplification of block diagrams using algebra,a node from which a signal branches to multiple paths,plant G(s) with unity negative feedback,a block diagram element that algebraically adds or subtracts signals,1,0.2
+What is the summing junction?,plant G(s) with unity negative feedback,a block diagram element that algebraically adds or subtracts signals,a path from source to sink not visiting any node twice,a closed path not visiting any node twice,2,0.2
+What is the pick-off point?,a node from which a signal branches to multiple paths,a path from source to sink not visiting any node twice,a directed graph representing linear algebraic relationships,G(s)/(1+G(s)*H(s)) for unity feedback,1,0.2
+What is series combination of blocks?,overall transfer function = product of individual transfer functions,closed-loop transfer function for unity or non-unity feedback,overall transfer function = sum of individual transfer functions,a path from source to sink not visiting any node twice,1,0.2
+What is parallel combination of blocks?,overall transfer function = sum of individual transfer functions,a path from source to sink not visiting any node twice,closed-loop transfer function for unity or non-unity feedback,a block diagram element that algebraically adds or subtracts signals,1,0.2
+What is the feedback formula G/(1+G*H)?,closed-loop transfer function for unity or non-unity feedback,overall transfer function = product of individual transfer functions,1 + G(s)*H(s) = 0; determines closed-loop poles,G(s)/(1+G(s)*H(s)) for unity feedback,1,0.2
+What is moving a pick-off point past a block G?,a directed graph representing linear algebraic relationships,add a block 1/G in the moved branch,a node from which a signal branches to multiple paths,1 + G(s)*H(s) = 0; determines closed-loop poles,2,0.2
+What is moving a summing junction past a block G?,loops that share no common nodes,a block diagram element that algebraically adds or subtracts signals,overall transfer function = sum of individual transfer functions,add block G in the branch being moved,4,0.2
+What is a canonical feedback system?,add block G in the branch being moved,plant G(s) with unity negative feedback,closed-loop transfer function for unity or non-unity feedback,loops that share no common nodes,2,0.2
+What is the characteristic equation?,overall transfer function = sum of individual transfer functions,a node from which a signal branches to multiple paths,1 + G(s)*H(s) = 0; determines closed-loop poles,a path from source to sink not visiting any node twice,3,0.2
+What is the closed-loop transfer function C(s)/R(s)?,a directed graph representing linear algebraic relationships,overall transfer function = sum of individual transfer functions,add a block 1/G in the moved branch,G(s)/(1+G(s)*H(s)) for unity feedback,4,0.2
+Which best describes the signal flow graph?,a block diagram element that algebraically adds or subtracts signals,a directed graph representing linear algebraic relationships,a node from which a signal branches to multiple paths,overall transfer function = product of individual transfer functions,2,0.2
+Which best describes Mason's gain formula?,a node from which a signal branches to multiple paths,formula computing overall gain from input to output node,overall transfer function = sum of individual transfer functions,plant G(s) with unity negative feedback,2,0.2
+Which best describes a forward path?,a path from source to sink not visiting any node twice,overall transfer function = sum of individual transfer functions,a closed path not visiting any node twice,add block G in the branch being moved,1,0.2
+Which best describes a loop (Mason)?,overall transfer function = product of individual transfer functions,a closed path not visiting any node twice,add a block 1/G in the moved branch,overall transfer function = sum of individual transfer functions,2,0.2
+Which best describes non-touching loops?,loops that share no common nodes,overall transfer function = product of individual transfer functions,a block diagram element that algebraically adds or subtracts signals,overall transfer function = sum of individual transfer functions,1,0.2
+Which best describes the block diagram reduction technique?,systematic simplification of block diagrams using algebra,overall transfer function = product of individual transfer functions,a closed path not visiting any node twice,closed-loop transfer function for unity or non-unity feedback,1,0.2
+Which best describes the summing junction?,a closed path not visiting any node twice,a block diagram element that algebraically adds or subtracts signals,plant G(s) with unity negative feedback,loops that share no common nodes,2,0.2
+Which best describes the pick-off point?,a node from which a signal branches to multiple paths,overall transfer function = product of individual transfer functions,add block G in the branch being moved,G(s)/(1+G(s)*H(s)) for unity feedback,1,0.2
+Which best describes series combination of blocks?,add block G in the branch being moved,overall transfer function = product of individual transfer functions,overall transfer function = sum of individual transfer functions,plant G(s) with unity negative feedback,2,0.2
+Which best describes parallel combination of blocks?,overall transfer function = sum of individual transfer functions,add a block 1/G in the moved branch,closed-loop transfer function for unity or non-unity feedback,overall transfer function = product of individual transfer functions,1,0.2
+Which best describes the feedback formula G/(1+G*H)?,a path from source to sink not visiting any node twice,plant G(s) with unity negative feedback,closed-loop transfer function for unity or non-unity feedback,G(s)/(1+G(s)*H(s)) for unity feedback,3,0.2
+Which best describes moving a pick-off point past a block G?,add a block 1/G in the moved branch,add block G in the branch being moved,formula computing overall gain from input to output node,systematic simplification of block diagrams using algebra,1,0.2
+Which best describes moving a summing junction past a block G?,add block G in the branch being moved,a closed path not visiting any node twice,a node from which a signal branches to multiple paths,add a block 1/G in the moved branch,1,0.2
+Which best describes a canonical feedback system?,G(s)/(1+G(s)*H(s)) for unity feedback,add a block 1/G in the moved branch,plant G(s) with unity negative feedback,overall transfer function = product of individual transfer functions,3,0.2
+Which best describes the characteristic equation?,G(s)/(1+G(s)*H(s)) for unity feedback,add a block 1/G in the moved branch,1 + G(s)*H(s) = 0; determines closed-loop poles,overall transfer function = sum of individual transfer functions,3,0.2
+Which best describes the closed-loop transfer function C(s)/R(s)?,a closed path not visiting any node twice,overall transfer function = product of individual transfer functions,G(s)/(1+G(s)*H(s)) for unity feedback,closed-loop transfer function for unity or non-unity feedback,3,0.2
+"In control systems, the signal flow graph refers to?",a node from which a signal branches to multiple paths,a block diagram element that algebraically adds or subtracts signals,a directed graph representing linear algebraic relationships,add block G in the branch being moved,3,0.2
+"In control systems, Mason's gain formula refers to?",formula computing overall gain from input to output node,a directed graph representing linear algebraic relationships,overall transfer function = sum of individual transfer functions,a closed path not visiting any node twice,1,0.2
+"In control systems, a forward path refers to?",a path from source to sink not visiting any node twice,loops that share no common nodes,overall transfer function = product of individual transfer functions,add a block 1/G in the moved branch,1,0.2
+"In control systems, a loop (Mason) refers to?",add a block 1/G in the moved branch,plant G(s) with unity negative feedback,a directed graph representing linear algebraic relationships,a closed path not visiting any node twice,4,0.2
+"In control systems, non-touching loops refers to?",add block G in the branch being moved,overall transfer function = sum of individual transfer functions,1 + G(s)*H(s) = 0; determines closed-loop poles,loops that share no common nodes,4,0.2
+"In control systems, the block diagram reduction technique refers to?",a path from source to sink not visiting any node twice,1 + G(s)*H(s) = 0; determines closed-loop poles,G(s)/(1+G(s)*H(s)) for unity feedback,systematic simplification of block diagrams using algebra,4,0.2
+"In control systems, the summing junction refers to?",add block G in the branch being moved,a path from source to sink not visiting any node twice,loops that share no common nodes,a block diagram element that algebraically adds or subtracts signals,4,0.2
+"In control systems, the pick-off point refers to?",a node from which a signal branches to multiple paths,formula computing overall gain from input to output node,closed-loop transfer function for unity or non-unity feedback,G(s)/(1+G(s)*H(s)) for unity feedback,1,0.2
+"In control systems, series combination of blocks refers to?",overall transfer function = sum of individual transfer functions,add a block 1/G in the moved branch,overall transfer function = product of individual transfer functions,1 + G(s)*H(s) = 0; determines closed-loop poles,3,0.2
+"In control systems, parallel combination of blocks refers to?",a closed path not visiting any node twice,plant G(s) with unity negative feedback,loops that share no common nodes,overall transfer function = sum of individual transfer functions,4,0.2
+"In control systems, the feedback formula G/(1+G*H) refers to?",add block G in the branch being moved,closed-loop transfer function for unity or non-unity feedback,add a block 1/G in the moved branch,a node from which a signal branches to multiple paths,2,0.2
+"In control systems, moving a pick-off point past a block G refers to?",a directed graph representing linear algebraic relationships,add a block 1/G in the moved branch,systematic simplification of block diagrams using algebra,add block G in the branch being moved,2,0.2
+"In control systems, moving a summing junction past a block G refers to?",add block G in the branch being moved,overall transfer function = sum of individual transfer functions,a path from source to sink not visiting any node twice,closed-loop transfer function for unity or non-unity feedback,1,0.2
+"In control systems, a canonical feedback system refers to?",formula computing overall gain from input to output node,a block diagram element that algebraically adds or subtracts signals,closed-loop transfer function for unity or non-unity feedback,plant G(s) with unity negative feedback,4,0.2
+"In control systems, the characteristic equation refers to?",a closed path not visiting any node twice,systematic simplification of block diagrams using algebra,a node from which a signal branches to multiple paths,1 + G(s)*H(s) = 0; determines closed-loop poles,4,0.2
+"In control systems, the closed-loop transfer function C(s)/R(s) refers to?",G(s)/(1+G(s)*H(s)) for unity feedback,add block G in the branch being moved,a closed path not visiting any node twice,a node from which a signal branches to multiple paths,1,0.2
+How is the signal flow graph defined?,G(s)/(1+G(s)*H(s)) for unity feedback,add block G in the branch being moved,closed-loop transfer function for unity or non-unity feedback,a directed graph representing linear algebraic relationships,4,0.2
+How is Mason's gain formula defined?,a directed graph representing linear algebraic relationships,loops that share no common nodes,add block G in the branch being moved,formula computing overall gain from input to output node,4,0.2
+What is the differential equation of a mass-spring-damper?,R/(L*s+R),M*x'' + B*x' + K*x = f(t),opposition to fluid flow analogous to electrical resistance,capacitor C,2,0.25
+What is the transfer function of a mass-spring-damper?,maps speed and torque between meshed gears,J*R/(Km^2+B*R),1/(M*s^2+B*s+K),opposition to fluid flow analogous to electrical resistance,3,0.25
+What is the transfer function of an RC circuit?,1/(R*C*s+1),-R_f/R_in,resistor R,R/(L*s+R),1,0.25
+What is the transfer function of an RL circuit?,-R_f/R_in,inductor 1/L,R/(L*s+R),minus 1/(R*C*s),3,0.25
+What is the armature-controlled DC motor transfer function?,inductor 1/L,-R_f/R_in,Km/(s*(tau_m*s+1)),resistor R,3,0.25
+What is the mechanical time constant tau_m?,inductor 1/L,J*R/(Km^2+B*R),minus R*C*s,M*x'' + B*x' + K*x = f(t),2,0.25
+What is the gear ratio N1/N2?,1/(R*C*s+1),J*R/(Km^2+B*R),maps speed and torque between meshed gears,inductor 1/L,3,0.25
+What is the analogous electrical element for mass M?,resistor R,Taylor series expansion around operating point,f=L*di/dt+Ri+(1/C)*int i,capacitor C,4,0.25
+What is the analogous electrical element for damping B?,resistor R,capacitor C,M*x'' + B*x' + K*x = f(t),minus 1/(R*C*s),1,0.25
+What is the analogous electrical element for spring K?,inductor 1/L,capacitor C,f=L*di/dt+Ri+(1/C)*int i,M*x'' + B*x' + K*x = f(t),1,0.25
+What is force-voltage analogy?,Taylor series expansion around operating point,maps speed and torque between meshed gears,f=L*di/dt+Ri+(1/C)*int i,M*x'' + B*x' + K*x = f(t),3,0.25
+What is the hydraulic system resistance?,1/(M*s^2+B*s+K),opposition to fluid flow analogous to electrical resistance,inductor 1/L,M*x'' + B*x' + K*x = f(t),2,0.25
+What is linearisation of nonlinear systems?,M*x'' + B*x' + K*x = f(t),resistor R,Taylor series expansion around operating point,1/(M*s^2+B*s+K),3,0.25
+What is an op-amp integrator transfer function?,minus 1/(R*C*s),Taylor series expansion around operating point,1/(R*C*s+1),maps speed and torque between meshed gears,1,0.25
+What is an op-amp differentiator transfer function?,maps speed and torque between meshed gears,minus R*C*s,J*R/(Km^2+B*R),capacitor C,2,0.25
+What is an op-amp inverting amplifier gain?,-R_f/R_in,resistor R,minus R*C*s,f=L*di/dt+Ri+(1/C)*int i,1,0.25
+Which best describes the differential equation of a mass-spring-damper?,1/(R*C*s+1),M*x'' + B*x' + K*x = f(t),R/(L*s+R),inductor 1/L,2,0.25
+Which best describes the transfer function of a mass-spring-damper?,M*x'' + B*x' + K*x = f(t),Km/(s*(tau_m*s+1)),Taylor series expansion around operating point,1/(M*s^2+B*s+K),4,0.25
+Which best describes the transfer function of an RC circuit?,1/(R*C*s+1),opposition to fluid flow analogous to electrical resistance,Taylor series expansion around operating point,inductor 1/L,1,0.25
+Which best describes the transfer function of an RL circuit?,Km/(s*(tau_m*s+1)),R/(L*s+R),minus R*C*s,-R_f/R_in,2,0.25
+Which best describes the armature-controlled DC motor transfer function?,R/(L*s+R),J*R/(Km^2+B*R),Taylor series expansion around operating point,Km/(s*(tau_m*s+1)),4,0.25
+Which best describes the mechanical time constant tau_m?,M*x'' + B*x' + K*x = f(t),minus 1/(R*C*s),J*R/(Km^2+B*R),f=L*di/dt+Ri+(1/C)*int i,3,0.25
+Which best describes the gear ratio N1/N2?,1/(M*s^2+B*s+K),maps speed and torque between meshed gears,f=L*di/dt+Ri+(1/C)*int i,M*x'' + B*x' + K*x = f(t),2,0.25
+Which best describes the analogous electrical element for mass M?,Taylor series expansion around operating point,capacitor C,R/(L*s+R),M*x'' + B*x' + K*x = f(t),2,0.25
+Which best describes the analogous electrical element for damping B?,R/(L*s+R),inductor 1/L,minus 1/(R*C*s),resistor R,4,0.25
+Which best describes the analogous electrical element for spring K?,inductor 1/L,R/(L*s+R),Taylor series expansion around operating point,minus R*C*s,1,0.25
+Which best describes force-voltage analogy?,f=L*di/dt+Ri+(1/C)*int i,Km/(s*(tau_m*s+1)),1/(R*C*s+1),R/(L*s+R),1,0.25
+Which best describes the hydraulic system resistance?,opposition to fluid flow analogous to electrical resistance,resistor R,M*x'' + B*x' + K*x = f(t),Km/(s*(tau_m*s+1)),1,0.25
+Which best describes linearisation of nonlinear systems?,Taylor series expansion around operating point,resistor R,M*x'' + B*x' + K*x = f(t),capacitor C,1,0.25
+Which best describes an op-amp integrator transfer function?,resistor R,minus 1/(R*C*s),Taylor series expansion around operating point,J*R/(Km^2+B*R),2,0.25
+Which best describes an op-amp differentiator transfer function?,Km/(s*(tau_m*s+1)),maps speed and torque between meshed gears,minus R*C*s,1/(R*C*s+1),3,0.25
+Which best describes an op-amp inverting amplifier gain?,minus 1/(R*C*s),-R_f/R_in,opposition to fluid flow analogous to electrical resistance,Km/(s*(tau_m*s+1)),2,0.25
+"In control systems, the differential equation of a mass-spring-damper refers to?",capacitor C,M*x'' + B*x' + K*x = f(t),minus R*C*s,inductor 1/L,2,0.25
+"In control systems, the transfer function of a mass-spring-damper refers to?",maps speed and torque between meshed gears,Km/(s*(tau_m*s+1)),J*R/(Km^2+B*R),1/(M*s^2+B*s+K),4,0.25
+"In control systems, the transfer function of an RC circuit refers to?",inductor 1/L,Taylor series expansion around operating point,1/(R*C*s+1),1/(M*s^2+B*s+K),3,0.25
+"In control systems, the transfer function of an RL circuit refers to?",capacitor C,opposition to fluid flow analogous to electrical resistance,f=L*di/dt+Ri+(1/C)*int i,R/(L*s+R),4,0.25
+"In control systems, the armature-controlled DC motor transfer function refers to?",-R_f/R_in,Km/(s*(tau_m*s+1)),f=L*di/dt+Ri+(1/C)*int i,minus 1/(R*C*s),2,0.25
+"In control systems, the mechanical time constant tau_m refers to?",minus R*C*s,maps speed and torque between meshed gears,Km/(s*(tau_m*s+1)),J*R/(Km^2+B*R),4,0.25
+"In control systems, the gear ratio N1/N2 refers to?",Taylor series expansion around operating point,1/(M*s^2+B*s+K),maps speed and torque between meshed gears,-R_f/R_in,3,0.25
+"In control systems, the analogous electrical element for mass M refers to?",capacitor C,inductor 1/L,maps speed and torque between meshed gears,R/(L*s+R),1,0.25
+"In control systems, the analogous electrical element for damping B refers to?",resistor R,opposition to fluid flow analogous to electrical resistance,capacitor C,inductor 1/L,1,0.25
+"In control systems, the analogous electrical element for spring K refers to?",resistor R,J*R/(Km^2+B*R),inductor 1/L,capacitor C,3,0.25
+"In control systems, force-voltage analogy refers to?",f=L*di/dt+Ri+(1/C)*int i,minus R*C*s,J*R/(Km^2+B*R),minus 1/(R*C*s),1,0.25
+"In control systems, the hydraulic system resistance refers to?",inductor 1/L,opposition to fluid flow analogous to electrical resistance,M*x'' + B*x' + K*x = f(t),maps speed and torque between meshed gears,2,0.25
+"In control systems, linearisation of nonlinear systems refers to?",Km/(s*(tau_m*s+1)),Taylor series expansion around operating point,M*x'' + B*x' + K*x = f(t),resistor R,2,0.25
+"In control systems, an op-amp integrator transfer function refers to?",R/(L*s+R),minus 1/(R*C*s),J*R/(Km^2+B*R),-R_f/R_in,2,0.25
+"In control systems, an op-amp differentiator transfer function refers to?",minus R*C*s,f=L*di/dt+Ri+(1/C)*int i,capacitor C,resistor R,1,0.25
+"In control systems, an op-amp inverting amplifier gain refers to?",f=L*di/dt+Ri+(1/C)*int i,-R_f/R_in,opposition to fluid flow analogous to electrical resistance,minus R*C*s,2,0.25
+How is the differential equation of a mass-spring-damper defined?,minus 1/(R*C*s),maps speed and torque between meshed gears,M*x'' + B*x' + K*x = f(t),Taylor series expansion around operating point,3,0.25
+How is the transfer function of a mass-spring-damper defined?,R/(L*s+R),opposition to fluid flow analogous to electrical resistance,inductor 1/L,1/(M*s^2+B*s+K),4,0.25
+What is BIBO stability?,equals sign changes in first column,stable iff a2*a1 > a0,indicates poles on imaginary axis or in RHP,bounded input produces bounded output; all closed-loop poles in LHP,4,0.3
+What is the Routh-Hurwitz criterion?,encirclements of -1+j0 determines closed-loop RHP poles,stable iff a2*a1 > a0,algebraic test for stability; checks for positive first-column entries,formed from row above all-zero row; locates those poles,3,0.3
+What is a Routh array row of zeros?,all poles have negative real parts,indicates poles on imaginary axis or in RHP,bounded input produces bounded output; all closed-loop poles in LHP,frequency where |G(j*omega)*H| = 1,2,0.3
+What is the auxiliary equation?,formed from row above all-zero row; locates those poles,frequency where angle of G*H = -180 degrees,encirclements of -1+j0 determines closed-loop RHP poles,stable iff a2*a1 > a0,1,0.3
+What is a stable system in s-domain?,bounded input produces bounded output; all closed-loop poles in LHP,equals sign changes in first column,all poles have negative real parts,frequency where |G(j*omega)*H| = 1,3,0.3
+What is a marginally stable system?,all poles have negative real parts,frequency where |G(j*omega)*H| = 1,poles on j*omega axis with multiplicity 1; other poles in LHP,stable only for certain range of gain K,3,0.3
+What is an unstable system?,"stable iff a,b,c all same sign",algebraic test for stability; checks for positive first-column entries,indicates poles on imaginary axis or in RHP,at least one pole in RHP or repeated pole on j*omega axis,4,0.3
+What is the gain margin (GM)?,additional gain needed to make system unstable; in dB = 20*log10(GM),frequency where angle of G*H = -180 degrees,formed from row above all-zero row; locates those poles,equals sign changes in first column,1,0.3
+What is the phase margin (PM)?,additional phase lag to instability; measured at gain crossover,algebraic test for stability; checks for positive first-column entries,"stable iff a,b,c all same sign",at least one pole in RHP or repeated pole on j*omega axis,1,0.3
+What is the gain crossover frequency omega_gc?,formed from row above all-zero row; locates those poles,frequency where |G(j*omega)*H| = 1,stable only for certain range of gain K,frequency where angle of G*H = -180 degrees,2,0.3
+What is the phase crossover frequency omega_pc?,stable iff a2*a1 > a0,encirclements of -1+j0 determines closed-loop RHP poles,equals sign changes in first column,frequency where angle of G*H = -180 degrees,4,0.3
+What is Nyquist stability criterion?,at least one pole in RHP or repeated pole on j*omega axis,equals sign changes in first column,encirclements of -1+j0 determines closed-loop RHP poles,additional phase lag to instability; measured at gain crossover,3,0.3
+What is a conditionally stable system?,stable only for certain range of gain K,indicates poles on imaginary axis or in RHP,encirclements of -1+j0 determines closed-loop RHP poles,algebraic test for stability; checks for positive first-column entries,1,0.3
+What is the Routh criterion for n=2 system as^2+bs+c=0?,frequency where |G(j*omega)*H| = 1,stable iff a2*a1 > a0,algebraic test for stability; checks for positive first-column entries,"stable iff a,b,c all same sign",4,0.3
+What is Routh criterion for n=3: s^3+a2s^2+a1s+a0?,"stable iff a,b,c all same sign",stable iff a2*a1 > a0,equals sign changes in first column,encirclements of -1+j0 determines closed-loop RHP poles,2,0.3
+What is the number of RHP roots from Routh array?,stable iff a2*a1 > a0,equals sign changes in first column,frequency where angle of G*H = -180 degrees,algebraic test for stability; checks for positive first-column entries,2,0.3
+Which best describes BIBO stability?,formed from row above all-zero row; locates those poles,stable iff a2*a1 > a0,at least one pole in RHP or repeated pole on j*omega axis,bounded input produces bounded output; all closed-loop poles in LHP,4,0.3
+Which best describes the Routh-Hurwitz criterion?,stable iff a2*a1 > a0,"stable iff a,b,c all same sign",algebraic test for stability; checks for positive first-column entries,stable only for certain range of gain K,3,0.3
+Which best describes a Routh array row of zeros?,indicates poles on imaginary axis or in RHP,formed from row above all-zero row; locates those poles,frequency where angle of G*H = -180 degrees,all poles have negative real parts,1,0.3
+Which best describes the auxiliary equation?,stable only for certain range of gain K,formed from row above all-zero row; locates those poles,"stable iff a,b,c all same sign",additional gain needed to make system unstable; in dB = 20*log10(GM),2,0.3
+Which best describes a stable system in s-domain?,stable only for certain range of gain K,frequency where |G(j*omega)*H| = 1,at least one pole in RHP or repeated pole on j*omega axis,all poles have negative real parts,4,0.3
+Which best describes a marginally stable system?,poles on j*omega axis with multiplicity 1; other poles in LHP,formed from row above all-zero row; locates those poles,algebraic test for stability; checks for positive first-column entries,stable iff a2*a1 > a0,1,0.3
+Which best describes an unstable system?,at least one pole in RHP or repeated pole on j*omega axis,bounded input produces bounded output; all closed-loop poles in LHP,"stable iff a,b,c all same sign",poles on j*omega axis with multiplicity 1; other poles in LHP,1,0.3
+Which best describes the gain margin (GM)?,poles on j*omega axis with multiplicity 1; other poles in LHP,additional gain needed to make system unstable; in dB = 20*log10(GM),formed from row above all-zero row; locates those poles,frequency where |G(j*omega)*H| = 1,2,0.3
+Which best describes the phase margin (PM)?,frequency where angle of G*H = -180 degrees,encirclements of -1+j0 determines closed-loop RHP poles,additional phase lag to instability; measured at gain crossover,equals sign changes in first column,3,0.3
+Which best describes the gain crossover frequency omega_gc?,formed from row above all-zero row; locates those poles,"stable iff a,b,c all same sign",stable only for certain range of gain K,frequency where |G(j*omega)*H| = 1,4,0.3
+Which best describes the phase crossover frequency omega_pc?,frequency where angle of G*H = -180 degrees,stable only for certain range of gain K,at least one pole in RHP or repeated pole on j*omega axis,indicates poles on imaginary axis or in RHP,1,0.3
+Which best describes Nyquist stability criterion?,equals sign changes in first column,poles on j*omega axis with multiplicity 1; other poles in LHP,algebraic test for stability; checks for positive first-column entries,encirclements of -1+j0 determines closed-loop RHP poles,4,0.3
+Which best describes a conditionally stable system?,additional gain needed to make system unstable; in dB = 20*log10(GM),"stable iff a,b,c all same sign",stable only for certain range of gain K,poles on j*omega axis with multiplicity 1; other poles in LHP,3,0.3
+Which best describes the Routh criterion for n=2 system as^2+bs+c=0?,"stable iff a,b,c all same sign",algebraic test for stability; checks for positive first-column entries,indicates poles on imaginary axis or in RHP,at least one pole in RHP or repeated pole on j*omega axis,1,0.3
+Which best describes Routh criterion for n=3: s^3+a2s^2+a1s+a0?,algebraic test for stability; checks for positive first-column entries,stable iff a2*a1 > a0,equals sign changes in first column,bounded input produces bounded output; all closed-loop poles in LHP,2,0.3
+Which best describes the number of RHP roots from Routh array?,stable only for certain range of gain K,equals sign changes in first column,frequency where |G(j*omega)*H| = 1,stable iff a2*a1 > a0,2,0.3
+"In control systems, BIBO stability refers to?",poles on j*omega axis with multiplicity 1; other poles in LHP,stable iff a2*a1 > a0,additional gain needed to make system unstable; in dB = 20*log10(GM),bounded input produces bounded output; all closed-loop poles in LHP,4,0.3
+"In control systems, the Routh-Hurwitz criterion refers to?",frequency where angle of G*H = -180 degrees,frequency where |G(j*omega)*H| = 1,algebraic test for stability; checks for positive first-column entries,formed from row above all-zero row; locates those poles,3,0.3
+"In control systems, a Routh array row of zeros refers to?",poles on j*omega axis with multiplicity 1; other poles in LHP,equals sign changes in first column,indicates poles on imaginary axis or in RHP,stable iff a2*a1 > a0,3,0.3
+"In control systems, the auxiliary equation refers to?",formed from row above all-zero row; locates those poles,additional gain needed to make system unstable; in dB = 20*log10(GM),indicates poles on imaginary axis or in RHP,poles on j*omega axis with multiplicity 1; other poles in LHP,1,0.3
+"In control systems, a stable system in s-domain refers to?",at least one pole in RHP or repeated pole on j*omega axis,"stable iff a,b,c all same sign",all poles have negative real parts,algebraic test for stability; checks for positive first-column entries,3,0.3
+"In control systems, a marginally stable system refers to?",frequency where angle of G*H = -180 degrees,equals sign changes in first column,poles on j*omega axis with multiplicity 1; other poles in LHP,formed from row above all-zero row; locates those poles,3,0.3
+"In control systems, an unstable system refers to?",at least one pole in RHP or repeated pole on j*omega axis,all poles have negative real parts,additional gain needed to make system unstable; in dB = 20*log10(GM),bounded input produces bounded output; all closed-loop poles in LHP,1,0.3
+"In control systems, the gain margin (GM) refers to?",additional gain needed to make system unstable; in dB = 20*log10(GM),stable iff a2*a1 > a0,"stable iff a,b,c all same sign",poles on j*omega axis with multiplicity 1; other poles in LHP,1,0.3
+"In control systems, the phase margin (PM) refers to?",additional phase lag to instability; measured at gain crossover,equals sign changes in first column,encirclements of -1+j0 determines closed-loop RHP poles,stable iff a2*a1 > a0,1,0.3
+"In control systems, the gain crossover frequency omega_gc refers to?",stable only for certain range of gain K,frequency where |G(j*omega)*H| = 1,frequency where angle of G*H = -180 degrees,formed from row above all-zero row; locates those poles,2,0.3
+"In control systems, the phase crossover frequency omega_pc refers to?",at least one pole in RHP or repeated pole on j*omega axis,frequency where angle of G*H = -180 degrees,poles on j*omega axis with multiplicity 1; other poles in LHP,all poles have negative real parts,2,0.3
+"In control systems, Nyquist stability criterion refers to?",at least one pole in RHP or repeated pole on j*omega axis,encirclements of -1+j0 determines closed-loop RHP poles,poles on j*omega axis with multiplicity 1; other poles in LHP,all poles have negative real parts,2,0.3
+"In control systems, a conditionally stable system refers to?",formed from row above all-zero row; locates those poles,stable only for certain range of gain K,frequency where |G(j*omega)*H| = 1,equals sign changes in first column,2,0.3
+"In control systems, the Routh criterion for n=2 system as^2+bs+c=0 refers to?","stable iff a,b,c all same sign",additional gain needed to make system unstable; in dB = 20*log10(GM),equals sign changes in first column,encirclements of -1+j0 determines closed-loop RHP poles,1,0.3
+"In control systems, Routh criterion for n=3: s^3+a2s^2+a1s+a0 refers to?",stable iff a2*a1 > a0,"stable iff a,b,c all same sign",encirclements of -1+j0 determines closed-loop RHP poles,algebraic test for stability; checks for positive first-column entries,1,0.3
+"In control systems, the number of RHP roots from Routh array refers to?",frequency where angle of G*H = -180 degrees,equals sign changes in first column,all poles have negative real parts,indicates poles on imaginary axis or in RHP,2,0.3
+How is BIBO stability defined?,additional gain needed to make system unstable; in dB = 20*log10(GM),stable only for certain range of gain K,bounded input produces bounded output; all closed-loop poles in LHP,"stable iff a,b,c all same sign",3,0.3
+How is the Routh-Hurwitz criterion defined?,algebraic test for stability; checks for positive first-column entries,frequency where angle of G*H = -180 degrees,additional phase lag to instability; measured at gain crossover,equals sign changes in first column,1,0.3
+"Evaluate: sign changes in Routh first column [2,1,-3,4]",-2 sign changes: 2 RHP roots,0 sign changes: 2 RHP roots,2 sign changes: 2 RHP roots,6 sign changes: 2 RHP roots,3,0.35
+Evaluate: Routh stability for s^2+2s+5,"stable: 2>0, 5>0_a","stable: 2>0, 5>0_c","stable: 2>0, 5>0_b","stable: 2>0, 5>0",4,0.35
+Evaluate: Routh stability for s^3+s^2+s+1,marginally stable,marginally stable_b,marginally stable_c,marginally stable_a,1,0.35
+Evaluate: K for marginal stability s^3+3s^2+2s+K,K=6,K=6_a,K=6_b,K=6_c,1,0.35
+Evaluate: GM for G(s)=10/(s(s+1)(s+5)) PM check,need PC freq then 1/|G(jw_pc)|_a,need PC freq then 1/|G(jw_pc)|,need PC freq then 1/|G(jw_pc)|_c,need PC freq then 1/|G(jw_pc)|_b,2,0.35
+Evaluate: closed-loop TF for G=K/(s+1) unity FB,K/(s+1+K)_b,K/(s+1+K)_c,K/(s+1+K)_a,K/(s+1+K),4,0.35
+Evaluate: pole of closed-loop for G=K/(s+1) unity FB,s=-(1+K),s=-(1+K)_c,s=-(1+K)_b,s=-(1+K)_a,1,0.35
+Evaluate: K for closed-loop pole at s=-5 G=K/(s+1),K=4_c,K=4_a,K=4,K=4_b,3,0.35
+Evaluate: type of system G=K/s^2(s+1),type 2_a,type 2,type 2_c,type 2_b,2,0.35
+Evaluate: Kp for type-0 G=10/(s+1)(s+2),5,50,1,0,1,0.35
+Evaluate: ess for unit step type-0 Kp=5,-1 /6,0 /6,10 /6,1/6,4,0.35
+Evaluate: wn for G=K/(s^2+2s+K) closed-loop,sqrt(K)_b,sqrt(K),sqrt(K)_c,sqrt(K)_a,2,0.35
+Evaluate: zeta for G=K/(s^2+2s+K) closed-loop,-1 /sqrt(K),10 /sqrt(K),1 /sqrt(K),1/sqrt(K),4,0.35
+Evaluate: K for zeta=0.707 in s^2+2s+K,K=2_a,K=2_c,K=2,K=2_b,3,0.35
+Evaluate: percent overshoot for zeta=0.707,17.2 %,4.3%,6.4 %,3.2 %,2,0.35
+Evaluate: Mp for zeta=0.3,12 %,37%,111 %,4 %,2,0.35
+Evaluate: settling time (2%) for wn=2 zeta=1,0 s,2 s,20 s,8 s,2,0.35
+Evaluate: DC gain of G(s)=10/((s+2)(s+5)),-1,1,2,0,2,0.35
+Evaluate: DC gain of G(s)=5/(s+1),5,20,0,8,1,0.35
+Evaluate: number of closed-loop poles for 3rd order plant unity FB,9,3,30,-3,2,0.35
+Evaluate: closed-loop characteristic eqn for G=10/(s(s+1)),s^2+s+10=0_a,s^2+s+10=0_c,s^2+s+10=0,s^2+s+10=0_b,3,0.35
+Evaluate: wn and zeta for s^2+4s+8=0,"wn=2sqrt(2), zeta=0.707_a","wn=2sqrt(2), zeta=0.707_b","wn=2sqrt(2), zeta=0.707_c","wn=2sqrt(2), zeta=0.707",4,0.35
+"What is the result of sign changes in Routh first column [2,1,-3,4]?",8 sign changes: 2 RHP roots,3 sign changes: 2 RHP roots,1 sign changes: 2 RHP roots,2 sign changes: 2 RHP roots,4,0.35
+What is the result of Routh stability for s^2+2s+5?,"stable: 2>0, 5>0_b","stable: 2>0, 5>0","stable: 2>0, 5>0_a","stable: 2>0, 5>0_c",2,0.35
+What is the result of Routh stability for s^3+s^2+s+1?,marginally stable_c,marginally stable,marginally stable_a,marginally stable_b,2,0.35
+What is the result of K for marginal stability s^3+3s^2+2s+K?,K=6_b,K=6_c,K=6_a,K=6,4,0.35
+What is the result of GM for G(s)=10/(s(s+1)(s+5)) PM check?,need PC freq then 1/|G(jw_pc)|_a,need PC freq then 1/|G(jw_pc)|,need PC freq then 1/|G(jw_pc)|_c,need PC freq then 1/|G(jw_pc)|_b,2,0.35
+What is the result of closed-loop TF for G=K/(s+1) unity FB?,K/(s+1+K)_b,K/(s+1+K)_c,K/(s+1+K),K/(s+1+K)_a,3,0.35
+What is the result of pole of closed-loop for G=K/(s+1) unity FB?,s=-(1+K),s=-(1+K)_a,s=-(1+K)_b,s=-(1+K)_c,1,0.35
+What is the result of K for closed-loop pole at s=-5 G=K/(s+1)?,K=4_c,K=4,K=4_b,K=4_a,2,0.35
+What is the result of type of system G=K/s^2(s+1)?,type 2_a,type 2_c,type 2_b,type 2,4,0.35
+What is the result of Kp for type-0 G=10/(s+1)(s+2)?,4,50,1,5,4,0.35
+What is the result of ess for unit step type-0 Kp=5?,2 /6,0 /6,1/6,3 /6,3,0.35
+What is the result of wn for G=K/(s^2+2s+K) closed-loop?,sqrt(K)_c,sqrt(K)_a,sqrt(K),sqrt(K)_b,3,0.35
+What is the result of zeta for G=K/(s^2+2s+K) closed-loop?,4 /sqrt(K),approx 1/sqrt(K)*2,0 /sqrt(K),1/sqrt(K),4,0.35
+What is the result of K for zeta=0.707 in s^2+2s+K?,K=2,K=2_c,K=2_a,K=2_b,1,0.35
+What is the result of percent overshoot for zeta=0.707?,43.0 %,6.4 %,1.4 %,4.3%,4,0.35
+What is the result of Mp for zeta=0.3?,12 %,18 %,9 %,37%,4,0.35
+What is the result of settling time (2%) for wn=2 zeta=1?,20 s,3 s,2 s,0 s,3,0.35
+What is the result of DC gain of G(s)=10/((s+2)(s+5))?,1,0,3,-1,1,0.35
+What is the result of DC gain of G(s)=5/(s+1)?,10,15,5,4,3,0.35
+What is the result of number of closed-loop poles for 3rd order plant unity FB?,4,12,3,9,3,0.35
+What is the result of closed-loop characteristic eqn for G=10/(s(s+1))?,s^2+s+10=0_a,s^2+s+10=0_c,s^2+s+10=0_b,s^2+s+10=0,4,0.35
+What is the result of wn and zeta for s^2+4s+8=0?,"wn=2sqrt(2), zeta=0.707_b","wn=2sqrt(2), zeta=0.707","wn=2sqrt(2), zeta=0.707_c","wn=2sqrt(2), zeta=0.707_a",2,0.35
+"Calculate: sign changes in Routh first column [2,1,-3,4]",0 sign changes: 2 RHP roots,8 sign changes: 2 RHP roots,2 sign changes: 2 RHP roots,20 sign changes: 2 RHP roots,3,0.35
+Calculate: Routh stability for s^2+2s+5,"stable: 2>0, 5>0_b","stable: 2>0, 5>0_c","stable: 2>0, 5>0","stable: 2>0, 5>0_a",3,0.35
+Calculate: Routh stability for s^3+s^2+s+1,marginally stable_a,marginally stable_c,marginally stable_b,marginally stable,4,0.35
+Calculate: K for marginal stability s^3+3s^2+2s+K,K=6_a,K=6_b,K=6,K=6_c,3,0.35
+Calculate: GM for G(s)=10/(s(s+1)(s+5)) PM check,need PC freq then 1/|G(jw_pc)|_a,need PC freq then 1/|G(jw_pc)|_c,need PC freq then 1/|G(jw_pc)|,need PC freq then 1/|G(jw_pc)|_b,3,0.35
+Calculate: closed-loop TF for G=K/(s+1) unity FB,K/(s+1+K)_c,K/(s+1+K)_b,K/(s+1+K)_a,K/(s+1+K),4,0.35
+What is the root locus?,rule 1 of root locus,plot of closed-loop poles as gain K varies from 0 to inf,|G(s)*H(s)| = 1/K at closed-loop pole s,use Routh criterion to find K and omega,2,0.4
+What is rule 1: number of branches?,segment to left of an odd number of open-loop poles/zeros,requires special calculation,rule 1 of root locus,equals number of open-loop poles,4,0.4
+What is rule 2: root locus on real axis?,segment to left of an odd number of open-loop poles/zeros,"(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",|G(s)*H(s)| = 1/K at closed-loop pole s,range for which all branches are in LHP,1,0.4
+What is rule 3: asymptote angles?,remaining branches go to infinity along asymptotes,found by dK/ds=0,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,"(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",4,0.4
+What is rule 4: asymptote centroid?,sum(poles)-sum(zeros) divided by m-n,equals number of open-loop poles,segment to left of an odd number of open-loop poles/zeros,180 - sum of angles from all others,1,0.4
+What is rule 5: breakaway/break-in point?,180 - sum of angles from all others,found by dK/ds=0,requires special calculation,remaining branches go to infinity along asymptotes,2,0.4
+What is rule 6: j*omega axis crossing?,equals number of open-loop poles,segment to left of an odd number of open-loop poles/zeros,remaining branches go to infinity along asymptotes,use Routh criterion to find K and omega,4,0.4
+What is rule 7: angle of departure from complex pole?,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,use Routh criterion to find K and omega,180 - sum of angles from all others,"root locus for negative K, uses even multiples of 180",3,0.4
+What is the complementary root locus?,rule 1 of root locus,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,found by dK/ds=0,"root locus for negative K, uses even multiples of 180",4,0.4
+What is a dominant pole pair?,range for which all branches are in LHP,pair closest to j*omega axis; determines transient response,180 - sum of angles from all others,equals number of open-loop poles,2,0.4
+What is the angle condition on root locus?,equals number of open-loop poles,|G(s)*H(s)| = 1/K at closed-loop pole s,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,sum(poles)-sum(zeros) divided by m-n,3,0.4
+What is the magnitude condition?,requires special calculation,found by dK/ds=0,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,|G(s)*H(s)| = 1/K at closed-loop pole s,4,0.4
+What is poles go to zeros as K->inf on root locus?,180 - sum of angles from all others,found by dK/ds=0,remaining branches go to infinity along asymptotes,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,3,0.4
+What is branches start at open-loop poles (K=0)?,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,rule 1 of root locus,plot of closed-loop poles as gain K varies from 0 to inf,segment to left of an odd number of open-loop poles/zeros,2,0.4
+What is root locus departure angle from repeated poles?,180 - sum of angles from all others,equals number of open-loop poles,requires special calculation,remaining branches go to infinity along asymptotes,3,0.4
+What is stability range of K from root locus?,range for which all branches are in LHP,"root locus for negative K, uses even multiples of 180",plot of closed-loop poles as gain K varies from 0 to inf,sum(poles)-sum(zeros) divided by m-n,1,0.4
+Which best describes the root locus?,sum(poles)-sum(zeros) divided by m-n,requires special calculation,180 - sum of angles from all others,plot of closed-loop poles as gain K varies from 0 to inf,4,0.4
+Which best describes rule 1: number of branches?,"root locus for negative K, uses even multiples of 180",angle of G(s)*H(s) = ±180*(2k+1) at points on locus,rule 1 of root locus,equals number of open-loop poles,4,0.4
+Which best describes rule 2: root locus on real axis?,equals number of open-loop poles,use Routh criterion to find K and omega,"root locus for negative K, uses even multiples of 180",segment to left of an odd number of open-loop poles/zeros,4,0.4
+Which best describes rule 3: asymptote angles?,plot of closed-loop poles as gain K varies from 0 to inf,180 - sum of angles from all others,pair closest to j*omega axis; determines transient response,"(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",4,0.4
+Which best describes rule 4: asymptote centroid?,sum(poles)-sum(zeros) divided by m-n,requires special calculation,pair closest to j*omega axis; determines transient response,range for which all branches are in LHP,1,0.4
+Which best describes rule 5: breakaway/break-in point?,found by dK/ds=0,range for which all branches are in LHP,plot of closed-loop poles as gain K varies from 0 to inf,use Routh criterion to find K and omega,1,0.4
+Which best describes rule 6: j*omega axis crossing?,use Routh criterion to find K and omega,pair closest to j*omega axis; determines transient response,rule 1 of root locus,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,1,0.4
+Which best describes rule 7: angle of departure from complex pole?,remaining branches go to infinity along asymptotes,equals number of open-loop poles,"root locus for negative K, uses even multiples of 180",180 - sum of angles from all others,4,0.4
+Which best describes the complementary root locus?,"root locus for negative K, uses even multiples of 180",plot of closed-loop poles as gain K varies from 0 to inf,requires special calculation,found by dK/ds=0,1,0.4
+Which best describes a dominant pole pair?,equals number of open-loop poles,pair closest to j*omega axis; determines transient response,plot of closed-loop poles as gain K varies from 0 to inf,remaining branches go to infinity along asymptotes,2,0.4
+Which best describes the angle condition on root locus?,remaining branches go to infinity along asymptotes,requires special calculation,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,range for which all branches are in LHP,3,0.4
+Which best describes the magnitude condition?,"(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",requires special calculation,pair closest to j*omega axis; determines transient response,|G(s)*H(s)| = 1/K at closed-loop pole s,4,0.4
+Which best describes poles go to zeros as K->inf on root locus?,remaining branches go to infinity along asymptotes,rule 1 of root locus,requires special calculation,180 - sum of angles from all others,1,0.4
+Which best describes branches start at open-loop poles (K=0)?,equals number of open-loop poles,use Routh criterion to find K and omega,remaining branches go to infinity along asymptotes,rule 1 of root locus,4,0.4
+Which best describes root locus departure angle from repeated poles?,180 - sum of angles from all others,requires special calculation,rule 1 of root locus,remaining branches go to infinity along asymptotes,2,0.4
+Which best describes stability range of K from root locus?,range for which all branches are in LHP,"root locus for negative K, uses even multiples of 180",|G(s)*H(s)| = 1/K at closed-loop pole s,plot of closed-loop poles as gain K varies from 0 to inf,1,0.4
+"In control systems, the root locus refers to?",rule 1 of root locus,plot of closed-loop poles as gain K varies from 0 to inf,pair closest to j*omega axis; determines transient response,range for which all branches are in LHP,2,0.4
+"In control systems, rule 1: number of branches refers to?","(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",requires special calculation,remaining branches go to infinity along asymptotes,equals number of open-loop poles,4,0.4
+"In control systems, rule 2: root locus on real axis refers to?",segment to left of an odd number of open-loop poles/zeros,180 - sum of angles from all others,requires special calculation,pair closest to j*omega axis; determines transient response,1,0.4
+"In control systems, rule 3: asymptote angles refers to?",found by dK/ds=0,"root locus for negative K, uses even multiples of 180","(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",use Routh criterion to find K and omega,3,0.4
+"In control systems, rule 4: asymptote centroid refers to?",sum(poles)-sum(zeros) divided by m-n,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,requires special calculation,remaining branches go to infinity along asymptotes,1,0.4
+"In control systems, rule 5: breakaway/break-in point refers to?",pair closest to j*omega axis; determines transient response,range for which all branches are in LHP,found by dK/ds=0,remaining branches go to infinity along asymptotes,3,0.4
+"In control systems, rule 6: j*omega axis crossing refers to?",angle of G(s)*H(s) = ±180*(2k+1) at points on locus,use Routh criterion to find K and omega,sum(poles)-sum(zeros) divided by m-n,remaining branches go to infinity along asymptotes,2,0.4
+"In control systems, rule 7: angle of departure from complex pole refers to?",remaining branches go to infinity along asymptotes,180 - sum of angles from all others,segment to left of an odd number of open-loop poles/zeros,|G(s)*H(s)| = 1/K at closed-loop pole s,2,0.4
+"In control systems, the complementary root locus refers to?","root locus for negative K, uses even multiples of 180",rule 1 of root locus,found by dK/ds=0,pair closest to j*omega axis; determines transient response,1,0.4
+"In control systems, a dominant pole pair refers to?","root locus for negative K, uses even multiples of 180",pair closest to j*omega axis; determines transient response,|G(s)*H(s)| = 1/K at closed-loop pole s,remaining branches go to infinity along asymptotes,2,0.4
+"In control systems, the angle condition on root locus refers to?","root locus for negative K, uses even multiples of 180",equals number of open-loop poles,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,plot of closed-loop poles as gain K varies from 0 to inf,3,0.4
+"In control systems, the magnitude condition refers to?","(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",angle of G(s)*H(s) = ±180*(2k+1) at points on locus,|G(s)*H(s)| = 1/K at closed-loop pole s,plot of closed-loop poles as gain K varies from 0 to inf,3,0.4
+"In control systems, poles go to zeros as K->inf on root locus refers to?",segment to left of an odd number of open-loop poles/zeros,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,sum(poles)-sum(zeros) divided by m-n,remaining branches go to infinity along asymptotes,4,0.4
+"In control systems, branches start at open-loop poles (K=0) refers to?","root locus for negative K, uses even multiples of 180",remaining branches go to infinity along asymptotes,"(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",rule 1 of root locus,4,0.4
+"In control systems, root locus departure angle from repeated poles refers to?",requires special calculation,angle of G(s)*H(s) = ±180*(2k+1) at points on locus,pair closest to j*omega axis; determines transient response,equals number of open-loop poles,1,0.4
+"In control systems, stability range of K from root locus refers to?","(2k+1)*180/m-n degrees, k=0,1,...,m-n-1",range for which all branches are in LHP,remaining branches go to infinity along asymptotes,"root locus for negative K, uses even multiples of 180",2,0.4
+How is the root locus defined?,plot of closed-loop poles as gain K varies from 0 to inf,range for which all branches are in LHP,180 - sum of angles from all others,requires special calculation,1,0.4
+How is rule 1: number of branches defined?,requires special calculation,pair closest to j*omega axis; determines transient response,equals number of open-loop poles,plot of closed-loop poles as gain K varies from 0 to inf,3,0.4
+Evaluate: centroid for G=K/(s(s+1)(s+2)),(-0-1-2)/3 = -1_b,(-0-1-2)/3 = -1_c,(-0-1-2)/3 = -1,(-0-1-2)/3 = -1_a,3,0.45
+Evaluate: asymptote angles for 3 poles 0 zeros,"60, 180, 300 degrees","180 , 180, 300 degrees","240 , 180, 300 degrees","6 , 180, 300 degrees",1,0.45
+Evaluate: breakaway point for G=K/(s(s+1)),s=-0.5_b,s=-0.5_a,s=-0.5,s=-0.5_c,3,0.45
+Evaluate: K at breakaway s=-0.5 for G=K/(s(s+1)),0.08,0.12,0.38,0.25,4,0.45
+Evaluate: j-axis crossing K for s^2+s+K (characteristic eqn s^3+s^2+s+K),K=1_b,K=1_c,K=1_a,K=1,4,0.45
+Evaluate: number of asymptotes for G with 4 poles 1 zero,3,0,1,9,1,0.45
+"Evaluate: asymptote centroid for poles at 0,-1,-3 zero at -2",(-0-1-3-(-2))/(3-1) = -1_c,(-0-1-3-(-2))/(3-1) = -1_b,(-0-1-3-(-2))/(3-1) = -1,(-0-1-3-(-2))/(3-1) = -1_a,3,0.45
+Evaluate: angle of departure from pole at -1+j1 for G=K/(s(s+1+j)(s+1-j)),225 degrees,-225 degrees,2.250e+03 degrees,169 degrees,1,0.45
+Evaluate: K for closed-loop poles on imaginary axis s^3+2s^2+2s+K,K=4,K=4_b,K=4_a,K=4_c,1,0.45
+Evaluate: omega at imaginary crossing for above,sqrt(2) rad/s_c,sqrt(2) rad/s_a,sqrt(2) rad/s_b,sqrt(2) rad/s,4,0.45
+Evaluate: dominant poles for system with poles at -0.5+/-j1 and -10,at -0.5+/-j1_c,at -0.5+/-j1,at -0.5+/-j1_b,at -0.5+/-j1_a,2,0.45
+Evaluate: wn for dominant poles at -1+/-j1,sqrt(2) rad/s_a,sqrt(2) rad/s_b,sqrt(2) rad/s,sqrt(2) rad/s_c,3,0.45
+Evaluate: zeta for dominant poles at -1+/-j1,1.060,0.071,0.707,1.414,3,0.45
+Evaluate: number of branches going to infinity for 4 poles 2 zeros,-2,1,0,2,4,0.45
+"Evaluate: centroid for 3 poles at 0,-2,-4 and 1 zero at -1",(-0-2-4-(-1))/(3-1) = -2.5,(-0-2-4-(-1))/(3-1) = -2.5_c,(-0-2-4-(-1))/(3-1) = -2.5_b,(-0-2-4-(-1))/(3-1) = -2.5_a,1,0.45
+Evaluate: does point s=-1 lie on root locus for G=K/(s(s+2)) ?,yes: angles sum to 180_a,yes: angles sum to 180_c,yes: angles sum to 180_b,yes: angles sum to 180,4,0.45
+Evaluate: K at s=-1 on root locus for G=K/(s(s+2)),4,3,1,0,3,0.45
+Evaluate: PM required for good transient response (typically),45 to 60 degrees,-45 to 60 degrees,15 to 60 degrees,450 to 60 degrees,1,0.45
+Evaluate: steady-state error for ramp input type-2 system,3,-0,K=1,0,4,0.45
+Evaluate: ess for parabolic input type-2 Kj=K,1/K,10 /K,0 /K,approx 1/K*2,1,0.45
+Evaluate: type-1 system ess for unit ramp Kv=5,0.6,0.1,0.2,2.0,3,0.45
+Evaluate: type number: G=10/s^2(s+1)(s+2),type 2,type 2_b,type 2_c,type 2_a,1,0.45
+What is the result of centroid for G=K/(s(s+1)(s+2))?,(-0-1-2)/3 = -1_c,(-0-1-2)/3 = -1,(-0-1-2)/3 = -1_b,(-0-1-2)/3 = -1_a,2,0.45
+What is the result of asymptote angles for 3 poles 0 zeros?,"20 , 180, 300 degrees","15 , 180, 300 degrees","60, 180, 300 degrees","120 , 180, 300 degrees",3,0.45
+What is the result of breakaway point for G=K/(s(s+1))?,s=-0.5_a,s=-0.5_c,s=-0.5_b,s=-0.5,4,0.45
+What is the result of K at breakaway s=-0.5 for G=K/(s(s+1))?,0.38,0.50,0.03,0.25,4,0.45
+What is the result of j-axis crossing K for s^2+s+K (characteristic eqn s^3+s^2+s+K)?,K=1_a,K=1,K=1_c,K=1_b,2,0.45
+What is the result of number of asymptotes for G with 4 poles 1 zero?,1,9,3,approx 3*2,3,0.45
+"What is the result of asymptote centroid for poles at 0,-1,-3 zero at -2?",(-0-1-3-(-2))/(3-1) = -1,(-0-1-3-(-2))/(3-1) = -1_a,(-0-1-3-(-2))/(3-1) = -1_c,(-0-1-3-(-2))/(3-1) = -1_b,1,0.45
+What is the result of angle of departure from pole at -1+j1 for G=K/(s(s+1+j)(s+1-j))?,56 degrees,-225 degrees,225 degrees,2.250e+03 degrees,3,0.45
+What is the result of K for closed-loop poles on imaginary axis s^3+2s^2+2s+K?,K=4,K=4_a,K=4_b,K=4_c,1,0.45
+What is the result of omega at imaginary crossing for above?,sqrt(2) rad/s_c,sqrt(2) rad/s_a,sqrt(2) rad/s_b,sqrt(2) rad/s,4,0.45
+What is the result of dominant poles for system with poles at -0.5+/-j1 and -10?,at -0.5+/-j1_c,at -0.5+/-j1_a,at -0.5+/-j1,at -0.5+/-j1_b,3,0.45
+What is the result of wn for dominant poles at -1+/-j1?,sqrt(2) rad/s_a,sqrt(2) rad/s_b,sqrt(2) rad/s_c,sqrt(2) rad/s,4,0.45
+What is the result of zeta for dominant poles at -1+/-j1?,2.121,2.828,0.707,0.236,3,0.45
+What is the result of number of branches going to infinity for 4 poles 2 zeros?,approx 2*2,0,2,20,3,0.45
+"What is the result of centroid for 3 poles at 0,-2,-4 and 1 zero at -1?",(-0-2-4-(-1))/(3-1) = -2.5_a,(-0-2-4-(-1))/(3-1) = -2.5,(-0-2-4-(-1))/(3-1) = -2.5_c,(-0-2-4-(-1))/(3-1) = -2.5_b,2,0.45
+What is the result of does point s=-1 lie on root locus for G=K/(s(s+2)) ??,yes: angles sum to 180_c,yes: angles sum to 180_a,yes: angles sum to 180,yes: angles sum to 180_b,3,0.45
+What is the result of K at s=-1 on root locus for G=K/(s(s+2))?,2,1,approx 1*2,0,2,0.45
+What is the result of PM required for good transient response (typically)?,450 to 60 degrees,90 to 60 degrees,45 to 60 degrees,180 to 60 degrees,3,0.45
+What is the result of steady-state error for ramp input type-2 system?,s=-0.5,0,at -0.5+/-j1,-0,2,0.45
+What is the result of ess for parabolic input type-2 Kj=K?,approx 1/K*2,1/K,0 /K,2 /K,2,0.45
+What is the result of type-1 system ess for unit ramp Kv=5?,2.0,0.2,0.1,0.8,2,0.45
+What is the result of type number: G=10/s^2(s+1)(s+2)?,type 2_b,type 2_a,type 2_c,type 2,4,0.45
+Calculate: centroid for G=K/(s(s+1)(s+2)),(-0-1-2)/3 = -1_b,(-0-1-2)/3 = -1_c,(-0-1-2)/3 = -1,(-0-1-2)/3 = -1_a,3,0.45
+Calculate: asymptote angles for 3 poles 0 zeros,"180 , 180, 300 degrees","120 , 180, 300 degrees","60, 180, 300 degrees","-60 , 180, 300 degrees",3,0.45
+Calculate: breakaway point for G=K/(s(s+1)),s=-0.5_a,s=-0.5_b,s=-0.5,s=-0.5_c,3,0.45
+Calculate: K at breakaway s=-0.5 for G=K/(s(s+1)),0.06,0.25,0.75,0.19,2,0.45
+Calculate: j-axis crossing K for s^2+s+K (characteristic eqn s^3+s^2+s+K),K=1_b,K=1,K=1_c,K=1_a,2,0.45
+Calculate: number of asymptotes for G with 4 poles 1 zero,6,1,3,30,3,0.45
+What is Bode plot?,ranges from 0 to -90 degrees,frequency response plots of magnitude in dB and phase in degrees vs log freq,minus 20 dB/dec slope beyond its corner frequency,where |G*H| = 1 (0 dB) on Bode plot,2,0.5
+What is the magnitude plot slope for a pole at origin?,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),minus 20 dB/decade,PM = 180 + angle of G*H at omega_gc,plus 20 dB/decade,2,0.5
+What is the magnitude plot slope for a zero at origin?,plus 20 dB/decade,log-magnitude vs phase plot used to find closed-loop from open-loop,PM = 180 + angle of G*H at omega_gc,minus 20 dB/dec slope beyond its corner frequency,1,0.5
+What is each real pole contributes to Bode magnitude?,plus 20 dB/decade,minus 20 dB/dec slope beyond its corner frequency,no open-loop RHP zeros or poles; magnitude uniquely determines phase,GM = 1/|G*H| at the phase crossover frequency omega_pc,2,0.5
+What is the phase of a first-order pole 1/(1+j*omega*tau)?,no open-loop RHP zeros or poles; magnitude uniquely determines phase,frequency at which closed-loop magnitude drops to -3 dB,ranges from 0 to -90 degrees,log-magnitude vs phase plot used to find closed-loop from open-loop,3,0.5
+What is the Nyquist plot?,locus of constant closed-loop magnitude on Nyquist plot,polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,no open-loop RHP zeros or poles; magnitude uniquely determines phase,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),2,0.5
+What is the phase margin?,locus of constant closed-loop magnitude on Nyquist plot,polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,plus 20 dB/decade,PM = 180 + angle of G*H at omega_gc,4,0.5
+What is the gain margin?,where |G*H| = 1 (0 dB) on Bode plot,PM = 180 + angle of G*H at omega_gc,GM = 1/|G*H| at the phase crossover frequency omega_pc,ranges from 0 to -90 degrees,3,0.5
+What is a minimum-phase system?,wn*sqrt(1-2*zeta^2),minus 20 dB/decade,plus 20 dB/decade,no open-loop RHP zeros or poles; magnitude uniquely determines phase,4,0.5
+What is the Nichols chart?,wn*sqrt(1-2*zeta^2),log-magnitude vs phase plot used to find closed-loop from open-loop,locus of constant closed-loop magnitude on Nyquist plot,no open-loop RHP zeros or poles; magnitude uniquely determines phase,2,0.5
+What is bandwidth omega_BW?,frequency response plots of magnitude in dB and phase in degrees vs log freq,minus 20 dB/dec slope beyond its corner frequency,frequency at which closed-loop magnitude drops to -3 dB,log-magnitude vs phase plot used to find closed-loop from open-loop,3,0.5
+What is relationship omega_BW to wn (approx second order)?,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),plus 20 dB/decade,GM = 1/|G*H| at the phase crossover frequency omega_pc,no open-loop RHP zeros or poles; magnitude uniquely determines phase,1,0.5
+What is resonant peak Mr for second order system?,wn*sqrt(1-2*zeta^2),1/(2*zeta*sqrt(1-zeta^2)),plus 20 dB/decade,where |G*H| = 1 (0 dB) on Bode plot,2,0.5
+What is resonant frequency omega_r?,minus 20 dB/dec slope beyond its corner frequency,1/(2*zeta*sqrt(1-zeta^2)),plus 20 dB/decade,wn*sqrt(1-2*zeta^2),4,0.5
+What is M-circle?,where |G*H| = 1 (0 dB) on Bode plot,locus of constant closed-loop magnitude on Nyquist plot,ranges from 0 to -90 degrees,wn*sqrt(1-2*zeta^2),2,0.5
+Which best describes Bode plot?,frequency response plots of magnitude in dB and phase in degrees vs log freq,ranges from 0 to -90 degrees,plus 20 dB/decade,1/(2*zeta*sqrt(1-zeta^2)),1,0.5
+Which best describes the magnitude plot slope for a pole at origin?,minus 20 dB/decade,where |G*H| = 1 (0 dB) on Bode plot,GM = 1/|G*H| at the phase crossover frequency omega_pc,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),1,0.5
+Which best describes the magnitude plot slope for a zero at origin?,plus 20 dB/decade,1/(2*zeta*sqrt(1-zeta^2)),frequency response plots of magnitude in dB and phase in degrees vs log freq,log-magnitude vs phase plot used to find closed-loop from open-loop,1,0.5
+Which best describes each real pole contributes to Bode magnitude?,PM = 180 + angle of G*H at omega_gc,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),log-magnitude vs phase plot used to find closed-loop from open-loop,minus 20 dB/dec slope beyond its corner frequency,4,0.5
+Which best describes the phase of a first-order pole 1/(1+j*omega*tau)?,ranges from 0 to -90 degrees,frequency response plots of magnitude in dB and phase in degrees vs log freq,locus of constant closed-loop magnitude on Nyquist plot,GM = 1/|G*H| at the phase crossover frequency omega_pc,1,0.5
+Which best describes the Nyquist plot?,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,frequency response plots of magnitude in dB and phase in degrees vs log freq,no open-loop RHP zeros or poles; magnitude uniquely determines phase,2,0.5
+Which best describes the phase margin?,GM = 1/|G*H| at the phase crossover frequency omega_pc,PM = 180 + angle of G*H at omega_gc,where |G*H| = 1 (0 dB) on Bode plot,plus 20 dB/decade,2,0.5
+Which best describes the gain margin?,GM = 1/|G*H| at the phase crossover frequency omega_pc,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),no open-loop RHP zeros or poles; magnitude uniquely determines phase,plus 20 dB/decade,1,0.5
+Which best describes a minimum-phase system?,minus 20 dB/decade,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),GM = 1/|G*H| at the phase crossover frequency omega_pc,no open-loop RHP zeros or poles; magnitude uniquely determines phase,4,0.5
+Which best describes the Nichols chart?,where |G*H| = 1 (0 dB) on Bode plot,locus of constant closed-loop magnitude on Nyquist plot,log-magnitude vs phase plot used to find closed-loop from open-loop,polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,3,0.5
+Which best describes bandwidth omega_BW?,no open-loop RHP zeros or poles; magnitude uniquely determines phase,frequency at which closed-loop magnitude drops to -3 dB,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),PM = 180 + angle of G*H at omega_gc,2,0.5
+Which best describes relationship omega_BW to wn (approx second order)?,frequency at which closed-loop magnitude drops to -3 dB,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,ranges from 0 to -90 degrees,2,0.5
+Which best describes resonant peak Mr for second order system?,1/(2*zeta*sqrt(1-zeta^2)),minus 20 dB/decade,locus of constant closed-loop magnitude on Nyquist plot,frequency at which closed-loop magnitude drops to -3 dB,1,0.5
+Which best describes resonant frequency omega_r?,minus 20 dB/decade,wn*sqrt(1-2*zeta^2),GM = 1/|G*H| at the phase crossover frequency omega_pc,frequency at which closed-loop magnitude drops to -3 dB,2,0.5
+Which best describes M-circle?,GM = 1/|G*H| at the phase crossover frequency omega_pc,where |G*H| = 1 (0 dB) on Bode plot,wn*sqrt(1-2*zeta^2),locus of constant closed-loop magnitude on Nyquist plot,4,0.5
+"In control systems, Bode plot refers to?",frequency at which closed-loop magnitude drops to -3 dB,wn*sqrt(1-2*zeta^2),frequency response plots of magnitude in dB and phase in degrees vs log freq,log-magnitude vs phase plot used to find closed-loop from open-loop,3,0.5
+"In control systems, the magnitude plot slope for a pole at origin refers to?",omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),1/(2*zeta*sqrt(1-zeta^2)),minus 20 dB/dec slope beyond its corner frequency,minus 20 dB/decade,4,0.5
+"In control systems, the magnitude plot slope for a zero at origin refers to?",omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),plus 20 dB/decade,polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,1/(2*zeta*sqrt(1-zeta^2)),2,0.5
+"In control systems, each real pole contributes to Bode magnitude refers to?",ranges from 0 to -90 degrees,minus 20 dB/decade,plus 20 dB/decade,minus 20 dB/dec slope beyond its corner frequency,4,0.5
+"In control systems, the phase of a first-order pole 1/(1+j*omega*tau) refers to?",frequency response plots of magnitude in dB and phase in degrees vs log freq,ranges from 0 to -90 degrees,GM = 1/|G*H| at the phase crossover frequency omega_pc,wn*sqrt(1-2*zeta^2),2,0.5
+"In control systems, the Nyquist plot refers to?",polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,minus 20 dB/dec slope beyond its corner frequency,GM = 1/|G*H| at the phase crossover frequency omega_pc,log-magnitude vs phase plot used to find closed-loop from open-loop,1,0.5
+"In control systems, the phase margin refers to?",ranges from 0 to -90 degrees,no open-loop RHP zeros or poles; magnitude uniquely determines phase,PM = 180 + angle of G*H at omega_gc,minus 20 dB/dec slope beyond its corner frequency,3,0.5
+"In control systems, the gain margin refers to?",plus 20 dB/decade,frequency at which closed-loop magnitude drops to -3 dB,GM = 1/|G*H| at the phase crossover frequency omega_pc,frequency response plots of magnitude in dB and phase in degrees vs log freq,3,0.5
+"In control systems, a minimum-phase system refers to?",frequency at which closed-loop magnitude drops to -3 dB,no open-loop RHP zeros or poles; magnitude uniquely determines phase,wn*sqrt(1-2*zeta^2),frequency response plots of magnitude in dB and phase in degrees vs log freq,2,0.5
+"In control systems, the Nichols chart refers to?",minus 20 dB/decade,where |G*H| = 1 (0 dB) on Bode plot,log-magnitude vs phase plot used to find closed-loop from open-loop,frequency response plots of magnitude in dB and phase in degrees vs log freq,3,0.5
+"In control systems, bandwidth omega_BW refers to?",frequency at which closed-loop magnitude drops to -3 dB,log-magnitude vs phase plot used to find closed-loop from open-loop,omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),no open-loop RHP zeros or poles; magnitude uniquely determines phase,1,0.5
+"In control systems, relationship omega_BW to wn (approx second order) refers to?",omega_BW ≈ wn*sqrt(1-2*zeta^2+sqrt(4*zeta^4-4*zeta^2+2)),minus 20 dB/decade,locus of constant closed-loop magnitude on Nyquist plot,frequency response plots of magnitude in dB and phase in degrees vs log freq,1,0.5
+"In control systems, resonant peak Mr for second order system refers to?",locus of constant closed-loop magnitude on Nyquist plot,1/(2*zeta*sqrt(1-zeta^2)),where |G*H| = 1 (0 dB) on Bode plot,minus 20 dB/decade,2,0.5
+"In control systems, resonant frequency omega_r refers to?",plus 20 dB/decade,ranges from 0 to -90 degrees,PM = 180 + angle of G*H at omega_gc,wn*sqrt(1-2*zeta^2),4,0.5
+"In control systems, M-circle refers to?",where |G*H| = 1 (0 dB) on Bode plot,locus of constant closed-loop magnitude on Nyquist plot,GM = 1/|G*H| at the phase crossover frequency omega_pc,polar plot of G(j*omega)*H(j*omega) as omega goes from 0 to inf,2,0.5
+How is Bode plot defined?,plus 20 dB/decade,minus 20 dB/decade,log-magnitude vs phase plot used to find closed-loop from open-loop,frequency response plots of magnitude in dB and phase in degrees vs log freq,4,0.5
+How is the magnitude plot slope for a pole at origin defined?,minus 20 dB/decade,PM = 180 + angle of G*H at omega_gc,where |G*H| = 1 (0 dB) on Bode plot,log-magnitude vs phase plot used to find closed-loop from open-loop,1,0.5
+How is the magnitude plot slope for a zero at origin defined?,plus 20 dB/decade,locus of constant closed-loop magnitude on Nyquist plot,minus 20 dB/dec slope beyond its corner frequency,log-magnitude vs phase plot used to find closed-loop from open-loop,1,0.5
+How is each real pole contributes to Bode magnitude defined?,minus 20 dB/dec slope beyond its corner frequency,plus 20 dB/decade,1/(2*zeta*sqrt(1-zeta^2)),GM = 1/|G*H| at the phase crossover frequency omega_pc,1,0.5
+How is the phase of a first-order pole 1/(1+j*omega*tau) defined?,frequency response plots of magnitude in dB and phase in degrees vs log freq,minus 20 dB/decade,minus 20 dB/dec slope beyond its corner frequency,ranges from 0 to -90 degrees,4,0.5
+Evaluate: Bode slope for G=1/s,minus 20 dB/dec for all freq_b,minus 20 dB/dec for all freq_a,minus 20 dB/dec for all freq_c,minus 20 dB/dec for all freq,4,0.55
+Evaluate: Bode slope for G=1/(s(s+2)),minus 40 dB/dec above omega=2_c,minus 40 dB/dec above omega=2_a,minus 40 dB/dec above omega=2_b,minus 40 dB/dec above omega=2,4,0.55
+Evaluate: corner freq for pole at s=-5,5 rad/s,8 rad/s,0 rad/s,-5 rad/s,1,0.55
+Evaluate: magnitude of G(j1)=10/(j1+1),21.21 = -3 dB,1.77 = -3 dB,5.30 = -3 dB,7.07 = -3 dB,4,0.55
+Evaluate: phase of G(j1)=10/(j1+1),-45 degrees,-135 degrees,-34 degrees,45 degrees,1,0.55
+Evaluate: magnitude of G(j10)=10/(j10+1) (approx),1 = 0 dB,2 = 0 dB,0 = 0 dB,-1 = 0 dB,1,0.55
+Evaluate: PM for G=10/(s(s+1)) using Bode,17.5 degrees,-17.5 degrees,175.0 degrees,5.8 degrees,1,0.55
+Evaluate: GM for G=1/(s(s+1)(s+2)),1.4 (8.6 dB),-2.7 (8.6 dB),2.7 (8.6 dB),4.1 (8.6 dB),3,0.55
+Evaluate: type-1 slope at low freq in Bode,minus 20 dB/dec_a,minus 20 dB/dec_b,minus 20 dB/dec_c,minus 20 dB/dec,4,0.55
+Evaluate: type-2 slope at low freq,minus 40 dB/dec_b,minus 40 dB/dec_c,minus 40 dB/dec_a,minus 40 dB/dec,4,0.55
+Evaluate: Nyquist encirclements for stable closed-loop,minus 20 dB/dec for all freq,1 = 0 dB,0,-0,3,0.55
+Evaluate: resonant peak Mr for zeta=0.3,1.75,-1.75,1.31,5.25,1,0.55
+Evaluate: omega_r for wn=4 zeta=0.3,3.64 rad/s,36.40 rad/s,1.82 rad/s,2.73 rad/s,1,0.55
+Evaluate: bandwidth for wn=4 zeta=0.5,0.52 rad/s,5.24 rad/s,20.96 rad/s,1.31 rad/s,2,0.55
+Evaluate: PM for critically damped system (zeta=1),-76 degrees,228 degrees,152 degrees,76 degrees,4,0.55
+Evaluate: zeta from PM=60 (approx formula),0.6,1.8,0.1,2.4,1,0.55
+Evaluate: zeta from PM=45,0.90,0.05,4.50,0.45,4,0.55
+Evaluate: gain crossover freq for G=K/s at K=1,10 rad/s,0 rad/s,1 rad/s,2 rad/s,3,0.55
+Evaluate: GM for a type-2 system with gain-only G=K/s^2,-180 degrees,0 dB (always marginally stable),0.45,-0 dB (always marginally stable),2,0.55
+Evaluate: phase of G(jw)=-1/(s^2) at any freq,-180 degrees,-135 degrees,-720 degrees,-90 degrees,1,0.55
+Evaluate: dB at -20 dB/dec slope after decade from 0dB,minus 20 dB_c,minus 20 dB_b,minus 20 dB,minus 20 dB_a,3,0.55
+Evaluate: phase at corner frequency for real pole,-450 degrees,-45 degrees,-34 degrees,-15 degrees,2,0.55
+What is the result of Bode slope for G=1/s?,minus 20 dB/dec for all freq_b,minus 20 dB/dec for all freq_a,minus 20 dB/dec for all freq_c,minus 20 dB/dec for all freq,4,0.55
+What is the result of Bode slope for G=1/(s(s+2))?,minus 40 dB/dec above omega=2_b,minus 40 dB/dec above omega=2,minus 40 dB/dec above omega=2_c,minus 40 dB/dec above omega=2_a,2,0.55
+What is the result of corner freq for pole at s=-5?,1 rad/s,5 rad/s,4 rad/s,8 rad/s,2,0.55
+What is the result of magnitude of G(j1)=10/(j1+1)?,21.21 = -3 dB,5.30 = -3 dB,14.14 = -3 dB,7.07 = -3 dB,4,0.55
+What is the result of phase of G(j1)=10/(j1+1)?,-15 degrees,-34 degrees,-45 degrees,-22 degrees,3,0.55
+What is the result of magnitude of G(j10)=10/(j10+1) (approx)?,approx 1 = 0 dB*2,0 = 0 dB,10 = 0 dB,1 = 0 dB,4,0.55
+What is the result of PM for G=10/(s(s+1)) using Bode?,26.2 degrees,35.0 degrees,17.5 degrees,4.4 degrees,3,0.55
+What is the result of GM for G=1/(s(s+1)(s+2))?,27.0 (8.6 dB),2.7 (8.6 dB),0.7 (8.6 dB),1.4 (8.6 dB),2,0.55
+What is the result of type-1 slope at low freq in Bode?,minus 20 dB/dec_a,minus 20 dB/dec,minus 20 dB/dec_c,minus 20 dB/dec_b,2,0.55
+What is the result of type-2 slope at low freq?,minus 40 dB/dec_c,minus 40 dB/dec_a,minus 40 dB/dec_b,minus 40 dB/dec,4,0.55
+What is the result of Nyquist encirclements for stable closed-loop?,-45 degrees,minus 40 dB/dec,-0,0,4,0.55
+What is the result of resonant peak Mr for zeta=0.3?,1.75,0.58,0.44,-1.75,1,0.55
+What is the result of omega_r for wn=4 zeta=0.3?,3.64 rad/s,1.21 rad/s,7.28 rad/s,0.91 rad/s,1,0.55
+What is the result of bandwidth for wn=4 zeta=0.5?,15.72 rad/s,5.24 rad/s,7.86 rad/s,20.96 rad/s,2,0.55
+What is the result of PM for critically damped system (zeta=1)?,760 degrees,-76 degrees,228 degrees,76 degrees,4,0.55
+What is the result of zeta from PM=60 (approx formula)?,2.4,1.8,0.6,-0.6,3,0.55
+What is the result of zeta from PM=45?,0.45,1.80,0.23,0.15,1,0.55
+What is the result of gain crossover freq for G=K/s at K=1?,3 rad/s,approx 1 rad/s*2,1 rad/s,0 rad/s,3,0.55
+What is the result of GM for a type-2 system with gain-only G=K/s^2?,0.45,-0 dB (always marginally stable),minus 20 dB/dec for all freq,0 dB (always marginally stable),4,0.55
+What is the result of phase of G(jw)=-1/(s^2) at any freq?,-180 degrees,-720 degrees,-270 degrees,-90 degrees,1,0.55
+What is the result of dB at -20 dB/dec slope after decade from 0dB?,minus 20 dB_a,minus 20 dB_c,minus 20 dB_b,minus 20 dB,4,0.55
+What is the result of phase at corner frequency for real pole?,-180 degrees,-4 degrees,-15 degrees,-45 degrees,4,0.55
+Calculate: Bode slope for G=1/s,minus 20 dB/dec for all freq_c,minus 20 dB/dec for all freq,minus 20 dB/dec for all freq_b,minus 20 dB/dec for all freq_a,2,0.55
+Calculate: Bode slope for G=1/(s(s+2)),minus 40 dB/dec above omega=2,minus 40 dB/dec above omega=2_a,minus 40 dB/dec above omega=2_c,minus 40 dB/dec above omega=2_b,1,0.55
+Calculate: corner freq for pole at s=-5,50 rad/s,5 rad/s,8 rad/s,2 rad/s,2,0.55
+Calculate: magnitude of G(j1)=10/(j1+1),5.30 = -3 dB,21.21 = -3 dB,14.14 = -3 dB,7.07 = -3 dB,4,0.55
+Calculate: phase of G(j1)=10/(j1+1),-22 degrees,-45 degrees,-180 degrees,-4 degrees,2,0.55
+Calculate: magnitude of G(j10)=10/(j10+1) (approx),4 = 0 dB,-1 = 0 dB,0 = 0 dB,1 = 0 dB,4,0.55
+What is a lead compensator?,proportional-integral-derivative controller,adds phase lead near crossover; improves PM and transient response,responds to rate of error change; improves transient response,adding gain increases speed but reduces stability margin,2,0.6
+What is a lag compensator?,K*(s+z)/(s+p) where z>p,increase Kv without significantly affecting PM,provides high gain at low freq; improves steady-state accuracy,responds to rate of error change; improves transient response,3,0.6
+What is a lag-lead compensator?,responds to rate of error change; improves transient response,"P+I: increases system type by 1, improves ess",combination providing both improved accuracy and transient response,desired zeta and wn from time-domain specs,3,0.6
+What is a PID controller?,error multiplied by gain Kp; reduces but doesn't eliminate ess,proportional-integral-derivative controller,K*(s+z)/(s+p) where z>p,desired zeta and wn from time-domain specs,2,0.6
+What is the proportional (P) action?,provides high gain at low freq; improves steady-state accuracy,desired zeta and wn from time-domain specs,error multiplied by gain Kp; reduces but doesn't eliminate ess,increase phase margin and bandwidth,3,0.6
+What is the integral (I) action?,empirical PID tuning using ultimate gain and oscillation period,combination providing both improved accuracy and transient response,integrates error; eliminates steady-state error for step input,adds phase lead near crossover; improves PM and transient response,3,0.6
+What is the derivative (D) action?,adding gain increases speed but reduces stability margin,responds to rate of error change; improves transient response,K*(s+z)/(s+p) where z>p,"P+I: increases system type by 1, improves ess",2,0.6
+What is a PI controller?,K*(s+z)/(s+p) where p>z,P+D: improves transient without increasing type,increase phase margin and bandwidth,"P+I: increases system type by 1, improves ess",4,0.6
+What is a PD controller?,responds to rate of error change; improves transient response,integrates error; eliminates steady-state error for step input,K*(s+z)/(s+p) where p>z,P+D: improves transient without increasing type,4,0.6
+What is the Ziegler-Nichols method?,empirical PID tuning using ultimate gain and oscillation period,proportional-integral-derivative controller,increase phase margin and bandwidth,K*(s+z)/(s+p) where z>p,1,0.6
+What is the transfer function of a lead compensator?,error multiplied by gain Kp; reduces but doesn't eliminate ess,K*(s+z)/(s+p) where p>z,combination providing both improved accuracy and transient response,empirical PID tuning using ultimate gain and oscillation period,2,0.6
+What is the transfer function of a lag compensator?,"P+I: increases system type by 1, improves ess",increase Kv without significantly affecting PM,K*(s+z)/(s+p) where p>z,K*(s+z)/(s+p) where z>p,4,0.6
+What is the purpose of a lead compensator?,increase phase margin and bandwidth,error multiplied by gain Kp; reduces but doesn't eliminate ess,adds phase lead near crossover; improves PM and transient response,desired zeta and wn from time-domain specs,1,0.6
+What is the purpose of a lag compensator?,increase phase margin and bandwidth,empirical PID tuning using ultimate gain and oscillation period,proportional-integral-derivative controller,increase Kv without significantly affecting PM,4,0.6
+What is gain-phase tradeoff in design?,error multiplied by gain Kp; reduces but doesn't eliminate ess,empirical PID tuning using ultimate gain and oscillation period,integrates error; eliminates steady-state error for step input,adding gain increases speed but reduces stability margin,4,0.6
+What is the dominant closed-loop poles specification?,integrates error; eliminates steady-state error for step input,responds to rate of error change; improves transient response,proportional-integral-derivative controller,desired zeta and wn from time-domain specs,4,0.6
+Which best describes a lead compensator?,adds phase lead near crossover; improves PM and transient response,empirical PID tuning using ultimate gain and oscillation period,increase Kv without significantly affecting PM,integrates error; eliminates steady-state error for step input,1,0.6
+Which best describes a lag compensator?,provides high gain at low freq; improves steady-state accuracy,error multiplied by gain Kp; reduces but doesn't eliminate ess,adding gain increases speed but reduces stability margin,"P+I: increases system type by 1, improves ess",1,0.6
+Which best describes a lag-lead compensator?,empirical PID tuning using ultimate gain and oscillation period,increase Kv without significantly affecting PM,combination providing both improved accuracy and transient response,K*(s+z)/(s+p) where z>p,3,0.6
+Which best describes a PID controller?,proportional-integral-derivative controller,P+D: improves transient without increasing type,K*(s+z)/(s+p) where p>z,error multiplied by gain Kp; reduces but doesn't eliminate ess,1,0.6
+Which best describes the proportional (P) action?,desired zeta and wn from time-domain specs,increase phase margin and bandwidth,K*(s+z)/(s+p) where p>z,error multiplied by gain Kp; reduces but doesn't eliminate ess,4,0.6
+Which best describes the integral (I) action?,P+D: improves transient without increasing type,combination providing both improved accuracy and transient response,integrates error; eliminates steady-state error for step input,responds to rate of error change; improves transient response,3,0.6
+Which best describes the derivative (D) action?,adding gain increases speed but reduces stability margin,desired zeta and wn from time-domain specs,responds to rate of error change; improves transient response,"P+I: increases system type by 1, improves ess",3,0.6
+Which best describes a PI controller?,adding gain increases speed but reduces stability margin,"P+I: increases system type by 1, improves ess",error multiplied by gain Kp; reduces but doesn't eliminate ess,responds to rate of error change; improves transient response,2,0.6
+Which best describes a PD controller?,K*(s+z)/(s+p) where z>p,P+D: improves transient without increasing type,K*(s+z)/(s+p) where p>z,error multiplied by gain Kp; reduces but doesn't eliminate ess,2,0.6
+Which best describes the Ziegler-Nichols method?,combination providing both improved accuracy and transient response,provides high gain at low freq; improves steady-state accuracy,proportional-integral-derivative controller,empirical PID tuning using ultimate gain and oscillation period,4,0.6
+Which best describes the transfer function of a lead compensator?,desired zeta and wn from time-domain specs,K*(s+z)/(s+p) where p>z,"P+I: increases system type by 1, improves ess",P+D: improves transient without increasing type,2,0.6
+Which best describes the transfer function of a lag compensator?,combination providing both improved accuracy and transient response,error multiplied by gain Kp; reduces but doesn't eliminate ess,K*(s+z)/(s+p) where z>p,proportional-integral-derivative controller,3,0.6
+Which best describes the purpose of a lead compensator?,error multiplied by gain Kp; reduces but doesn't eliminate ess,increase phase margin and bandwidth,desired zeta and wn from time-domain specs,increase Kv without significantly affecting PM,2,0.6
+Which best describes the purpose of a lag compensator?,K*(s+z)/(s+p) where z>p,"P+I: increases system type by 1, improves ess",increase phase margin and bandwidth,increase Kv without significantly affecting PM,4,0.6
+Which best describes gain-phase tradeoff in design?,error multiplied by gain Kp; reduces but doesn't eliminate ess,empirical PID tuning using ultimate gain and oscillation period,integrates error; eliminates steady-state error for step input,adding gain increases speed but reduces stability margin,4,0.6
+Which best describes the dominant closed-loop poles specification?,K*(s+z)/(s+p) where p>z,desired zeta and wn from time-domain specs,adding gain increases speed but reduces stability margin,provides high gain at low freq; improves steady-state accuracy,2,0.6
+"In control systems, a lead compensator refers to?",K*(s+z)/(s+p) where p>z,error multiplied by gain Kp; reduces but doesn't eliminate ess,combination providing both improved accuracy and transient response,adds phase lead near crossover; improves PM and transient response,4,0.6
+"In control systems, a lag compensator refers to?",error multiplied by gain Kp; reduces but doesn't eliminate ess,combination providing both improved accuracy and transient response,P+D: improves transient without increasing type,provides high gain at low freq; improves steady-state accuracy,4,0.6
+"In control systems, a lag-lead compensator refers to?",adding gain increases speed but reduces stability margin,combination providing both improved accuracy and transient response,K*(s+z)/(s+p) where p>z,increase phase margin and bandwidth,2,0.6
+"In control systems, a PID controller refers to?",error multiplied by gain Kp; reduces but doesn't eliminate ess,"P+I: increases system type by 1, improves ess",proportional-integral-derivative controller,desired zeta and wn from time-domain specs,3,0.6
+"In control systems, the proportional (P) action refers to?",integrates error; eliminates steady-state error for step input,error multiplied by gain Kp; reduces but doesn't eliminate ess,proportional-integral-derivative controller,P+D: improves transient without increasing type,2,0.6
+"In control systems, the integral (I) action refers to?",responds to rate of error change; improves transient response,empirical PID tuning using ultimate gain and oscillation period,P+D: improves transient without increasing type,integrates error; eliminates steady-state error for step input,4,0.6
+"In control systems, the derivative (D) action refers to?",proportional-integral-derivative controller,P+D: improves transient without increasing type,responds to rate of error change; improves transient response,K*(s+z)/(s+p) where z>p,3,0.6
+"In control systems, a PI controller refers to?",P+D: improves transient without increasing type,integrates error; eliminates steady-state error for step input,"P+I: increases system type by 1, improves ess",increase phase margin and bandwidth,3,0.6
+"In control systems, a PD controller refers to?",adding gain increases speed but reduces stability margin,K*(s+z)/(s+p) where z>p,increase phase margin and bandwidth,P+D: improves transient without increasing type,4,0.6
+"In control systems, the Ziegler-Nichols method refers to?",empirical PID tuning using ultimate gain and oscillation period,error multiplied by gain Kp; reduces but doesn't eliminate ess,responds to rate of error change; improves transient response,P+D: improves transient without increasing type,1,0.6
+"In control systems, the transfer function of a lead compensator refers to?",desired zeta and wn from time-domain specs,K*(s+z)/(s+p) where z>p,increase Kv without significantly affecting PM,K*(s+z)/(s+p) where p>z,4,0.6
+"In control systems, the transfer function of a lag compensator refers to?",responds to rate of error change; improves transient response,"P+I: increases system type by 1, improves ess",adding gain increases speed but reduces stability margin,K*(s+z)/(s+p) where z>p,4,0.6
+"In control systems, the purpose of a lead compensator refers to?",provides high gain at low freq; improves steady-state accuracy,increase phase margin and bandwidth,increase Kv without significantly affecting PM,error multiplied by gain Kp; reduces but doesn't eliminate ess,2,0.6
+"In control systems, the purpose of a lag compensator refers to?",increase Kv without significantly affecting PM,adding gain increases speed but reduces stability margin,"P+I: increases system type by 1, improves ess",combination providing both improved accuracy and transient response,1,0.6
+"In control systems, gain-phase tradeoff in design refers to?",error multiplied by gain Kp; reduces but doesn't eliminate ess,adds phase lead near crossover; improves PM and transient response,increase phase margin and bandwidth,adding gain increases speed but reduces stability margin,4,0.6
+"In control systems, the dominant closed-loop poles specification refers to?",K*(s+z)/(s+p) where z>p,responds to rate of error change; improves transient response,desired zeta and wn from time-domain specs,integrates error; eliminates steady-state error for step input,3,0.6
+How is a lead compensator defined?,empirical PID tuning using ultimate gain and oscillation period,integrates error; eliminates steady-state error for step input,increase phase margin and bandwidth,adds phase lead near crossover; improves PM and transient response,4,0.6
+How is a lag compensator defined?,empirical PID tuning using ultimate gain and oscillation period,provides high gain at low freq; improves steady-state accuracy,K*(s+z)/(s+p) where p>z,increase phase margin and bandwidth,2,0.6
+Evaluate: Kp for no steady-state step error,infinity (integral action needed)_a,infinity (integral action needed),infinity (integral action needed)_b,infinity (integral action needed)_c,2,0.65
+Evaluate: PID: effect of increasing Kp,"faster response, less ess, may reduce stability_b","faster response, less ess, may reduce stability","faster response, less ess, may reduce stability_c","faster response, less ess, may reduce stability_a",2,0.65
+Evaluate: PID: effect of increasing Ti (reset time),"slower integral, less overshoot","slower integral, less overshoot_b","slower integral, less overshoot_c","slower integral, less overshoot_a",1,0.65
+Evaluate: PID: effect of increasing Td,"more derivative action, faster response_b","more derivative action, faster response_a","more derivative action, faster response","more derivative action, faster response_c",3,0.65
+Evaluate: lead comp phase at omega=sqrt(z*p),max phase lead = arcsin((p-z)/(p+z))_b,max phase lead = arcsin((p-z)/(p+z))_c,max phase lead = arcsin((p-z)/(p+z))_a,max phase lead = arcsin((p-z)/(p+z)),4,0.65
+Evaluate: max phase from lead comp with z=1 p=10,13.7 degrees,27.4 degrees,54.9 degrees,-54.9 degrees,3,0.65
+Evaluate: lag comp: DC gain improvement ratio,z/p > 1_a,z/p > 1_b,z/p > 1_c,z/p > 1,4,0.65
+Evaluate: Ziegler-Nichols Ku=8 Tu=1: Kp for PID,1.8 *Ku = 4.8,0.6*Ku = 4.8,0.9 *Ku = 4.8,0.2 *Ku = 4.8,2,0.65
+Evaluate: Ziegler-Nichols Ti for PID,0.1 *Tu = 0.5,0.5*Tu = 0.5,0.2 *Tu = 0.5,1.5 *Tu = 0.5,2,0.65
+Evaluate: Ziegler-Nichols Td for PID,1.250 *Tu = 0.125,0.125*Tu = 0.125,0.094 *Tu = 0.125,0.062 *Tu = 0.125,2,0.65
+Evaluate: bandwidth increase from lead compensation,increases bandwidth_c,increases bandwidth,increases bandwidth_a,increases bandwidth_b,2,0.65
+Evaluate: phase lag from lead comp G=(s+1)/(s+10) at omega=3,"slower integral, less overshoot","0 deg (it's a lead comp, adds phase)","-0 deg (it's a lead comp, adds phase)",z/p > 1,2,0.65
+Evaluate: closed-loop BW for PM=60 wn=4 zeta=0.6,approx 4-6 rad/s_c,approx 4-6 rad/s_b,approx 4-6 rad/s,approx 4-6 rad/s_a,3,0.65
+Evaluate: PD: improves which response spec,reduces overshoot and settling time_b,reduces overshoot and settling time,reduces overshoot and settling time_a,reduces overshoot and settling time_c,2,0.65
+Evaluate: PI: improves which response spec,reduces steady-state error_b,reduces steady-state error_a,reduces steady-state error,reduces steady-state error_c,3,0.65
+Evaluate: design spec: 5% overshoot -> zeta,0.69,2.76,1.03,0.17,1,0.65
+Evaluate: design spec: 10% overshoot -> zeta,0.59,0.20,0.29,-0.59,1,0.65
+Evaluate: design spec: 16.3% overshoot -> zeta,approx 0.5*2,0.5,2.0,0.1,2,0.65
+Evaluate: required wn for ts=2s zeta=0.5 (2% criterion),3 rad/s,0 rad/s,40 rad/s,4 rad/s,4,0.65
+Evaluate: required wn for tr=0.5s zeta=0.5,approx 3.6 rad/s_b,approx 3.6 rad/s_a,approx 3.6 rad/s_c,approx 3.6 rad/s,4,0.65
+Evaluate: lag-lead: lower corner of lead section,should be at desired crossover freq,should be at desired crossover freq_a,should be at desired crossover freq_b,should be at desired crossover freq_c,1,0.65
+Evaluate: lead comp: new gain crossover approx after addition,moves to higher frequency,moves to higher frequency_b,moves to higher frequency_a,moves to higher frequency_c,1,0.65
+What is the result of Kp for no steady-state step error?,infinity (integral action needed)_c,infinity (integral action needed)_a,infinity (integral action needed)_b,infinity (integral action needed),4,0.65
+What is the result of PID: effect of increasing Kp?,"faster response, less ess, may reduce stability_a","faster response, less ess, may reduce stability","faster response, less ess, may reduce stability_b","faster response, less ess, may reduce stability_c",2,0.65
+What is the result of PID: effect of increasing Ti (reset time)?,"slower integral, less overshoot_a","slower integral, less overshoot","slower integral, less overshoot_c","slower integral, less overshoot_b",2,0.65
+What is the result of PID: effect of increasing Td?,"more derivative action, faster response_b","more derivative action, faster response","more derivative action, faster response_c","more derivative action, faster response_a",2,0.65
+What is the result of lead comp phase at omega=sqrt(z*p)?,max phase lead = arcsin((p-z)/(p+z)),max phase lead = arcsin((p-z)/(p+z))_a,max phase lead = arcsin((p-z)/(p+z))_b,max phase lead = arcsin((p-z)/(p+z))_c,1,0.65
+What is the result of max phase from lead comp with z=1 p=10?,13.7 degrees,109.8 degrees,54.9 degrees,-54.9 degrees,3,0.65
+What is the result of lag comp: DC gain improvement ratio?,z/p > 1_a,z/p > 1,z/p > 1_b,z/p > 1_c,2,0.65
+What is the result of Ziegler-Nichols Ku=8 Tu=1: Kp for PID?,1.8 *Ku = 4.8,0.6*Ku = 4.8,1.2 *Ku = 4.8,-0.6 *Ku = 4.8,2,0.65
+What is the result of Ziegler-Nichols Ti for PID?,1.5 *Tu = 0.5,0.5*Tu = 0.5,0.8 *Tu = 0.5,-0.5 *Tu = 0.5,2,0.65
+What is the result of Ziegler-Nichols Td for PID?,0.042 *Tu = 0.125,0.094 *Tu = 0.125,0.013 *Tu = 0.125,0.125*Tu = 0.125,4,0.65
+What is the result of bandwidth increase from lead compensation?,increases bandwidth_a,increases bandwidth_b,increases bandwidth,increases bandwidth_c,3,0.65
+What is the result of phase lag from lead comp G=(s+1)/(s+10) at omega=3?,0.5*Tu = 0.5,"-0 deg (it's a lead comp, adds phase)","0 deg (it's a lead comp, adds phase)",moves to higher frequency,3,0.65
+What is the result of closed-loop BW for PM=60 wn=4 zeta=0.6?,approx 4-6 rad/s_a,approx 4-6 rad/s_c,approx 4-6 rad/s,approx 4-6 rad/s_b,3,0.65
+What is the result of PD: improves which response spec?,reduces overshoot and settling time_c,reduces overshoot and settling time_b,reduces overshoot and settling time_a,reduces overshoot and settling time,4,0.65
+What is the result of PI: improves which response spec?,reduces steady-state error_b,reduces steady-state error_c,reduces steady-state error,reduces steady-state error_a,3,0.65
+What is the result of design spec: 5% overshoot -> zeta?,0.07,2.76,0.69,6.90,3,0.65
+What is the result of design spec: 10% overshoot -> zeta?,2.36,0.29,0.59,0.20,3,0.65
+What is the result of design spec: 16.3% overshoot -> zeta?,0.2,0.8,1.0,0.5,4,0.65
+What is the result of required wn for ts=2s zeta=0.5 (2% criterion)?,3 rad/s,4 rad/s,40 rad/s,12 rad/s,2,0.65
+What is the result of required wn for tr=0.5s zeta=0.5?,approx 3.6 rad/s_a,approx 3.6 rad/s_b,approx 3.6 rad/s,approx 3.6 rad/s_c,3,0.65
+What is the result of lag-lead: lower corner of lead section?,should be at desired crossover freq_a,should be at desired crossover freq_c,should be at desired crossover freq_b,should be at desired crossover freq,4,0.65
+What is the result of lead comp: new gain crossover approx after addition?,moves to higher frequency,moves to higher frequency_c,moves to higher frequency_a,moves to higher frequency_b,1,0.65
+Calculate: Kp for no steady-state step error,infinity (integral action needed)_b,infinity (integral action needed)_c,infinity (integral action needed),infinity (integral action needed)_a,3,0.65
+Calculate: PID: effect of increasing Kp,"faster response, less ess, may reduce stability_b","faster response, less ess, may reduce stability","faster response, less ess, may reduce stability_c","faster response, less ess, may reduce stability_a",2,0.65
+Calculate: PID: effect of increasing Ti (reset time),"slower integral, less overshoot_a","slower integral, less overshoot","slower integral, less overshoot_b","slower integral, less overshoot_c",2,0.65
+Calculate: PID: effect of increasing Td,"more derivative action, faster response_c","more derivative action, faster response_a","more derivative action, faster response_b","more derivative action, faster response",4,0.65
+Calculate: lead comp phase at omega=sqrt(z*p),max phase lead = arcsin((p-z)/(p+z)),max phase lead = arcsin((p-z)/(p+z))_b,max phase lead = arcsin((p-z)/(p+z))_c,max phase lead = arcsin((p-z)/(p+z))_a,1,0.65
+Calculate: max phase from lead comp with z=1 p=10,18.3 degrees,54.9 degrees,-54.9 degrees,27.4 degrees,2,0.65
+What is the state variable?,a minimum set of variables describing system dynamics,companion form with coefficients of char. polynomial,every state can be reached from any initial state via control input,initial state can be determined from outputs and inputs,1,0.7
+What is the state equation (continuous)?,x_dot = A*x + B*u,controller and observer poles can be placed independently,every state can be reached from any initial state via control input,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,1,0.7
+What is the output equation (continuous)?,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,y = C*x + D*u,a minimum set of variables describing system dynamics,a matrix satisfies its own characteristic equation,2,0.7
+What is the state transition matrix Phi(t)?,x_dot = A*x + B*u,a matrix satisfies its own characteristic equation,Phi = e^(At); maps x(0) to x(t),dynamic system estimating state from input and output,3,0.7
+What is eigenvalues of matrix A?,initial state can be determined from outputs and inputs,u = -K*x + N*r where N is reference pre-filter,controller and observer poles can be placed independently,determine the natural frequencies; same as closed-loop poles,4,0.7
+What is the Cayley-Hamilton theorem?,x_dot = A*x + B*u,controller and observer poles can be placed independently,a matrix satisfies its own characteristic equation,u = -K*x + N*r where N is reference pre-filter,3,0.7
+What is the controllability matrix?,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,dynamic system estimating state from input and output,a matrix satisfies its own characteristic equation,Phi = e^(At); maps x(0) to x(t),1,0.7
+What is the observability matrix?,u = -K*x places closed-loop poles at desired locations,computes feedback gain K for desired pole locations,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,controller and observer poles can be placed independently,3,0.7
+What is a controllable system?,u = -K*x places closed-loop poles at desired locations,controller and observer poles can be placed independently,every state can be reached from any initial state via control input,computes feedback gain K for desired pole locations,3,0.7
+What is an observable system?,controller and observer poles can be placed independently,initial state can be determined from outputs and inputs,determine the natural frequencies; same as closed-loop poles,a matrix satisfies its own characteristic equation,2,0.7
+What is the canonical controllable form?,dynamic system estimating state from input and output,companion form with coefficients of char. polynomial,every state can be reached from any initial state via control input,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,2,0.7
+What is the observer (Luenberger)?,u = -K*x places closed-loop poles at desired locations,dynamic system estimating state from input and output,controller and observer poles can be placed independently,Phi = e^(At); maps x(0) to x(t),2,0.7
+What is pole placement by state feedback?,u = -K*x places closed-loop poles at desired locations,every state can be reached from any initial state via control input,initial state can be determined from outputs and inputs,computes feedback gain K for desired pole locations,1,0.7
+What is Ackermann's formula?,x_dot = A*x + B*u,a matrix satisfies its own characteristic equation,computes feedback gain K for desired pole locations,u = -K*x places closed-loop poles at desired locations,3,0.7
+What is the separation principle?,controller and observer poles can be placed independently,dynamic system estimating state from input and output,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,u = -K*x places closed-loop poles at desired locations,1,0.7
+What is the full-state feedback control law?,computes feedback gain K for desired pole locations,a minimum set of variables describing system dynamics,u = -K*x + N*r where N is reference pre-filter,every state can be reached from any initial state via control input,3,0.7
+Which best describes the state variable?,a minimum set of variables describing system dynamics,a matrix satisfies its own characteristic equation,u = -K*x places closed-loop poles at desired locations,x_dot = A*x + B*u,1,0.7
+Which best describes the state equation (continuous)?,x_dot = A*x + B*u,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,determine the natural frequencies; same as closed-loop poles,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,1,0.7
+Which best describes the output equation (continuous)?,u = -K*x places closed-loop poles at desired locations,y = C*x + D*u,computes feedback gain K for desired pole locations,u = -K*x + N*r where N is reference pre-filter,2,0.7
+Which best describes the state transition matrix Phi(t)?,computes feedback gain K for desired pole locations,a minimum set of variables describing system dynamics,Phi = e^(At); maps x(0) to x(t),companion form with coefficients of char. polynomial,3,0.7
+Which best describes eigenvalues of matrix A?,dynamic system estimating state from input and output,determine the natural frequencies; same as closed-loop poles,companion form with coefficients of char. polynomial,computes feedback gain K for desired pole locations,2,0.7
+Which best describes the Cayley-Hamilton theorem?,x_dot = A*x + B*u,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,a matrix satisfies its own characteristic equation,initial state can be determined from outputs and inputs,3,0.7
+Which best describes the controllability matrix?,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,x_dot = A*x + B*u,a matrix satisfies its own characteristic equation,companion form with coefficients of char. polynomial,1,0.7
+Which best describes the observability matrix?,y = C*x + D*u,u = -K*x + N*r where N is reference pre-filter,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,x_dot = A*x + B*u,3,0.7
+Which best describes a controllable system?,Phi = e^(At); maps x(0) to x(t),y = C*x + D*u,a minimum set of variables describing system dynamics,every state can be reached from any initial state via control input,4,0.7
+Which best describes an observable system?,u = -K*x + N*r where N is reference pre-filter,determine the natural frequencies; same as closed-loop poles,Phi = e^(At); maps x(0) to x(t),initial state can be determined from outputs and inputs,4,0.7
+Which best describes the canonical controllable form?,companion form with coefficients of char. polynomial,every state can be reached from any initial state via control input,a minimum set of variables describing system dynamics,a matrix satisfies its own characteristic equation,1,0.7
+Which best describes the observer (Luenberger)?,dynamic system estimating state from input and output,x_dot = A*x + B*u,y = C*x + D*u,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,1,0.7
+Which best describes pole placement by state feedback?,[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,dynamic system estimating state from input and output,u = -K*x places closed-loop poles at desired locations,x_dot = A*x + B*u,3,0.7
+Which best describes Ackermann's formula?,computes feedback gain K for desired pole locations,controller and observer poles can be placed independently,Phi = e^(At); maps x(0) to x(t),determine the natural frequencies; same as closed-loop poles,1,0.7
+Which best describes the separation principle?,y = C*x + D*u,controller and observer poles can be placed independently,computes feedback gain K for desired pole locations,initial state can be determined from outputs and inputs,2,0.7
+Which best describes the full-state feedback control law?,dynamic system estimating state from input and output,u = -K*x + N*r where N is reference pre-filter,every state can be reached from any initial state via control input,companion form with coefficients of char. polynomial,2,0.7
+"In control systems, the state variable refers to?",Phi = e^(At); maps x(0) to x(t),every state can be reached from any initial state via control input,x_dot = A*x + B*u,a minimum set of variables describing system dynamics,4,0.7
+"In control systems, the state equation (continuous) refers to?",x_dot = A*x + B*u,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,initial state can be determined from outputs and inputs,companion form with coefficients of char. polynomial,1,0.7
+"In control systems, the output equation (continuous) refers to?",u = -K*x places closed-loop poles at desired locations,a minimum set of variables describing system dynamics,companion form with coefficients of char. polynomial,y = C*x + D*u,4,0.7
+"In control systems, the state transition matrix Phi(t) refers to?",controller and observer poles can be placed independently,Phi = e^(At); maps x(0) to x(t),[B AB A^2B...A^(n-1)B]; system controllable if rank = n,u = -K*x places closed-loop poles at desired locations,2,0.7
+"In control systems, eigenvalues of matrix A refers to?",determine the natural frequencies; same as closed-loop poles,Phi = e^(At); maps x(0) to x(t),[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,y = C*x + D*u,1,0.7
+"In control systems, the Cayley-Hamilton theorem refers to?",dynamic system estimating state from input and output,y = C*x + D*u,u = -K*x + N*r where N is reference pre-filter,a matrix satisfies its own characteristic equation,4,0.7
+"In control systems, the controllability matrix refers to?",[B AB A^2B...A^(n-1)B]; system controllable if rank = n,Phi = e^(At); maps x(0) to x(t),y = C*x + D*u,controller and observer poles can be placed independently,1,0.7
+"In control systems, the observability matrix refers to?",[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,x_dot = A*x + B*u,u = -K*x places closed-loop poles at desired locations,dynamic system estimating state from input and output,1,0.7
+"In control systems, a controllable system refers to?",computes feedback gain K for desired pole locations,x_dot = A*x + B*u,every state can be reached from any initial state via control input,initial state can be determined from outputs and inputs,3,0.7
+"In control systems, an observable system refers to?",initial state can be determined from outputs and inputs,controller and observer poles can be placed independently,every state can be reached from any initial state via control input,computes feedback gain K for desired pole locations,1,0.7
+"In control systems, the canonical controllable form refers to?",determine the natural frequencies; same as closed-loop poles,Phi = e^(At); maps x(0) to x(t),y = C*x + D*u,companion form with coefficients of char. polynomial,4,0.7
+"In control systems, the observer (Luenberger) refers to?",dynamic system estimating state from input and output,companion form with coefficients of char. polynomial,x_dot = A*x + B*u,u = -K*x places closed-loop poles at desired locations,1,0.7
+"In control systems, pole placement by state feedback refers to?",dynamic system estimating state from input and output,[B AB A^2B...A^(n-1)B]; system controllable if rank = n,u = -K*x places closed-loop poles at desired locations,Phi = e^(At); maps x(0) to x(t),3,0.7
+"In control systems, Ackermann's formula refers to?",computes feedback gain K for desired pole locations,x_dot = A*x + B*u,dynamic system estimating state from input and output,determine the natural frequencies; same as closed-loop poles,1,0.7
+"In control systems, the separation principle refers to?",[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,x_dot = A*x + B*u,u = -K*x + N*r where N is reference pre-filter,controller and observer poles can be placed independently,4,0.7
+"In control systems, the full-state feedback control law refers to?",[C; CA; CA^2;...CA^(n-1)]; observable if rank = n,u = -K*x + N*r where N is reference pre-filter,dynamic system estimating state from input and output,y = C*x + D*u,2,0.7
+How is the state variable defined?,controller and observer poles can be placed independently,Phi = e^(At); maps x(0) to x(t),x_dot = A*x + B*u,a minimum set of variables describing system dynamics,4,0.7
+How is the state equation (continuous) defined?,y = C*x + D*u,initial state can be determined from outputs and inputs,x_dot = A*x + B*u,u = -K*x places closed-loop poles at desired locations,3,0.7
+"Evaluate: eigenvalues of A=[[0,1],[-2,-3]]",s=-1 and s=-2_a,s=-1 and s=-2_b,s=-1 and s=-2,s=-1 and s=-2_c,3,0.75
+"Evaluate: trace of A=[[0,1],[-2,-3]]",-3,-4,-9,-12,1,0.75
+"Evaluate: det of A=[[0,1],[-2,-3]]",6,0,3,2,4,0.75
+"Evaluate: char poly of A=[[0,1],[-2,-3]]",s^2+3s+2_a,s^2+3s+2_b,s^2+3s+2_c,s^2+3s+2,4,0.75
+Evaluate: stability: eigenvalues -1 and -2,stable_c,stable_a,stable,stable_b,3,0.75
+Evaluate: stability: eigenvalue at +1,unstable_b,unstable,unstable_c,unstable_a,2,0.75
+"Evaluate: TF from A=-2,B=1,C=1,D=0 scalar",1/(s+2),10 /(s+2),-1 /(s+2),4 /(s+2),1,0.75
+"Evaluate: rank of controllability matrix for 2x2 A, B rank 2",3 (controllable),4 (controllable),2 (controllable),20 (controllable),3,0.75
+Evaluate: e^(At) for A=-3 scalar at t=1,e^(-3)_b,e^(-3)_c,e^(-3)_a,e^(-3),4,0.75
+Evaluate: K for pole at s=-5 for x_dot=-2x+u y=x,K=3_b,K=3,K=3_c,K=3_a,2,0.75
+"Evaluate: K for poles at -2,-3 for 2nd order: char poly s^2+(2+k2)s+(1+k1)=0 -> k1,k2","k1=5,k2=3_b","k1=5,k2=3","k1=5,k2=3_c","k1=5,k2=3_a",2,0.75
+Evaluate: Ackermann: desired char poly alpha_c(A),alpha_c(A)*[0..0 1]*C_c^(-1)_b,alpha_c(A)*[0..0 1]*C_c^(-1)_a,alpha_c(A)*[0..0 1]*C_c^(-1)_c,alpha_c(A)*[0..0 1]*C_c^(-1),4,0.75
+Evaluate: observer poles placed how relative to regulator poles,2 -5x faster (more negative),0 -5x faster (more negative),3 -5x faster (more negative),2-5x faster (more negative),4,0.75
+"Evaluate: observer gain L for A=-2,C=1 desired pole -8",L=6_a,L=6_b,L=6_c,L=6,4,0.75
+Evaluate: steady-state of e^(At) for stable A,0,s^2+3s+2,e^(-3),-0,1,0.75
+Evaluate: rank for uncontrollable 2nd order system,3 (controllability matrix rank < n),0 (controllability matrix rank < n),approx 1 (controllability matrix rank < n)*2,1 (controllability matrix rank < n),4,0.75
+Evaluate: MIMO system: state size for m inputs r outputs,"n states independent of m,r","n states independent of m,r_b","n states independent of m,r_c","n states independent of m,r_a",1,0.75
+Evaluate: discrete state equation,x[k+1]=A_d*x[k]+B_d*u[k]_a,x[k+1]=A_d*x[k]+B_d*u[k]_b,x[k+1]=A_d*x[k]+B_d*u[k],x[k+1]=A_d*x[k]+B_d*u[k]_c,3,0.75
+Evaluate: A_d from continuous A for zero-order hold,A_d = e^(A*T),A_d = e^(A*T)_b,A_d = e^(A*T)_c,A_d = e^(A*T)_a,1,0.75
+Evaluate: stability of discrete system,all eigenvalues of A_d inside unit circle_c,all eigenvalues of A_d inside unit circle,all eigenvalues of A_d inside unit circle_b,all eigenvalues of A_d inside unit circle_a,2,0.75
+Evaluate: number of states for 4th order ODE,4,-4,6,8,1,0.75
+Evaluate: DC gain of state-space system,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_b,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_c,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_a,1,0.75
+"What is the result of eigenvalues of A=[[0,1],[-2,-3]]?",s=-1 and s=-2_c,s=-1 and s=-2_b,s=-1 and s=-2,s=-1 and s=-2_a,3,0.75
+"What is the result of trace of A=[[0,1],[-2,-3]]?",-9,-4,-6,-3,4,0.75
+"What is the result of det of A=[[0,1],[-2,-3]]?",20,1,0,2,4,0.75
+"What is the result of char poly of A=[[0,1],[-2,-3]]?",s^2+3s+2_c,s^2+3s+2,s^2+3s+2_a,s^2+3s+2_b,2,0.75
+What is the result of stability: eigenvalues -1 and -2?,stable_a,stable_b,stable_c,stable,4,0.75
+What is the result of stability: eigenvalue at +1?,unstable,unstable_a,unstable_c,unstable_b,1,0.75
+"What is the result of TF from A=-2,B=1,C=1,D=0 scalar?",3 /(s+2),4 /(s+2),2 /(s+2),1/(s+2),4,0.75
+"What is the result of rank of controllability matrix for 2x2 A, B rank 2?",1 (controllable),2 (controllable),8 (controllable),3 (controllable),2,0.75
+What is the result of e^(At) for A=-3 scalar at t=1?,e^(-3),e^(-3)_c,e^(-3)_a,e^(-3)_b,1,0.75
+What is the result of K for pole at s=-5 for x_dot=-2x+u y=x?,K=3_b,K=3_a,K=3,K=3_c,3,0.75
+"What is the result of K for poles at -2,-3 for 2nd order: char poly s^2+(2+k2)s+(1+k1)=0 -> k1,k2?","k1=5,k2=3_c","k1=5,k2=3","k1=5,k2=3_b","k1=5,k2=3_a",2,0.75
+What is the result of Ackermann: desired char poly alpha_c(A)?,alpha_c(A)*[0..0 1]*C_c^(-1),alpha_c(A)*[0..0 1]*C_c^(-1)_b,alpha_c(A)*[0..0 1]*C_c^(-1)_a,alpha_c(A)*[0..0 1]*C_c^(-1)_c,1,0.75
+What is the result of observer poles placed how relative to regulator poles?,2 -5x faster (more negative),3 -5x faster (more negative),2-5x faster (more negative),1 -5x faster (more negative),3,0.75
+"What is the result of observer gain L for A=-2,C=1 desired pole -8?",L=6_b,L=6_a,L=6,L=6_c,3,0.75
+What is the result of steady-state of e^(At) for stable A?,-0,alpha_c(A)*[0..0 1]*C_c^(-1),K=3,0,4,0.75
+What is the result of rank for uncontrollable 2nd order system?,-1 (controllability matrix rank < n),1 (controllability matrix rank < n),3 (controllability matrix rank < n),0 (controllability matrix rank < n),2,0.75
+What is the result of MIMO system: state size for m inputs r outputs?,"n states independent of m,r","n states independent of m,r_a","n states independent of m,r_b","n states independent of m,r_c",1,0.75
+What is the result of discrete state equation?,x[k+1]=A_d*x[k]+B_d*u[k]_a,x[k+1]=A_d*x[k]+B_d*u[k]_b,x[k+1]=A_d*x[k]+B_d*u[k]_c,x[k+1]=A_d*x[k]+B_d*u[k],4,0.75
+What is the result of A_d from continuous A for zero-order hold?,A_d = e^(A*T),A_d = e^(A*T)_b,A_d = e^(A*T)_c,A_d = e^(A*T)_a,1,0.75
+What is the result of stability of discrete system?,all eigenvalues of A_d inside unit circle_b,all eigenvalues of A_d inside unit circle_a,all eigenvalues of A_d inside unit circle_c,all eigenvalues of A_d inside unit circle,4,0.75
+What is the result of number of states for 4th order ODE?,4,16,1,-4,1,0.75
+What is the result of DC gain of state-space system?,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_a,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_b,C*(0I-A)^(-1)*B + D = -C*A^(-1)*B+D_c,1,0.75
+"Calculate: eigenvalues of A=[[0,1],[-2,-3]]",s=-1 and s=-2_c,s=-1 and s=-2_a,s=-1 and s=-2_b,s=-1 and s=-2,4,0.75
+"Calculate: trace of A=[[0,1],[-2,-3]]",-2,-3,-0,3,2,0.75
+"Calculate: det of A=[[0,1],[-2,-3]]",20,2,4,-2,2,0.75
+"Calculate: char poly of A=[[0,1],[-2,-3]]",s^2+3s+2_c,s^2+3s+2_b,s^2+3s+2,s^2+3s+2_a,3,0.75
+Calculate: stability: eigenvalues -1 and -2,stable_a,stable,stable_c,stable_b,2,0.75
+Calculate: stability: eigenvalue at +1,unstable,unstable_c,unstable_b,unstable_a,1,0.75
+Evaluate: second-order wn from char poly s^2+6s+25,"wn=5, zeta=0.6","wn=5, zeta=0.6_c","wn=5, zeta=0.6_b","wn=5, zeta=0.6_a",1,0.8
+Evaluate: Mp for zeta=0.6,9.5%,4.8 %,7.1 %,-9.5 %,1,0.8
+Evaluate: ts (2%) for wn=5 zeta=0.6,2.66 s,13.30 s,1.33 s,3.99 s,3,0.8
+Evaluate: wd for wn=5 zeta=0.6,1 rad/s,-4 rad/s,4 rad/s,12 rad/s,3,0.8
+Evaluate: Kp for G(s)=50/(s^2+10s+50) unity FB,"200 /50=1, ess=0.5","50/50=1, ess=0.5","75 /50=1, ess=0.5","150 /50=1, ess=0.5",2,0.8
+Evaluate: BW for wn=10 zeta=0.7,approx 12.7 rad/s,approx 12.7 rad/s_b,approx 12.7 rad/s_a,approx 12.7 rad/s_c,1,0.8
+Evaluate: Mr for zeta=0.7,3.06 (barely any peak),0.77 (barely any peak),0.26 (barely any peak),1.02 (barely any peak),4,0.8
+Evaluate: GM in dB for G=1/(s(s+1)(s+4)): PC freq is 2 rad/s,2 *log10(10/1)=20 dB,10 *log10(10/1)=20 dB,20*log10(10/1)=20 dB,60 *log10(10/1)=20 dB,3,0.8
+Evaluate: PM for G=10/(s+1)^3,approx 0 deg (need exact)_c,approx 0 deg (need exact)_a,approx 0 deg (need exact)_b,approx 0 deg (need exact),4,0.8
+Evaluate: type 1 system: slope of Bode mag at very low freq,20 dB/dec,-20 dB/dec,-15 dB/dec,-30 dB/dec,2,0.8
+Evaluate: KcTr=0.45 in Cohen-Coon for P-only tuning,P-controller Kp = 0.45/Kc_a,P-controller Kp = 0.45/Kc_c,P-controller Kp = 0.45/Kc_b,P-controller Kp = 0.45/Kc,4,0.8
+Evaluate: sensitivity function S(s),1/(1+G*H); measures effect of disturbances,4 /(1+G*H); measures effect of disturbances,3 /(1+G*H); measures effect of disturbances,-1 /(1+G*H); measures effect of disturbances,1,0.8
+Evaluate: complementary sensitivity T(s),G*H/(1+G*H) = 1-S(s)_c,G*H/(1+G*H) = 1-S(s)_b,G*H/(1+G*H) = 1-S(s),G*H/(1+G*H) = 1-S(s)_a,3,0.8
+Evaluate: S+T,= 1 always,= 1 always_b,= 1 always_a,= 1 always_c,1,0.8
+Evaluate: robust stability condition,|W*T|_inf < 1,|W*T|_inf < 1_a,|W*T|_inf < 1_c,|W*T|_inf < 1_b,1,0.8
+Evaluate: integral of squared error ISE,performance index integral of e^2(t) dt_b,performance index integral of e^2(t) dt,performance index integral of e^2(t) dt_c,performance index integral of e^2(t) dt_a,2,0.8
+Evaluate: integral of absolute error IAE,performance index integral of |e(t)| dt,performance index integral of |e(t)| dt_c,performance index integral of |e(t)| dt_a,performance index integral of |e(t)| dt_b,1,0.8
+Evaluate: ITAE criterion,minimises integral of t*|e(t)| dt; best transient_a,minimises integral of t*|e(t)| dt; best transient_b,minimises integral of t*|e(t)| dt; best transient_c,minimises integral of t*|e(t)| dt; best transient,4,0.8
+Evaluate: wn for PM=45 for G=K/s(s+1),K_gc such that PM=45_b,K_gc such that PM=45_a,K_gc such that PM=45,K_gc such that PM=45_c,3,0.8
+"Evaluate: Nyquist: if G(j0)=inf (type-1), Nyquist starts at",minus infinity on neg imaginary axis,minus infinity on neg imaginary axis_a,minus infinity on neg imaginary axis_c,minus infinity on neg imaginary axis_b,1,0.8
+Evaluate: phase margin from zeta=0.5 (approx),208 degrees,39 degrees,104 degrees,52 degrees,4,0.8
+Evaluate: gain needed to make PM=45 from PM=17 by adjusting K,reduce K_b,reduce K,reduce K_a,reduce K_c,2,0.8
+What is the result of second-order wn from char poly s^2+6s+25?,"wn=5, zeta=0.6_b","wn=5, zeta=0.6_c","wn=5, zeta=0.6_a","wn=5, zeta=0.6",4,0.8
+What is the result of Mp for zeta=0.6?,19.0 %,2.4 %,95.0 %,9.5%,4,0.8
+What is the result of ts (2%) for wn=5 zeta=0.6?,5.32 s,2.00 s,1.33 s,-1.33 s,3,0.8
+What is the result of wd for wn=5 zeta=0.6?,8 rad/s,1 rad/s,2 rad/s,4 rad/s,4,0.8
+What is the result of Kp for G(s)=50/(s^2+10s+50) unity FB?,"12 /50=1, ess=0.5","75 /50=1, ess=0.5","38 /50=1, ess=0.5","50/50=1, ess=0.5",4,0.8
+What is the result of BW for wn=10 zeta=0.7?,approx 12.7 rad/s_c,approx 12.7 rad/s,approx 12.7 rad/s_b,approx 12.7 rad/s_a,2,0.8
+What is the result of Mr for zeta=0.7?,0.34 (barely any peak),1.02 (barely any peak),0.26 (barely any peak),-1.02 (barely any peak),2,0.8
+What is the result of GM in dB for G=1/(s(s+1)(s+4)): PC freq is 2 rad/s?,200 *log10(10/1)=20 dB,20*log10(10/1)=20 dB,60 *log10(10/1)=20 dB,2 *log10(10/1)=20 dB,2,0.8
+What is the result of PM for G=10/(s+1)^3?,approx 0 deg (need exact)_b,approx 0 deg (need exact)_c,approx 0 deg (need exact),approx 0 deg (need exact)_a,3,0.8
+What is the result of type 1 system: slope of Bode mag at very low freq?,-5 dB/dec,-30 dB/dec,-20 dB/dec,-200 dB/dec,3,0.8
+What is the result of KcTr=0.45 in Cohen-Coon for P-only tuning?,P-controller Kp = 0.45/Kc_b,P-controller Kp = 0.45/Kc,P-controller Kp = 0.45/Kc_c,P-controller Kp = 0.45/Kc_a,2,0.8
+What is the result of sensitivity function S(s)?,1/(1+G*H); measures effect of disturbances,0 /(1+G*H); measures effect of disturbances,-1 /(1+G*H); measures effect of disturbances,approx 1/(1+G*H); measures effect of disturbances*2,1,0.8
+What is the result of complementary sensitivity T(s)?,G*H/(1+G*H) = 1-S(s)_b,G*H/(1+G*H) = 1-S(s)_a,G*H/(1+G*H) = 1-S(s)_c,G*H/(1+G*H) = 1-S(s),4,0.8
+What is the result of S+T?,= 1 always_b,= 1 always_c,= 1 always,= 1 always_a,3,0.8
+What is the result of robust stability condition?,|W*T|_inf < 1_b,|W*T|_inf < 1_a,|W*T|_inf < 1_c,|W*T|_inf < 1,4,0.8
+What is the result of integral of squared error ISE?,performance index integral of e^2(t) dt_c,performance index integral of e^2(t) dt_b,performance index integral of e^2(t) dt_a,performance index integral of e^2(t) dt,4,0.8
+What is the result of integral of absolute error IAE?,performance index integral of |e(t)| dt_b,performance index integral of |e(t)| dt,performance index integral of |e(t)| dt_c,performance index integral of |e(t)| dt_a,2,0.8
+What is the result of ITAE criterion?,minimises integral of t*|e(t)| dt; best transient,minimises integral of t*|e(t)| dt; best transient_b,minimises integral of t*|e(t)| dt; best transient_a,minimises integral of t*|e(t)| dt; best transient_c,1,0.8
+What is the result of wn for PM=45 for G=K/s(s+1)?,K_gc such that PM=45_b,K_gc such that PM=45_a,K_gc such that PM=45_c,K_gc such that PM=45,4,0.8
+"What is the result of Nyquist: if G(j0)=inf (type-1), Nyquist starts at?",minus infinity on neg imaginary axis_c,minus infinity on neg imaginary axis,minus infinity on neg imaginary axis_b,minus infinity on neg imaginary axis_a,2,0.8
+What is the result of phase margin from zeta=0.5 (approx)?,17 degrees,13 degrees,78 degrees,52 degrees,4,0.8
+What is the result of gain needed to make PM=45 from PM=17 by adjusting K?,reduce K_b,reduce K_c,reduce K_a,reduce K,4,0.8
+Calculate: second-order wn from char poly s^2+6s+25,"wn=5, zeta=0.6_a","wn=5, zeta=0.6_b","wn=5, zeta=0.6_c","wn=5, zeta=0.6",4,0.8
+Calculate: Mp for zeta=0.6,19.0 %,14.2 %,7.1 %,9.5%,4,0.8
+Calculate: ts (2%) for wn=5 zeta=0.6,3.99 s,1.33 s,0.44 s,0.33 s,2,0.8
+Calculate: wd for wn=5 zeta=0.6,4 rad/s,40 rad/s,2 rad/s,-4 rad/s,1,0.8
+Calculate: Kp for G(s)=50/(s^2+10s+50) unity FB,"5 /50=1, ess=0.5","200 /50=1, ess=0.5","50/50=1, ess=0.5","75 /50=1, ess=0.5",3,0.8
+Calculate: BW for wn=10 zeta=0.7,approx 12.7 rad/s_b,approx 12.7 rad/s_a,approx 12.7 rad/s_c,approx 12.7 rad/s,4,0.8
+"Evaluate: root locus: real axis between 0 and -1 (odd poles to left: 0,-3,-5)",on root locus,on root locus_b,on root locus_c,on root locus_a,1,0.85
+"Evaluate: number of RHP roots from Routh [2,-1,4]",2 sign changes: 2 RHP roots,8 sign changes: 2 RHP roots,20 sign changes: 2 RHP roots,4 sign changes: 2 RHP roots,1,0.85
+Evaluate: characteristic eqn for PD control G=K(s+z)/s(s+a),s^2+(a+Kz)s+K*z_gain=0 equiv_b,s^2+(a+Kz)s+K*z_gain=0 equiv_a,s^2+(a+Kz)s+K*z_gain=0 equiv_c,s^2+(a+Kz)s+K*z_gain=0 equiv,4,0.85
+Evaluate: lead comp s+1/s+10 adds phase at sqrt(1*10),max phase at omega=sqrt(10) rad/s_a,max phase at omega=sqrt(10) rad/s,max phase at omega=sqrt(10) rad/s_c,max phase at omega=sqrt(10) rad/s_b,2,0.85
+Evaluate: max phase angle from z=1 p=10,54.9 degrees,82.3 degrees,5.5 degrees,219.6 degrees,1,0.85
+Evaluate: lead comp new crossover: original wc=1 adding lead raises wc,wc increases,wc increases_a,wc increases_b,wc increases_c,1,0.85
+Evaluate: lag comp z=0.1 p=0.01: improvement in Kv,2 x,10x,-10 x,1 x,2,0.85
+"Evaluate: state feedback: desired poles at -3,-4 for G=1/(s+1)(s+2)","K=[10,4] approx","K=[10,4] approx_a","K=[10,4] approx_c","K=[10,4] approx_b",1,0.85
+Evaluate: order of observer equal to,n (system order)_b,n (system order)_c,n (system order)_a,n (system order),4,0.85
+Evaluate: observer error dynamics: eigenvalues of A-L*C,chosen by designer_b,chosen by designer_a,chosen by designer,chosen by designer_c,3,0.85
+Evaluate: closed-loop with state FB: eigs of A-B*K,placed at desired locations_c,placed at desired locations_b,placed at desired locations_a,placed at desired locations,4,0.85
+Evaluate: reference pre-filter N to ensure unity DC gain,N = -1/(C*(A-BK)^(-1)*B),N = -1/(C*(A-BK)^(-1)*B)_a,N = -1/(C*(A-BK)^(-1)*B)_c,N = -1/(C*(A-BK)^(-1)*B)_b,1,0.85
+Evaluate: stability of e^(At) requires,all eigenvalues of A in LHP_b,all eigenvalues of A in LHP_a,all eigenvalues of A in LHP,all eigenvalues of A in LHP_c,3,0.85
+Evaluate: discrete system: ZOH hold A_d for A=-1 T=0.1,e^(-0.1) = 0.905_a,e^(-0.1) = 0.905_b,e^(-0.1) = 0.905,e^(-0.1) = 0.905_c,3,0.85
+Evaluate: Bilinear transform maps s to z,z=(1+sT/2)/(1-sT/2)_c,z=(1+sT/2)/(1-sT/2)_a,z=(1+sT/2)/(1-sT/2),z=(1+sT/2)/(1-sT/2)_b,3,0.85
+"Evaluate: controllability: rank [B,AB]=2 for 2x2 -> ?",controllable_a,controllable_c,controllable,controllable_b,3,0.85
+Evaluate: observability: rank [C;CA]=2 for 2x2 -> ?,observable,observable_a,observable_c,observable_b,1,0.85
+Evaluate: Ackermann form requires,controllability matrix invertible,controllability matrix invertible_b,controllability matrix invertible_a,controllability matrix invertible_c,1,0.85
+Evaluate: type-2 system: ess for ramp,-0,0,placed at desired locations,on root locus,2,0.85
+Evaluate: type-2 system: ess for parabola,1 /Ka,-1 /Ka,0 /Ka,1/Ka,4,0.85
+Evaluate: GM for unity FB G=K/s(s+2)^2,K < 8 for stability; GM=8/K,K < 8 for stability; GM=8/K_b,K < 8 for stability; GM=8/K_a,K < 8 for stability; GM=8/K_c,1,0.85
+Evaluate: PM > 45 degrees implies transient,"well-damped, acceptable overshoot","well-damped, acceptable overshoot_c","well-damped, acceptable overshoot_a","well-damped, acceptable overshoot_b",1,0.85
+"What is the result of root locus: real axis between 0 and -1 (odd poles to left: 0,-3,-5)?",on root locus_a,on root locus_c,on root locus,on root locus_b,3,0.85
+"What is the result of number of RHP roots from Routh [2,-1,4]?",1 sign changes: 2 RHP roots,2 sign changes: 2 RHP roots,4 sign changes: 2 RHP roots,0 sign changes: 2 RHP roots,2,0.85
+What is the result of characteristic eqn for PD control G=K(s+z)/s(s+a)?,s^2+(a+Kz)s+K*z_gain=0 equiv_c,s^2+(a+Kz)s+K*z_gain=0 equiv,s^2+(a+Kz)s+K*z_gain=0 equiv_a,s^2+(a+Kz)s+K*z_gain=0 equiv_b,2,0.85
+What is the result of lead comp s+1/s+10 adds phase at sqrt(1*10)?,max phase at omega=sqrt(10) rad/s_c,max phase at omega=sqrt(10) rad/s,max phase at omega=sqrt(10) rad/s_a,max phase at omega=sqrt(10) rad/s_b,2,0.85
+What is the result of max phase angle from z=1 p=10?,54.9 degrees,5.5 degrees,219.6 degrees,41.2 degrees,1,0.85
+What is the result of lead comp new crossover: original wc=1 adding lead raises wc?,wc increases_c,wc increases_b,wc increases_a,wc increases,4,0.85
+What is the result of lag comp z=0.1 p=0.01: improvement in Kv?,10x,8 x,1 x,30 x,1,0.85
+"What is the result of state feedback: desired poles at -3,-4 for G=1/(s+1)(s+2)?","K=[10,4] approx_a","K=[10,4] approx_c","K=[10,4] approx_b","K=[10,4] approx",4,0.85
+What is the result of order of observer equal to?,n (system order)_a,n (system order)_b,n (system order),n (system order)_c,3,0.85
+What is the result of observer error dynamics: eigenvalues of A-L*C?,chosen by designer_a,chosen by designer_b,chosen by designer_c,chosen by designer,4,0.85
+What is the result of closed-loop with state FB: eigs of A-B*K?,placed at desired locations_a,placed at desired locations_b,placed at desired locations,placed at desired locations_c,3,0.85
+What is the result of reference pre-filter N to ensure unity DC gain?,N = -1/(C*(A-BK)^(-1)*B),N = -1/(C*(A-BK)^(-1)*B)_b,N = -1/(C*(A-BK)^(-1)*B)_a,N = -1/(C*(A-BK)^(-1)*B)_c,1,0.85
+What is the result of stability of e^(At) requires?,all eigenvalues of A in LHP_c,all eigenvalues of A in LHP_b,all eigenvalues of A in LHP_a,all eigenvalues of A in LHP,4,0.85
+What is the result of discrete system: ZOH hold A_d for A=-1 T=0.1?,e^(-0.1) = 0.905_a,e^(-0.1) = 0.905,e^(-0.1) = 0.905_b,e^(-0.1) = 0.905_c,2,0.85
+What is the result of Bilinear transform maps s to z?,z=(1+sT/2)/(1-sT/2),z=(1+sT/2)/(1-sT/2)_c,z=(1+sT/2)/(1-sT/2)_b,z=(1+sT/2)/(1-sT/2)_a,1,0.85
+"What is the result of controllability: rank [B,AB]=2 for 2x2 -> ??",controllable,controllable_c,controllable_a,controllable_b,1,0.85
+What is the result of observability: rank [C;CA]=2 for 2x2 -> ??,observable_b,observable,observable_a,observable_c,2,0.85
+What is the result of Ackermann form requires?,controllability matrix invertible_a,controllability matrix invertible,controllability matrix invertible_c,controllability matrix invertible_b,2,0.85
+What is the result of type-2 system: ess for ramp?,"well-damped, acceptable overshoot",z=(1+sT/2)/(1-sT/2),0,-0,3,0.85
+What is the result of type-2 system: ess for parabola?,1/Ka,-1 /Ka,10 /Ka,2 /Ka,1,0.85
+What is the result of GM for unity FB G=K/s(s+2)^2?,K < 8 for stability; GM=8/K_b,K < 8 for stability; GM=8/K_a,K < 8 for stability; GM=8/K_c,K < 8 for stability; GM=8/K,4,0.85
+What is the result of PM > 45 degrees implies transient?,"well-damped, acceptable overshoot_a","well-damped, acceptable overshoot","well-damped, acceptable overshoot_c","well-damped, acceptable overshoot_b",2,0.85
+"Calculate: root locus: real axis between 0 and -1 (odd poles to left: 0,-3,-5)",on root locus_a,on root locus_b,on root locus,on root locus_c,3,0.85
+"Calculate: number of RHP roots from Routh [2,-1,4]",8 sign changes: 2 RHP roots,0 sign changes: 2 RHP roots,2 sign changes: 2 RHP roots,approx 2 sign changes: 2 RHP roots*2,3,0.85
+Calculate: characteristic eqn for PD control G=K(s+z)/s(s+a),s^2+(a+Kz)s+K*z_gain=0 equiv_b,s^2+(a+Kz)s+K*z_gain=0 equiv_a,s^2+(a+Kz)s+K*z_gain=0 equiv_c,s^2+(a+Kz)s+K*z_gain=0 equiv,4,0.85
+Calculate: lead comp s+1/s+10 adds phase at sqrt(1*10),max phase at omega=sqrt(10) rad/s_c,max phase at omega=sqrt(10) rad/s,max phase at omega=sqrt(10) rad/s_a,max phase at omega=sqrt(10) rad/s_b,2,0.85
+Calculate: max phase angle from z=1 p=10,54.9 degrees,27.4 degrees,109.8 degrees,219.6 degrees,1,0.85
+Calculate: lead comp new crossover: original wc=1 adding lead raises wc,wc increases_b,wc increases_c,wc increases_a,wc increases,4,0.85
+What is nonlinear control systems?,systems with nonlinear differential equations governing dynamics,points where x_dot = 0 and f(x) = 0 simultaneously,self-sustained oscillations in nonlinear systems,a nonlinearity with zero output for small input magnitudes,1,0.9
+What is limit cycles?,frequency-domain test for nonlinear feedback stability,points where x_dot = 0 and f(x) = 0 simultaneously,a nonlinearity with zero output for small input magnitudes,self-sustained oscillations in nonlinear systems,4,0.9
+What is the describing function method?,V(x)>0 and V_dot(x)<=0 implies stability,equilibrium approached spirally,frequency-domain approximation for nonlinear element analysis,2D plot of x vs x_dot for second-order system analysis,3,0.9
+What is Lyapunov stability?,V(x)>0 and V_dot(x)<=0 implies stability,output lags input due to mechanical play,equilibrium surrounded by closed orbits (marginally stable),equilibrium approached spirally,1,0.9
+What is a Lyapunov function?,positive definite scalar function whose derivative is negative semi-definite,equilibrium approached spirally,V(x)>0 and V_dot(x)<=0 implies stability,replacing a nonlinearity with equivalent gain for stability analysis,1,0.9
+What is the phase plane?,points where x_dot = 0 and f(x) = 0 simultaneously,2D plot of x vs x_dot for second-order system analysis,equilibrium surrounded by closed orbits (marginally stable),equilibrium approached spirally,2,0.9
+What is singular points (equilibria)?,output lags input due to mechanical play,V(x)>0 and V_dot(x)<=0 implies stability,frequency-domain test for nonlinear feedback stability,points where x_dot = 0 and f(x) = 0 simultaneously,4,0.9
+What is a stable node?,output lags input due to mechanical play,equilibrium approached exponentially without oscillation,positive definite scalar function whose derivative is negative semi-definite,equilibrium surrounded by closed orbits (marginally stable),2,0.9
+What is a stable focus?,frequency-domain approximation for nonlinear element analysis,equilibrium approached spirally,frequency-domain test for nonlinear feedback stability,unstable equilibrium; trajectories approach then diverge,2,0.9
+What is a saddle point?,unstable equilibrium; trajectories approach then diverge,frequency-domain approximation for nonlinear element analysis,output lags input due to mechanical play,equilibrium surrounded by closed orbits (marginally stable),1,0.9
+What is a center?,self-sustained oscillations in nonlinear systems,output lags input due to mechanical play,equilibrium surrounded by closed orbits (marginally stable),systems with nonlinear differential equations governing dynamics,3,0.9
+What is deadzone nonlinearity?,equilibrium approached exponentially without oscillation,points where x_dot = 0 and f(x) = 0 simultaneously,a nonlinearity with zero output for small input magnitudes,frequency-domain approximation for nonlinear element analysis,3,0.9
+What is saturation nonlinearity?,V(x)>0 and V_dot(x)<=0 implies stability,positive definite scalar function whose derivative is negative semi-definite,output limited to maximum value regardless of input magnitude,frequency-domain approximation for nonlinear element analysis,3,0.9
+What is backlash (hysteresis) nonlinearity?,V(x)>0 and V_dot(x)<=0 implies stability,replacing a nonlinearity with equivalent gain for stability analysis,output lags input due to mechanical play,frequency-domain test for nonlinear feedback stability,3,0.9
+What is quasi-linearisation?,equilibrium approached spirally,frequency-domain approximation for nonlinear element analysis,replacing a nonlinearity with equivalent gain for stability analysis,equilibrium surrounded by closed orbits (marginally stable),3,0.9
+What is absolute stability (Popov criterion)?,frequency-domain test for nonlinear feedback stability,frequency-domain approximation for nonlinear element analysis,2D plot of x vs x_dot for second-order system analysis,self-sustained oscillations in nonlinear systems,1,0.9
+Which best describes nonlinear control systems?,positive definite scalar function whose derivative is negative semi-definite,systems with nonlinear differential equations governing dynamics,output limited to maximum value regardless of input magnitude,equilibrium approached spirally,2,0.9
+Which best describes limit cycles?,frequency-domain approximation for nonlinear element analysis,self-sustained oscillations in nonlinear systems,equilibrium approached exponentially without oscillation,output lags input due to mechanical play,2,0.9
+Which best describes the describing function method?,frequency-domain approximation for nonlinear element analysis,equilibrium approached exponentially without oscillation,points where x_dot = 0 and f(x) = 0 simultaneously,output lags input due to mechanical play,1,0.9
+Which best describes Lyapunov stability?,unstable equilibrium; trajectories approach then diverge,equilibrium approached exponentially without oscillation,equilibrium surrounded by closed orbits (marginally stable),V(x)>0 and V_dot(x)<=0 implies stability,4,0.9
+Which best describes a Lyapunov function?,a nonlinearity with zero output for small input magnitudes,output limited to maximum value regardless of input magnitude,equilibrium surrounded by closed orbits (marginally stable),positive definite scalar function whose derivative is negative semi-definite,4,0.9
+Which best describes the phase plane?,points where x_dot = 0 and f(x) = 0 simultaneously,2D plot of x vs x_dot for second-order system analysis,output lags input due to mechanical play,V(x)>0 and V_dot(x)<=0 implies stability,2,0.9
+Which best describes singular points (equilibria)?,equilibrium surrounded by closed orbits (marginally stable),frequency-domain test for nonlinear feedback stability,points where x_dot = 0 and f(x) = 0 simultaneously,output lags input due to mechanical play,3,0.9
+Which best describes a stable node?,equilibrium approached spirally,frequency-domain approximation for nonlinear element analysis,V(x)>0 and V_dot(x)<=0 implies stability,equilibrium approached exponentially without oscillation,4,0.9
+Which best describes a stable focus?,points where x_dot = 0 and f(x) = 0 simultaneously,equilibrium approached spirally,self-sustained oscillations in nonlinear systems,2D plot of x vs x_dot for second-order system analysis,2,0.9
+Which best describes a saddle point?,unstable equilibrium; trajectories approach then diverge,positive definite scalar function whose derivative is negative semi-definite,points where x_dot = 0 and f(x) = 0 simultaneously,frequency-domain approximation for nonlinear element analysis,1,0.9
+Which best describes a center?,positive definite scalar function whose derivative is negative semi-definite,points where x_dot = 0 and f(x) = 0 simultaneously,equilibrium surrounded by closed orbits (marginally stable),systems with nonlinear differential equations governing dynamics,3,0.9
+Which best describes deadzone nonlinearity?,equilibrium approached spirally,equilibrium surrounded by closed orbits (marginally stable),a nonlinearity with zero output for small input magnitudes,self-sustained oscillations in nonlinear systems,3,0.9
+Which best describes saturation nonlinearity?,equilibrium surrounded by closed orbits (marginally stable),a nonlinearity with zero output for small input magnitudes,output limited to maximum value regardless of input magnitude,self-sustained oscillations in nonlinear systems,3,0.9
+Which best describes backlash (hysteresis) nonlinearity?,output lags input due to mechanical play,2D plot of x vs x_dot for second-order system analysis,frequency-domain approximation for nonlinear element analysis,unstable equilibrium; trajectories approach then diverge,1,0.9
+Which best describes quasi-linearisation?,equilibrium approached exponentially without oscillation,replacing a nonlinearity with equivalent gain for stability analysis,systems with nonlinear differential equations governing dynamics,equilibrium surrounded by closed orbits (marginally stable),2,0.9
+Which best describes absolute stability (Popov criterion)?,replacing a nonlinearity with equivalent gain for stability analysis,positive definite scalar function whose derivative is negative semi-definite,points where x_dot = 0 and f(x) = 0 simultaneously,frequency-domain test for nonlinear feedback stability,4,0.9
+"In control systems, nonlinear control systems refers to?",systems with nonlinear differential equations governing dynamics,unstable equilibrium; trajectories approach then diverge,points where x_dot = 0 and f(x) = 0 simultaneously,output lags input due to mechanical play,1,0.9
+"In control systems, limit cycles refers to?",unstable equilibrium; trajectories approach then diverge,replacing a nonlinearity with equivalent gain for stability analysis,points where x_dot = 0 and f(x) = 0 simultaneously,self-sustained oscillations in nonlinear systems,4,0.9
+"In control systems, the describing function method refers to?",unstable equilibrium; trajectories approach then diverge,output lags input due to mechanical play,equilibrium approached exponentially without oscillation,frequency-domain approximation for nonlinear element analysis,4,0.9
+"In control systems, Lyapunov stability refers to?",equilibrium surrounded by closed orbits (marginally stable),points where x_dot = 0 and f(x) = 0 simultaneously,V(x)>0 and V_dot(x)<=0 implies stability,output limited to maximum value regardless of input magnitude,3,0.9
+"In control systems, a Lyapunov function refers to?",equilibrium approached exponentially without oscillation,equilibrium approached spirally,positive definite scalar function whose derivative is negative semi-definite,systems with nonlinear differential equations governing dynamics,3,0.9
+"In control systems, the phase plane refers to?",frequency-domain test for nonlinear feedback stability,replacing a nonlinearity with equivalent gain for stability analysis,2D plot of x vs x_dot for second-order system analysis,equilibrium approached spirally,3,0.9
+"In control systems, singular points (equilibria) refers to?",2D plot of x vs x_dot for second-order system analysis,positive definite scalar function whose derivative is negative semi-definite,points where x_dot = 0 and f(x) = 0 simultaneously,equilibrium approached exponentially without oscillation,3,0.9
+"In control systems, a stable node refers to?",positive definite scalar function whose derivative is negative semi-definite,frequency-domain approximation for nonlinear element analysis,equilibrium approached exponentially without oscillation,2D plot of x vs x_dot for second-order system analysis,3,0.9
+"In control systems, a stable focus refers to?",2D plot of x vs x_dot for second-order system analysis,a nonlinearity with zero output for small input magnitudes,positive definite scalar function whose derivative is negative semi-definite,equilibrium approached spirally,4,0.9
+"In control systems, a saddle point refers to?",2D plot of x vs x_dot for second-order system analysis,output limited to maximum value regardless of input magnitude,unstable equilibrium; trajectories approach then diverge,systems with nonlinear differential equations governing dynamics,3,0.9
+"In control systems, a center refers to?",frequency-domain test for nonlinear feedback stability,equilibrium surrounded by closed orbits (marginally stable),equilibrium approached spirally,self-sustained oscillations in nonlinear systems,2,0.9
+"In control systems, deadzone nonlinearity refers to?",a nonlinearity with zero output for small input magnitudes,points where x_dot = 0 and f(x) = 0 simultaneously,equilibrium surrounded by closed orbits (marginally stable),equilibrium approached exponentially without oscillation,1,0.9
+"In control systems, saturation nonlinearity refers to?",a nonlinearity with zero output for small input magnitudes,unstable equilibrium; trajectories approach then diverge,output limited to maximum value regardless of input magnitude,V(x)>0 and V_dot(x)<=0 implies stability,3,0.9
+"In control systems, backlash (hysteresis) nonlinearity refers to?",systems with nonlinear differential equations governing dynamics,output lags input due to mechanical play,frequency-domain test for nonlinear feedback stability,2D plot of x vs x_dot for second-order system analysis,2,0.9
+"In control systems, quasi-linearisation refers to?",a nonlinearity with zero output for small input magnitudes,equilibrium approached spirally,points where x_dot = 0 and f(x) = 0 simultaneously,replacing a nonlinearity with equivalent gain for stability analysis,4,0.9
+"In control systems, absolute stability (Popov criterion) refers to?",frequency-domain test for nonlinear feedback stability,systems with nonlinear differential equations governing dynamics,replacing a nonlinearity with equivalent gain for stability analysis,points where x_dot = 0 and f(x) = 0 simultaneously,1,0.9
+How is nonlinear control systems defined?,a nonlinearity with zero output for small input magnitudes,frequency-domain test for nonlinear feedback stability,output limited to maximum value regardless of input magnitude,systems with nonlinear differential equations governing dynamics,4,0.9
+How is limit cycles defined?,equilibrium surrounded by closed orbits (marginally stable),self-sustained oscillations in nonlinear systems,output lags input due to mechanical play,positive definite scalar function whose derivative is negative semi-definite,2,0.9
+"Evaluate: Lyapunov: V=x^2, V_dot for x_dot=-x",V_dot=-2x^2 < 0: stable_b,V_dot=-2x^2 < 0: stable_c,V_dot=-2x^2 < 0: stable,V_dot=-2x^2 < 0: stable_a,3,0.95
+"Evaluate: Lyapunov: V=x1^2+x2^2, V_dot for x_dot1=-x1 x_dot2=-x2",2 (x1^2+x2^2) < 0: stable,-1 (x1^2+x2^2) < 0: stable,-2(x1^2+x2^2) < 0: stable,approx -2(x1^2+x2^2) < 0: stable*2,3,0.95
+Evaluate: describing function of saturation nonlinearity,decreasing gain N(A) as A increases,decreasing gain N(A) as A increases_c,decreasing gain N(A) as A increases_a,decreasing gain N(A) as A increases_b,1,0.95
+Evaluate: describing function of deadzone,zero for A < D; increases above D_c,zero for A < D; increases above D_b,zero for A < D; increases above D,zero for A < D; increases above D_a,3,0.95
+Evaluate: limit cycle: intersection of -1/N(A) and G(jw),self-sustained oscillation condition,self-sustained oscillation condition_b,self-sustained oscillation condition_a,self-sustained oscillation condition_c,1,0.95
+Evaluate: phase portrait of x_dot=-x,straight lines converging to origin_a,straight lines converging to origin_c,straight lines converging to origin_b,straight lines converging to origin,4,0.95
+"Evaluate: singular point type for eigenvalues -1,-2 (real negative)",stable node,stable node_b,stable node_c,stable node_a,1,0.95
+"Evaluate: singular point type for eigenvalues -1+j,-1-j",stable focus_c,stable focus_a,stable focus_b,stable focus,4,0.95
+"Evaluate: singular point type for +1,-1 (real opposite signs)",saddle point (unstable)_b,saddle point (unstable),saddle point (unstable)_a,saddle point (unstable)_c,2,0.95
+Evaluate: singular point type for +/-j (pure imaginary),center (marginally stable)_b,center (marginally stable),center (marginally stable)_c,center (marginally stable)_a,2,0.95
+Evaluate: required PM from specs: Mp=10% -> zeta=0.59 -> PM,approximately 59 degrees_b,approximately 59 degrees_a,approximately 59 degrees_c,approximately 59 degrees,4,0.95
+Evaluate: gain K for PM=60 G=K/(s(s+1)^2),approx K=0.3_b,approx K=0.3_a,approx K=0.3_c,approx K=0.3,4,0.95
+Evaluate: steady-state error with PID for step,-0,straight lines converging to origin,0,center (marginally stable),3,0.95
+Evaluate: steady-state error with PID for ramp,LQR + Kalman filter designed independently,0,decreasing gain N(A) as A increases,-0,2,0.95
+Evaluate: ITAE optimal wn for 2nd order Mp<5%,wn tuned for ITAE coefficients_a,wn tuned for ITAE coefficients_b,wn tuned for ITAE coefficients,wn tuned for ITAE coefficients_c,3,0.95
+"Evaluate: robust: if additive uncertainty Delta, stability if",||T||_inf < 1/||W_u||_inf,||T||_inf < 1/||W_u||_inf_c,||T||_inf < 1/||W_u||_inf_b,||T||_inf < 1/||W_u||_inf_a,1,0.95
+Evaluate: H-infinity control objective,minimise ||T_zw||_inf_b,minimise ||T_zw||_inf_a,minimise ||T_zw||_inf_c,minimise ||T_zw||_inf,4,0.95
+Evaluate: LQR: cost function,integral of (x^T*Q*x + u^T*R*u) dt_b,integral of (x^T*Q*x + u^T*R*u) dt_c,integral of (x^T*Q*x + u^T*R*u) dt,integral of (x^T*Q*x + u^T*R*u) dt_a,3,0.95
+Evaluate: LQR: solution via,algebraic Riccati equation,algebraic Riccati equation_a,algebraic Riccati equation_c,algebraic Riccati equation_b,1,0.95
+Evaluate: Kalman filter: estimates,state in presence of process and measurement noise_b,state in presence of process and measurement noise,state in presence of process and measurement noise_a,state in presence of process and measurement noise_c,2,0.95
+Evaluate: separation principle: LQG,LQR + Kalman filter designed independently_a,LQR + Kalman filter designed independently,LQR + Kalman filter designed independently_c,LQR + Kalman filter designed independently_b,2,0.95
+Evaluate: discrete PID: sum approximation of integral,rectangular or trapezoidal sum_a,rectangular or trapezoidal sum_b,rectangular or trapezoidal sum,rectangular or trapezoidal sum_c,3,0.95
+"What is the result of Lyapunov: V=x^2, V_dot for x_dot=-x?",V_dot=-2x^2 < 0: stable_b,V_dot=-2x^2 < 0: stable_c,V_dot=-2x^2 < 0: stable_a,V_dot=-2x^2 < 0: stable,4,0.95
+"What is the result of Lyapunov: V=x1^2+x2^2, V_dot for x_dot1=-x1 x_dot2=-x2?",-2(x1^2+x2^2) < 0: stable,-0 (x1^2+x2^2) < 0: stable,-1 (x1^2+x2^2) < 0: stable,approx -2(x1^2+x2^2) < 0: stable*2,1,0.95
+What is the result of describing function of saturation nonlinearity?,decreasing gain N(A) as A increases_a,decreasing gain N(A) as A increases_c,decreasing gain N(A) as A increases_b,decreasing gain N(A) as A increases,4,0.95
+What is the result of describing function of deadzone?,zero for A < D; increases above D_c,zero for A < D; increases above D_b,zero for A < D; increases above D_a,zero for A < D; increases above D,4,0.95
+What is the result of limit cycle: intersection of -1/N(A) and G(jw)?,self-sustained oscillation condition_c,self-sustained oscillation condition_b,self-sustained oscillation condition,self-sustained oscillation condition_a,3,0.95
+What is the result of phase portrait of x_dot=-x?,straight lines converging to origin_a,straight lines converging to origin_c,straight lines converging to origin,straight lines converging to origin_b,3,0.95
+"What is the result of singular point type for eigenvalues -1,-2 (real negative)?",stable node_c,stable node_b,stable node,stable node_a,3,0.95
+"What is the result of singular point type for eigenvalues -1+j,-1-j?",stable focus_c,stable focus_b,stable focus_a,stable focus,4,0.95
+"What is the result of singular point type for +1,-1 (real opposite signs)?",saddle point (unstable)_c,saddle point (unstable),saddle point (unstable)_b,saddle point (unstable)_a,2,0.95
+What is the result of singular point type for +/-j (pure imaginary)?,center (marginally stable)_b,center (marginally stable)_c,center (marginally stable)_a,center (marginally stable),4,0.95
+What is the result of required PM from specs: Mp=10% -> zeta=0.59 -> PM?,approximately 59 degrees_b,approximately 59 degrees_c,approximately 59 degrees_a,approximately 59 degrees,4,0.95
+What is the result of gain K for PM=60 G=K/(s(s+1)^2)?,approx K=0.3_c,approx K=0.3_b,approx K=0.3_a,approx K=0.3,4,0.95
+What is the result of steady-state error with PID for step?,minimise ||T_zw||_inf,0,-0,-2(x1^2+x2^2) < 0: stable,2,0.95
+What is the result of steady-state error with PID for ramp?,saddle point (unstable),-0,integral of (x^T*Q*x + u^T*R*u) dt,0,4,0.95
+What is the result of ITAE optimal wn for 2nd order Mp<5%?,wn tuned for ITAE coefficients_b,wn tuned for ITAE coefficients_a,wn tuned for ITAE coefficients_c,wn tuned for ITAE coefficients,4,0.95
+"What is the result of robust: if additive uncertainty Delta, stability if?",||T||_inf < 1/||W_u||_inf_b,||T||_inf < 1/||W_u||_inf_a,||T||_inf < 1/||W_u||_inf_c,||T||_inf < 1/||W_u||_inf,4,0.95
+What is the result of H-infinity control objective?,minimise ||T_zw||_inf_b,minimise ||T_zw||_inf_a,minimise ||T_zw||_inf,minimise ||T_zw||_inf_c,3,0.95
+What is the result of LQR: cost function?,integral of (x^T*Q*x + u^T*R*u) dt_b,integral of (x^T*Q*x + u^T*R*u) dt_c,integral of (x^T*Q*x + u^T*R*u) dt_a,integral of (x^T*Q*x + u^T*R*u) dt,4,0.95
+What is the result of LQR: solution via?,algebraic Riccati equation_b,algebraic Riccati equation,algebraic Riccati equation_c,algebraic Riccati equation_a,2,0.95
+What is the result of Kalman filter: estimates?,state in presence of process and measurement noise_c,state in presence of process and measurement noise,state in presence of process and measurement noise_a,state in presence of process and measurement noise_b,2,0.95
+What is the result of separation principle: LQG?,LQR + Kalman filter designed independently_b,LQR + Kalman filter designed independently,LQR + Kalman filter designed independently_a,LQR + Kalman filter designed independently_c,2,0.95
+What is the result of discrete PID: sum approximation of integral?,rectangular or trapezoidal sum_c,rectangular or trapezoidal sum_a,rectangular or trapezoidal sum,rectangular or trapezoidal sum_b,3,0.95
+"Calculate: Lyapunov: V=x^2, V_dot for x_dot=-x",V_dot=-2x^2 < 0: stable,V_dot=-2x^2 < 0: stable_a,V_dot=-2x^2 < 0: stable_c,V_dot=-2x^2 < 0: stable_b,1,0.95
+"Calculate: Lyapunov: V=x1^2+x2^2, V_dot for x_dot1=-x1 x_dot2=-x2",-20 (x1^2+x2^2) < 0: stable,-6 (x1^2+x2^2) < 0: stable,-2(x1^2+x2^2) < 0: stable,-1 (x1^2+x2^2) < 0: stable,3,0.95
+Calculate: describing function of saturation nonlinearity,decreasing gain N(A) as A increases_b,decreasing gain N(A) as A increases,decreasing gain N(A) as A increases_c,decreasing gain N(A) as A increases_a,2,0.95
+Calculate: describing function of deadzone,zero for A < D; increases above D_a,zero for A < D; increases above D,zero for A < D; increases above D_b,zero for A < D; increases above D_c,2,0.95
+Calculate: limit cycle: intersection of -1/N(A) and G(jw),self-sustained oscillation condition_a,self-sustained oscillation condition_b,self-sustained oscillation condition,self-sustained oscillation condition_c,3,0.95
+Calculate: phase portrait of x_dot=-x,straight lines converging to origin_b,straight lines converging to origin,straight lines converging to origin_a,straight lines converging to origin_c,2,0.95
+Evaluate: overall TF: G1=10/(s+1) G2=1/(s+2) unity FB inner G2 outer G1,20 /((s+1)(s+2)+10),10/((s+1)(s+2)+10),15 /((s+1)(s+2)+10),5 /((s+1)(s+2)+10),2,1.0
+Evaluate: PM=45 implies Mp approx,200 %,10 %,20%,15 %,3,1.0
+Evaluate: crossover freq from desired ts=2 zeta=0.5,"wn=4, wc approx 4 rad/s_a","wn=4, wc approx 4 rad/s","wn=4, wc approx 4 rad/s_b","wn=4, wc approx 4 rad/s_c",2,1.0
+Evaluate: lead comp zero at z=wc/5 pole at p=wc*5 adds,approx 55 degrees phase_c,approx 55 degrees phase_b,approx 55 degrees phase_a,approx 55 degrees phase,4,1.0
+Evaluate: lag comp reduces Kv gain by factor,p/z << 1_c,p/z << 1_a,p/z << 1_b,p/z << 1,4,1.0
+Evaluate: combined lag-lead improves both,steady-state accuracy and transient_a,steady-state accuracy and transient_c,steady-state accuracy and transient,steady-state accuracy and transient_b,3,1.0
+Evaluate: type-1 system + PI becomes,type-2 system_b,type-2 system_c,type-2 system,type-2 system_a,3,1.0
+Evaluate: system with delay e^(-sT): approximate by,Pade approximation_b,Pade approximation_c,Pade approximation_a,Pade approximation,4,1.0
+Evaluate: 1st order Pade: e^(-sT) approx,(1-sT/2)/(1+sT/2),(1-sT/2)/(1+sT/2)_b,(1-sT/2)/(1+sT/2)_a,(1-sT/2)/(1+sT/2)_c,1,1.0
+Evaluate: effect of RHP zero on step response,initial undershoot (non-minimum phase)_a,initial undershoot (non-minimum phase),initial undershoot (non-minimum phase)_c,initial undershoot (non-minimum phase)_b,2,1.0
+Evaluate: effect of additional real pole far left on transient,minimal effect on dominant response_b,minimal effect on dominant response_c,minimal effect on dominant response,minimal effect on dominant response_a,3,1.0
+Evaluate: gain at s = dominant poles from RL magnitude cond,K = 1/|G(s_d)|_a,K = 1/|G(s_d)|_b,K = 1/|G(s_d)|,K = 1/|G(s_d)|_c,3,1.0
+Evaluate: Nyquist N=Z-P: Z=2 P=0 -> stability,-2 unstable closed-loop poles,4 unstable closed-loop poles,1 unstable closed-loop poles,2 unstable closed-loop poles,4,1.0
+Evaluate: Nyquist N=0 P=1 -> stability,Z=1: 1 unstable pole_b,Z=1: 1 unstable pole_c,Z=1: 1 unstable pole,Z=1: 1 unstable pole_a,3,1.0
+Evaluate: robust PM requirement for real parametric uncertainty,PM > 30 degrees minimum_a,PM > 30 degrees minimum,PM > 30 degrees minimum_b,PM > 30 degrees minimum_c,2,1.0
+Evaluate: bandwidth spec from rise time tr,omega_BW approx 1.8/tr_c,omega_BW approx 1.8/tr_b,omega_BW approx 1.8/tr,omega_BW approx 1.8/tr_a,3,1.0
+Evaluate: natural freq from ts=4 zeta=0.7,wn = 4/(0.7*4) approx 1.43 rad/s,wn = 4/(0.7*4) approx 1.43 rad/s_c,wn = 4/(0.7*4) approx 1.43 rad/s_b,wn = 4/(0.7*4) approx 1.43 rad/s_a,1,1.0
+Evaluate: wn from Mp=5% and ts=2s zeta from Mp first,"zeta=0.69, wn=2.9","zeta=0.69, wn=2.9_b","zeta=0.69, wn=2.9_a","zeta=0.69, wn=2.9_c",1,1.0
+Evaluate: controllable canonical form: last row of A,negative coefficients of char poly_a,negative coefficients of char poly,negative coefficients of char poly_c,negative coefficients of char poly_b,2,1.0
+Evaluate: Kalman filter observer poles: placed by,Q and R matrices selection,Q and R matrices selection_b,Q and R matrices selection_a,Q and R matrices selection_c,1,1.0
+Evaluate: discrete stability: pole at z=0.9,"stable, inside unit circle_b","stable, inside unit circle","stable, inside unit circle_c","stable, inside unit circle_a",2,1.0
+Evaluate: discrete stability: pole at z=1.1,"unstable, outside unit circle_a","unstable, outside unit circle","unstable, outside unit circle_c","unstable, outside unit circle_b",2,1.0
+What is the result of overall TF: G1=10/(s+1) G2=1/(s+2) unity FB inner G2 outer G1?,10/((s+1)(s+2)+10),30 /((s+1)(s+2)+10),3 /((s+1)(s+2)+10),20 /((s+1)(s+2)+10),1,1.0
+What is the result of PM=45 implies Mp approx?,2 %,20%,-20 %,40 %,2,1.0
+What is the result of crossover freq from desired ts=2 zeta=0.5?,"wn=4, wc approx 4 rad/s_a","wn=4, wc approx 4 rad/s_b","wn=4, wc approx 4 rad/s","wn=4, wc approx 4 rad/s_c",3,1.0
+What is the result of lead comp zero at z=wc/5 pole at p=wc*5 adds?,approx 55 degrees phase_c,approx 55 degrees phase_b,approx 55 degrees phase,approx 55 degrees phase_a,3,1.0
+What is the result of lag comp reduces Kv gain by factor?,p/z << 1,p/z << 1_b,p/z << 1_c,p/z << 1_a,1,1.0
+What is the result of combined lag-lead improves both?,steady-state accuracy and transient_c,steady-state accuracy and transient_a,steady-state accuracy and transient,steady-state accuracy and transient_b,3,1.0
+What is the result of type-1 system + PI becomes?,type-2 system_c,type-2 system_a,type-2 system_b,type-2 system,4,1.0
+What is the result of system with delay e^(-sT): approximate by?,Pade approximation_c,Pade approximation_b,Pade approximation,Pade approximation_a,3,1.0
+What is the result of 1st order Pade: e^(-sT) approx?,(1-sT/2)/(1+sT/2)_b,(1-sT/2)/(1+sT/2),(1-sT/2)/(1+sT/2)_c,(1-sT/2)/(1+sT/2)_a,2,1.0
+What is the result of effect of RHP zero on step response?,initial undershoot (non-minimum phase)_a,initial undershoot (non-minimum phase),initial undershoot (non-minimum phase)_c,initial undershoot (non-minimum phase)_b,2,1.0
+What is the result of effect of additional real pole far left on transient?,minimal effect on dominant response,minimal effect on dominant response_a,minimal effect on dominant response_c,minimal effect on dominant response_b,1,1.0
+What is the result of gain at s = dominant poles from RL magnitude cond?,K = 1/|G(s_d)|_c,K = 1/|G(s_d)|_a,K = 1/|G(s_d)|_b,K = 1/|G(s_d)|,4,1.0
+What is the result of Nyquist N=Z-P: Z=2 P=0 -> stability?,1 unstable closed-loop poles,4 unstable closed-loop poles,2 unstable closed-loop poles,20 unstable closed-loop poles,3,1.0
+What is the result of Nyquist N=0 P=1 -> stability?,Z=1: 1 unstable pole_b,Z=1: 1 unstable pole,Z=1: 1 unstable pole_c,Z=1: 1 unstable pole_a,2,1.0
+What is the result of robust PM requirement for real parametric uncertainty?,PM > 30 degrees minimum_a,PM > 30 degrees minimum,PM > 30 degrees minimum_b,PM > 30 degrees minimum_c,2,1.0
+What is the result of bandwidth spec from rise time tr?,omega_BW approx 1.8/tr,omega_BW approx 1.8/tr_b,omega_BW approx 1.8/tr_c,omega_BW approx 1.8/tr_a,1,1.0
+What is the result of natural freq from ts=4 zeta=0.7?,wn = 4/(0.7*4) approx 1.43 rad/s_b,wn = 4/(0.7*4) approx 1.43 rad/s_a,wn = 4/(0.7*4) approx 1.43 rad/s,wn = 4/(0.7*4) approx 1.43 rad/s_c,3,1.0
+What is the result of wn from Mp=5% and ts=2s zeta from Mp first?,"zeta=0.69, wn=2.9_a","zeta=0.69, wn=2.9","zeta=0.69, wn=2.9_b","zeta=0.69, wn=2.9_c",2,1.0
+What is the result of controllable canonical form: last row of A?,negative coefficients of char poly_b,negative coefficients of char poly_c,negative coefficients of char poly,negative coefficients of char poly_a,3,1.0
+What is the result of Kalman filter observer poles: placed by?,Q and R matrices selection,Q and R matrices selection_c,Q and R matrices selection_b,Q and R matrices selection_a,1,1.0
+What is the result of discrete stability: pole at z=0.9?,"stable, inside unit circle_c","stable, inside unit circle","stable, inside unit circle_a","stable, inside unit circle_b",2,1.0
+What is the result of discrete stability: pole at z=1.1?,"unstable, outside unit circle_c","unstable, outside unit circle_b","unstable, outside unit circle_a","unstable, outside unit circle",4,1.0
+Calculate: overall TF: G1=10/(s+1) G2=1/(s+2) unity FB inner G2 outer G1,100 /((s+1)(s+2)+10),15 /((s+1)(s+2)+10),10/((s+1)(s+2)+10),40 /((s+1)(s+2)+10),3,1.0
+Calculate: PM=45 implies Mp approx,60 %,10 %,20%,5 %,3,1.0
+Calculate: crossover freq from desired ts=2 zeta=0.5,"wn=4, wc approx 4 rad/s","wn=4, wc approx 4 rad/s_a","wn=4, wc approx 4 rad/s_b","wn=4, wc approx 4 rad/s_c",1,1.0
+Calculate: lead comp zero at z=wc/5 pole at p=wc*5 adds,approx 55 degrees phase_c,approx 55 degrees phase,approx 55 degrees phase_b,approx 55 degrees phase_a,2,1.0
+Calculate: lag comp reduces Kv gain by factor,p/z << 1_a,p/z << 1_c,p/z << 1_b,p/z << 1,4,1.0
+Calculate: combined lag-lead improves both,steady-state accuracy and transient_c,steady-state accuracy and transient_b,steady-state accuracy and transient_a,steady-state accuracy and transient,4,1.0

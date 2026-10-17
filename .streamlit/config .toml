@@ -1,0 +1,10 @@
+[server]
+enableStaticServing = true
+headless = true
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = false
+
+[browser]
+gatherUsageStats = false

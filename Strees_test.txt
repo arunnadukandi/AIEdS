@@ -1,0 +1,33 @@
+
+=== Ollama inference load test — model=llama3.2:3b-instruct-q4_K_M ===
+Each 'level' = that many chat requests fired at the same instant.
+
+  level=  1 rep=1/2  wall=  92.7s  ok=1/1  avg_latency=  92.7s
+      CPU   3.3%  RAM   3.6%
+  level=  1 rep=2/2  wall=  58.2s  ok=1/1  avg_latency=  58.2s
+      CPU   3.3%  RAM   3.6%
+  level=  2 rep=1/2  wall= 117.1s  ok=2/2  avg_latency=  88.1s
+      CPU   3.6%  RAM   3.6%
+  level=  2 rep=2/2  wall= 115.3s  ok=2/2  avg_latency=  86.6s
+      CPU   4.1%  RAM   3.7%
+  level=  3 rep=1/2  wall= 120.1s  ok=2/3  avg_latency=  87.0s
+      sample error: timed out
+      CPU  49.9%  RAM   3.8%
+  level=  3 rep=2/2  wall= 120.1s  ok=2/3  avg_latency=  85.7s
+      sample error: timed out
+      CPU  20.9%  RAM   3.8%
+  level=  4 rep=1/2  wall= 120.1s  ok=2/4  avg_latency=  86.5s
+      sample error: timed out
+      CPU  32.0%  RAM   3.7%
+  level=  4 rep=2/2  wall= 120.1s  ok=2/4  avg_latency=  85.0s
+      sample error: timed out
+      CPU  24.4%  RAM   3.7%
+
+--- Summary ---
+Concurrency | Avg latency | Max latency | Errors
+          1 |       75.5s |       92.7s |      0
+          2 |       87.3s |      117.1s |      0
+          3 |       86.4s |      116.0s |      2
+          4 |       85.7s |      115.9s |      4
+
+Read it as: single-request latency is your floor. The concurrency level where avg latency roughly doubles (or errors appear) is your practical ceiling — past that point, requests are queuing behind each other rather than running in parallel. Ollama's timeout in llm_client.py / chatbot.py is 120s, so any avg latency approaching that means cadets will start seeing failures, not just slowness.

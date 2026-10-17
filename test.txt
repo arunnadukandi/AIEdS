@@ -1,0 +1,10 @@
+
+=== Ollama inference load test — model=llama3.2:3b-instruct-q4_K_M ===
+Each 'level' = that many chat requests fired at the same instant.
+
+  level=  1 rep=1/2  wall=  65.4s  ok=1/1  avg_latency=  65.4s
+      CPU   0.6%  RAM   2.9%
+  level=  1 rep=2/2  wall=  57.4s  ok=1/1  avg_latency=  57.4s
+      CPU   0.1%  RAM   2.8%
+  level=  2 rep=1/2  wall= 115.0s  ok=2/2  avg_latency=  86.2s
+      CPU   0.2%  RAM   3.0%

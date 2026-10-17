@@ -1,0 +1,1001 @@
+question,opt1,opt2,opt3,opt4,correct_opt,di
+What is a scalar quantity?,"volume of parallelepiped formed by A, B, and C",a physical quantity having both magnitude and direction,a physical quantity having magnitude only,|A| = sqrt(Ax^2+Ay^2+Az^2),3,0.05
+What is a vector quantity?,|A| = sqrt(Ax^2+Ay^2+Az^2),a vector of magnitude 1 pointing in the direction of A,equals B(A·C) - C(A·B),a physical quantity having both magnitude and direction,4,0.05
+What is the magnitude of a vector A?,a physical quantity having both magnitude and direction,arccos(A·B / (|A|*|B|)),|A| = sqrt(Ax^2+Ay^2+Az^2),a physical quantity having magnitude only,3,0.05
+What is a unit vector a_A?,sum of corresponding components in each direction,A·B/|B|,a vector of magnitude 1 pointing in the direction of A,equals B(A·C) - C(A·B),3,0.05
+What is vector addition A+B?,"A*B*cos(theta_AB), a scalar",vectors that lie in the same plane,"a_z, pointing out of the xy-plane",sum of corresponding components in each direction,4,0.05
+What is the dot product A·B?,sum of corresponding components in each direction,"A*B*cos(theta_AB), a scalar",|A| = sqrt(Ax^2+Ay^2+Az^2),vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,2,0.05
+What is the cross product A×B?,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,arccos(A·B / (|A|*|B|)),a physical quantity having both magnitude and direction,vector from the origin to a given point P,1,0.05
+What is the position vector r?,"a_z, pointing out of the xy-plane",vector from the origin to a given point P,a physical quantity having magnitude only,equals B(A·C) - C(A·B),2,0.05
+What is a null vector?,a vector with zero magnitude and no specific direction,arccos(A·B / (|A|*|B|)),a physical quantity having both magnitude and direction,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,1,0.05
+What is the scalar projection of A onto B?,vectors that lie in the same plane,a vector of magnitude 1 pointing in the direction of A,equals B(A·C) - C(A·B),A·B/|B|,4,0.05
+What is coplanar vectors?,sum of corresponding components in each direction,a physical quantity having both magnitude and direction,vectors that lie in the same plane,"a_z, pointing out of the xy-plane",3,0.05
+What is the triple scalar product A·(B×C)?,vectors that lie in the same plane,sum of corresponding components in each direction,"volume of parallelepiped formed by A, B, and C",vector from the origin to a given point P,3,0.05
+What is the triple vector product A×(B×C)?,"A*B*cos(theta_AB), a scalar",equals B(A·C) - C(A·B),vectors that lie in the same plane,a vector of magnitude 1 pointing in the direction of A,2,0.05
+What is a unit vector in Cartesian z-direction?,vectors that lie in the same plane,|A| = sqrt(Ax^2+Ay^2+Az^2),"a_z, pointing out of the xy-plane",A·B/|B|,3,0.05
+What is orthogonal vectors A and B?,vectors for which A·B = 0,vectors that lie in the same plane,sum of corresponding components in each direction,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,1,0.05
+What is the angle between two vectors A and B?,"a_z, pointing out of the xy-plane",equals B(A·C) - C(A·B),vectors for which A·B = 0,arccos(A·B / (|A|*|B|)),4,0.05
+Which best describes a scalar quantity?,"a_z, pointing out of the xy-plane",vector from the origin to a given point P,a physical quantity having magnitude only,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,3,0.05
+Which best describes a vector quantity?,equals B(A·C) - C(A·B),arccos(A·B / (|A|*|B|)),a physical quantity having both magnitude and direction,vectors that lie in the same plane,3,0.05
+Which best describes the magnitude of a vector A?,"volume of parallelepiped formed by A, B, and C",|A| = sqrt(Ax^2+Ay^2+Az^2),a vector with zero magnitude and no specific direction,vector from the origin to a given point P,2,0.05
+Which best describes a unit vector a_A?,a vector of magnitude 1 pointing in the direction of A,sum of corresponding components in each direction,A·B/|B|,equals B(A·C) - C(A·B),1,0.05
+Which best describes vector addition A+B?,arccos(A·B / (|A|*|B|)),vector from the origin to a given point P,sum of corresponding components in each direction,vectors that lie in the same plane,3,0.05
+Which best describes the dot product A·B?,A·B/|B|,a vector with zero magnitude and no specific direction,a physical quantity having both magnitude and direction,"A*B*cos(theta_AB), a scalar",4,0.05
+Which best describes the cross product A×B?,"volume of parallelepiped formed by A, B, and C",vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,|A| = sqrt(Ax^2+Ay^2+Az^2),"a_z, pointing out of the xy-plane",2,0.05
+Which best describes the position vector r?,vector from the origin to a given point P,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,arccos(A·B / (|A|*|B|)),vectors that lie in the same plane,1,0.05
+Which best describes a null vector?,a physical quantity having magnitude only,A·B/|B|,vectors for which A·B = 0,a vector with zero magnitude and no specific direction,4,0.05
+Which best describes the scalar projection of A onto B?,"A*B*cos(theta_AB), a scalar","volume of parallelepiped formed by A, B, and C","a_z, pointing out of the xy-plane",A·B/|B|,4,0.05
+Which best describes coplanar vectors?,|A| = sqrt(Ax^2+Ay^2+Az^2),vectors that lie in the same plane,a physical quantity having magnitude only,vector from the origin to a given point P,2,0.05
+Which best describes the triple scalar product A·(B×C)?,a vector with zero magnitude and no specific direction,"volume of parallelepiped formed by A, B, and C",vectors that lie in the same plane,a physical quantity having both magnitude and direction,2,0.05
+Which best describes the triple vector product A×(B×C)?,"a_z, pointing out of the xy-plane",equals B(A·C) - C(A·B),"A*B*cos(theta_AB), a scalar",|A| = sqrt(Ax^2+Ay^2+Az^2),2,0.05
+Which best describes a unit vector in Cartesian z-direction?,"A*B*cos(theta_AB), a scalar",A·B/|B|,vector from the origin to a given point P,"a_z, pointing out of the xy-plane",4,0.05
+Which best describes orthogonal vectors A and B?,arccos(A·B / (|A|*|B|)),equals B(A·C) - C(A·B),vectors for which A·B = 0,"a_z, pointing out of the xy-plane",3,0.05
+Which best describes the angle between two vectors A and B?,a physical quantity having both magnitude and direction,a vector of magnitude 1 pointing in the direction of A,A·B/|B|,arccos(A·B / (|A|*|B|)),4,0.05
+"In electromagnetics, a scalar quantity refers to?",|A| = sqrt(Ax^2+Ay^2+Az^2),"a_z, pointing out of the xy-plane",a physical quantity having magnitude only,vectors for which A·B = 0,3,0.05
+"In electromagnetics, a vector quantity refers to?",A·B/|B|,a vector of magnitude 1 pointing in the direction of A,a physical quantity having both magnitude and direction,"A*B*cos(theta_AB), a scalar",3,0.05
+"In electromagnetics, the magnitude of a vector A refers to?",|A| = sqrt(Ax^2+Ay^2+Az^2),vector from the origin to a given point P,equals B(A·C) - C(A·B),"A*B*cos(theta_AB), a scalar",1,0.05
+"In electromagnetics, a unit vector a_A refers to?",sum of corresponding components in each direction,vectors for which A·B = 0,a physical quantity having both magnitude and direction,a vector of magnitude 1 pointing in the direction of A,4,0.05
+"In electromagnetics, vector addition A+B refers to?",a vector of magnitude 1 pointing in the direction of A,A·B/|B|,sum of corresponding components in each direction,vectors that lie in the same plane,3,0.05
+"In electromagnetics, the dot product A·B refers to?",a physical quantity having magnitude only,"volume of parallelepiped formed by A, B, and C","A*B*cos(theta_AB), a scalar",equals B(A·C) - C(A·B),3,0.05
+"In electromagnetics, the cross product A×B refers to?",vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,"A*B*cos(theta_AB), a scalar",a physical quantity having both magnitude and direction,vectors for which A·B = 0,1,0.05
+"In electromagnetics, the position vector r refers to?",A·B/|B|,a vector of magnitude 1 pointing in the direction of A,vector from the origin to a given point P,|A| = sqrt(Ax^2+Ay^2+Az^2),3,0.05
+"In electromagnetics, a null vector refers to?",vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,"a_z, pointing out of the xy-plane",a vector of magnitude 1 pointing in the direction of A,a vector with zero magnitude and no specific direction,4,0.05
+"In electromagnetics, the scalar projection of A onto B refers to?","A*B*cos(theta_AB), a scalar",A·B/|B|,vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,vectors for which A·B = 0,2,0.05
+"In electromagnetics, coplanar vectors refers to?",arccos(A·B / (|A|*|B|)),"volume of parallelepiped formed by A, B, and C",vectors for which A·B = 0,vectors that lie in the same plane,4,0.05
+"In electromagnetics, the triple scalar product A·(B×C) refers to?",equals B(A·C) - C(A·B),"A*B*cos(theta_AB), a scalar","a_z, pointing out of the xy-plane","volume of parallelepiped formed by A, B, and C",4,0.05
+"In electromagnetics, the triple vector product A×(B×C) refers to?",a vector with zero magnitude and no specific direction,equals B(A·C) - C(A·B),vector from the origin to a given point P,a vector of magnitude 1 pointing in the direction of A,2,0.05
+"In electromagnetics, a unit vector in Cartesian z-direction refers to?",vector from the origin to a given point P,a vector of magnitude 1 pointing in the direction of A,sum of corresponding components in each direction,"a_z, pointing out of the xy-plane",4,0.05
+"In electromagnetics, orthogonal vectors A and B refers to?",a physical quantity having magnitude only,vectors that lie in the same plane,a vector with zero magnitude and no specific direction,vectors for which A·B = 0,4,0.05
+"In electromagnetics, the angle between two vectors A and B refers to?",vector with magnitude A*B*sin(theta_AB) and direction from right-hand rule,|A| = sqrt(Ax^2+Ay^2+Az^2),arccos(A·B / (|A|*|B|)),vector from the origin to a given point P,3,0.05
+How is a scalar quantity defined?,a physical quantity having both magnitude and direction,arccos(A·B / (|A|*|B|)),a physical quantity having magnitude only,a vector of magnitude 1 pointing in the direction of A,3,0.05
+How is a vector quantity defined?,a physical quantity having both magnitude and direction,"a_z, pointing out of the xy-plane","A*B*cos(theta_AB), a scalar",vectors for which A·B = 0,1,0.05
+What is the Cartesian coordinate system?,r = sqrt(x^2+y^2+z^2),rho,"uses three mutually perpendicular axes x, y, z",theta = arccos(z/r),3,0.1
+What is the cylindrical coordinate system?,"uses three mutually perpendicular axes x, y, z",polar angle measured from positive z-axis,distance from the origin to the point,"uses coordinates rho, phi, z",4,0.1
+What is the spherical coordinate system?,"uses three mutually perpendicular axes x, y, z","uses coordinates r, theta, phi",rho,y = rho*sin(phi),2,0.1
+What is rho in cylindrical coordinates?,"uses coordinates rho, phi, z",x = rho*cos(phi),perpendicular distance from the z-axis,"uses three mutually perpendicular axes x, y, z",3,0.1
+What is r in spherical coordinates?,rho = sqrt(x^2+y^2),dx*dy * a_z,distance from the origin to the point,perpendicular distance from the z-axis,3,0.1
+What is theta in spherical coordinates?,"uses three mutually perpendicular axes x, y, z",rho,y = rho*sin(phi),polar angle measured from positive z-axis,4,0.1
+What is phi in both cylindrical and spherical?,perpendicular distance from the z-axis,rho,azimuthal angle measured from positive x-axis in xy-plane,distance from the origin to the point,3,0.1
+What is the differential volume in cylindrical?,rho*d_rho*d_phi*dz,rho = sqrt(x^2+y^2),azimuthal angle measured from positive x-axis in xy-plane,"uses coordinates r, theta, phi",1,0.1
+What is the differential volume in spherical?,theta = arccos(z/r),"uses coordinates rho, phi, z",rho,r^2*sin(theta)*dr*d_theta*d_phi,4,0.1
+What is transformation: x from cylindrical?,perpendicular distance from the z-axis,"uses coordinates rho, phi, z",x = rho*cos(phi),r^2*sin(theta)*dr*d_theta*d_phi,3,0.1
+What is transformation: y from cylindrical?,perpendicular distance from the z-axis,y = rho*sin(phi),rho,"uses coordinates rho, phi, z",2,0.1
+What is transformation: rho from Cartesian?,rho*d_rho*d_phi*dz,rho = sqrt(x^2+y^2),r^2*sin(theta)*dr*d_theta*d_phi,dx*dy * a_z,2,0.1
+What is transformation: r from Cartesian?,y = rho*sin(phi),r = sqrt(x^2+y^2+z^2),r^2*sin(theta)*dr*d_theta*d_phi,dx*dy * a_z,2,0.1
+What is transformation: theta from Cartesian?,rho,"uses coordinates r, theta, phi",distance from the origin to the point,theta = arccos(z/r),4,0.1
+What is the differential surface element dS in Cartesian xy-plane?,dx*dy * a_z,x = rho*cos(phi),rho,distance from the origin to the point,1,0.1
+What is the metric coefficient h_phi in cylindrical?,rho,perpendicular distance from the z-axis,theta = arccos(z/r),y = rho*sin(phi),1,0.1
+Which best describes the Cartesian coordinate system?,"uses coordinates rho, phi, z",polar angle measured from positive z-axis,dx*dy * a_z,"uses three mutually perpendicular axes x, y, z",4,0.1
+Which best describes the cylindrical coordinate system?,polar angle measured from positive z-axis,"uses three mutually perpendicular axes x, y, z",dx*dy * a_z,"uses coordinates rho, phi, z",4,0.1
+Which best describes the spherical coordinate system?,"uses coordinates r, theta, phi",rho = sqrt(x^2+y^2),polar angle measured from positive z-axis,perpendicular distance from the z-axis,1,0.1
+Which best describes rho in cylindrical coordinates?,x = rho*cos(phi),"uses coordinates rho, phi, z","uses three mutually perpendicular axes x, y, z",perpendicular distance from the z-axis,4,0.1
+Which best describes r in spherical coordinates?,"uses three mutually perpendicular axes x, y, z",distance from the origin to the point,azimuthal angle measured from positive x-axis in xy-plane,x = rho*cos(phi),2,0.1
+Which best describes theta in spherical coordinates?,distance from the origin to the point,azimuthal angle measured from positive x-axis in xy-plane,"uses three mutually perpendicular axes x, y, z",polar angle measured from positive z-axis,4,0.1
+Which best describes phi in both cylindrical and spherical?,rho,perpendicular distance from the z-axis,rho = sqrt(x^2+y^2),azimuthal angle measured from positive x-axis in xy-plane,4,0.1
+Which best describes the differential volume in cylindrical?,"uses coordinates r, theta, phi",r = sqrt(x^2+y^2+z^2),rho*d_rho*d_phi*dz,y = rho*sin(phi),3,0.1
+Which best describes the differential volume in spherical?,r^2*sin(theta)*dr*d_theta*d_phi,"uses three mutually perpendicular axes x, y, z",azimuthal angle measured from positive x-axis in xy-plane,rho,1,0.1
+Which best describes transformation: x from cylindrical?,azimuthal angle measured from positive x-axis in xy-plane,x = rho*cos(phi),rho,theta = arccos(z/r),2,0.1
+Which best describes transformation: y from cylindrical?,r = sqrt(x^2+y^2+z^2),theta = arccos(z/r),y = rho*sin(phi),"uses coordinates rho, phi, z",3,0.1
+Which best describes transformation: rho from Cartesian?,rho*d_rho*d_phi*dz,rho = sqrt(x^2+y^2),perpendicular distance from the z-axis,rho,2,0.1
+Which best describes transformation: r from Cartesian?,r = sqrt(x^2+y^2+z^2),"uses three mutually perpendicular axes x, y, z",y = rho*sin(phi),perpendicular distance from the z-axis,1,0.1
+Which best describes transformation: theta from Cartesian?,theta = arccos(z/r),"uses coordinates rho, phi, z",distance from the origin to the point,dx*dy * a_z,1,0.1
+Which best describes the differential surface element dS in Cartesian xy-plane?,y = rho*sin(phi),r^2*sin(theta)*dr*d_theta*d_phi,dx*dy * a_z,theta = arccos(z/r),3,0.1
+Which best describes the metric coefficient h_phi in cylindrical?,dx*dy * a_z,"uses coordinates r, theta, phi",rho,distance from the origin to the point,3,0.1
+"In electromagnetics, the Cartesian coordinate system refers to?",azimuthal angle measured from positive x-axis in xy-plane,"uses three mutually perpendicular axes x, y, z",y = rho*sin(phi),rho*d_rho*d_phi*dz,2,0.1
+"In electromagnetics, the cylindrical coordinate system refers to?",distance from the origin to the point,rho*d_rho*d_phi*dz,"uses coordinates rho, phi, z",y = rho*sin(phi),3,0.1
+"In electromagnetics, the spherical coordinate system refers to?","uses coordinates r, theta, phi",x = rho*cos(phi),theta = arccos(z/r),"uses three mutually perpendicular axes x, y, z",1,0.1
+"In electromagnetics, rho in cylindrical coordinates refers to?","uses coordinates rho, phi, z",perpendicular distance from the z-axis,azimuthal angle measured from positive x-axis in xy-plane,rho = sqrt(x^2+y^2),2,0.1
+"In electromagnetics, r in spherical coordinates refers to?",distance from the origin to the point,r = sqrt(x^2+y^2+z^2),x = rho*cos(phi),polar angle measured from positive z-axis,1,0.1
+"In electromagnetics, theta in spherical coordinates refers to?",azimuthal angle measured from positive x-axis in xy-plane,polar angle measured from positive z-axis,r = sqrt(x^2+y^2+z^2),rho*d_rho*d_phi*dz,2,0.1
+"In electromagnetics, phi in both cylindrical and spherical refers to?",perpendicular distance from the z-axis,azimuthal angle measured from positive x-axis in xy-plane,rho*d_rho*d_phi*dz,rho = sqrt(x^2+y^2),2,0.1
+"In electromagnetics, the differential volume in cylindrical refers to?",y = rho*sin(phi),rho*d_rho*d_phi*dz,rho,distance from the origin to the point,2,0.1
+"In electromagnetics, the differential volume in spherical refers to?",r^2*sin(theta)*dr*d_theta*d_phi,distance from the origin to the point,rho,perpendicular distance from the z-axis,1,0.1
+"In electromagnetics, transformation: x from cylindrical refers to?",x = rho*cos(phi),dx*dy * a_z,rho,rho*d_rho*d_phi*dz,1,0.1
+"In electromagnetics, transformation: y from cylindrical refers to?",r = sqrt(x^2+y^2+z^2),y = rho*sin(phi),rho,theta = arccos(z/r),2,0.1
+"In electromagnetics, transformation: rho from Cartesian refers to?",distance from the origin to the point,y = rho*sin(phi),rho = sqrt(x^2+y^2),r^2*sin(theta)*dr*d_theta*d_phi,3,0.1
+"In electromagnetics, transformation: r from Cartesian refers to?",perpendicular distance from the z-axis,distance from the origin to the point,r = sqrt(x^2+y^2+z^2),y = rho*sin(phi),3,0.1
+"In electromagnetics, transformation: theta from Cartesian refers to?",rho*d_rho*d_phi*dz,perpendicular distance from the z-axis,"uses three mutually perpendicular axes x, y, z",theta = arccos(z/r),4,0.1
+"In electromagnetics, the differential surface element dS in Cartesian xy-plane refers to?",dx*dy * a_z,x = rho*cos(phi),y = rho*sin(phi),rho,1,0.1
+"In electromagnetics, the metric coefficient h_phi in cylindrical refers to?",perpendicular distance from the z-axis,rho,azimuthal angle measured from positive x-axis in xy-plane,rho*d_rho*d_phi*dz,2,0.1
+How is the Cartesian coordinate system defined?,theta = arccos(z/r),dx*dy * a_z,rho,"uses three mutually perpendicular axes x, y, z",4,0.1
+How is the cylindrical coordinate system defined?,perpendicular distance from the z-axis,theta = arccos(z/r),"uses coordinates rho, phi, z",r = sqrt(x^2+y^2+z^2),3,0.1
+What is the gradient of a scalar V (grad V)?,d/dx*a_x + d/dy*a_y + d/dz*a_z,a vector field is uniquely defined by its divergence and curl,a vector pointing in direction of maximum rate of increase of V,vector measure of circulation per unit area,3,0.15
+What is the divergence of a vector A (div A)?,scalar measure of net outward flux per unit volume,d/dx*a_x + d/dy*a_y + d/dz*a_z,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,dAx/dx + dAy/dy + dAz/dz,1,0.15
+What is the curl of a vector A (curl A)?,vector measure of circulation per unit area,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,dAx/dx + dAy/dy + dAz/dz,d/dx*a_x + d/dy*a_y + d/dz*a_z,1,0.15
+What is the Laplacian of a scalar V?,div(grad V) = nabla^2 V,integral of A·dS over a specified surface,a vector field whose divergence is zero,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,1,0.15
+What is a conservative field?,integral of A·dS over a specified surface,a vector field whose curl is zero,a vector field is uniquely defined by its divergence and curl,dAx/dx + dAy/dy + dAz/dz,2,0.15
+What is a solenoidal field?,scalar measure of net outward flux per unit volume,a vector field whose curl is zero,a vector field whose divergence is zero,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,3,0.15
+What is the divergence theorem?,a vector field whose divergence is zero,a vector field is uniquely defined by its divergence and curl,dAx/dx + dAy/dy + dAz/dz,volume integral of div A = surface integral of A·dS,4,0.15
+What is Stokes' theorem?,integral of A·dl along a specified path,surface integral of curl A·dS = line integral of A·dl,volume integral of div A = surface integral of A·dS,div(grad V) = nabla^2 V,2,0.15
+What is grad V in Cartesian?,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,scalar measure of net outward flux per unit volume,d/dx*a_x + d/dy*a_y + d/dz*a_z,volume integral of div A = surface integral of A·dS,1,0.15
+What is div A in Cartesian?,a vector pointing in direction of maximum rate of increase of V,dAx/dx + dAy/dy + dAz/dz,volume integral of div A = surface integral of A·dS,div(grad V) = nabla^2 V,2,0.15
+What is curl A in Cartesian?,integral of A·dS over a specified surface,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,d/dx*a_x + d/dy*a_y + d/dz*a_z,dAx/dx + dAy/dy + dAz/dz,2,0.15
+What is the Laplacian in Cartesian?,a vector field whose curl is zero,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,a vector field whose divergence is zero,integral of A·dS over a specified surface,2,0.15
+What is a line integral of A?,div(grad V) = nabla^2 V,integral of A·dl along a specified path,surface integral of curl A·dS = line integral of A·dl,a vector field whose curl is zero,2,0.15
+What is a surface integral of A?,volume integral of div A = surface integral of A·dS,integral of A·dS over a specified surface,a vector field whose divergence is zero,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,2,0.15
+What is the del operator nabla in Cartesian?,surface integral of curl A·dS = line integral of A·dl,vector measure of circulation per unit area,integral of A·dS over a specified surface,d/dx*a_x + d/dy*a_y + d/dz*a_z,4,0.15
+What is Helmholtz theorem?,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,a vector field is uniquely defined by its divergence and curl,volume integral of div A = surface integral of A·dS,scalar measure of net outward flux per unit volume,2,0.15
+Which best describes the gradient of a scalar V (grad V)?,surface integral of curl A·dS = line integral of A·dl,scalar measure of net outward flux per unit volume,a vector pointing in direction of maximum rate of increase of V,a vector field whose divergence is zero,3,0.15
+Which best describes the divergence of a vector A (div A)?,scalar measure of net outward flux per unit volume,a vector field is uniquely defined by its divergence and curl,volume integral of div A = surface integral of A·dS,integral of A·dS over a specified surface,1,0.15
+Which best describes the curl of a vector A (curl A)?,a vector field whose divergence is zero,d/dx*a_x + d/dy*a_y + d/dz*a_z,vector measure of circulation per unit area,scalar measure of net outward flux per unit volume,3,0.15
+Which best describes the Laplacian of a scalar V?,volume integral of div A = surface integral of A·dS,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,a vector field whose curl is zero,div(grad V) = nabla^2 V,4,0.15
+Which best describes a conservative field?,div(grad V) = nabla^2 V,a vector pointing in direction of maximum rate of increase of V,a vector field whose curl is zero,integral of A·dS over a specified surface,3,0.15
+Which best describes a solenoidal field?,div(grad V) = nabla^2 V,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,vector measure of circulation per unit area,a vector field whose divergence is zero,4,0.15
+Which best describes the divergence theorem?,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,a vector field whose curl is zero,volume integral of div A = surface integral of A·dS,integral of A·dl along a specified path,3,0.15
+Which best describes Stokes' theorem?,integral of A·dS over a specified surface,vector measure of circulation per unit area,surface integral of curl A·dS = line integral of A·dl,d/dx*a_x + d/dy*a_y + d/dz*a_z,3,0.15
+Which best describes grad V in Cartesian?,a vector field whose curl is zero,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,a vector field is uniquely defined by its divergence and curl,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,2,0.15
+Which best describes div A in Cartesian?,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,integral of A·dl along a specified path,dAx/dx + dAy/dy + dAz/dz,scalar measure of net outward flux per unit volume,3,0.15
+Which best describes curl A in Cartesian?,d/dx*a_x + d/dy*a_y + d/dz*a_z,dAx/dx + dAy/dy + dAz/dz,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,4,0.15
+Which best describes the Laplacian in Cartesian?,volume integral of div A = surface integral of A·dS,a vector field whose divergence is zero,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,3,0.15
+Which best describes a line integral of A?,d/dx*a_x + d/dy*a_y + d/dz*a_z,a vector pointing in direction of maximum rate of increase of V,integral of A·dl along a specified path,volume integral of div A = surface integral of A·dS,3,0.15
+Which best describes a surface integral of A?,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,integral of A·dS over a specified surface,surface integral of curl A·dS = line integral of A·dl,a vector field whose divergence is zero,2,0.15
+Which best describes the del operator nabla in Cartesian?,d/dx*a_x + d/dy*a_y + d/dz*a_z,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,1,0.15
+Which best describes Helmholtz theorem?,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,a vector field is uniquely defined by its divergence and curl,surface integral of curl A·dS = line integral of A·dl,volume integral of div A = surface integral of A·dS,2,0.15
+"In electromagnetics, the gradient of a scalar V (grad V) refers to?",vector measure of circulation per unit area,d/dx*a_x + d/dy*a_y + d/dz*a_z,a vector pointing in direction of maximum rate of increase of V,a vector field whose divergence is zero,3,0.15
+"In electromagnetics, the divergence of a vector A (div A) refers to?",a vector field is uniquely defined by its divergence and curl,scalar measure of net outward flux per unit volume,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,2,0.15
+"In electromagnetics, the curl of a vector A (curl A) refers to?",d/dx*a_x + d/dy*a_y + d/dz*a_z,vector measure of circulation per unit area,volume integral of div A = surface integral of A·dS,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,2,0.15
+"In electromagnetics, the Laplacian of a scalar V refers to?",div(grad V) = nabla^2 V,a vector field whose divergence is zero,volume integral of div A = surface integral of A·dS,integral of A·dS over a specified surface,1,0.15
+"In electromagnetics, a conservative field refers to?",a vector field is uniquely defined by its divergence and curl,a vector pointing in direction of maximum rate of increase of V,a vector field whose curl is zero,dAx/dx + dAy/dy + dAz/dz,3,0.15
+"In electromagnetics, a solenoidal field refers to?",a vector field whose divergence is zero,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,surface integral of curl A·dS = line integral of A·dl,integral of A·dl along a specified path,1,0.15
+"In electromagnetics, the divergence theorem refers to?",d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,integral of A·dl along a specified path,volume integral of div A = surface integral of A·dS,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,3,0.15
+"In electromagnetics, Stokes' theorem refers to?",surface integral of curl A·dS = line integral of A·dl,div(grad V) = nabla^2 V,volume integral of div A = surface integral of A·dS,a vector field whose curl is zero,1,0.15
+"In electromagnetics, grad V in Cartesian refers to?",dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,d/dx*a_x + d/dy*a_y + d/dz*a_z,surface integral of curl A·dS = line integral of A·dl,dAx/dx + dAy/dy + dAz/dz,1,0.15
+"In electromagnetics, div A in Cartesian refers to?",dAx/dx + dAy/dy + dAz/dz,surface integral of curl A·dS = line integral of A·dl,a vector field whose divergence is zero,integral of A·dl along a specified path,1,0.15
+"In electromagnetics, curl A in Cartesian refers to?",scalar measure of net outward flux per unit volume,(dAz/dy-dAy/dz)*a_x + (dAx/dz-dAz/dx)*a_y + (dAy/dx-dAx/dy)*a_z,integral of A·dl along a specified path,div(grad V) = nabla^2 V,2,0.15
+"In electromagnetics, the Laplacian in Cartesian refers to?",integral of A·dS over a specified surface,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,integral of A·dl along a specified path,3,0.15
+"In electromagnetics, a line integral of A refers to?",d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,a vector field whose curl is zero,integral of A·dl along a specified path,surface integral of curl A·dS = line integral of A·dl,3,0.15
+"In electromagnetics, a surface integral of A refers to?",div(grad V) = nabla^2 V,integral of A·dS over a specified surface,a vector field whose divergence is zero,a vector field whose curl is zero,2,0.15
+"In electromagnetics, the del operator nabla in Cartesian refers to?",d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,vector measure of circulation per unit area,d/dx*a_x + d/dy*a_y + d/dz*a_z,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,3,0.15
+"In electromagnetics, Helmholtz theorem refers to?",a vector field is uniquely defined by its divergence and curl,d^2V/dx^2 + d^2V/dy^2 + d^2V/dz^2,a vector field whose curl is zero,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,1,0.15
+How is the gradient of a scalar V (grad V) defined?,a vector pointing in direction of maximum rate of increase of V,scalar measure of net outward flux per unit volume,vector measure of circulation per unit area,d/dx*a_x + d/dy*a_y + d/dz*a_z,1,0.15
+How is the divergence of a vector A (div A) defined?,div(grad V) = nabla^2 V,volume integral of div A = surface integral of A·dS,dV/dx * a_x + dV/dy * a_y + dV/dz * a_z,scalar measure of net outward flux per unit volume,4,0.15
+What is Coulomb's law?,total flux passing through a surface: Psi = integral D·dS,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,8.854e-12 F/m,E = Q/(4*pi*eps0*r^2) * a_r,2,0.2
+What is the electric field intensity E?,surface on which the potential V is constant,two equal and opposite point charges separated by a small distance,total flux passing through a surface: Psi = integral D·dS,force per unit positive test charge: E = F/Q,4,0.2
+What is the permittivity of free space eps0?,W = (1/2)*eps0*integral|E|^2 dv,surface on which the potential V is constant,work done per unit charge moving from infinity to a point,8.854e-12 F/m,4,0.2
+What is the electric flux density D?,D = eps0*E in free space,nabla^2 V = -rho_v/eps,W = (1/2)*eps0*integral|E|^2 dv,total E is vector sum of individual field contributions,1,0.2
+What is Gauss's law?,E = Q/(4*pi*eps0*r^2) * a_r,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,nabla^2 V = 0 in charge-free region,work done per unit charge moving from infinity to a point,2,0.2
+What is the electric potential V?,force per unit positive test charge: E = F/Q,work done per unit charge moving from infinity to a point,"p = Q*d, pointing from negative to positive charge",surface on which the potential V is constant,2,0.2
+What is the relation between E and V?,force per unit positive test charge: E = F/Q,two equal and opposite point charges separated by a small distance,E = -grad V,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,3,0.2
+What is Poisson's equation?,8.854e-12 F/m,force per unit positive test charge: E = F/Q,total E is vector sum of individual field contributions,nabla^2 V = -rho_v/eps,4,0.2
+What is Laplace's equation?,"p = Q*d, pointing from negative to positive charge",nabla^2 V = -rho_v/eps,nabla^2 V = 0 in charge-free region,surface on which the potential V is constant,3,0.2
+What is the principle of superposition for E?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,"p = Q*d, pointing from negative to positive charge",total E is vector sum of individual field contributions,E = Q/(4*pi*eps0*r^2) * a_r,3,0.2
+What is an equipotential surface?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,surface on which the potential V is constant,W = (1/2)*eps0*integral|E|^2 dv,E = Q/(4*pi*eps0*r^2) * a_r,2,0.2
+What is the electric dipole?,D = eps0*E in free space,two equal and opposite point charges separated by a small distance,surface on which the potential V is constant,nabla^2 V = 0 in charge-free region,2,0.2
+What is the dipole moment p?,"p = Q*d, pointing from negative to positive charge",force per unit positive test charge: E = F/Q,8.854e-12 F/m,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,1,0.2
+What is energy stored in electric field?,W = (1/2)*eps0*integral|E|^2 dv,nabla^2 V = -rho_v/eps,E = Q/(4*pi*eps0*r^2) * a_r,force per unit positive test charge: E = F/Q,1,0.2
+What is the electric flux Psi?,nabla^2 V = 0 in charge-free region,total flux passing through a surface: Psi = integral D·dS,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,W = (1/2)*eps0*integral|E|^2 dv,2,0.2
+What is the electric field of a point charge Q?,E = Q/(4*pi*eps0*r^2) * a_r,total E is vector sum of individual field contributions,E = -grad V,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,1,0.2
+Which best describes Coulomb's law?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,force per unit positive test charge: E = F/Q,8.854e-12 F/m,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,4,0.2
+Which best describes the electric field intensity E?,force per unit positive test charge: E = F/Q,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,W = (1/2)*eps0*integral|E|^2 dv,surface on which the potential V is constant,1,0.2
+Which best describes the permittivity of free space eps0?,8.854e-12 F/m,E = Q/(4*pi*eps0*r^2) * a_r,work done per unit charge moving from infinity to a point,D = eps0*E in free space,1,0.2
+Which best describes the electric flux density D?,D = eps0*E in free space,nabla^2 V = 0 in charge-free region,force per unit positive test charge: E = F/Q,E = -grad V,1,0.2
+Which best describes Gauss's law?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,8.854e-12 F/m,two equal and opposite point charges separated by a small distance,force per unit positive test charge: E = F/Q,1,0.2
+Which best describes the electric potential V?,two equal and opposite point charges separated by a small distance,nabla^2 V = -rho_v/eps,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,work done per unit charge moving from infinity to a point,4,0.2
+Which best describes the relation between E and V?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,E = Q/(4*pi*eps0*r^2) * a_r,work done per unit charge moving from infinity to a point,E = -grad V,4,0.2
+Which best describes Poisson's equation?,total flux passing through a surface: Psi = integral D·dS,nabla^2 V = -rho_v/eps,two equal and opposite point charges separated by a small distance,total E is vector sum of individual field contributions,2,0.2
+Which best describes Laplace's equation?,nabla^2 V = 0 in charge-free region,D = eps0*E in free space,total E is vector sum of individual field contributions,work done per unit charge moving from infinity to a point,1,0.2
+Which best describes the principle of superposition for E?,W = (1/2)*eps0*integral|E|^2 dv,total E is vector sum of individual field contributions,D = eps0*E in free space,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,2,0.2
+Which best describes an equipotential surface?,E = Q/(4*pi*eps0*r^2) * a_r,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,surface on which the potential V is constant,nabla^2 V = -rho_v/eps,3,0.2
+Which best describes the electric dipole?,W = (1/2)*eps0*integral|E|^2 dv,two equal and opposite point charges separated by a small distance,total E is vector sum of individual field contributions,surface on which the potential V is constant,2,0.2
+Which best describes the dipole moment p?,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,nabla^2 V = 0 in charge-free region,"p = Q*d, pointing from negative to positive charge",F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,3,0.2
+Which best describes energy stored in electric field?,total flux passing through a surface: Psi = integral D·dS,nabla^2 V = -rho_v/eps,force per unit positive test charge: E = F/Q,W = (1/2)*eps0*integral|E|^2 dv,4,0.2
+Which best describes the electric flux Psi?,total flux passing through a surface: Psi = integral D·dS,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,nabla^2 V = -rho_v/eps,two equal and opposite point charges separated by a small distance,1,0.2
+Which best describes the electric field of a point charge Q?,D = eps0*E in free space,E = Q/(4*pi*eps0*r^2) * a_r,total flux passing through a surface: Psi = integral D·dS,nabla^2 V = -rho_v/eps,2,0.2
+"In electromagnetics, Coulomb's law refers to?",surface on which the potential V is constant,total E is vector sum of individual field contributions,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,E = Q/(4*pi*eps0*r^2) * a_r,3,0.2
+"In electromagnetics, the electric field intensity E refers to?",force per unit positive test charge: E = F/Q,W = (1/2)*eps0*integral|E|^2 dv,nabla^2 V = -rho_v/eps,E = Q/(4*pi*eps0*r^2) * a_r,1,0.2
+"In electromagnetics, the permittivity of free space eps0 refers to?",8.854e-12 F/m,total flux passing through a surface: Psi = integral D·dS,work done per unit charge moving from infinity to a point,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,1,0.2
+"In electromagnetics, the electric flux density D refers to?",D = eps0*E in free space,8.854e-12 F/m,total flux passing through a surface: Psi = integral D·dS,nabla^2 V = 0 in charge-free region,1,0.2
+"In electromagnetics, Gauss's law refers to?",total outward flux = total enclosed charge: closed integral D·dS = Q_enc,W = (1/2)*eps0*integral|E|^2 dv,total E is vector sum of individual field contributions,E = Q/(4*pi*eps0*r^2) * a_r,1,0.2
+"In electromagnetics, the electric potential V refers to?",work done per unit charge moving from infinity to a point,"p = Q*d, pointing from negative to positive charge",D = eps0*E in free space,total flux passing through a surface: Psi = integral D·dS,1,0.2
+"In electromagnetics, the relation between E and V refers to?",total flux passing through a surface: Psi = integral D·dS,D = eps0*E in free space,E = -grad V,W = (1/2)*eps0*integral|E|^2 dv,3,0.2
+"In electromagnetics, Poisson's equation refers to?",nabla^2 V = 0 in charge-free region,nabla^2 V = -rho_v/eps,"p = Q*d, pointing from negative to positive charge",E = Q/(4*pi*eps0*r^2) * a_r,2,0.2
+"In electromagnetics, Laplace's equation refers to?",8.854e-12 F/m,nabla^2 V = -rho_v/eps,nabla^2 V = 0 in charge-free region,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,3,0.2
+"In electromagnetics, the principle of superposition for E refers to?",force per unit positive test charge: E = F/Q,nabla^2 V = -rho_v/eps,nabla^2 V = 0 in charge-free region,total E is vector sum of individual field contributions,4,0.2
+"In electromagnetics, an equipotential surface refers to?",total flux passing through a surface: Psi = integral D·dS,two equal and opposite point charges separated by a small distance,surface on which the potential V is constant,E = -grad V,3,0.2
+"In electromagnetics, the electric dipole refers to?",W = (1/2)*eps0*integral|E|^2 dv,two equal and opposite point charges separated by a small distance,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,work done per unit charge moving from infinity to a point,2,0.2
+"In electromagnetics, the dipole moment p refers to?","p = Q*d, pointing from negative to positive charge",work done per unit charge moving from infinity to a point,total flux passing through a surface: Psi = integral D·dS,surface on which the potential V is constant,1,0.2
+"In electromagnetics, energy stored in electric field refers to?",nabla^2 V = 0 in charge-free region,total flux passing through a surface: Psi = integral D·dS,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,W = (1/2)*eps0*integral|E|^2 dv,4,0.2
+"In electromagnetics, the electric flux Psi refers to?",D = eps0*E in free space,two equal and opposite point charges separated by a small distance,total flux passing through a surface: Psi = integral D·dS,force per unit positive test charge: E = F/Q,3,0.2
+"In electromagnetics, the electric field of a point charge Q refers to?",nabla^2 V = -rho_v/eps,two equal and opposite point charges separated by a small distance,E = Q/(4*pi*eps0*r^2) * a_r,8.854e-12 F/m,3,0.2
+How is Coulomb's law defined?,F = Q1*Q2/(4*pi*eps0*R^2) along the line joining Q1 and Q2,force per unit positive test charge: E = F/Q,E = -grad V,W = (1/2)*eps0*integral|E|^2 dv,1,0.2
+How is the electric field intensity E defined?,nabla^2 V = -rho_v/eps,force per unit positive test charge: E = F/Q,D = eps0*E in free space,total outward flux = total enclosed charge: closed integral D·dS = Q_enc,2,0.2
+Evaluate: E at r=1m from Q=1 nC point charge,9 V/m,36 V/m,14 V/m,18 V/m,1,0.25
+Evaluate: force between Q1=Q2=1 uC separated 1 m,0 N,approx 9e-3 N/2,approx 9e-3 N*2,9e-3 N,4,0.25
+Evaluate: V at r=1m from Q=1 nC,1 V,-9 V,2 V,9 V,4,0.25
+Evaluate: E inside a uniformly charged sphere r<a,rho_v*r/(3*eps0),rho_v*r/(3*eps0)_a,rho_v*r/(3*eps0)_b,rho_v*r/(3*eps0)_c,1,0.25
+Evaluate: E outside a sphere of total charge Q at r>a,Q/(4*pi*eps0*r^2)_a,Q/(4*pi*eps0*r^2),Q/(4*pi*eps0*r^2)_b,Q/(4*pi*eps0*r^2)_c,2,0.25
+Evaluate: D for E=10 a_x V/m in free space,66.41 pC/m^2 a_x,8.85 pC/m^2 a_x,22.14 pC/m^2 a_x,88.54 pC/m^2 a_x,4,0.25
+Evaluate: nabla^2 V for V=x^2+y^2,6,3,40,4,4,0.25
+Evaluate: E for V=xy+z,-(y*a_x + x*a_y + a_z) V/m,-(y*a_x + x*a_y + a_z) V/m_a,-(y*a_x + x*a_y + a_z) V/m_b,-(y*a_x + x*a_y + a_z) V/m_c,1,0.25
+Evaluate: energy density w_E for E=10 V/m in free space,332.0 pJ/m^3,-442.7 pJ/m^3,442.7 pJ/m^3,44.3 pJ/m^3,3,0.25
+Evaluate: Gauss surface enclosing Q=5 nC: D·dS,2 nC,15 nC,5 nC,-5 nC,3,0.25
+Evaluate: E between parallel plates V=100 V separation 1 cm,10 kV/m,40 kV/m,-10 kV/m,100 kV/m,1,0.25
+Evaluate: capacitance of parallel plate A=1 m^2 d=1 mm,8.854 nF,4.427 nF,0.885 nF,-8.854 nF,1,0.25
+Evaluate: potential difference between r=1m and r=2m for Q=1 nC,2.2 V,45.0 V,4.5 V,-4.5 V,3,0.25
+Evaluate: eps0 in SI units,2.656e-11 F/m,1.771e-11 F/m,2.213e-12 F/m,8.854e-12 F/m,4,0.25
+Evaluate: E at midpoint between +Q and -Q separated 2d,Q/(pi*eps0*d^2) toward -Q,Q/(pi*eps0*d^2) toward -Q_a,Q/(pi*eps0*d^2) toward -Q_c,Q/(pi*eps0*d^2) toward -Q_b,1,0.25
+Evaluate: Q enclosed by Gaussian surface if D=5*a_r C/m^2 at r=2m sphere,62.83 C,47.12 C,-62.83 C,125.66 C,1,0.25
+Evaluate: surface charge density for infinite sheet giving E=100 V/m,0.59 nC/m^2,1.77 nC/m^2,5.31 nC/m^2,0.18 nC/m^2,2,0.25
+Evaluate: V at r from infinite line charge rho_L,-(rho_L/2pi*eps0)*ln(r) + C_c,-(rho_L/2pi*eps0)*ln(r) + C_a,-(rho_L/2pi*eps0)*ln(r) + C,-(rho_L/2pi*eps0)*ln(r) + C_b,3,0.25
+Evaluate: force on charge Q=1 uC in E=100 V/m,200 uN,400 uN,150 uN,100 uN,4,0.25
+Evaluate: energy to move 1 uC through 10 V potential diff,20 uJ,10 uJ,8 uJ,100 uJ,2,0.25
+Evaluate: E inside a conductor,10 kV/m,5 nC,0 (zero),-0 (zero),3,0.25
+Evaluate: charge distribution inside a conductor,resides on the surface only,resides on the surface only_b,resides on the surface only_c,resides on the surface only_a,1,0.25
+What is the result of E at r=1m from Q=1 nC point charge?,7 V/m,90 V/m,1 V/m,9 V/m,4,0.25
+What is the result of force between Q1=Q2=1 uC separated 1 m?,9e-3 N,0 N,approx 9e-3 N*2,-0 N,1,0.25
+What is the result of V at r=1m from Q=1 nC?,36 V,14 V,2 V,9 V,4,0.25
+What is the result of E inside a uniformly charged sphere r<a?,rho_v*r/(3*eps0)_b,rho_v*r/(3*eps0)_a,rho_v*r/(3*eps0)_c,rho_v*r/(3*eps0),4,0.25
+What is the result of E outside a sphere of total charge Q at r>a?,Q/(4*pi*eps0*r^2),Q/(4*pi*eps0*r^2)_b,Q/(4*pi*eps0*r^2)_a,Q/(4*pi*eps0*r^2)_c,1,0.25
+What is the result of D for E=10 a_x V/m in free space?,132.81 pC/m^2 a_x,88.54 pC/m^2 a_x,354.16 pC/m^2 a_x,29.51 pC/m^2 a_x,2,0.25
+What is the result of nabla^2 V for V=x^2+y^2?,approx 4*2,4,1,12,2,0.25
+What is the result of E for V=xy+z?,-(y*a_x + x*a_y + a_z) V/m,-(y*a_x + x*a_y + a_z) V/m_c,-(y*a_x + x*a_y + a_z) V/m_b,-(y*a_x + x*a_y + a_z) V/m_a,1,0.25
+What is the result of energy density w_E for E=10 V/m in free space?,442.7 pJ/m^3,44.3 pJ/m^3,885.4 pJ/m^3,664.0 pJ/m^3,1,0.25
+What is the result of Gauss surface enclosing Q=5 nC: D·dS?,5 nC,4 nC,20 nC,15 nC,1,0.25
+What is the result of E between parallel plates V=100 V separation 1 cm?,40 kV/m,15 kV/m,20 kV/m,10 kV/m,4,0.25
+What is the result of capacitance of parallel plate A=1 m^2 d=1 mm?,2.213 nF,88.540 nF,13.281 nF,8.854 nF,4,0.25
+What is the result of potential difference between r=1m and r=2m for Q=1 nC?,9.0 V,4.5 V,0.5 V,45.0 V,2,0.25
+What is the result of eps0 in SI units?,8.854e-12 F/m,4.427e-12 F/m,2.213e-12 F/m,6.640e-12 F/m,1,0.25
+What is the result of E at midpoint between +Q and -Q separated 2d?,Q/(pi*eps0*d^2) toward -Q_a,Q/(pi*eps0*d^2) toward -Q,Q/(pi*eps0*d^2) toward -Q_c,Q/(pi*eps0*d^2) toward -Q_b,2,0.25
+What is the result of Q enclosed by Gaussian surface if D=5*a_r C/m^2 at r=2m sphere?,125.66 C,31.41 C,62.83 C,6.28 C,3,0.25
+What is the result of surface charge density for infinite sheet giving E=100 V/m?,0.89 nC/m^2,1.77 nC/m^2,5.31 nC/m^2,0.59 nC/m^2,2,0.25
+What is the result of V at r from infinite line charge rho_L?,-(rho_L/2pi*eps0)*ln(r) + C_a,-(rho_L/2pi*eps0)*ln(r) + C_c,-(rho_L/2pi*eps0)*ln(r) + C,-(rho_L/2pi*eps0)*ln(r) + C_b,3,0.25
+What is the result of force on charge Q=1 uC in E=100 V/m?,100 uN,-100 uN,10 uN,75 uN,1,0.25
+What is the result of energy to move 1 uC through 10 V potential diff?,10 uJ,15 uJ,1 uJ,-10 uJ,1,0.25
+What is the result of E inside a conductor?,-0 (zero),0 (zero),9 V,4.5 V,2,0.25
+What is the result of charge distribution inside a conductor?,resides on the surface only_c,resides on the surface only_b,resides on the surface only_a,resides on the surface only,4,0.25
+Calculate: E at r=1m from Q=1 nC point charge,36 V/m,9 V/m,18 V/m,4 V/m,2,0.25
+Calculate: force between Q1=Q2=1 uC separated 1 m,9.000e-04 N,9e-3 N,approx 9e-3 N*2,0 N,2,0.25
+Calculate: V at r=1m from Q=1 nC,36 V,9 V,27 V,3 V,2,0.25
+Calculate: E inside a uniformly charged sphere r<a,rho_v*r/(3*eps0)_b,rho_v*r/(3*eps0),rho_v*r/(3*eps0)_c,rho_v*r/(3*eps0)_a,2,0.25
+Calculate: E outside a sphere of total charge Q at r>a,Q/(4*pi*eps0*r^2),Q/(4*pi*eps0*r^2)_c,Q/(4*pi*eps0*r^2)_a,Q/(4*pi*eps0*r^2)_b,1,0.25
+Calculate: D for E=10 a_x V/m in free space,88.54 pC/m^2 a_x,177.08 pC/m^2 a_x,265.62 pC/m^2 a_x,22.14 pC/m^2 a_x,1,0.25
+What is a dielectric material?,J = sigma*E,"div J = -d_rho_v/dt, statement of charge conservation",an insulating material that can be polarised by an electric field,ratio of permittivity to free-space permittivity: eps/eps0,3,0.3
+What is polarisation P?,J = sigma*E,dipole moment per unit volume: P = eps0*chi_e*E,"measure of how easily charges move in a material, in S/m","div J = -d_rho_v/dt, statement of charge conservation",2,0.3
+What is the electric susceptibility chi_e?,an insulating material that can be polarised by an electric field,"measure of how easily charges move in a material, in S/m",dipole moment per unit volume: P = eps0*chi_e*E,measure of how easily a material polarises,4,0.3
+What is the relative permittivity eps_r?,"has sigma = 0, no conduction current",E_t1 = E_t2 at interface,ratio of permittivity to free-space permittivity: eps/eps0,measure of how easily a material polarises,3,0.3
+What is the displacement field D in a dielectric?,ratio of permittivity to free-space permittivity: eps/eps0,D = eps0*E + P = eps*E,an insulating material that can be polarised by an electric field,"measure of how easily charges move in a material, in S/m",2,0.3
+What is a linear dielectric?,one in which P is proportional to E,"has sigma = infinity, E=0 inside","has sigma = 0, no conduction current",E_t1 = E_t2 at interface,1,0.3
+What is bound surface charge rho_ps?,an insulating material that can be polarised by an electric field,D_n1 - D_n2 = rho_s at interface,polarisation surface charge: rho_ps = P·a_n,"measure of how easily charges move in a material, in S/m",3,0.3
+What is bound volume charge rho_pv?,D = eps0*E + P = eps*E,"measure of how easily charges move in a material, in S/m",-div P,"div J = -d_rho_v/dt, statement of charge conservation",3,0.3
+What is ohm's law in point form?,"T_r = eps/sigma, time for free charge to reduce to 1/e",dipole moment per unit volume: P = eps0*chi_e*E,measure of how easily a material polarises,J = sigma*E,4,0.3
+What is the conductivity sigma?,"measure of how easily charges move in a material, in S/m","has sigma = infinity, E=0 inside",ratio of permittivity to free-space permittivity: eps/eps0,D_n1 - D_n2 = rho_s at interface,1,0.3
+What is a perfect conductor?,"has sigma = infinity, E=0 inside",dipole moment per unit volume: P = eps0*chi_e*E,"T_r = eps/sigma, time for free charge to reduce to 1/e",polarisation surface charge: rho_ps = P·a_n,1,0.3
+What is a perfect dielectric?,ratio of permittivity to free-space permittivity: eps/eps0,"has sigma = 0, no conduction current","div J = -d_rho_v/dt, statement of charge conservation","measure of how easily charges move in a material, in S/m",2,0.3
+What is the continuity equation?,E_t1 = E_t2 at interface,"has sigma = infinity, E=0 inside",D_n1 - D_n2 = rho_s at interface,"div J = -d_rho_v/dt, statement of charge conservation",4,0.3
+What is the relaxation time T_r?,polarisation surface charge: rho_ps = P·a_n,D_n1 - D_n2 = rho_s at interface,"T_r = eps/sigma, time for free charge to reduce to 1/e",J = sigma*E,3,0.3
+What is the boundary condition for E_tangential?,E_t1 = E_t2 at interface,measure of how easily a material polarises,"has sigma = 0, no conduction current",dipole moment per unit volume: P = eps0*chi_e*E,1,0.3
+What is the boundary condition for D_normal?,"measure of how easily charges move in a material, in S/m","T_r = eps/sigma, time for free charge to reduce to 1/e",dipole moment per unit volume: P = eps0*chi_e*E,D_n1 - D_n2 = rho_s at interface,4,0.3
+Which best describes a dielectric material?,E_t1 = E_t2 at interface,an insulating material that can be polarised by an electric field,D_n1 - D_n2 = rho_s at interface,"div J = -d_rho_v/dt, statement of charge conservation",2,0.3
+Which best describes polarisation P?,D_n1 - D_n2 = rho_s at interface,dipole moment per unit volume: P = eps0*chi_e*E,"has sigma = 0, no conduction current",measure of how easily a material polarises,2,0.3
+Which best describes the electric susceptibility chi_e?,ratio of permittivity to free-space permittivity: eps/eps0,E_t1 = E_t2 at interface,polarisation surface charge: rho_ps = P·a_n,measure of how easily a material polarises,4,0.3
+Which best describes the relative permittivity eps_r?,E_t1 = E_t2 at interface,"T_r = eps/sigma, time for free charge to reduce to 1/e",ratio of permittivity to free-space permittivity: eps/eps0,"div J = -d_rho_v/dt, statement of charge conservation",3,0.3
+Which best describes the displacement field D in a dielectric?,D = eps0*E + P = eps*E,measure of how easily a material polarises,"has sigma = infinity, E=0 inside",ratio of permittivity to free-space permittivity: eps/eps0,1,0.3
+Which best describes a linear dielectric?,"div J = -d_rho_v/dt, statement of charge conservation",one in which P is proportional to E,"T_r = eps/sigma, time for free charge to reduce to 1/e",-div P,2,0.3
+Which best describes bound surface charge rho_ps?,"div J = -d_rho_v/dt, statement of charge conservation","measure of how easily charges move in a material, in S/m",one in which P is proportional to E,polarisation surface charge: rho_ps = P·a_n,4,0.3
+Which best describes bound volume charge rho_pv?,-div P,ratio of permittivity to free-space permittivity: eps/eps0,dipole moment per unit volume: P = eps0*chi_e*E,E_t1 = E_t2 at interface,1,0.3
+Which best describes ohm's law in point form?,J = sigma*E,an insulating material that can be polarised by an electric field,"T_r = eps/sigma, time for free charge to reduce to 1/e",one in which P is proportional to E,1,0.3
+Which best describes the conductivity sigma?,one in which P is proportional to E,"measure of how easily charges move in a material, in S/m",ratio of permittivity to free-space permittivity: eps/eps0,J = sigma*E,2,0.3
+Which best describes a perfect conductor?,"measure of how easily charges move in a material, in S/m","has sigma = 0, no conduction current","has sigma = infinity, E=0 inside",D_n1 - D_n2 = rho_s at interface,3,0.3
+Which best describes a perfect dielectric?,ratio of permittivity to free-space permittivity: eps/eps0,"T_r = eps/sigma, time for free charge to reduce to 1/e","div J = -d_rho_v/dt, statement of charge conservation","has sigma = 0, no conduction current",4,0.3
+Which best describes the continuity equation?,"div J = -d_rho_v/dt, statement of charge conservation","has sigma = 0, no conduction current",polarisation surface charge: rho_ps = P·a_n,measure of how easily a material polarises,1,0.3
+Which best describes the relaxation time T_r?,D_n1 - D_n2 = rho_s at interface,one in which P is proportional to E,dipole moment per unit volume: P = eps0*chi_e*E,"T_r = eps/sigma, time for free charge to reduce to 1/e",4,0.3
+Which best describes the boundary condition for E_tangential?,-div P,"div J = -d_rho_v/dt, statement of charge conservation",E_t1 = E_t2 at interface,one in which P is proportional to E,3,0.3
+Which best describes the boundary condition for D_normal?,D_n1 - D_n2 = rho_s at interface,dipole moment per unit volume: P = eps0*chi_e*E,measure of how easily a material polarises,polarisation surface charge: rho_ps = P·a_n,1,0.3
+"In electromagnetics, a dielectric material refers to?",measure of how easily a material polarises,an insulating material that can be polarised by an electric field,D_n1 - D_n2 = rho_s at interface,dipole moment per unit volume: P = eps0*chi_e*E,2,0.3
+"In electromagnetics, polarisation P refers to?","T_r = eps/sigma, time for free charge to reduce to 1/e",dipole moment per unit volume: P = eps0*chi_e*E,"has sigma = infinity, E=0 inside",D_n1 - D_n2 = rho_s at interface,2,0.3
+"In electromagnetics, the electric susceptibility chi_e refers to?",one in which P is proportional to E,E_t1 = E_t2 at interface,-div P,measure of how easily a material polarises,4,0.3
+"In electromagnetics, the relative permittivity eps_r refers to?","has sigma = infinity, E=0 inside","measure of how easily charges move in a material, in S/m",ratio of permittivity to free-space permittivity: eps/eps0,measure of how easily a material polarises,3,0.3
+"In electromagnetics, the displacement field D in a dielectric refers to?",one in which P is proportional to E,D_n1 - D_n2 = rho_s at interface,D = eps0*E + P = eps*E,E_t1 = E_t2 at interface,3,0.3
+"In electromagnetics, a linear dielectric refers to?",one in which P is proportional to E,-div P,measure of how easily a material polarises,D = eps0*E + P = eps*E,1,0.3
+"In electromagnetics, bound surface charge rho_ps refers to?",one in which P is proportional to E,"T_r = eps/sigma, time for free charge to reduce to 1/e",polarisation surface charge: rho_ps = P·a_n,dipole moment per unit volume: P = eps0*chi_e*E,3,0.3
+"In electromagnetics, bound volume charge rho_pv refers to?","has sigma = infinity, E=0 inside",D_n1 - D_n2 = rho_s at interface,-div P,ratio of permittivity to free-space permittivity: eps/eps0,3,0.3
+"In electromagnetics, ohm's law in point form refers to?",J = sigma*E,D = eps0*E + P = eps*E,polarisation surface charge: rho_ps = P·a_n,an insulating material that can be polarised by an electric field,1,0.3
+"In electromagnetics, the conductivity sigma refers to?","measure of how easily charges move in a material, in S/m",E_t1 = E_t2 at interface,"T_r = eps/sigma, time for free charge to reduce to 1/e",one in which P is proportional to E,1,0.3
+"In electromagnetics, a perfect conductor refers to?","has sigma = infinity, E=0 inside",D_n1 - D_n2 = rho_s at interface,"has sigma = 0, no conduction current",E_t1 = E_t2 at interface,1,0.3
+"In electromagnetics, a perfect dielectric refers to?","div J = -d_rho_v/dt, statement of charge conservation","has sigma = 0, no conduction current","measure of how easily charges move in a material, in S/m",ratio of permittivity to free-space permittivity: eps/eps0,2,0.3
+"In electromagnetics, the continuity equation refers to?",polarisation surface charge: rho_ps = P·a_n,"div J = -d_rho_v/dt, statement of charge conservation",one in which P is proportional to E,D = eps0*E + P = eps*E,2,0.3
+"In electromagnetics, the relaxation time T_r refers to?",polarisation surface charge: rho_ps = P·a_n,"T_r = eps/sigma, time for free charge to reduce to 1/e",one in which P is proportional to E,D = eps0*E + P = eps*E,2,0.3
+"In electromagnetics, the boundary condition for E_tangential refers to?",ratio of permittivity to free-space permittivity: eps/eps0,E_t1 = E_t2 at interface,"measure of how easily charges move in a material, in S/m",D_n1 - D_n2 = rho_s at interface,2,0.3
+"In electromagnetics, the boundary condition for D_normal refers to?",D_n1 - D_n2 = rho_s at interface,-div P,E_t1 = E_t2 at interface,"has sigma = 0, no conduction current",1,0.3
+How is a dielectric material defined?,an insulating material that can be polarised by an electric field,E_t1 = E_t2 at interface,"div J = -d_rho_v/dt, statement of charge conservation",measure of how easily a material polarises,1,0.3
+How is polarisation P defined?,"has sigma = 0, no conduction current",dipole moment per unit volume: P = eps0*chi_e*E,one in which P is proportional to E,ratio of permittivity to free-space permittivity: eps/eps0,2,0.3
+Evaluate: E inside a dielectric eps_r=4 if D=8 a_x nC/m^2,452 V/m a_x,2.260e+03 V/m a_x,226 V/m a_x,170 V/m a_x,3,0.35
+Evaluate: P for eps_r=4 and E=100 V/m,5.312 nC/m^2,2.656 nC/m^2,26.560 nC/m^2,0.266 nC/m^2,2,0.35
+Evaluate: chi_e for eps_r=4,0,1,3,approx 3*2,3,0.35
+Evaluate: relaxation time for copper sigma=5.8e7 S/m,3.750e-20 s,5.000e-20 s,3.000e-19 s,1.5e-19 s,4,0.35
+Evaluate: J for sigma=1 S/m and E=10 V/m,8 A/m^2,15 A/m^2,-10 A/m^2,10 A/m^2,4,0.35
+Evaluate: capacitance of coaxial cable a=1cm b=2cm eps_r=2 per metre,644 pF/m,80 pF/m,322 pF/m,161 pF/m,4,0.35
+Evaluate: E between inner conductor a=1cm and outer b=2cm V=100V,-7.21 kV/m at r=1.5cm,7.21 kV/m at r=1.5cm,2.40 kV/m at r=1.5cm,21.63 kV/m at r=1.5cm,2,0.35
+Evaluate: V halfway between plates separated 10cm V1=0 V2=100,50 V,500 V,12 V,5 V,1,0.35
+Evaluate: B at r=1m from infinite wire I=1A,-200 nT,100 nT,2.000e+03 nT,200 nT,4,0.35
+Evaluate: H at r=1m from I=1A wire,0 /(2*pi) A/m,3 /(2*pi) A/m,1/(2*pi) A/m,1 /(2*pi) A/m,3,0.35
+Evaluate: flux density B for H=1 A/m in free space,1.257 uT,1.885 uT,0.314 uT,3.771 uT,1,0.35
+Evaluate: ampere's law: line integral H·dl for I=5A enclosed,2 A,5 A,4 A,8 A,2,0.35
+Evaluate: B inside a solenoid n=1000/m I=2A mu0,2.51 mT,0.84 mT,1.88 mT,25.10 mT,1,0.35
+Evaluate: B at centre of circular loop r=0.1m I=1A,1.57 uT,0.63 uT,18.84 uT,6.28 uT,4,0.35
+Evaluate: flux through surface if B=0.5 T and A=0.2 m^2 perpendicular,approx 0.1 Wb*2,0.0 Wb,0.1 Wb,0.4 Wb,3,0.35
+Evaluate: H inside coaxial cable at r<a (inner),I*r/(2*pi*a^2),I*r/(2*pi*a^2)_b,I*r/(2*pi*a^2)_c,I*r/(2*pi*a^2)_a,1,0.35
+Evaluate: H outside coaxial cable r>b,159 A/m,0,5 A,-0,2,0.35
+Evaluate: Biot-Savart: dH for dl=1mm I=1A at r=1m,0.0265 mA/m,0.0597 mA/m,0.0080 mA/m,0.0796 mA/m,4,0.35
+Evaluate: mu0 in SI units,16 *pi*1e-7 H/m,6 *pi*1e-7 H/m,4*pi*1e-7 H/m,40 *pi*1e-7 H/m,3,0.35
+Evaluate: inductance per unit length of coaxial cable a=1cm b=2cm,0.104 uH/m,0.046 uH/m,0.014 uH/m,0.139 uH/m,4,0.35
+Evaluate: H inside a toroid N=100 turns I=1A mean radius 0.1m,159 A/m,119 A/m,40 A/m,238 A/m,1,0.35
+Evaluate: force per unit length between two wires 1m apart each 1A same direction,200 nN/m attractive,150 nN/m attractive,-200 nN/m attractive,100 nN/m attractive,1,0.35
+What is the result of E inside a dielectric eps_r=4 if D=8 a_x nC/m^2?,56 V/m a_x,226 V/m a_x,75 V/m a_x,23 V/m a_x,2,0.35
+What is the result of P for eps_r=4 and E=100 V/m?,1.328 nC/m^2,5.312 nC/m^2,2.656 nC/m^2,0.664 nC/m^2,3,0.35
+What is the result of chi_e for eps_r=4?,3,6,0,9,1,0.35
+What is the result of relaxation time for copper sigma=5.8e7 S/m?,1.5e-19 s,5.000e-20 s,4.500e-19 s,3.750e-20 s,1,0.35
+What is the result of J for sigma=1 S/m and E=10 V/m?,100 A/m^2,10 A/m^2,20 A/m^2,1 A/m^2,2,0.35
+What is the result of capacitance of coaxial cable a=1cm b=2cm eps_r=2 per metre?,40 pF/m,54 pF/m,16 pF/m,161 pF/m,4,0.35
+What is the result of E between inner conductor a=1cm and outer b=2cm V=100V?,5.41 kV/m at r=1.5cm,7.21 kV/m at r=1.5cm,28.84 kV/m at r=1.5cm,2.40 kV/m at r=1.5cm,2,0.35
+What is the result of V halfway between plates separated 10cm V1=0 V2=100?,500 V,200 V,50 V,5 V,3,0.35
+What is the result of B at r=1m from infinite wire I=1A?,50 nT,150 nT,400 nT,200 nT,4,0.35
+What is the result of H at r=1m from I=1A wire?,0 /(2*pi) A/m,2 /(2*pi) A/m,approx 1/(2*pi) A/m*2,1/(2*pi) A/m,4,0.35
+What is the result of flux density B for H=1 A/m in free space?,-1.257 uT,0.628 uT,1.257 uT,12.570 uT,3,0.35
+What is the result of ampere's law: line integral H·dl for I=5A enclosed?,4 A,0 A,-5 A,5 A,4,0.35
+What is the result of B inside a solenoid n=1000/m I=2A mu0?,2.51 mT,1.25 mT,25.10 mT,-2.51 mT,1,0.35
+What is the result of B at centre of circular loop r=0.1m I=1A?,1.57 uT,0.63 uT,4.71 uT,6.28 uT,4,0.35
+What is the result of flux through surface if B=0.5 T and A=0.2 m^2 perpendicular?,0.4 Wb,1.0 Wb,0.2 Wb,0.1 Wb,4,0.35
+What is the result of H inside coaxial cable at r<a (inner)?,I*r/(2*pi*a^2)_a,I*r/(2*pi*a^2)_b,I*r/(2*pi*a^2),I*r/(2*pi*a^2)_c,3,0.35
+What is the result of H outside coaxial cable r>b?,0,4*pi*1e-7 H/m,-0,2.51 mT,1,0.35
+What is the result of Biot-Savart: dH for dl=1mm I=1A at r=1m?,0.0398 mA/m,0.0796 mA/m,0.2388 mA/m,0.1194 mA/m,2,0.35
+What is the result of mu0 in SI units?,4*pi*1e-7 H/m,40 *pi*1e-7 H/m,3 *pi*1e-7 H/m,12 *pi*1e-7 H/m,1,0.35
+What is the result of inductance per unit length of coaxial cable a=1cm b=2cm?,0.139 uH/m,0.014 uH/m,0.556 uH/m,1.390 uH/m,1,0.35
+What is the result of H inside a toroid N=100 turns I=1A mean radius 0.1m?,119 A/m,40 A/m,-159 A/m,159 A/m,4,0.35
+What is the result of force per unit length between two wires 1m apart each 1A same direction?,20 nN/m attractive,600 nN/m attractive,2.000e+03 nN/m attractive,200 nN/m attractive,4,0.35
+Calculate: E inside a dielectric eps_r=4 if D=8 a_x nC/m^2,75 V/m a_x,56 V/m a_x,452 V/m a_x,226 V/m a_x,4,0.35
+Calculate: P for eps_r=4 and E=100 V/m,0.266 nC/m^2,0.664 nC/m^2,1.328 nC/m^2,2.656 nC/m^2,4,0.35
+Calculate: chi_e for eps_r=4,9,30,3,12,3,0.35
+Calculate: relaxation time for copper sigma=5.8e7 S/m,6.000e-19 s,1.5e-19 s,1.500e-20 s,1.500e-18 s,2,0.35
+Calculate: J for sigma=1 S/m and E=10 V/m,3 A/m^2,10 A/m^2,100 A/m^2,40 A/m^2,2,0.35
+Calculate: capacitance of coaxial cable a=1cm b=2cm eps_r=2 per metre,121 pF/m,644 pF/m,161 pF/m,322 pF/m,3,0.35
+What is the Lorentz force?,ratio of permeability to mu0: mu/mu0,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",W = (1/2)*mu0*integral|H|^2 dv,flux linkage per unit current: L = N*Psi/I,2,0.4
+What is the force on a current-carrying conductor?,weakly repelled by a magnetic field; mu_r slightly < 1,strongly attracted; large mu_r; exhibits hysteresis,flux linkage in coil 2 due to unit current in coil 1,F = I*L×B,4,0.4
+What is magnetic torque on a loop?,H_t1 - H_t2 = K × a_n12 (K = surface current density),flux linkage per unit current: L = N*Psi/I,T = m×B where m = I*A*a_n is the magnetic dipole moment,mu_r - 1,3,0.4
+What is the magnetic dipole moment m?,"m = I*A, in units of A·m^2",H_t1 - H_t2 = K × a_n12 (K = surface current density),flux linkage per unit current: L = N*Psi/I,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",1,0.4
+What is magnetisation M?,H_t1 - H_t2 = K × a_n12 (K = surface current density),W = (1/2)*mu0*integral|H|^2 dv,weakly repelled by a magnetic field; mu_r slightly < 1,magnetic dipole moment per unit volume,4,0.4
+What is the relative permeability mu_r?,B_n1 = B_n2 at interface (div B = 0),"m = I*A, in units of A·m^2",ratio of permeability to mu0: mu/mu0,W = (1/2)*mu0*integral|H|^2 dv,3,0.4
+What is a diamagnetic material?,mu_r - 1,weakly repelled by a magnetic field; mu_r slightly < 1,B_n1 = B_n2 at interface (div B = 0),W = (1/2)*mu0*integral|H|^2 dv,2,0.4
+What is a paramagnetic material?,magnetic dipole moment per unit volume,strongly attracted; large mu_r; exhibits hysteresis,T = m×B where m = I*A*a_n is the magnetic dipole moment,weakly attracted to a magnetic field; mu_r slightly > 1,4,0.4
+What is a ferromagnetic material?,mu_r - 1,flux linkage per unit current: L = N*Psi/I,strongly attracted; large mu_r; exhibits hysteresis,F = I*L×B,3,0.4
+What is magnetic susceptibility chi_m?,strongly attracted; large mu_r; exhibits hysteresis,"double integral of (dl1·dl2)/R, in H",mu_r - 1,magnetic dipole moment per unit volume,3,0.4
+What is the boundary condition for B_normal?,weakly attracted to a magnetic field; mu_r slightly > 1,ratio of permeability to mu0: mu/mu0,B_n1 = B_n2 at interface (div B = 0),"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",3,0.4
+What is the boundary condition for H_tangential?,mu_r - 1,"double integral of (dl1·dl2)/R, in H",ratio of permeability to mu0: mu/mu0,H_t1 - H_t2 = K × a_n12 (K = surface current density),4,0.4
+What is the self-inductance L?,mu_r - 1,weakly attracted to a magnetic field; mu_r slightly > 1,flux linkage per unit current: L = N*Psi/I,W = (1/2)*mu0*integral|H|^2 dv,3,0.4
+What is energy stored in magnetic field?,strongly attracted; large mu_r; exhibits hysteresis,T = m×B where m = I*A*a_n is the magnetic dipole moment,"m = I*A, in units of A·m^2",W = (1/2)*mu0*integral|H|^2 dv,4,0.4
+What is mutual inductance M?,strongly attracted; large mu_r; exhibits hysteresis,weakly repelled by a magnetic field; mu_r slightly < 1,flux linkage in coil 2 due to unit current in coil 1,W = (1/2)*mu0*integral|H|^2 dv,3,0.4
+What is the Neumann formula for M?,"double integral of (dl1·dl2)/R, in H",B_n1 = B_n2 at interface (div B = 0),"m = I*A, in units of A·m^2",flux linkage in coil 2 due to unit current in coil 1,1,0.4
+Which best describes the Lorentz force?,ratio of permeability to mu0: mu/mu0,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",magnetic dipole moment per unit volume,W = (1/2)*mu0*integral|H|^2 dv,2,0.4
+Which best describes the force on a current-carrying conductor?,T = m×B where m = I*A*a_n is the magnetic dipole moment,H_t1 - H_t2 = K × a_n12 (K = surface current density),F = I*L×B,weakly repelled by a magnetic field; mu_r slightly < 1,3,0.4
+Which best describes magnetic torque on a loop?,H_t1 - H_t2 = K × a_n12 (K = surface current density),"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",T = m×B where m = I*A*a_n is the magnetic dipole moment,weakly repelled by a magnetic field; mu_r slightly < 1,3,0.4
+Which best describes the magnetic dipole moment m?,flux linkage per unit current: L = N*Psi/I,ratio of permeability to mu0: mu/mu0,"m = I*A, in units of A·m^2",mu_r - 1,3,0.4
+Which best describes magnetisation M?,W = (1/2)*mu0*integral|H|^2 dv,magnetic dipole moment per unit volume,mu_r - 1,"double integral of (dl1·dl2)/R, in H",2,0.4
+Which best describes the relative permeability mu_r?,magnetic dipole moment per unit volume,ratio of permeability to mu0: mu/mu0,"m = I*A, in units of A·m^2",H_t1 - H_t2 = K × a_n12 (K = surface current density),2,0.4
+Which best describes a diamagnetic material?,F = I*L×B,W = (1/2)*mu0*integral|H|^2 dv,T = m×B where m = I*A*a_n is the magnetic dipole moment,weakly repelled by a magnetic field; mu_r slightly < 1,4,0.4
+Which best describes a paramagnetic material?,weakly attracted to a magnetic field; mu_r slightly > 1,flux linkage in coil 2 due to unit current in coil 1,H_t1 - H_t2 = K × a_n12 (K = surface current density),"m = I*A, in units of A·m^2",1,0.4
+Which best describes a ferromagnetic material?,flux linkage in coil 2 due to unit current in coil 1,strongly attracted; large mu_r; exhibits hysteresis,F = I*L×B,"m = I*A, in units of A·m^2",2,0.4
+Which best describes magnetic susceptibility chi_m?,T = m×B where m = I*A*a_n is the magnetic dipole moment,H_t1 - H_t2 = K × a_n12 (K = surface current density),flux linkage per unit current: L = N*Psi/I,mu_r - 1,4,0.4
+Which best describes the boundary condition for B_normal?,F = I*L×B,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",flux linkage in coil 2 due to unit current in coil 1,B_n1 = B_n2 at interface (div B = 0),4,0.4
+Which best describes the boundary condition for H_tangential?,H_t1 - H_t2 = K × a_n12 (K = surface current density),F = I*L×B,mu_r - 1,strongly attracted; large mu_r; exhibits hysteresis,1,0.4
+Which best describes the self-inductance L?,flux linkage per unit current: L = N*Psi/I,weakly attracted to a magnetic field; mu_r slightly > 1,weakly repelled by a magnetic field; mu_r slightly < 1,B_n1 = B_n2 at interface (div B = 0),1,0.4
+Which best describes energy stored in magnetic field?,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",B_n1 = B_n2 at interface (div B = 0),weakly repelled by a magnetic field; mu_r slightly < 1,W = (1/2)*mu0*integral|H|^2 dv,4,0.4
+Which best describes mutual inductance M?,B_n1 = B_n2 at interface (div B = 0),mu_r - 1,H_t1 - H_t2 = K × a_n12 (K = surface current density),flux linkage in coil 2 due to unit current in coil 1,4,0.4
+Which best describes the Neumann formula for M?,H_t1 - H_t2 = K × a_n12 (K = surface current density),"double integral of (dl1·dl2)/R, in H",F = I*L×B,W = (1/2)*mu0*integral|H|^2 dv,2,0.4
+"In electromagnetics, the Lorentz force refers to?",ratio of permeability to mu0: mu/mu0,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",H_t1 - H_t2 = K × a_n12 (K = surface current density),W = (1/2)*mu0*integral|H|^2 dv,2,0.4
+"In electromagnetics, the force on a current-carrying conductor refers to?",W = (1/2)*mu0*integral|H|^2 dv,F = I*L×B,ratio of permeability to mu0: mu/mu0,strongly attracted; large mu_r; exhibits hysteresis,2,0.4
+"In electromagnetics, magnetic torque on a loop refers to?","m = I*A, in units of A·m^2",mu_r - 1,T = m×B where m = I*A*a_n is the magnetic dipole moment,strongly attracted; large mu_r; exhibits hysteresis,3,0.4
+"In electromagnetics, the magnetic dipole moment m refers to?",W = (1/2)*mu0*integral|H|^2 dv,"m = I*A, in units of A·m^2",mu_r - 1,"double integral of (dl1·dl2)/R, in H",2,0.4
+"In electromagnetics, magnetisation M refers to?",ratio of permeability to mu0: mu/mu0,W = (1/2)*mu0*integral|H|^2 dv,magnetic dipole moment per unit volume,H_t1 - H_t2 = K × a_n12 (K = surface current density),3,0.4
+"In electromagnetics, the relative permeability mu_r refers to?",F = I*L×B,ratio of permeability to mu0: mu/mu0,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",flux linkage in coil 2 due to unit current in coil 1,2,0.4
+"In electromagnetics, a diamagnetic material refers to?",flux linkage per unit current: L = N*Psi/I,magnetic dipole moment per unit volume,weakly repelled by a magnetic field; mu_r slightly < 1,"m = I*A, in units of A·m^2",3,0.4
+"In electromagnetics, a paramagnetic material refers to?",mu_r - 1,H_t1 - H_t2 = K × a_n12 (K = surface current density),weakly attracted to a magnetic field; mu_r slightly > 1,"double integral of (dl1·dl2)/R, in H",3,0.4
+"In electromagnetics, a ferromagnetic material refers to?",magnetic dipole moment per unit volume,B_n1 = B_n2 at interface (div B = 0),strongly attracted; large mu_r; exhibits hysteresis,"m = I*A, in units of A·m^2",3,0.4
+"In electromagnetics, magnetic susceptibility chi_m refers to?",B_n1 = B_n2 at interface (div B = 0),H_t1 - H_t2 = K × a_n12 (K = surface current density),W = (1/2)*mu0*integral|H|^2 dv,mu_r - 1,4,0.4
+"In electromagnetics, the boundary condition for B_normal refers to?",H_t1 - H_t2 = K × a_n12 (K = surface current density),B_n1 = B_n2 at interface (div B = 0),F = I*L×B,strongly attracted; large mu_r; exhibits hysteresis,2,0.4
+"In electromagnetics, the boundary condition for H_tangential refers to?",H_t1 - H_t2 = K × a_n12 (K = surface current density),F = I*L×B,magnetic dipole moment per unit volume,"m = I*A, in units of A·m^2",1,0.4
+"In electromagnetics, the self-inductance L refers to?",B_n1 = B_n2 at interface (div B = 0),flux linkage in coil 2 due to unit current in coil 1,flux linkage per unit current: L = N*Psi/I,T = m×B where m = I*A*a_n is the magnetic dipole moment,3,0.4
+"In electromagnetics, energy stored in magnetic field refers to?",W = (1/2)*mu0*integral|H|^2 dv,"m = I*A, in units of A·m^2",mu_r - 1,F = I*L×B,1,0.4
+"In electromagnetics, mutual inductance M refers to?",ratio of permeability to mu0: mu/mu0,flux linkage in coil 2 due to unit current in coil 1,B_n1 = B_n2 at interface (div B = 0),mu_r - 1,2,0.4
+"In electromagnetics, the Neumann formula for M refers to?",ratio of permeability to mu0: mu/mu0,"double integral of (dl1·dl2)/R, in H",mu_r - 1,flux linkage in coil 2 due to unit current in coil 1,2,0.4
+How is the Lorentz force defined?,"F = Q*(E + v×B), force on charge Q moving at v in fields E and B",magnetic dipole moment per unit volume,weakly repelled by a magnetic field; mu_r slightly < 1,F = I*L×B,1,0.4
+How is the force on a current-carrying conductor defined?,F = I*L×B,weakly repelled by a magnetic field; mu_r slightly < 1,flux linkage in coil 2 due to unit current in coil 1,ratio of permeability to mu0: mu/mu0,1,0.4
+What is Faraday's law (differential form)?,curl E = -dB/dt,sum of transformer and motional emf,(1/2)*eps*|E|^2,"(1/2)*Re(E×H*), time-average power density",1,0.45
+What is Ampere's law with displacement current?,div D = rho_v,curl H = J + dD/dt,magnetic monopoles do not exist,sum of transformer and motional emf,2,0.45
+What is Gauss's law for electric fields?,div J = -d_rho_v/dt,div D = rho_v,div B = 0,"(1/2)*Re(E×H*), time-average power density",2,0.45
+What is Gauss's law for magnetic fields?,curl E = -dB/dt,sigma/(omega*eps'),curl H = J + dD/dt,div B = 0,4,0.45
+What is the displacement current density J_d?,div B = 0,"E×H, instantaneous power density in W/m^2",replaces d/dt with j*omega in the time-harmonic case,dD/dt = eps*dE/dt,4,0.45
+What is the continuity equation (Maxwell form)?,div J = -d_rho_v/dt,(1/2)*eps*|E|^2,sum of transformer and motional emf,magnetic monopoles do not exist,1,0.45
+What is the transformer emf?,replaces d/dt with j*omega in the time-harmonic case,div B = 0,"emf = -d/dt(integral B·dS), from time-varying B","E×H, instantaneous power density in W/m^2",3,0.45
+What is the motional emf?,(1/2)*eps*|E|^2,"emf = integral (v×B)·dl, from conductor motion in static B",magnetic monopoles do not exist,curl H = J + dD/dt,2,0.45
+What is the total emf in Faraday's law?,"E×H, instantaneous power density in W/m^2",sum of transformer and motional emf,div B = 0,eps_c = eps' - j*eps'' where eps''=sigma/omega,2,0.45
+What is the significance of div B = 0?,magnetic monopoles do not exist,"(1/2)*Re(E×H*), time-average power density",div D = rho_v,"emf = integral (v×B)·dl, from conductor motion in static B",1,0.45
+What is the phasor form of Maxwell's equations?,div J = -d_rho_v/dt,curl E = -dB/dt,replaces d/dt with j*omega in the time-harmonic case,div B = 0,3,0.45
+What is the complex permittivity?,dD/dt = eps*dE/dt,div B = 0,div J = -d_rho_v/dt,eps_c = eps' - j*eps'' where eps''=sigma/omega,4,0.45
+What is the loss tangent tan_delta?,sigma/(omega*eps'),"E×H, instantaneous power density in W/m^2",sum of transformer and motional emf,div J = -d_rho_v/dt,1,0.45
+What is the Poynting vector P?,"(1/2)*Re(E×H*), time-average power density",(1/2)*eps*|E|^2,"E×H, instantaneous power density in W/m^2",curl E = -dB/dt,3,0.45
+What is the time-average Poynting vector?,"(1/2)*Re(E×H*), time-average power density",eps_c = eps' - j*eps'' where eps''=sigma/omega,dD/dt = eps*dE/dt,"E×H, instantaneous power density in W/m^2",1,0.45
+What is the instantaneous stored energy density in E?,replaces d/dt with j*omega in the time-harmonic case,div J = -d_rho_v/dt,magnetic monopoles do not exist,(1/2)*eps*|E|^2,4,0.45
+Which best describes Faraday's law (differential form)?,curl E = -dB/dt,dD/dt = eps*dE/dt,"emf = integral (v×B)·dl, from conductor motion in static B",magnetic monopoles do not exist,1,0.45
+Which best describes Ampere's law with displacement current?,sum of transformer and motional emf,(1/2)*eps*|E|^2,"E×H, instantaneous power density in W/m^2",curl H = J + dD/dt,4,0.45
+Which best describes Gauss's law for electric fields?,dD/dt = eps*dE/dt,sum of transformer and motional emf,div B = 0,div D = rho_v,4,0.45
+Which best describes Gauss's law for magnetic fields?,div D = rho_v,div B = 0,"(1/2)*Re(E×H*), time-average power density",dD/dt = eps*dE/dt,2,0.45
+Which best describes the displacement current density J_d?,eps_c = eps' - j*eps'' where eps''=sigma/omega,dD/dt = eps*dE/dt,"emf = integral (v×B)·dl, from conductor motion in static B",div B = 0,2,0.45
+Which best describes the continuity equation (Maxwell form)?,sum of transformer and motional emf,eps_c = eps' - j*eps'' where eps''=sigma/omega,div J = -d_rho_v/dt,(1/2)*eps*|E|^2,3,0.45
+Which best describes the transformer emf?,eps_c = eps' - j*eps'' where eps''=sigma/omega,"(1/2)*Re(E×H*), time-average power density","emf = integral (v×B)·dl, from conductor motion in static B","emf = -d/dt(integral B·dS), from time-varying B",4,0.45
+Which best describes the motional emf?,"(1/2)*Re(E×H*), time-average power density",replaces d/dt with j*omega in the time-harmonic case,"emf = integral (v×B)·dl, from conductor motion in static B",div D = rho_v,3,0.45
+Which best describes the total emf in Faraday's law?,replaces d/dt with j*omega in the time-harmonic case,(1/2)*eps*|E|^2,div D = rho_v,sum of transformer and motional emf,4,0.45
+Which best describes the significance of div B = 0?,(1/2)*eps*|E|^2,magnetic monopoles do not exist,div D = rho_v,sum of transformer and motional emf,2,0.45
+Which best describes the phasor form of Maxwell's equations?,(1/2)*eps*|E|^2,"(1/2)*Re(E×H*), time-average power density",replaces d/dt with j*omega in the time-harmonic case,sigma/(omega*eps'),3,0.45
+Which best describes the complex permittivity?,"emf = integral (v×B)·dl, from conductor motion in static B",magnetic monopoles do not exist,eps_c = eps' - j*eps'' where eps''=sigma/omega,(1/2)*eps*|E|^2,3,0.45
+Which best describes the loss tangent tan_delta?,magnetic monopoles do not exist,sigma/(omega*eps'),"emf = -d/dt(integral B·dS), from time-varying B","(1/2)*Re(E×H*), time-average power density",2,0.45
+Which best describes the Poynting vector P?,sum of transformer and motional emf,magnetic monopoles do not exist,"E×H, instantaneous power density in W/m^2",replaces d/dt with j*omega in the time-harmonic case,3,0.45
+Which best describes the time-average Poynting vector?,"emf = integral (v×B)·dl, from conductor motion in static B",(1/2)*eps*|E|^2,magnetic monopoles do not exist,"(1/2)*Re(E×H*), time-average power density",4,0.45
+Which best describes the instantaneous stored energy density in E?,div D = rho_v,"emf = -d/dt(integral B·dS), from time-varying B",curl H = J + dD/dt,(1/2)*eps*|E|^2,4,0.45
+"In electromagnetics, Faraday's law (differential form) refers to?",div B = 0,"(1/2)*Re(E×H*), time-average power density",replaces d/dt with j*omega in the time-harmonic case,curl E = -dB/dt,4,0.45
+"In electromagnetics, Ampere's law with displacement current refers to?",(1/2)*eps*|E|^2,"(1/2)*Re(E×H*), time-average power density",replaces d/dt with j*omega in the time-harmonic case,curl H = J + dD/dt,4,0.45
+"In electromagnetics, Gauss's law for electric fields refers to?",eps_c = eps' - j*eps'' where eps''=sigma/omega,div D = rho_v,sum of transformer and motional emf,curl H = J + dD/dt,2,0.45
+"In electromagnetics, Gauss's law for magnetic fields refers to?",div B = 0,(1/2)*eps*|E|^2,"E×H, instantaneous power density in W/m^2",eps_c = eps' - j*eps'' where eps''=sigma/omega,1,0.45
+"In electromagnetics, the displacement current density J_d refers to?","(1/2)*Re(E×H*), time-average power density","emf = -d/dt(integral B·dS), from time-varying B",dD/dt = eps*dE/dt,curl E = -dB/dt,3,0.45
+"In electromagnetics, the continuity equation (Maxwell form) refers to?","E×H, instantaneous power density in W/m^2",div J = -d_rho_v/dt,"emf = integral (v×B)·dl, from conductor motion in static B",(1/2)*eps*|E|^2,2,0.45
+"In electromagnetics, the transformer emf refers to?","emf = integral (v×B)·dl, from conductor motion in static B",div D = rho_v,"emf = -d/dt(integral B·dS), from time-varying B",dD/dt = eps*dE/dt,3,0.45
+"In electromagnetics, the motional emf refers to?",replaces d/dt with j*omega in the time-harmonic case,"emf = integral (v×B)·dl, from conductor motion in static B",dD/dt = eps*dE/dt,magnetic monopoles do not exist,2,0.45
+"In electromagnetics, the total emf in Faraday's law refers to?",curl E = -dB/dt,"(1/2)*Re(E×H*), time-average power density",sigma/(omega*eps'),sum of transformer and motional emf,4,0.45
+"In electromagnetics, the significance of div B = 0 refers to?",magnetic monopoles do not exist,"emf = -d/dt(integral B·dS), from time-varying B",curl E = -dB/dt,sum of transformer and motional emf,1,0.45
+"In electromagnetics, the phasor form of Maxwell's equations refers to?",replaces d/dt with j*omega in the time-harmonic case,div J = -d_rho_v/dt,curl H = J + dD/dt,"emf = -d/dt(integral B·dS), from time-varying B",1,0.45
+"In electromagnetics, the complex permittivity refers to?",eps_c = eps' - j*eps'' where eps''=sigma/omega,dD/dt = eps*dE/dt,"(1/2)*Re(E×H*), time-average power density",sum of transformer and motional emf,1,0.45
+"In electromagnetics, the loss tangent tan_delta refers to?",dD/dt = eps*dE/dt,magnetic monopoles do not exist,sigma/(omega*eps'),replaces d/dt with j*omega in the time-harmonic case,3,0.45
+"In electromagnetics, the Poynting vector P refers to?",sigma/(omega*eps'),sum of transformer and motional emf,"E×H, instantaneous power density in W/m^2",(1/2)*eps*|E|^2,3,0.45
+"In electromagnetics, the time-average Poynting vector refers to?","(1/2)*Re(E×H*), time-average power density","emf = integral (v×B)·dl, from conductor motion in static B",sum of transformer and motional emf,(1/2)*eps*|E|^2,1,0.45
+"In electromagnetics, the instantaneous stored energy density in E refers to?","emf = -d/dt(integral B·dS), from time-varying B",(1/2)*eps*|E|^2,eps_c = eps' - j*eps'' where eps''=sigma/omega,sigma/(omega*eps'),2,0.45
+How is Faraday's law (differential form) defined?,sum of transformer and motional emf,dD/dt = eps*dE/dt,curl E = -dB/dt,sigma/(omega*eps'),3,0.45
+How is Ampere's law with displacement current defined?,magnetic monopoles do not exist,curl H = J + dD/dt,"E×H, instantaneous power density in W/m^2","emf = integral (v×B)·dl, from conductor motion in static B",2,0.45
+What is a plane wave?,c = 3e8 m/s = 1/sqrt(mu0*eps0),imaginary part of propagation constant; field decays as e^(-alpha*z),orientation of the electric field vector,a wave for which E and H are uniform over infinite planes,4,0.5
+What is the wave equation for E?,"E, H, and propagation direction are mutually perpendicular",real part of propagation constant; beta = omega/v_p,imaginary part of propagation constant; field decays as e^(-alpha*z),nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,4,0.5
+What is the phase velocity v_p?,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,ratio of E to H amplitudes: eta = sqrt(mu/eps),"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",speed at which a phase front moves: v_p = 1/sqrt(mu*eps),4,0.5
+What is the speed of light in free space?,ratio of reflected to incident E amplitude at an interface,c = 3e8 m/s = 1/sqrt(mu0*eps0),"E, H, and propagation direction are mutually perpendicular",imaginary part of propagation constant; field decays as e^(-alpha*z),2,0.5
+What is the intrinsic impedance eta?,power balance: input power = stored energy rate + dissipated power,ratio of E to H amplitudes: eta = sqrt(mu/eps),E rotates with constant magnitude; left or right hand,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),2,0.5
+What is eta in free space?,c = 3e8 m/s = 1/sqrt(mu0*eps0),orientation of the electric field vector,approximately 377 Ohms,power balance: input power = stored energy rate + dissipated power,3,0.5
+What is the wavenumber k?,depth at which field amplitude falls to 1/e: delta = 1/alpha,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m","E, H, and propagation direction are mutually perpendicular",E rotates with constant magnitude; left or right hand,2,0.5
+What is the attenuation constant alpha?,approximately 377 Ohms,imaginary part of propagation constant; field decays as e^(-alpha*z),a wave for which E and H are uniform over infinite planes,orientation of the electric field vector,2,0.5
+What is the phase constant beta?,real part of propagation constant; beta = omega/v_p,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),ratio of E to H amplitudes: eta = sqrt(mu/eps),1,0.5
+What is the skin depth delta?,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",c = 3e8 m/s = 1/sqrt(mu0*eps0),"E, H, and propagation direction are mutually perpendicular",depth at which field amplitude falls to 1/e: delta = 1/alpha,4,0.5
+What is transverse electromagnetic (TEM) wave?,"E, H, and propagation direction are mutually perpendicular",ratio of reflected to incident E amplitude at an interface,real part of propagation constant; beta = omega/v_p,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,1,0.5
+What is the polarisation of a wave?,ratio of E to H amplitudes: eta = sqrt(mu/eps),orientation of the electric field vector,power balance: input power = stored energy rate + dissipated power,approximately 377 Ohms,2,0.5
+What is linear polarisation?,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",depth at which field amplitude falls to 1/e: delta = 1/alpha,imaginary part of propagation constant; field decays as e^(-alpha*z),E oscillates in a fixed plane along direction of propagation,4,0.5
+What is circular polarisation?,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",real part of propagation constant; beta = omega/v_p,E rotates with constant magnitude; left or right hand,4,0.5
+What is the Poynting theorem?,power balance: input power = stored energy rate + dissipated power,approximately 377 Ohms,E oscillates in a fixed plane along direction of propagation,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,1,0.5
+What is the reflection coefficient Gamma?,imaginary part of propagation constant; field decays as e^(-alpha*z),orientation of the electric field vector,ratio of reflected to incident E amplitude at an interface,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",3,0.5
+Which best describes a plane wave?,E rotates with constant magnitude; left or right hand,a wave for which E and H are uniform over infinite planes,real part of propagation constant; beta = omega/v_p,orientation of the electric field vector,2,0.5
+Which best describes the wave equation for E?,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),approximately 377 Ohms,real part of propagation constant; beta = omega/v_p,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,4,0.5
+Which best describes the phase velocity v_p?,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),ratio of E to H amplitudes: eta = sqrt(mu/eps),orientation of the electric field vector,E oscillates in a fixed plane along direction of propagation,1,0.5
+Which best describes the speed of light in free space?,a wave for which E and H are uniform over infinite planes,depth at which field amplitude falls to 1/e: delta = 1/alpha,c = 3e8 m/s = 1/sqrt(mu0*eps0),ratio of reflected to incident E amplitude at an interface,3,0.5
+Which best describes the intrinsic impedance eta?,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,orientation of the electric field vector,ratio of E to H amplitudes: eta = sqrt(mu/eps),imaginary part of propagation constant; field decays as e^(-alpha*z),3,0.5
+Which best describes eta in free space?,approximately 377 Ohms,power balance: input power = stored energy rate + dissipated power,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",real part of propagation constant; beta = omega/v_p,1,0.5
+Which best describes the wavenumber k?,E oscillates in a fixed plane along direction of propagation,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",orientation of the electric field vector,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),2,0.5
+Which best describes the attenuation constant alpha?,c = 3e8 m/s = 1/sqrt(mu0*eps0),ratio of reflected to incident E amplitude at an interface,imaginary part of propagation constant; field decays as e^(-alpha*z),E oscillates in a fixed plane along direction of propagation,3,0.5
+Which best describes the phase constant beta?,c = 3e8 m/s = 1/sqrt(mu0*eps0),ratio of reflected to incident E amplitude at an interface,real part of propagation constant; beta = omega/v_p,power balance: input power = stored energy rate + dissipated power,3,0.5
+Which best describes the skin depth delta?,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,depth at which field amplitude falls to 1/e: delta = 1/alpha,ratio of reflected to incident E amplitude at an interface,orientation of the electric field vector,2,0.5
+Which best describes transverse electromagnetic (TEM) wave?,real part of propagation constant; beta = omega/v_p,power balance: input power = stored energy rate + dissipated power,E rotates with constant magnitude; left or right hand,"E, H, and propagation direction are mutually perpendicular",4,0.5
+Which best describes the polarisation of a wave?,imaginary part of propagation constant; field decays as e^(-alpha*z),orientation of the electric field vector,depth at which field amplitude falls to 1/e: delta = 1/alpha,approximately 377 Ohms,2,0.5
+Which best describes linear polarisation?,E rotates with constant magnitude; left or right hand,real part of propagation constant; beta = omega/v_p,E oscillates in a fixed plane along direction of propagation,ratio of E to H amplitudes: eta = sqrt(mu/eps),3,0.5
+Which best describes circular polarisation?,real part of propagation constant; beta = omega/v_p,E rotates with constant magnitude; left or right hand,a wave for which E and H are uniform over infinite planes,E oscillates in a fixed plane along direction of propagation,2,0.5
+Which best describes the Poynting theorem?,approximately 377 Ohms,power balance: input power = stored energy rate + dissipated power,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",real part of propagation constant; beta = omega/v_p,2,0.5
+Which best describes the reflection coefficient Gamma?,orientation of the electric field vector,ratio of reflected to incident E amplitude at an interface,imaginary part of propagation constant; field decays as e^(-alpha*z),real part of propagation constant; beta = omega/v_p,2,0.5
+"In electromagnetics, a plane wave refers to?",nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,a wave for which E and H are uniform over infinite planes,orientation of the electric field vector,ratio of E to H amplitudes: eta = sqrt(mu/eps),2,0.5
+"In electromagnetics, the wave equation for E refers to?","E, H, and propagation direction are mutually perpendicular","k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,ratio of reflected to incident E amplitude at an interface,3,0.5
+"In electromagnetics, the phase velocity v_p refers to?",real part of propagation constant; beta = omega/v_p,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),ratio of E to H amplitudes: eta = sqrt(mu/eps),approximately 377 Ohms,2,0.5
+"In electromagnetics, the speed of light in free space refers to?",c = 3e8 m/s = 1/sqrt(mu0*eps0),real part of propagation constant; beta = omega/v_p,imaginary part of propagation constant; field decays as e^(-alpha*z),ratio of E to H amplitudes: eta = sqrt(mu/eps),1,0.5
+"In electromagnetics, the intrinsic impedance eta refers to?",imaginary part of propagation constant; field decays as e^(-alpha*z),ratio of E to H amplitudes: eta = sqrt(mu/eps),"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",power balance: input power = stored energy rate + dissipated power,2,0.5
+"In electromagnetics, eta in free space refers to?",speed at which a phase front moves: v_p = 1/sqrt(mu*eps),ratio of reflected to incident E amplitude at an interface,approximately 377 Ohms,"E, H, and propagation direction are mutually perpendicular",3,0.5
+"In electromagnetics, the wavenumber k refers to?",c = 3e8 m/s = 1/sqrt(mu0*eps0),"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",E rotates with constant magnitude; left or right hand,depth at which field amplitude falls to 1/e: delta = 1/alpha,2,0.5
+"In electromagnetics, the attenuation constant alpha refers to?",E rotates with constant magnitude; left or right hand,imaginary part of propagation constant; field decays as e^(-alpha*z),E oscillates in a fixed plane along direction of propagation,speed at which a phase front moves: v_p = 1/sqrt(mu*eps),2,0.5
+"In electromagnetics, the phase constant beta refers to?",real part of propagation constant; beta = omega/v_p,imaginary part of propagation constant; field decays as e^(-alpha*z),"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",speed at which a phase front moves: v_p = 1/sqrt(mu*eps),1,0.5
+"In electromagnetics, the skin depth delta refers to?",E rotates with constant magnitude; left or right hand,depth at which field amplitude falls to 1/e: delta = 1/alpha,ratio of E to H amplitudes: eta = sqrt(mu/eps),imaginary part of propagation constant; field decays as e^(-alpha*z),2,0.5
+"In electromagnetics, transverse electromagnetic (TEM) wave refers to?",E oscillates in a fixed plane along direction of propagation,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,"E, H, and propagation direction are mutually perpendicular","k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",3,0.5
+"In electromagnetics, the polarisation of a wave refers to?",imaginary part of propagation constant; field decays as e^(-alpha*z),ratio of E to H amplitudes: eta = sqrt(mu/eps),power balance: input power = stored energy rate + dissipated power,orientation of the electric field vector,4,0.5
+"In electromagnetics, linear polarisation refers to?",power balance: input power = stored energy rate + dissipated power,E oscillates in a fixed plane along direction of propagation,ratio of E to H amplitudes: eta = sqrt(mu/eps),approximately 377 Ohms,2,0.5
+"In electromagnetics, circular polarisation refers to?",approximately 377 Ohms,E rotates with constant magnitude; left or right hand,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,"k = omega*sqrt(mu*eps) = 2*pi/lambda, in rad/m",2,0.5
+"In electromagnetics, the Poynting theorem refers to?",power balance: input power = stored energy rate + dissipated power,E oscillates in a fixed plane along direction of propagation,approximately 377 Ohms,ratio of E to H amplitudes: eta = sqrt(mu/eps),1,0.5
+"In electromagnetics, the reflection coefficient Gamma refers to?",imaginary part of propagation constant; field decays as e^(-alpha*z),orientation of the electric field vector,E oscillates in a fixed plane along direction of propagation,ratio of reflected to incident E amplitude at an interface,4,0.5
+How is a plane wave defined?,a wave for which E and H are uniform over infinite planes,c = 3e8 m/s = 1/sqrt(mu0*eps0),orientation of the electric field vector,real part of propagation constant; beta = omega/v_p,1,0.5
+How is the wave equation for E defined?,imaginary part of propagation constant; field decays as e^(-alpha*z),orientation of the electric field vector,nabla^2 E = mu*eps*d^2E/dt^2 in lossless medium,"E, H, and propagation direction are mutually perpendicular",3,0.5
+Evaluate: lambda in free space at f=1 GHz,0.1 m,0.6 m,0.2 m,0.3 m,4,0.55
+Evaluate: lambda in free space at f=100 MHz,3 m,30 m,-3 m,1 m,1,0.55
+Evaluate: v_p in free space,3e8 m/s,9.000e+08 m/s,1.500e+08 m/s,7.500e+07 m/s,1,0.55
+Evaluate: eta in free space,126 Ohms,1.131e+03 Ohms,754 Ohms,377 Ohms,4,0.55
+Evaluate: eta in medium eps_r=4,565.5 Ohms,754.0 Ohms,188.5 Ohms,62.8 Ohms,3,0.55
+Evaluate: v_p in medium eps_r=4,3.750e+07 m/s,1.125e+08 m/s,1.5e8 m/s,1.500e+09 m/s,3,0.55
+Evaluate: k for f=1 GHz in free space,20.94 rad/m,2.09 rad/m,83.76 rad/m,15.71 rad/m,1,0.55
+Evaluate: skin depth for copper at 1 MHz sigma=5.8e7,50 um,66 um,264 um,198 um,2,0.55
+Evaluate: skin depth for copper at 100 MHz,2.2 um,26.4 um,0.7 um,6.6 um,4,0.55
+Evaluate: attenuation in dB after one skin depth,6.514 dB,86.860 dB,2.171 dB,8.686 dB,4,0.55
+Evaluate: reflection coeff Gamma for normal incidence eta1=377 eta2=188.5,0.333,0.666,3.330,-0.333,1,0.55
+Evaluate: transmission coeff tau = 1+Gamma for above,0.666,1.333,1.999,2.666,2,0.55
+Evaluate: reflected power fraction |Gamma|^2 for above,0.083,0.111,0.028,-0.111,2,0.55
+Evaluate: transmitted power fraction 1-|Gamma|^2,0.889,0.089,0.445,0.296,1,0.55
+Evaluate: H amplitude for E=100 V/m in free space,0.265 A/m,0.199 A/m,0.398 A/m,0.133 A/m,1,0.55
+Evaluate: power density S for E=100 V/m in free space,39.9 W/m^2,20.0 W/m^2,26.6 W/m^2,13.3 W/m^2,4,0.55
+Evaluate: wavelength in medium eps_r=9,lambda_0/3_a,lambda_0/3,lambda_0/3_b,lambda_0/3_c,2,0.55
+Evaluate: loss tangent for eps_r=4 sigma=0.01 at 1 GHz,4.500e-04,0.0015,0.0135,0.0045,4,0.55
+Evaluate: alpha in good conductor: proportional to,sqrt(f),sqrt(f)_c,sqrt(f)_b,sqrt(f)_a,1,0.55
+Evaluate: frequency for lambda=1m in free space,100 MHz,300 MHz,30 MHz,450 MHz,2,0.55
+Evaluate: E magnitude ratio after travelling 2 skin depths,e^(-2) ≈ 0.135_a,e^(-2) ≈ 0.135_c,e^(-2) ≈ 0.135,e^(-2) ≈ 0.135_b,3,0.55
+Evaluate: standing wave ratio SWR for Gamma=0.5,0,4,3,1,3,0.55
+What is the result of lambda in free space at f=1 GHz?,3.0 m,0.3 m,0.0 m,1.2 m,2,0.55
+What is the result of lambda in free space at f=100 MHz?,30 m,3 m,4 m,2 m,2,0.55
+What is the result of v_p in free space?,9.000e+08 m/s,1.200e+09 m/s,3e8 m/s,3.000e+09 m/s,3,0.55
+What is the result of eta in free space?,188 Ohms,566 Ohms,1.508e+03 Ohms,377 Ohms,4,0.55
+What is the result of eta in medium eps_r=4?,188.5 Ohms,1.885e+03 Ohms,282.8 Ohms,754.0 Ohms,1,0.55
+What is the result of v_p in medium eps_r=4?,1.5e8 m/s,5.000e+07 m/s,1.125e+08 m/s,4.500e+08 m/s,1,0.55
+What is the result of k for f=1 GHz in free space?,5.24 rad/m,20.94 rad/m,41.88 rad/m,-20.94 rad/m,2,0.55
+What is the result of skin depth for copper at 1 MHz sigma=5.8e7?,33 um,264 um,7 um,66 um,4,0.55
+What is the result of skin depth for copper at 100 MHz?,6.6 um,9.9 um,0.7 um,-6.6 um,1,0.55
+What is the result of attenuation in dB after one skin depth?,26.058 dB,2.171 dB,6.514 dB,8.686 dB,4,0.55
+What is the result of reflection coeff Gamma for normal incidence eta1=377 eta2=188.5?,0.333,0.999,0.250,-0.333,1,0.55
+What is the result of transmission coeff tau = 1+Gamma for above?,1.333,2.666,0.133,-1.333,1,0.55
+What is the result of reflected power fraction |Gamma|^2 for above?,0.111,-0.111,1.110,0.037,1,0.55
+What is the result of transmitted power fraction 1-|Gamma|^2?,0.445,-0.889,0.889,1.333,3,0.55
+What is the result of H amplitude for E=100 V/m in free space?,0.199 A/m,0.088 A/m,0.265 A/m,-0.265 A/m,3,0.55
+What is the result of power density S for E=100 V/m in free space?,13.3 W/m^2,6.7 W/m^2,1.3 W/m^2,20.0 W/m^2,1,0.55
+What is the result of wavelength in medium eps_r=9?,lambda_0/3_a,lambda_0/3_b,lambda_0/3,lambda_0/3_c,3,0.55
+What is the result of loss tangent for eps_r=4 sigma=0.01 at 1 GHz?,0.0011,0.0090,0.0015,0.0045,4,0.55
+What is the result of alpha in good conductor: proportional to?,sqrt(f),sqrt(f)_a,sqrt(f)_b,sqrt(f)_c,1,0.55
+What is the result of frequency for lambda=1m in free space?,30 MHz,300 MHz,1.200e+03 MHz,75 MHz,2,0.55
+What is the result of E magnitude ratio after travelling 2 skin depths?,e^(-2) ≈ 0.135_b,e^(-2) ≈ 0.135_a,e^(-2) ≈ 0.135,e^(-2) ≈ 0.135_c,3,0.55
+What is the result of standing wave ratio SWR for Gamma=0.5?,9,2,approx 3*2,3,4,0.55
+Calculate: lambda in free space at f=1 GHz,0.0 m,0.2 m,0.3 m,0.1 m,3,0.55
+Calculate: lambda in free space at f=100 MHz,30 m,12 m,3 m,-3 m,3,0.55
+Calculate: v_p in free space,2.250e+08 m/s,3e8 m/s,1.200e+09 m/s,4.500e+08 m/s,2,0.55
+Calculate: eta in free space,94 Ohms,-377 Ohms,377 Ohms,1.131e+03 Ohms,3,0.55
+Calculate: eta in medium eps_r=4,377.0 Ohms,754.0 Ohms,565.5 Ohms,188.5 Ohms,4,0.55
+Calculate: v_p in medium eps_r=4,7.500e+07 m/s,4.500e+08 m/s,1.500e+07 m/s,1.5e8 m/s,4,0.55
+What is a transmission line?,Gamma_L = (Z_L - Z0)/(Z_L + Z0),graphical tool for transmission line and impedance matching calculations,space-time diagram showing successive wave reflections on a line,a two-conductor system guiding EM waves between two points,4,0.6
+What is the characteristic impedance Z0?,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),voltage/current waves that propagate and reflect,sqrt(L_prime/C_prime),sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,4,0.6
+What is Z0 of a lossless line?,space-time diagram showing successive wave reflections on a line,graphical tool for transmission line and impedance matching calculations,sqrt(L_prime/C_prime),Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),3,0.6
+What is the propagation constant gamma?,"Z_L = Z0, giving Gamma_L = 0 and no reflections",sqrt((R+j*omega*L)*(G+j*omega*C)),"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",graphical tool for transmission line and impedance matching calculations,2,0.6
+What is a lossless transmission line?,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),one with R=0 and G=0,SWR = (1+|Gamma|)/(1-|Gamma|),transforms Z_L to Z0^2/Z_L,2,0.6
+What is the voltage reflection coefficient at load?,a two-conductor system guiding EM waves between two points,Gamma_L = (Z_L - Z0)/(Z_L + Z0),Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),graphical tool for transmission line and impedance matching calculations,2,0.6
+What is a matched load condition?,one with R=0 and G=0,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,"Z_L = Z0, giving Gamma_L = 0 and no reflections",sqrt(L_prime/C_prime),3,0.6
+What is a short-circuit termination?,"Z_L = infinity, Gamma_L = +1, total reflection in phase","Z_L = 0, Gamma_L = -1, total reflection with phase reversal",sqrt(L_prime/C_prime),SWR = (1+|Gamma|)/(1-|Gamma|),2,0.6
+What is an open-circuit termination?,sqrt(L_prime/C_prime),sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,"Z_L = infinity, Gamma_L = +1, total reflection in phase",graphical tool for transmission line and impedance matching calculations,3,0.6
+What is the standing wave ratio (SWR)?,space-time diagram showing successive wave reflections on a line,"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,SWR = (1+|Gamma|)/(1-|Gamma|),4,0.6
+What is the input impedance of a lossless line length l?,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),input impedance equals load impedance Z_L,space-time diagram showing successive wave reflections on a line,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,1,0.6
+What is a quarter-wave transformer (lambda/4 line)?,transforms Z_L to Z0^2/Z_L,sqrt((R+j*omega*L)*(G+j*omega*C)),sqrt(L_prime/C_prime),input impedance equals load impedance Z_L,1,0.6
+What is a half-wave line (lambda/2)?,"Z_L = Z0, giving Gamma_L = 0 and no reflections","Z_L = 0, Gamma_L = -1, total reflection with phase reversal",input impedance equals load impedance Z_L,"Z_L = infinity, Gamma_L = +1, total reflection in phase",3,0.6
+What is the Smith chart?,SWR = (1+|Gamma|)/(1-|Gamma|),graphical tool for transmission line and impedance matching calculations,sqrt(L_prime/C_prime),transforms Z_L to Z0^2/Z_L,2,0.6
+What is transient response on a transmission line?,voltage/current waves that propagate and reflect,input impedance equals load impedance Z_L,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),graphical tool for transmission line and impedance matching calculations,1,0.6
+What is the bounce diagram?,sqrt((R+j*omega*L)*(G+j*omega*C)),"Z_L = infinity, Gamma_L = +1, total reflection in phase",space-time diagram showing successive wave reflections on a line,a two-conductor system guiding EM waves between two points,3,0.6
+Which best describes a transmission line?,"Z_L = Z0, giving Gamma_L = 0 and no reflections",a two-conductor system guiding EM waves between two points,graphical tool for transmission line and impedance matching calculations,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),2,0.6
+Which best describes the characteristic impedance Z0?,a two-conductor system guiding EM waves between two points,Gamma_L = (Z_L - Z0)/(Z_L + Z0),one with R=0 and G=0,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,4,0.6
+Which best describes Z0 of a lossless line?,sqrt((R+j*omega*L)*(G+j*omega*C)),"Z_L = infinity, Gamma_L = +1, total reflection in phase",voltage/current waves that propagate and reflect,sqrt(L_prime/C_prime),4,0.6
+Which best describes the propagation constant gamma?,sqrt((R+j*omega*L)*(G+j*omega*C)),"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",Gamma_L = (Z_L - Z0)/(Z_L + Z0),one with R=0 and G=0,1,0.6
+Which best describes a lossless transmission line?,a two-conductor system guiding EM waves between two points,input impedance equals load impedance Z_L,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,one with R=0 and G=0,4,0.6
+Which best describes the voltage reflection coefficient at load?,sqrt(L_prime/C_prime),Gamma_L = (Z_L - Z0)/(Z_L + Z0),graphical tool for transmission line and impedance matching calculations,a two-conductor system guiding EM waves between two points,2,0.6
+Which best describes a matched load condition?,"Z_L = Z0, giving Gamma_L = 0 and no reflections",sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,sqrt((R+j*omega*L)*(G+j*omega*C)),input impedance equals load impedance Z_L,1,0.6
+Which best describes a short-circuit termination?,"Z_L = Z0, giving Gamma_L = 0 and no reflections",input impedance equals load impedance Z_L,"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",sqrt((R+j*omega*L)*(G+j*omega*C)),3,0.6
+Which best describes an open-circuit termination?,"Z_L = infinity, Gamma_L = +1, total reflection in phase",sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,sqrt((R+j*omega*L)*(G+j*omega*C)),Gamma_L = (Z_L - Z0)/(Z_L + Z0),1,0.6
+Which best describes the standing wave ratio (SWR)?,sqrt((R+j*omega*L)*(G+j*omega*C)),"Z_L = Z0, giving Gamma_L = 0 and no reflections",SWR = (1+|Gamma|)/(1-|Gamma|),voltage/current waves that propagate and reflect,3,0.6
+Which best describes the input impedance of a lossless line length l?,SWR = (1+|Gamma|)/(1-|Gamma|),"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),a two-conductor system guiding EM waves between two points,3,0.6
+Which best describes a quarter-wave transformer (lambda/4 line)?,transforms Z_L to Z0^2/Z_L,SWR = (1+|Gamma|)/(1-|Gamma|),"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",space-time diagram showing successive wave reflections on a line,1,0.6
+Which best describes a half-wave line (lambda/2)?,input impedance equals load impedance Z_L,transforms Z_L to Z0^2/Z_L,"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",sqrt(L_prime/C_prime),1,0.6
+Which best describes the Smith chart?,Gamma_L = (Z_L - Z0)/(Z_L + Z0),sqrt((R+j*omega*L)*(G+j*omega*C)),graphical tool for transmission line and impedance matching calculations,one with R=0 and G=0,3,0.6
+Which best describes transient response on a transmission line?,voltage/current waves that propagate and reflect,sqrt(L_prime/C_prime),one with R=0 and G=0,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,1,0.6
+Which best describes the bounce diagram?,input impedance equals load impedance Z_L,space-time diagram showing successive wave reflections on a line,Gamma_L = (Z_L - Z0)/(Z_L + Z0),sqrt(L_prime/C_prime),2,0.6
+"In electromagnetics, a transmission line refers to?",transforms Z_L to Z0^2/Z_L,a two-conductor system guiding EM waves between two points,space-time diagram showing successive wave reflections on a line,graphical tool for transmission line and impedance matching calculations,2,0.6
+"In electromagnetics, the characteristic impedance Z0 refers to?","Z_L = 0, Gamma_L = -1, total reflection with phase reversal",sqrt(L_prime/C_prime),sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,SWR = (1+|Gamma|)/(1-|Gamma|),3,0.6
+"In electromagnetics, Z0 of a lossless line refers to?",Gamma_L = (Z_L - Z0)/(Z_L + Z0),voltage/current waves that propagate and reflect,"Z_L = infinity, Gamma_L = +1, total reflection in phase",sqrt(L_prime/C_prime),4,0.6
+"In electromagnetics, the propagation constant gamma refers to?",sqrt((R+j*omega*L)*(G+j*omega*C)),voltage/current waves that propagate and reflect,one with R=0 and G=0,input impedance equals load impedance Z_L,1,0.6
+"In electromagnetics, a lossless transmission line refers to?",space-time diagram showing successive wave reflections on a line,one with R=0 and G=0,sqrt((R+j*omega*L)*(G+j*omega*C)),Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),2,0.6
+"In electromagnetics, the voltage reflection coefficient at load refers to?","Z_L = 0, Gamma_L = -1, total reflection with phase reversal",Gamma_L = (Z_L - Z0)/(Z_L + Z0),a two-conductor system guiding EM waves between two points,voltage/current waves that propagate and reflect,2,0.6
+"In electromagnetics, a matched load condition refers to?","Z_L = 0, Gamma_L = -1, total reflection with phase reversal","Z_L = Z0, giving Gamma_L = 0 and no reflections",SWR = (1+|Gamma|)/(1-|Gamma|),space-time diagram showing successive wave reflections on a line,2,0.6
+"In electromagnetics, a short-circuit termination refers to?","Z_L = infinity, Gamma_L = +1, total reflection in phase",sqrt((R+j*omega*L)*(G+j*omega*C)),space-time diagram showing successive wave reflections on a line,"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",4,0.6
+"In electromagnetics, an open-circuit termination refers to?",space-time diagram showing successive wave reflections on a line,"Z_L = Z0, giving Gamma_L = 0 and no reflections","Z_L = infinity, Gamma_L = +1, total reflection in phase",input impedance equals load impedance Z_L,3,0.6
+"In electromagnetics, the standing wave ratio (SWR) refers to?",sqrt((R+j*omega*L)*(G+j*omega*C)),one with R=0 and G=0,transforms Z_L to Z0^2/Z_L,SWR = (1+|Gamma|)/(1-|Gamma|),4,0.6
+"In electromagnetics, the input impedance of a lossless line length l refers to?",transforms Z_L to Z0^2/Z_L,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),one with R=0 and G=0,sqrt(L_prime/C_prime),2,0.6
+"In electromagnetics, a quarter-wave transformer (lambda/4 line) refers to?",transforms Z_L to Z0^2/Z_L,graphical tool for transmission line and impedance matching calculations,space-time diagram showing successive wave reflections on a line,"Z_L = 0, Gamma_L = -1, total reflection with phase reversal",1,0.6
+"In electromagnetics, a half-wave line (lambda/2) refers to?",sqrt(L_prime/C_prime),input impedance equals load impedance Z_L,graphical tool for transmission line and impedance matching calculations,Gamma_L = (Z_L - Z0)/(Z_L + Z0),2,0.6
+"In electromagnetics, the Smith chart refers to?",graphical tool for transmission line and impedance matching calculations,voltage/current waves that propagate and reflect,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,1,0.6
+"In electromagnetics, transient response on a transmission line refers to?",a two-conductor system guiding EM waves between two points,voltage/current waves that propagate and reflect,"Z_L = infinity, Gamma_L = +1, total reflection in phase",one with R=0 and G=0,2,0.6
+"In electromagnetics, the bounce diagram refers to?",input impedance equals load impedance Z_L,space-time diagram showing successive wave reflections on a line,sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),2,0.6
+How is a transmission line defined?,transforms Z_L to Z0^2/Z_L,SWR = (1+|Gamma|)/(1-|Gamma|),"Z_L = Z0, giving Gamma_L = 0 and no reflections",a two-conductor system guiding EM waves between two points,4,0.6
+How is the characteristic impedance Z0 defined?,Z0*(Z_L + j*Z0*tan(beta*l))/(Z0 + j*Z_L*tan(beta*l)),"Z_L = infinity, Gamma_L = +1, total reflection in phase","Z_L = Z0, giving Gamma_L = 0 and no reflections",sqrt((R+j*omega*L)/(G+j*omega*C)) per unit length,4,0.6
+Evaluate: Z0 for L'=250 nH/m C'=100 pF/m lossless line,50 Ohm,75 Ohm,150 Ohm,17 Ohm,1,0.65
+Evaluate: v_p for L'=250 nH/m C'=100 pF/m,2.000e+09 m/s,2e8 m/s,6.667e+07 m/s,6.000e+08 m/s,2,0.65
+Evaluate: Gamma_L for Z_L=100 Z0=50,0.500,1.332,0.333,0.111,3,0.65
+Evaluate: Gamma_L for Z_L=0 (short),minus 1_c,minus 1_a,minus 1,minus 1_b,3,0.65
+Evaluate: Gamma_L for Z_L=inf (open),plus 1_b,plus 1,plus 1_a,plus 1_c,2,0.65
+Evaluate: SWR for Gamma=0.5,30,-3,9,3,4,0.65
+Evaluate: SWR for matched load,4,3,1,-1,3,0.65
+Evaluate: SWR for short or open termination,infinity_b,infinity_c,infinity,infinity_a,3,0.65
+Evaluate: input impedance of lambda/4 line Z0=50 Z_L=100,2 Ohm,100 Ohm,25 Ohm,12 Ohm,3,0.65
+Evaluate: input impedance of lambda/4 line Z0=50 Z_L=25,1.000e+03 Ohm,50 Ohm,25 Ohm,100 Ohm,4,0.65
+Evaluate: input Z of lambda/2 line with Z_L=75 Ohm,8 Ohm,75 Ohm,150 Ohm,56 Ohm,2,0.65
+Evaluate: Z0 of quarter-wave transformer matching 50 to 200,300 Ohm,100 Ohm,75 Ohm,10 Ohm,2,0.65
+Evaluate: beta*l for lambda/4 line,pi/2 radians_a,pi/2 radians_b,pi/2 radians_c,pi/2 radians,4,0.65
+Evaluate: reflected power % for SWR=3,25%,50 %,250 %,2 %,1,0.65
+Evaluate: VSWR for |Gamma|=0.333,0,1,2,6,3,0.65
+Evaluate: input Z of short-circuited stub length lambda/8,j*Z0_b,j*Z0_c,j*Z0_a,j*Z0,4,0.65
+Evaluate: input Z of open-circuited stub length lambda/8,-j*Z0_b,-j*Z0,-j*Z0_c,-j*Z0_a,2,0.65
+Evaluate: wavelength on line with eps_r=4 at 1 GHz,0.15 m,0.60 m,1.50 m,0.01 m,1,0.65
+Evaluate: time delay of lambda/4 line at 1 GHz v_p=2e8,3.750 ns,0.375 ns,1.125 ns,0.188 ns,2,0.65
+Evaluate: power delivered for V+=10V Z0=50 lossless matched,approx 1 W*2,0 W,1 W,4 W,3,0.65
+Evaluate: Gamma for Z_L=50+j50 Z0=50,j/(2+j) = 0.316 at 71.6 deg_a,j/(2+j) = 0.316 at 71.6 deg,j/(2+j) = 0.316 at 71.6 deg_b,j/(2+j) = 0.316 at 71.6 deg_c,2,0.65
+Evaluate: Z_in for purely imaginary Gamma=j on Smith chart,"reactive load, SWR=inf_c","reactive load, SWR=inf","reactive load, SWR=inf_a","reactive load, SWR=inf_b",2,0.65
+What is the result of Z0 for L'=250 nH/m C'=100 pF/m lossless line?,50 Ohm,200 Ohm,12 Ohm,150 Ohm,1,0.65
+What is the result of v_p for L'=250 nH/m C'=100 pF/m?,2e8 m/s,2.000e+07 m/s,-2.000e+08 m/s,2.000e+09 m/s,1,0.65
+What is the result of Gamma_L for Z_L=100 Z0=50?,1.332,0.666,0.500,0.333,4,0.65
+What is the result of Gamma_L for Z_L=0 (short)?,minus 1_c,minus 1_b,minus 1,minus 1_a,3,0.65
+What is the result of Gamma_L for Z_L=inf (open)?,plus 1,plus 1_c,plus 1_a,plus 1_b,1,0.65
+What is the result of SWR for Gamma=0.5?,3,-3,0,2,1,0.65
+What is the result of SWR for matched load?,1,3,4,10,1,0.65
+What is the result of SWR for short or open termination?,infinity_b,infinity_c,infinity_a,infinity,4,0.65
+What is the result of input impedance of lambda/4 line Z0=50 Z_L=100?,2 Ohm,250 Ohm,25 Ohm,-25 Ohm,3,0.65
+What is the result of input impedance of lambda/4 line Z0=50 Z_L=25?,50 Ohm,33 Ohm,100 Ohm,150 Ohm,3,0.65
+What is the result of input Z of lambda/2 line with Z_L=75 Ohm?,19 Ohm,25 Ohm,56 Ohm,75 Ohm,4,0.65
+What is the result of Z0 of quarter-wave transformer matching 50 to 200?,-100 Ohm,50 Ohm,25 Ohm,100 Ohm,4,0.65
+What is the result of beta*l for lambda/4 line?,pi/2 radians_a,pi/2 radians_b,pi/2 radians_c,pi/2 radians,4,0.65
+What is the result of reflected power % for SWR=3?,75 %,25%,38 %,8 %,2,0.65
+What is the result of VSWR for |Gamma|=0.333?,0,2,1,6,2,0.65
+What is the result of input Z of short-circuited stub length lambda/8?,j*Z0,j*Z0_b,j*Z0_a,j*Z0_c,1,0.65
+What is the result of input Z of open-circuited stub length lambda/8?,-j*Z0,-j*Z0_b,-j*Z0_a,-j*Z0_c,1,0.65
+What is the result of wavelength on line with eps_r=4 at 1 GHz?,0.45 m,0.05 m,0.15 m,0.30 m,3,0.65
+What is the result of time delay of lambda/4 line at 1 GHz v_p=2e8?,0.375 ns,0.094 ns,0.188 ns,3.750 ns,1,0.65
+What is the result of power delivered for V+=10V Z0=50 lossless matched?,10 W,2 W,1 W,0 W,3,0.65
+What is the result of Gamma for Z_L=50+j50 Z0=50?,j/(2+j) = 0.316 at 71.6 deg_b,j/(2+j) = 0.316 at 71.6 deg_a,j/(2+j) = 0.316 at 71.6 deg,j/(2+j) = 0.316 at 71.6 deg_c,3,0.65
+What is the result of Z_in for purely imaginary Gamma=j on Smith chart?,"reactive load, SWR=inf","reactive load, SWR=inf_b","reactive load, SWR=inf_a","reactive load, SWR=inf_c",1,0.65
+Calculate: Z0 for L'=250 nH/m C'=100 pF/m lossless line,25 Ohm,-50 Ohm,500 Ohm,50 Ohm,4,0.65
+Calculate: v_p for L'=250 nH/m C'=100 pF/m,5.000e+07 m/s,1.500e+08 m/s,4.000e+08 m/s,2e8 m/s,4,0.65
+Calculate: Gamma_L for Z_L=100 Z0=50,0.250,-0.333,0.167,0.333,4,0.65
+Calculate: Gamma_L for Z_L=0 (short),minus 1_a,minus 1_c,minus 1,minus 1_b,3,0.65
+Calculate: Gamma_L for Z_L=inf (open),plus 1_b,plus 1_c,plus 1,plus 1_a,3,0.65
+Calculate: SWR for Gamma=0.5,30,9,3,2,3,0.65
+What is a waveguide?,a hollow metallic structure that guides EM waves along its length,equals v^2 = c^2 in free-space-filled guide,v_g = v*sqrt(1-(f_c/f)^2); less than c,"a mode below cutoff; fields decay exponentially, no power transported",1,0.7
+What is transverse electric (TE) modes?,modes where E_z = 0; H_z ≠ 0,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),f_c = c/(2a),frequency below which a mode cannot propagate,1,0.7
+What is transverse magnetic (TM) modes?,eta_TM = eta*sqrt(1-(f_c/f)^2),"a mode below cutoff; fields decay exponentially, no power transported",modes where H_z = 0; E_z ≠ 0,a closed metallic enclosure supporting resonant EM modes,3,0.7
+What is TEM mode in a waveguide?,v_g = v*sqrt(1-(f_c/f)^2); less than c,not supported in a single-conductor waveguide,modes where E_z = 0; H_z ≠ 0,a hollow metallic structure that guides EM waves along its length,2,0.7
+What is the cutoff frequency f_c?,"a mode below cutoff; fields decay exponentially, no power transported",wavelength above which a mode is below cutoff,frequency below which a mode cannot propagate,v_g = v*sqrt(1-(f_c/f)^2); less than c,3,0.7
+What is the cutoff wavelength lambda_c?,eta_TM = eta*sqrt(1-(f_c/f)^2),"TE10 mode, lowest cutoff frequency",wavelength above which a mode is below cutoff,v_g = v*sqrt(1-(f_c/f)^2); less than c,3,0.7
+What is the dominant mode in a rectangular waveguide?,v_g = v*sqrt(1-(f_c/f)^2); less than c,"a mode below cutoff; fields decay exponentially, no power transported","TE10 mode, lowest cutoff frequency",eta_TM = eta*sqrt(1-(f_c/f)^2),3,0.7
+What is the guide wavelength lambda_g?,eta_TE = eta/sqrt(1-(f_c/f)^2),v_g = v*sqrt(1-(f_c/f)^2); less than c,"TE10 mode, lowest cutoff frequency","lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",4,0.7
+What is the phase velocity v_p in a waveguide?,a closed metallic enclosure supporting resonant EM modes,frequency below which a mode cannot propagate,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),wavelength above which a mode is below cutoff,3,0.7
+What is the group velocity v_g in a waveguide?,f_c = c/(2a),v_g = v*sqrt(1-(f_c/f)^2); less than c,eta_TM = eta*sqrt(1-(f_c/f)^2),modes where E_z = 0; H_z ≠ 0,2,0.7
+What is the product v_p * v_g in waveguide?,equals v^2 = c^2 in free-space-filled guide,wavelength above which a mode is below cutoff,not supported in a single-conductor waveguide,"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",1,0.7
+What is the TE10 cutoff frequency for width a?,f_c = c/(2a),eta_TM = eta*sqrt(1-(f_c/f)^2),equals v^2 = c^2 in free-space-filled guide,frequency below which a mode cannot propagate,1,0.7
+What is the wave impedance in a waveguide (TE)?,f_c = c/(2a),not supported in a single-conductor waveguide,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),eta_TE = eta/sqrt(1-(f_c/f)^2),4,0.7
+What is the wave impedance in a waveguide (TM)?,a closed metallic enclosure supporting resonant EM modes,eta_TE = eta/sqrt(1-(f_c/f)^2),eta_TM = eta*sqrt(1-(f_c/f)^2),wavelength above which a mode is below cutoff,3,0.7
+What is a cavity resonator?,f_c = c/(2a),"TE10 mode, lowest cutoff frequency",eta_TM = eta*sqrt(1-(f_c/f)^2),a closed metallic enclosure supporting resonant EM modes,4,0.7
+What is evanescent mode?,modes where H_z = 0; E_z ≠ 0,"a mode below cutoff; fields decay exponentially, no power transported","lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength","TE10 mode, lowest cutoff frequency",2,0.7
+Which best describes a waveguide?,a hollow metallic structure that guides EM waves along its length,"TE10 mode, lowest cutoff frequency",f_c = c/(2a),v_g = v*sqrt(1-(f_c/f)^2); less than c,1,0.7
+Which best describes transverse electric (TE) modes?,modes where E_z = 0; H_z ≠ 0,a closed metallic enclosure supporting resonant EM modes,wavelength above which a mode is below cutoff,equals v^2 = c^2 in free-space-filled guide,1,0.7
+Which best describes transverse magnetic (TM) modes?,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),eta_TE = eta/sqrt(1-(f_c/f)^2),modes where H_z = 0; E_z ≠ 0,"a mode below cutoff; fields decay exponentially, no power transported",3,0.7
+Which best describes TEM mode in a waveguide?,v_g = v*sqrt(1-(f_c/f)^2); less than c,modes where H_z = 0; E_z ≠ 0,not supported in a single-conductor waveguide,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),3,0.7
+Which best describes the cutoff frequency f_c?,eta_TE = eta/sqrt(1-(f_c/f)^2),not supported in a single-conductor waveguide,frequency below which a mode cannot propagate,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),3,0.7
+Which best describes the cutoff wavelength lambda_c?,v_g = v*sqrt(1-(f_c/f)^2); less than c,"TE10 mode, lowest cutoff frequency",wavelength above which a mode is below cutoff,modes where E_z = 0; H_z ≠ 0,3,0.7
+Which best describes the dominant mode in a rectangular waveguide?,wavelength above which a mode is below cutoff,frequency below which a mode cannot propagate,equals v^2 = c^2 in free-space-filled guide,"TE10 mode, lowest cutoff frequency",4,0.7
+Which best describes the guide wavelength lambda_g?,"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",frequency below which a mode cannot propagate,modes where E_z = 0; H_z ≠ 0,wavelength above which a mode is below cutoff,1,0.7
+Which best describes the phase velocity v_p in a waveguide?,a hollow metallic structure that guides EM waves along its length,eta_TM = eta*sqrt(1-(f_c/f)^2),greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",3,0.7
+Which best describes the group velocity v_g in a waveguide?,frequency below which a mode cannot propagate,a closed metallic enclosure supporting resonant EM modes,v_g = v*sqrt(1-(f_c/f)^2); less than c,a hollow metallic structure that guides EM waves along its length,3,0.7
+Which best describes the product v_p * v_g in waveguide?,a hollow metallic structure that guides EM waves along its length,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),equals v^2 = c^2 in free-space-filled guide,modes where E_z = 0; H_z ≠ 0,3,0.7
+Which best describes the TE10 cutoff frequency for width a?,f_c = c/(2a),"TE10 mode, lowest cutoff frequency",v_g = v*sqrt(1-(f_c/f)^2); less than c,"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",1,0.7
+Which best describes the wave impedance in a waveguide (TE)?,wavelength above which a mode is below cutoff,eta_TE = eta/sqrt(1-(f_c/f)^2),"a mode below cutoff; fields decay exponentially, no power transported",eta_TM = eta*sqrt(1-(f_c/f)^2),2,0.7
+Which best describes the wave impedance in a waveguide (TM)?,eta_TM = eta*sqrt(1-(f_c/f)^2),modes where H_z = 0; E_z ≠ 0,eta_TE = eta/sqrt(1-(f_c/f)^2),greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),1,0.7
+Which best describes a cavity resonator?,f_c = c/(2a),modes where H_z = 0; E_z ≠ 0,a closed metallic enclosure supporting resonant EM modes,eta_TM = eta*sqrt(1-(f_c/f)^2),3,0.7
+Which best describes evanescent mode?,"TE10 mode, lowest cutoff frequency","a mode below cutoff; fields decay exponentially, no power transported",a closed metallic enclosure supporting resonant EM modes,not supported in a single-conductor waveguide,2,0.7
+"In electromagnetics, a waveguide refers to?",f_c = c/(2a),a hollow metallic structure that guides EM waves along its length,eta_TE = eta/sqrt(1-(f_c/f)^2),greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),2,0.7
+"In electromagnetics, transverse electric (TE) modes refers to?",eta_TE = eta/sqrt(1-(f_c/f)^2),a closed metallic enclosure supporting resonant EM modes,not supported in a single-conductor waveguide,modes where E_z = 0; H_z ≠ 0,4,0.7
+"In electromagnetics, transverse magnetic (TM) modes refers to?",v_g = v*sqrt(1-(f_c/f)^2); less than c,f_c = c/(2a),modes where E_z = 0; H_z ≠ 0,modes where H_z = 0; E_z ≠ 0,4,0.7
+"In electromagnetics, TEM mode in a waveguide refers to?",equals v^2 = c^2 in free-space-filled guide,not supported in a single-conductor waveguide,v_g = v*sqrt(1-(f_c/f)^2); less than c,frequency below which a mode cannot propagate,2,0.7
+"In electromagnetics, the cutoff frequency f_c refers to?",f_c = c/(2a),v_g = v*sqrt(1-(f_c/f)^2); less than c,frequency below which a mode cannot propagate,modes where E_z = 0; H_z ≠ 0,3,0.7
+"In electromagnetics, the cutoff wavelength lambda_c refers to?",not supported in a single-conductor waveguide,eta_TM = eta*sqrt(1-(f_c/f)^2),wavelength above which a mode is below cutoff,a closed metallic enclosure supporting resonant EM modes,3,0.7
+"In electromagnetics, the dominant mode in a rectangular waveguide refers to?",equals v^2 = c^2 in free-space-filled guide,"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength","TE10 mode, lowest cutoff frequency",a hollow metallic structure that guides EM waves along its length,3,0.7
+"In electromagnetics, the guide wavelength lambda_g refers to?","a mode below cutoff; fields decay exponentially, no power transported","TE10 mode, lowest cutoff frequency",modes where H_z = 0; E_z ≠ 0,"lambda_g = lambda/sqrt(1-(f_c/f)^2), longer than free-space wavelength",4,0.7
+"In electromagnetics, the phase velocity v_p in a waveguide refers to?","TE10 mode, lowest cutoff frequency",frequency below which a mode cannot propagate,modes where E_z = 0; H_z ≠ 0,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),4,0.7
+"In electromagnetics, the group velocity v_g in a waveguide refers to?",frequency below which a mode cannot propagate,a closed metallic enclosure supporting resonant EM modes,v_g = v*sqrt(1-(f_c/f)^2); less than c,modes where H_z = 0; E_z ≠ 0,3,0.7
+"In electromagnetics, the product v_p * v_g in waveguide refers to?","TE10 mode, lowest cutoff frequency",f_c = c/(2a),equals v^2 = c^2 in free-space-filled guide,frequency below which a mode cannot propagate,3,0.7
+"In electromagnetics, the TE10 cutoff frequency for width a refers to?",eta_TE = eta/sqrt(1-(f_c/f)^2),a hollow metallic structure that guides EM waves along its length,modes where H_z = 0; E_z ≠ 0,f_c = c/(2a),4,0.7
+"In electromagnetics, the wave impedance in a waveguide (TE) refers to?",eta_TE = eta/sqrt(1-(f_c/f)^2),wavelength above which a mode is below cutoff,modes where E_z = 0; H_z ≠ 0,modes where H_z = 0; E_z ≠ 0,1,0.7
+"In electromagnetics, the wave impedance in a waveguide (TM) refers to?","TE10 mode, lowest cutoff frequency",a closed metallic enclosure supporting resonant EM modes,modes where E_z = 0; H_z ≠ 0,eta_TM = eta*sqrt(1-(f_c/f)^2),4,0.7
+"In electromagnetics, a cavity resonator refers to?",a closed metallic enclosure supporting resonant EM modes,v_g = v*sqrt(1-(f_c/f)^2); less than c,eta_TM = eta*sqrt(1-(f_c/f)^2),eta_TE = eta/sqrt(1-(f_c/f)^2),1,0.7
+"In electromagnetics, evanescent mode refers to?","a mode below cutoff; fields decay exponentially, no power transported",a hollow metallic structure that guides EM waves along its length,modes where E_z = 0; H_z ≠ 0,frequency below which a mode cannot propagate,1,0.7
+How is a waveguide defined?,modes where H_z = 0; E_z ≠ 0,a hollow metallic structure that guides EM waves along its length,greater than speed of light; v_p = v/sqrt(1-(f_c/f)^2),modes where E_z = 0; H_z ≠ 0,2,0.7
+How is transverse electric (TE) modes defined?,"a mode below cutoff; fields decay exponentially, no power transported",a hollow metallic structure that guides EM waves along its length,wavelength above which a mode is below cutoff,modes where E_z = 0; H_z ≠ 0,4,0.7
+Evaluate: TE10 cutoff frequency for a=2.286 cm (X-band),65.60 GHz,6.56 GHz,4.92 GHz,0.66 GHz,2,0.75
+Evaluate: TE10 cutoff for a=1 cm,150 GHz,-15 GHz,15 GHz,2 GHz,3,0.75
+Evaluate: TE20 cutoff for a=2.286 cm,39.3 GHz,13.1 GHz,131.0 GHz,-13.1 GHz,2,0.75
+Evaluate: lambda_g for f=10GHz a=2.286cm (TE10),0.99 cm,5.96 cm,3.97 cm,-3.97 cm,3,0.75
+Evaluate: v_p for f=10GHz a=2.286cm TE10,5.955e+10 cm/s > c,-3.970e+10 cm/s > c,7.940e+10 cm/s > c,3.97e10 cm/s > c,4,0.75
+Evaluate: v_g for same case,v_g = c^2/v_p < c_c,v_g = c^2/v_p < c,v_g = c^2/v_p < c_a,v_g = c^2/v_p < c_b,2,0.75
+Evaluate: wave impedance TE10 for f=10GHz a=2.286cm,1.988e+03 Ohm,166 Ohm,-497 Ohm,497 Ohm,4,0.75
+Evaluate: f_c of TM11 mode in a=b square guide,c*sqrt(2)/(2a)_c,c*sqrt(2)/(2a),c*sqrt(2)/(2a)_b,c*sqrt(2)/(2a)_a,2,0.75
+Evaluate: fields below cutoff: what happens,"exponential decay, no net power transport","exponential decay, no net power transport_c","exponential decay, no net power transport_b","exponential decay, no net power transport_a",1,0.75
+Evaluate: half-wavelength dipole radiation resistance,7 Ohm,730 Ohm,219 Ohm,73 Ohm,4,0.75
+Evaluate: half-wavelength dipole directivity,1.64 (2.15 dBi),3.28 (2.15 dBi),-1.64 (2.15 dBi),0.55 (2.15 dBi),1,0.75
+Evaluate: quarter-wave monopole radiation resistance,9.1 Ohm,36.5 Ohm,109.5 Ohm,18.2 Ohm,2,0.75
+Evaluate: isotropic antenna directivity,approx 1 (0 dBi)*2,3 (0 dBi),1 (0 dBi),0 (0 dBi),3,0.75
+Evaluate: Friis transmission: P_r/P_t for lambda=0.3m d=1km Gt=Gr=1,5.7e-9,8.550e-09,2.850e-09,2.280e-08,1,0.75
+Evaluate: antenna gain G = eta_rad * D: for eta=1 D=1.64,1.64,1.23,16.40,4.92,1,0.75
+Evaluate: EIRP definition,transmit power times antenna gain: P_t * G_t_a,transmit power times antenna gain: P_t * G_t_b,transmit power times antenna gain: P_t * G_t_c,transmit power times antenna gain: P_t * G_t,4,0.75
+Evaluate: beam solid angle Omega_A for isotropic,6 *pi steradians,4*pi steradians,1 *pi steradians,16 *pi steradians,2,0.75
+Evaluate: path loss at f=1GHz d=1km,46.2 dB,92.4 dB,277.2 dB,-92.4 dB,2,0.75
+Evaluate: effective aperture of isotropic antenna at lambda,lambda^2/(4*pi)_a,lambda^2/(4*pi)_b,lambda^2/(4*pi)_c,lambda^2/(4*pi),4,0.75
+Evaluate: antenna array factor for two isotropic elements,depends on spacing and phase_b,depends on spacing and phase,depends on spacing and phase_a,depends on spacing and phase_c,2,0.75
+Evaluate: broadside array main beam direction,perpendicular to array axis_b,perpendicular to array axis,perpendicular to array axis_a,perpendicular to array axis_c,2,0.75
+Evaluate: endfire array main beam direction,along the array axis_a,along the array axis,along the array axis_b,along the array axis_c,2,0.75
+What is the result of TE10 cutoff frequency for a=2.286 cm (X-band)?,2.19 GHz,6.56 GHz,19.68 GHz,4.92 GHz,2,0.75
+What is the result of TE10 cutoff for a=1 cm?,-15 GHz,8 GHz,15 GHz,150 GHz,3,0.75
+What is the result of TE20 cutoff for a=2.286 cm?,9.8 GHz,-13.1 GHz,13.1 GHz,4.4 GHz,3,0.75
+What is the result of lambda_g for f=10GHz a=2.286cm (TE10)?,3.97 cm,5.96 cm,11.91 cm,15.88 cm,1,0.75
+What is the result of v_p for f=10GHz a=2.286cm TE10?,1.191e+11 cm/s > c,9.925e+09 cm/s > c,5.955e+10 cm/s > c,3.97e10 cm/s > c,4,0.75
+What is the result of v_g for same case?,v_g = c^2/v_p < c_a,v_g = c^2/v_p < c_b,v_g = c^2/v_p < c_c,v_g = c^2/v_p < c,4,0.75
+What is the result of wave impedance TE10 for f=10GHz a=2.286cm?,4.970e+03 Ohm,373 Ohm,-497 Ohm,497 Ohm,4,0.75
+What is the result of f_c of TM11 mode in a=b square guide?,c*sqrt(2)/(2a)_c,c*sqrt(2)/(2a)_b,c*sqrt(2)/(2a),c*sqrt(2)/(2a)_a,3,0.75
+What is the result of fields below cutoff: what happens?,"exponential decay, no net power transport_a","exponential decay, no net power transport","exponential decay, no net power transport_b","exponential decay, no net power transport_c",2,0.75
+What is the result of half-wavelength dipole radiation resistance?,73 Ohm,18 Ohm,146 Ohm,730 Ohm,1,0.75
+What is the result of half-wavelength dipole directivity?,4.92 (2.15 dBi),1.64 (2.15 dBi),0.41 (2.15 dBi),3.28 (2.15 dBi),2,0.75
+What is the result of quarter-wave monopole radiation resistance?,18.2 Ohm,73.0 Ohm,146.0 Ohm,36.5 Ohm,4,0.75
+What is the result of isotropic antenna directivity?,10 (0 dBi),2 (0 dBi),0 (0 dBi),1 (0 dBi),4,0.75
+What is the result of Friis transmission: P_r/P_t for lambda=0.3m d=1km Gt=Gr=1?,4.275e-09,1.425e-09,8.550e-09,5.7e-9,4,0.75
+What is the result of antenna gain G = eta_rad * D: for eta=1 D=1.64?,1.64,1.23,6.56,0.16,1,0.75
+What is the result of EIRP definition?,transmit power times antenna gain: P_t * G_t_a,transmit power times antenna gain: P_t * G_t,transmit power times antenna gain: P_t * G_t_c,transmit power times antenna gain: P_t * G_t_b,2,0.75
+What is the result of beam solid angle Omega_A for isotropic?,3 *pi steradians,0 *pi steradians,12 *pi steradians,4*pi steradians,4,0.75
+What is the result of path loss at f=1GHz d=1km?,924.0 dB,-92.4 dB,369.6 dB,92.4 dB,4,0.75
+What is the result of effective aperture of isotropic antenna at lambda?,lambda^2/(4*pi)_c,lambda^2/(4*pi),lambda^2/(4*pi)_b,lambda^2/(4*pi)_a,2,0.75
+What is the result of antenna array factor for two isotropic elements?,depends on spacing and phase_c,depends on spacing and phase_a,depends on spacing and phase_b,depends on spacing and phase,4,0.75
+What is the result of broadside array main beam direction?,perpendicular to array axis,perpendicular to array axis_b,perpendicular to array axis_c,perpendicular to array axis_a,1,0.75
+What is the result of endfire array main beam direction?,along the array axis,along the array axis_c,along the array axis_a,along the array axis_b,1,0.75
+Calculate: TE10 cutoff frequency for a=2.286 cm (X-band),6.56 GHz,65.60 GHz,13.12 GHz,-6.56 GHz,1,0.75
+Calculate: TE10 cutoff for a=1 cm,15 GHz,-15 GHz,5 GHz,45 GHz,1,0.75
+Calculate: TE20 cutoff for a=2.286 cm,13.1 GHz,131.0 GHz,39.3 GHz,3.3 GHz,1,0.75
+Calculate: lambda_g for f=10GHz a=2.286cm (TE10),0.40 cm,3.97 cm,39.70 cm,11.91 cm,2,0.75
+Calculate: v_p for f=10GHz a=2.286cm TE10,9.925e+09 cm/s > c,1.323e+10 cm/s > c,3.97e10 cm/s > c,1.985e+10 cm/s > c,3,0.75
+Calculate: v_g for same case,v_g = c^2/v_p < c_b,v_g = c^2/v_p < c,v_g = c^2/v_p < c_c,v_g = c^2/v_p < c_a,2,0.75
+What is the radiation pattern of an antenna?,equivalent resistance dissipating power equal to radiated power,array of antennas with controllable phase shifts for beam steering,3D plot of radiated power as a function of direction,integral of normalised current distribution along antenna,3,0.8
+What is the main lobe?,same pattern in transmit and receive modes,radiation in directions other than the main beam,D*eta_rad where eta_rad is radiation efficiency,the region of maximum radiation in the pattern,4,0.8
+What is a side lobe?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,equivalent resistance dissipating power equal to radiated power,the region of maximum radiation in the pattern,radiation in directions other than the main beam,4,0.8
+What is the half-power beamwidth (HPBW)?,D*eta_rad where eta_rad is radiation efficiency,angular width between 3dB points of the main lobe,radiation in directions other than the main beam,array of antennas with controllable phase shifts for beam steering,2,0.8
+What is antenna directivity D?,the region of maximum radiation in the pattern,integral of normalised current distribution along antenna,ratio of maximum radiation intensity to average over all angles,angular width between 3dB points of the main lobe,3,0.8
+What is antenna gain G?,D*eta_rad where eta_rad is radiation efficiency,radiation in directions other than the main beam,antenna using a physical opening (aperture) to radiate,"region where r >> lambda and fields are TEM, decaying as 1/r",1,0.8
+What is the radiation resistance R_rad?,equivalent resistance dissipating power equal to radiated power,the region of maximum radiation in the pattern,D*eta_rad where eta_rad is radiation efficiency,"region where r >> lambda and fields are TEM, decaying as 1/r",1,0.8
+What is the effective length of an antenna?,integral of normalised current distribution along antenna,the region of maximum radiation in the pattern,3D plot of radiated power as a function of direction,region close to antenna where reactive energy dominates,1,0.8
+What is the Hertzian dipole?,D*eta_rad where eta_rad is radiation efficiency,infinitesimally short current element; fundamental antenna element,radiation in directions other than the main beam,array of antennas with controllable phase shifts for beam steering,2,0.8
+What is the far field (radiation) zone?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,"region where r >> lambda and fields are TEM, decaying as 1/r",3D plot of radiated power as a function of direction,ratio of maximum radiation intensity to average over all angles,2,0.8
+What is the near field zone?,"region where r >> lambda and fields are TEM, decaying as 1/r",radiation in directions other than the main beam,region close to antenna where reactive energy dominates,equivalent resistance dissipating power equal to radiated power,3,0.8
+What is the Friis transmission formula?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,antenna using a physical opening (aperture) to radiate,array of antennas with controllable phase shifts for beam steering,angular width between 3dB points of the main lobe,1,0.8
+What is the aperture antenna?,antenna using a physical opening (aperture) to radiate,radiation in directions other than the main beam,integral of normalised current distribution along antenna,D*eta_rad where eta_rad is radiation efficiency,1,0.8
+What is a phased array?,equivalent resistance dissipating power equal to radiated power,array of antennas with controllable phase shifts for beam steering,infinitesimally short current element; fundamental antenna element,ratio of maximum radiation intensity to average over all angles,2,0.8
+What is the front-to-back ratio?,ratio of maximum radiation intensity to average over all angles,antenna using a physical opening (aperture) to radiate,ratio of gain in main direction to gain in opposite direction,equivalent resistance dissipating power equal to radiated power,3,0.8
+What is antenna reciprocity?,the region of maximum radiation in the pattern,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,angular width between 3dB points of the main lobe,same pattern in transmit and receive modes,4,0.8
+Which best describes the radiation pattern of an antenna?,antenna using a physical opening (aperture) to radiate,radiation in directions other than the main beam,3D plot of radiated power as a function of direction,D*eta_rad where eta_rad is radiation efficiency,3,0.8
+Which best describes the main lobe?,the region of maximum radiation in the pattern,"region where r >> lambda and fields are TEM, decaying as 1/r",antenna using a physical opening (aperture) to radiate,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,1,0.8
+Which best describes a side lobe?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,ratio of gain in main direction to gain in opposite direction,"region where r >> lambda and fields are TEM, decaying as 1/r",radiation in directions other than the main beam,4,0.8
+Which best describes the half-power beamwidth (HPBW)?,antenna using a physical opening (aperture) to radiate,region close to antenna where reactive energy dominates,ratio of maximum radiation intensity to average over all angles,angular width between 3dB points of the main lobe,4,0.8
+Which best describes antenna directivity D?,antenna using a physical opening (aperture) to radiate,same pattern in transmit and receive modes,ratio of maximum radiation intensity to average over all angles,"region where r >> lambda and fields are TEM, decaying as 1/r",3,0.8
+Which best describes antenna gain G?,radiation in directions other than the main beam,infinitesimally short current element; fundamental antenna element,D*eta_rad where eta_rad is radiation efficiency,region close to antenna where reactive energy dominates,3,0.8
+Which best describes the radiation resistance R_rad?,radiation in directions other than the main beam,D*eta_rad where eta_rad is radiation efficiency,equivalent resistance dissipating power equal to radiated power,ratio of gain in main direction to gain in opposite direction,3,0.8
+Which best describes the effective length of an antenna?,radiation in directions other than the main beam,infinitesimally short current element; fundamental antenna element,integral of normalised current distribution along antenna,equivalent resistance dissipating power equal to radiated power,3,0.8
+Which best describes the Hertzian dipole?,angular width between 3dB points of the main lobe,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,same pattern in transmit and receive modes,infinitesimally short current element; fundamental antenna element,4,0.8
+Which best describes the far field (radiation) zone?,ratio of maximum radiation intensity to average over all angles,ratio of gain in main direction to gain in opposite direction,"region where r >> lambda and fields are TEM, decaying as 1/r",integral of normalised current distribution along antenna,3,0.8
+Which best describes the near field zone?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,ratio of maximum radiation intensity to average over all angles,angular width between 3dB points of the main lobe,region close to antenna where reactive energy dominates,4,0.8
+Which best describes the Friis transmission formula?,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,D*eta_rad where eta_rad is radiation efficiency,3D plot of radiated power as a function of direction,same pattern in transmit and receive modes,1,0.8
+Which best describes the aperture antenna?,D*eta_rad where eta_rad is radiation efficiency,antenna using a physical opening (aperture) to radiate,3D plot of radiated power as a function of direction,the region of maximum radiation in the pattern,2,0.8
+Which best describes a phased array?,3D plot of radiated power as a function of direction,D*eta_rad where eta_rad is radiation efficiency,equivalent resistance dissipating power equal to radiated power,array of antennas with controllable phase shifts for beam steering,4,0.8
+Which best describes the front-to-back ratio?,the region of maximum radiation in the pattern,ratio of gain in main direction to gain in opposite direction,infinitesimally short current element; fundamental antenna element,angular width between 3dB points of the main lobe,2,0.8
+Which best describes antenna reciprocity?,same pattern in transmit and receive modes,3D plot of radiated power as a function of direction,integral of normalised current distribution along antenna,ratio of gain in main direction to gain in opposite direction,1,0.8
+"In electromagnetics, the radiation pattern of an antenna refers to?",3D plot of radiated power as a function of direction,integral of normalised current distribution along antenna,ratio of maximum radiation intensity to average over all angles,infinitesimally short current element; fundamental antenna element,1,0.8
+"In electromagnetics, the main lobe refers to?","region where r >> lambda and fields are TEM, decaying as 1/r",integral of normalised current distribution along antenna,the region of maximum radiation in the pattern,angular width between 3dB points of the main lobe,3,0.8
+"In electromagnetics, a side lobe refers to?",ratio of gain in main direction to gain in opposite direction,infinitesimally short current element; fundamental antenna element,radiation in directions other than the main beam,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,3,0.8
+"In electromagnetics, the half-power beamwidth (HPBW) refers to?",antenna using a physical opening (aperture) to radiate,angular width between 3dB points of the main lobe,3D plot of radiated power as a function of direction,integral of normalised current distribution along antenna,2,0.8
+"In electromagnetics, antenna directivity D refers to?",angular width between 3dB points of the main lobe,the region of maximum radiation in the pattern,D*eta_rad where eta_rad is radiation efficiency,ratio of maximum radiation intensity to average over all angles,4,0.8
+"In electromagnetics, antenna gain G refers to?",integral of normalised current distribution along antenna,antenna using a physical opening (aperture) to radiate,equivalent resistance dissipating power equal to radiated power,D*eta_rad where eta_rad is radiation efficiency,4,0.8
+"In electromagnetics, the radiation resistance R_rad refers to?",ratio of maximum radiation intensity to average over all angles,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,infinitesimally short current element; fundamental antenna element,equivalent resistance dissipating power equal to radiated power,4,0.8
+"In electromagnetics, the effective length of an antenna refers to?",integral of normalised current distribution along antenna,infinitesimally short current element; fundamental antenna element,array of antennas with controllable phase shifts for beam steering,"region where r >> lambda and fields are TEM, decaying as 1/r",1,0.8
+"In electromagnetics, the Hertzian dipole refers to?","region where r >> lambda and fields are TEM, decaying as 1/r",antenna using a physical opening (aperture) to radiate,infinitesimally short current element; fundamental antenna element,ratio of gain in main direction to gain in opposite direction,3,0.8
+"In electromagnetics, the far field (radiation) zone refers to?",array of antennas with controllable phase shifts for beam steering,3D plot of radiated power as a function of direction,"region where r >> lambda and fields are TEM, decaying as 1/r",the region of maximum radiation in the pattern,3,0.8
+"In electromagnetics, the near field zone refers to?",3D plot of radiated power as a function of direction,array of antennas with controllable phase shifts for beam steering,region close to antenna where reactive energy dominates,infinitesimally short current element; fundamental antenna element,3,0.8
+"In electromagnetics, the Friis transmission formula refers to?",antenna using a physical opening (aperture) to radiate,"region where r >> lambda and fields are TEM, decaying as 1/r",equivalent resistance dissipating power equal to radiated power,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,4,0.8
+"In electromagnetics, the aperture antenna refers to?",same pattern in transmit and receive modes,integral of normalised current distribution along antenna,ratio of maximum radiation intensity to average over all angles,antenna using a physical opening (aperture) to radiate,4,0.8
+"In electromagnetics, a phased array refers to?",radiation in directions other than the main beam,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,array of antennas with controllable phase shifts for beam steering,"region where r >> lambda and fields are TEM, decaying as 1/r",3,0.8
+"In electromagnetics, the front-to-back ratio refers to?",ratio of gain in main direction to gain in opposite direction,ratio of maximum radiation intensity to average over all angles,the region of maximum radiation in the pattern,antenna using a physical opening (aperture) to radiate,1,0.8
+"In electromagnetics, antenna reciprocity refers to?",angular width between 3dB points of the main lobe,P_r = P_t * G_t * G_r * (lambda/4*pi*d)^2,integral of normalised current distribution along antenna,same pattern in transmit and receive modes,4,0.8
+How is the radiation pattern of an antenna defined?,region close to antenna where reactive energy dominates,ratio of gain in main direction to gain in opposite direction,3D plot of radiated power as a function of direction,ratio of maximum radiation intensity to average over all angles,3,0.8
+How is the main lobe defined?,angular width between 3dB points of the main lobe,3D plot of radiated power as a function of direction,the region of maximum radiation in the pattern,integral of normalised current distribution along antenna,3,0.8
+Evaluate: displacement current density for E=E0*cos(omega*t) eps_r=4,eps*omega*E0*sin(omega*t)_c,eps*omega*E0*sin(omega*t)_a,eps*omega*E0*sin(omega*t),eps*omega*E0*sin(omega*t)_b,3,0.85
+Evaluate: loss tangent for sigma=0.01 eps_r=4 at f=1GHz,0.0045,0.0034,0.0180,4.500e-04,1,0.85
+Evaluate: Poynting vector magnitude for E=10 H=0.0265 in free space,0.265 W/m^2,0.027 W/m^2,0.795 W/m^2,0.530 W/m^2,1,0.85
+Evaluate: average power density: E0=100 V/m in free space,13.3 W/m^2,133.0 W/m^2,6.7 W/m^2,39.9 W/m^2,1,0.85
+Evaluate: emf induced in N=100 turn coil A=0.01m^2 B=0.1sin(100t) T,3 *cos(100t) V,10*cos(100t) V,100 *cos(100t) V,15 *cos(100t) V,2,0.85
+Evaluate: omega for f=2.4 GHz,15.1e9 rad/s,-1.510e+10 rad/s,7.550e+09 rad/s,2.265e+10 rad/s,1,0.85
+Evaluate: E field ratio after 3 skin depths,e^(-3) = 0.0498_b,e^(-3) = 0.0498_c,e^(-3) = 0.0498_a,e^(-3) = 0.0498,4,0.85
+Evaluate: power ratio after 3 skin depths,e^(-6) = 0.00248_a,e^(-6) = 0.00248_b,e^(-6) = 0.00248,e^(-6) = 0.00248_c,3,0.85
+Evaluate: SWR = 5: |Gamma|,6.670,0.667,0.500,1.001,2,0.85
+Evaluate: |Gamma| = 0.667: SWR,2,50,5,1,3,0.85
+Evaluate: TE10 dominant if a>b: cutoff TE01,c/(2b),c/(2b)_c,c/(2b)_b,c/(2b)_a,1,0.85
+Evaluate: antenna with G=10dBi: linear gain,10,8,15,20,1,0.85
+Evaluate: HPBW of half-wave dipole,156 degrees,780 degrees,78 degrees,234 degrees,3,0.85
+Evaluate: radar equation: P_r for P_t=1kW G=30dB sigma=1m^2 R=10km lambda=0.03m,8.925e-14 W,-3.570e-13 W,3.57e-13 W,1.071e-12 W,3,0.85
+Evaluate: path loss at f=2.4GHz d=100m,240 dB,60 dB,90 dB,180 dB,2,0.85
+Evaluate: link budget: P_r = P_t+G_t+G_r-FSPL all dB,additive in dB,additive in dB_b,additive in dB_a,additive in dB_c,1,0.85
+Evaluate: power radiated by Hertzian dipole dl=lambda/100 I=1A,13.2 mW,3.3 mW,1.1 mW,4.4 mW,4,0.85
+Evaluate: R_rad of Hertzian dipole dl,8 *pi^2*(dl/lambda)^2 Ohm,40 *pi^2*(dl/lambda)^2 Ohm,80*pi^2*(dl/lambda)^2 Ohm,240 *pi^2*(dl/lambda)^2 Ohm,3,0.85
+Evaluate: D of Hertzian dipole,0.2,3.0,15.0,1.5,4,0.85
+Evaluate: eta for good conductor (sigma>>omega*eps),sqrt(mu*omega/(2*sigma)) at 45 deg_c,sqrt(mu*omega/(2*sigma)) at 45 deg,sqrt(mu*omega/(2*sigma)) at 45 deg_a,sqrt(mu*omega/(2*sigma)) at 45 deg_b,2,0.85
+Evaluate: waveguide wall losses: what increases them,higher frequency modes closer to cutoff_a,higher frequency modes closer to cutoff_c,higher frequency modes closer to cutoff_b,higher frequency modes closer to cutoff,4,0.85
+Evaluate: VSWR = 1: what does it mean,"perfect match, no reflections_c","perfect match, no reflections","perfect match, no reflections_b","perfect match, no reflections_a",2,0.85
+What is the result of displacement current density for E=E0*cos(omega*t) eps_r=4?,eps*omega*E0*sin(omega*t)_b,eps*omega*E0*sin(omega*t),eps*omega*E0*sin(omega*t)_c,eps*omega*E0*sin(omega*t)_a,2,0.85
+What is the result of loss tangent for sigma=0.01 eps_r=4 at f=1GHz?,0.0045,0.0450,0.0135,0.0034,1,0.85
+What is the result of Poynting vector magnitude for E=10 H=0.0265 in free space?,0.199 W/m^2,0.265 W/m^2,0.530 W/m^2,0.066 W/m^2,2,0.85
+What is the result of average power density: E0=100 V/m in free space?,13.3 W/m^2,53.2 W/m^2,39.9 W/m^2,-13.3 W/m^2,1,0.85
+What is the result of emf induced in N=100 turn coil A=0.01m^2 B=0.1sin(100t) T?,30 *cos(100t) V,40 *cos(100t) V,20 *cos(100t) V,10*cos(100t) V,4,0.85
+What is the result of omega for f=2.4 GHz?,3.775e+09 rad/s,1.510e+11 rad/s,5.033e+09 rad/s,15.1e9 rad/s,4,0.85
+What is the result of E field ratio after 3 skin depths?,e^(-3) = 0.0498_b,e^(-3) = 0.0498,e^(-3) = 0.0498_c,e^(-3) = 0.0498_a,2,0.85
+What is the result of power ratio after 3 skin depths?,e^(-6) = 0.00248_a,e^(-6) = 0.00248_b,e^(-6) = 0.00248,e^(-6) = 0.00248_c,3,0.85
+What is the result of SWR = 5: |Gamma|?,2.001,1.334,0.167,0.667,4,0.85
+What is the result of |Gamma| = 0.667: SWR?,50,15,4,5,4,0.85
+What is the result of TE10 dominant if a>b: cutoff TE01?,c/(2b)_b,c/(2b)_c,c/(2b),c/(2b)_a,3,0.85
+What is the result of antenna with G=10dBi: linear gain?,20,100,10,3,3,0.85
+What is the result of HPBW of half-wave dipole?,312 degrees,-78 degrees,78 degrees,20 degrees,3,0.85
+What is the result of radar equation: P_r for P_t=1kW G=30dB sigma=1m^2 R=10km lambda=0.03m?,3.57e-13 W,8.925e-14 W,7.140e-13 W,-3.570e-13 W,1,0.85
+What is the result of path loss at f=2.4GHz d=100m?,45 dB,60 dB,15 dB,30 dB,2,0.85
+What is the result of link budget: P_r = P_t+G_t+G_r-FSPL all dB?,additive in dB,additive in dB_c,additive in dB_b,additive in dB_a,1,0.85
+What is the result of power radiated by Hertzian dipole dl=lambda/100 I=1A?,4.4 mW,0.4 mW,44.0 mW,2.2 mW,1,0.85
+What is the result of R_rad of Hertzian dipole dl?,320 *pi^2*(dl/lambda)^2 Ohm,80*pi^2*(dl/lambda)^2 Ohm,20 *pi^2*(dl/lambda)^2 Ohm,60 *pi^2*(dl/lambda)^2 Ohm,2,0.85
+What is the result of D of Hertzian dipole?,2.2,1.5,0.4,3.0,2,0.85
+What is the result of eta for good conductor (sigma>>omega*eps)?,sqrt(mu*omega/(2*sigma)) at 45 deg_b,sqrt(mu*omega/(2*sigma)) at 45 deg,sqrt(mu*omega/(2*sigma)) at 45 deg_c,sqrt(mu*omega/(2*sigma)) at 45 deg_a,2,0.85
+What is the result of waveguide wall losses: what increases them?,higher frequency modes closer to cutoff_b,higher frequency modes closer to cutoff_c,higher frequency modes closer to cutoff_a,higher frequency modes closer to cutoff,4,0.85
+What is the result of VSWR = 1: what does it mean?,"perfect match, no reflections_b","perfect match, no reflections_a","perfect match, no reflections_c","perfect match, no reflections",4,0.85
+Calculate: displacement current density for E=E0*cos(omega*t) eps_r=4,eps*omega*E0*sin(omega*t)_c,eps*omega*E0*sin(omega*t),eps*omega*E0*sin(omega*t)_a,eps*omega*E0*sin(omega*t)_b,2,0.85
+Calculate: loss tangent for sigma=0.01 eps_r=4 at f=1GHz,0.0180,0.0034,0.0045,0.0015,3,0.85
+Calculate: Poynting vector magnitude for E=10 H=0.0265 in free space,0.795 W/m^2,0.265 W/m^2,-0.265 W/m^2,1.060 W/m^2,2,0.85
+Calculate: average power density: E0=100 V/m in free space,133.0 W/m^2,20.0 W/m^2,6.7 W/m^2,13.3 W/m^2,4,0.85
+Calculate: emf induced in N=100 turn coil A=0.01m^2 B=0.1sin(100t) T,3 *cos(100t) V,10*cos(100t) V,2 *cos(100t) V,30 *cos(100t) V,2,0.85
+Calculate: omega for f=2.4 GHz,15.1e9 rad/s,5.033e+09 rad/s,-1.510e+10 rad/s,3.020e+10 rad/s,1,0.85
+What is the finite difference method (FDM)?,replaces derivatives with finite differences on a grid,a conductor strip sandwiched between two ground planes,occurs when angle of incidence exceeds critical angle,dielectric waveguide using total internal reflection to guide light,1,0.9
+What is the finite element method (FEM)?,replaces derivatives with finite differences on a grid,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,occurs when angle of incidence exceeds critical angle,divides domain into elements; solves variational problem,4,0.9
+What is the method of moments (MoM)?,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",broadening of pulses due to different propagation velocities,converts integral equations to matrix system by basis expansion,finite difference time domain; solves Maxwell's equations directly in time,3,0.9
+What is the FDTD method?,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,converts integral equations to matrix system by basis expansion,finite difference time domain; solves Maxwell's equations directly in time,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",3,0.9
+What is a microstrip transmission line?,allows only one propagating mode; very small core diameter,dielectric waveguide using total internal reflection to guide light,converts integral equations to matrix system by basis expansion,a conductor strip on a dielectric substrate above a ground plane,4,0.9
+What is Z0 of microstrip?,replaces derivatives with finite differences on a grid,divides domain into elements; solves variational problem,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,"depends on strip width, substrate thickness, and eps_r",4,0.9
+What is a stripline?,a conductor strip sandwiched between two ground planes,"depends on strip width, substrate thickness, and eps_r",divides domain into elements; solves variational problem,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",1,0.9
+What is optical fiber?,allows many propagating modes; larger core,replaces derivatives with finite differences on a grid,"depends on strip width, substrate thickness, and eps_r",dielectric waveguide using total internal reflection to guide light,4,0.9
+What is total internal reflection?,occurs when angle of incidence exceeds critical angle,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,finite difference time domain; solves Maxwell's equations directly in time,allows many propagating modes; larger core,1,0.9
+What is the critical angle theta_c?,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,finite difference time domain; solves Maxwell's equations directly in time,allows only one propagating mode; very small core diameter,converts integral equations to matrix system by basis expansion,1,0.9
+What is the numerical aperture (NA) of a fiber?,allows many propagating modes; larger core,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",replaces derivatives with finite differences on a grid,broadening of pulses due to different propagation velocities,2,0.9
+What is a single-mode fiber?,replaces derivatives with finite differences on a grid,allows only one propagating mode; very small core diameter,measure of target's ability to reflect radar signals,divides domain into elements; solves variational problem,2,0.9
+What is a multimode fiber?,divides domain into elements; solves variational problem,finite difference time domain; solves Maxwell's equations directly in time,allows many propagating modes; larger core,occurs when angle of incidence exceeds critical angle,3,0.9
+What is dispersion in optical fiber?,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,broadening of pulses due to different propagation velocities,replaces derivatives with finite differences on a grid,occurs when angle of incidence exceeds critical angle,2,0.9
+What is the radar equation?,divides domain into elements; solves variational problem,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,measure of target's ability to reflect radar signals,a conductor strip on a dielectric substrate above a ground plane,2,0.9
+What is the radar cross section sigma?,measure of target's ability to reflect radar signals,broadening of pulses due to different propagation velocities,occurs when angle of incidence exceeds critical angle,finite difference time domain; solves Maxwell's equations directly in time,1,0.9
+Which best describes the finite difference method (FDM)?,allows only one propagating mode; very small core diameter,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,replaces derivatives with finite differences on a grid,4,0.9
+Which best describes the finite element method (FEM)?,finite difference time domain; solves Maxwell's equations directly in time,divides domain into elements; solves variational problem,replaces derivatives with finite differences on a grid,allows only one propagating mode; very small core diameter,2,0.9
+Which best describes the method of moments (MoM)?,converts integral equations to matrix system by basis expansion,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,allows many propagating modes; larger core,finite difference time domain; solves Maxwell's equations directly in time,1,0.9
+Which best describes the FDTD method?,allows only one propagating mode; very small core diameter,"depends on strip width, substrate thickness, and eps_r",measure of target's ability to reflect radar signals,finite difference time domain; solves Maxwell's equations directly in time,4,0.9
+Which best describes a microstrip transmission line?,allows only one propagating mode; very small core diameter,a conductor strip on a dielectric substrate above a ground plane,a conductor strip sandwiched between two ground planes,"depends on strip width, substrate thickness, and eps_r",2,0.9
+Which best describes Z0 of microstrip?,dielectric waveguide using total internal reflection to guide light,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,"depends on strip width, substrate thickness, and eps_r",occurs when angle of incidence exceeds critical angle,3,0.9
+Which best describes a stripline?,divides domain into elements; solves variational problem,occurs when angle of incidence exceeds critical angle,a conductor strip sandwiched between two ground planes,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",3,0.9
+Which best describes optical fiber?,allows only one propagating mode; very small core diameter,replaces derivatives with finite differences on a grid,dielectric waveguide using total internal reflection to guide light,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,3,0.9
+Which best describes total internal reflection?,dielectric waveguide using total internal reflection to guide light,occurs when angle of incidence exceeds critical angle,converts integral equations to matrix system by basis expansion,allows many propagating modes; larger core,2,0.9
+Which best describes the critical angle theta_c?,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,"depends on strip width, substrate thickness, and eps_r",occurs when angle of incidence exceeds critical angle,converts integral equations to matrix system by basis expansion,1,0.9
+Which best describes the numerical aperture (NA) of a fiber?,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",divides domain into elements; solves variational problem,converts integral equations to matrix system by basis expansion,occurs when angle of incidence exceeds critical angle,1,0.9
+Which best describes a single-mode fiber?,allows only one propagating mode; very small core diameter,allows many propagating modes; larger core,broadening of pulses due to different propagation velocities,dielectric waveguide using total internal reflection to guide light,1,0.9
+Which best describes a multimode fiber?,allows many propagating modes; larger core,a conductor strip sandwiched between two ground planes,measure of target's ability to reflect radar signals,divides domain into elements; solves variational problem,1,0.9
+Which best describes dispersion in optical fiber?,converts integral equations to matrix system by basis expansion,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,broadening of pulses due to different propagation velocities,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",3,0.9
+Which best describes the radar equation?,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,measure of target's ability to reflect radar signals,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,"depends on strip width, substrate thickness, and eps_r",3,0.9
+Which best describes the radar cross section sigma?,allows only one propagating mode; very small core diameter,broadening of pulses due to different propagation velocities,measure of target's ability to reflect radar signals,replaces derivatives with finite differences on a grid,3,0.9
+"In electromagnetics, the finite difference method (FDM) refers to?",converts integral equations to matrix system by basis expansion,replaces derivatives with finite differences on a grid,allows only one propagating mode; very small core diameter,occurs when angle of incidence exceeds critical angle,2,0.9
+"In electromagnetics, the finite element method (FEM) refers to?",allows many propagating modes; larger core,measure of target's ability to reflect radar signals,divides domain into elements; solves variational problem,broadening of pulses due to different propagation velocities,3,0.9
+"In electromagnetics, the method of moments (MoM) refers to?",allows many propagating modes; larger core,dielectric waveguide using total internal reflection to guide light,converts integral equations to matrix system by basis expansion,broadening of pulses due to different propagation velocities,3,0.9
+"In electromagnetics, the FDTD method refers to?","NA = sqrt(n1^2 - n2^2), related to acceptance cone",divides domain into elements; solves variational problem,"depends on strip width, substrate thickness, and eps_r",finite difference time domain; solves Maxwell's equations directly in time,4,0.9
+"In electromagnetics, a microstrip transmission line refers to?",broadening of pulses due to different propagation velocities,occurs when angle of incidence exceeds critical angle,a conductor strip sandwiched between two ground planes,a conductor strip on a dielectric substrate above a ground plane,4,0.9
+"In electromagnetics, Z0 of microstrip refers to?",divides domain into elements; solves variational problem,allows many propagating modes; larger core,"depends on strip width, substrate thickness, and eps_r",occurs when angle of incidence exceeds critical angle,3,0.9
+"In electromagnetics, a stripline refers to?",a conductor strip sandwiched between two ground planes,finite difference time domain; solves Maxwell's equations directly in time,a conductor strip on a dielectric substrate above a ground plane,occurs when angle of incidence exceeds critical angle,1,0.9
+"In electromagnetics, optical fiber refers to?",measure of target's ability to reflect radar signals,dielectric waveguide using total internal reflection to guide light,allows many propagating modes; larger core,finite difference time domain; solves Maxwell's equations directly in time,2,0.9
+"In electromagnetics, total internal reflection refers to?",divides domain into elements; solves variational problem,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",replaces derivatives with finite differences on a grid,occurs when angle of incidence exceeds critical angle,4,0.9
+"In electromagnetics, the critical angle theta_c refers to?",replaces derivatives with finite differences on a grid,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,broadening of pulses due to different propagation velocities,converts integral equations to matrix system by basis expansion,2,0.9
+"In electromagnetics, the numerical aperture (NA) of a fiber refers to?","depends on strip width, substrate thickness, and eps_r",converts integral equations to matrix system by basis expansion,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",allows only one propagating mode; very small core diameter,3,0.9
+"In electromagnetics, a single-mode fiber refers to?",dielectric waveguide using total internal reflection to guide light,allows only one propagating mode; very small core diameter,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,2,0.9
+"In electromagnetics, a multimode fiber refers to?",allows many propagating modes; larger core,broadening of pulses due to different propagation velocities,divides domain into elements; solves variational problem,dielectric waveguide using total internal reflection to guide light,1,0.9
+"In electromagnetics, dispersion in optical fiber refers to?",divides domain into elements; solves variational problem,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,broadening of pulses due to different propagation velocities,4,0.9
+"In electromagnetics, the radar equation refers to?",measure of target's ability to reflect radar signals,dielectric waveguide using total internal reflection to guide light,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,divides domain into elements; solves variational problem,3,0.9
+"In electromagnetics, the radar cross section sigma refers to?",measure of target's ability to reflect radar signals,a conductor strip on a dielectric substrate above a ground plane,replaces derivatives with finite differences on a grid,finite difference time domain; solves Maxwell's equations directly in time,1,0.9
+How is the finite difference method (FDM) defined?,converts integral equations to matrix system by basis expansion,finite difference time domain; solves Maxwell's equations directly in time,replaces derivatives with finite differences on a grid,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,3,0.9
+How is the finite element method (FEM) defined?,"NA = sqrt(n1^2 - n2^2), related to acceptance cone",divides domain into elements; solves variational problem,P_r = P_t*G^2*sigma*lambda^2/(4*pi)^3*R^4,arcsin(n2/n1) for wave going from medium 1 to less dense medium 2,2,0.9
+Evaluate: critical angle for n1=1.5 n2=1.0 fiber,4.2 degrees,41.8 degrees,167.2 degrees,10.4 degrees,2,0.95
+Evaluate: NA for n1=1.5 n2=1.4,0.135,-0.539,0.539,2.156,3,0.95
+Evaluate: Z0 of coaxial line a=1mm b=3.5mm eps_r=2.3,17 Ohm,500 Ohm,75 Ohm,50 Ohm,4,0.95
+Evaluate: Z0 of parallel-wire line D=1cm d=1mm,828 *log10(D/d/2) approx 276 Ohm,69 *log10(D/d/2) approx 276 Ohm,552 *log10(D/d/2) approx 276 Ohm,276*log10(D/d/2) approx 276 Ohm,4,0.95
+"Evaluate: radar range for P_r=P_t, G=40dB, sigma=1m^2, lambda=0.03m",approx 218 km_b,approx 218 km_a,approx 218 km,approx 218 km_c,3,0.95
+Evaluate: FDM grid: Laplace eqn central difference,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_c,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_b,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_a,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4,4,0.95
+Evaluate: MoM for wire antenna: number of unknowns for N segments,N,N_a,N_c,N_b,1,0.95
+Evaluate: FDTD stability condition Courant,delta_t <= delta_x/(c*sqrt(3))_b,delta_t <= delta_x/(c*sqrt(3))_a,delta_t <= delta_x/(c*sqrt(3)),delta_t <= delta_x/(c*sqrt(3))_c,3,0.95
+Evaluate: skin depth in aluminium sigma=3.8e7 at 1GHz,6.1 um,82.0 um,-8.2 um,8.2 um,4,0.95
+Evaluate: attenuation in waveguide: increases as f approaches,cutoff frequency_a,cutoff frequency_c,cutoff frequency_b,cutoff frequency,4,0.95
+Evaluate: microstrip effective eps_r for eps_r_substrate=4,between 1 and 4_b,between 1 and 4,between 1 and 4_c,between 1 and 4_a,2,0.95
+Evaluate: single-mode condition for step-index fiber V-number,V < 2.405_b,V < 2.405_a,V < 2.405_c,V < 2.405,4,0.95
+Evaluate: V-number = 2*pi/lambda * a * NA for a=25um NA=0.1 lambda=1.3um,48.4 (multimode),121.0 (multimode),18.1 (multimode),12.1 (multimode),4,0.95
+Evaluate: Brewster angle for eps_r=4 incidence from air,arctan(2) = 63.4 degrees_b,arctan(2) = 63.4 degrees,arctan(2) = 63.4 degrees_a,arctan(2) = 63.4 degrees_c,2,0.95
+Evaluate: total reflection for theta>theta_c from n1=1.5 to n2=1,theta_c=41.8 deg: 45 deg gives TIR_b,theta_c=41.8 deg: 45 deg gives TIR_a,theta_c=41.8 deg: 45 deg gives TIR_c,theta_c=41.8 deg: 45 deg gives TIR,4,0.95
+Evaluate: wave impedance ratio TE/TM at interface,eta_TE * eta_TM = eta^2,eta_TE * eta_TM = eta^2_b,eta_TE * eta_TM = eta^2_a,eta_TE * eta_TM = eta^2_c,1,0.95
+Evaluate: number of modes in rectangular guide below f: TE+TM,"count all (m,n) with f_mn<f","count all (m,n) with f_mn<f_c","count all (m,n) with f_mn<f_a","count all (m,n) with f_mn<f_b",1,0.95
+Evaluate: radar maximum unambiguous range for PRF=1kHz,150 km,38 km,450 km,75 km,1,0.95
+Evaluate: free-space wavelength at 60 GHz,8 mm,2 mm,5 mm,4 mm,3,0.95
+Evaluate: path loss at 60 GHz d=10m,17 dB,68 dB,-68 dB,102 dB,2,0.95
+Evaluate: loop antenna: radiation resistance for small loop A<<lambda^2,R_rad=320*pi^4*(A/lambda^2)^2_c,R_rad=320*pi^4*(A/lambda^2)^2,R_rad=320*pi^4*(A/lambda^2)^2_a,R_rad=320*pi^4*(A/lambda^2)^2_b,2,0.95
+Evaluate: HPBW of 10-element broadside array,approx 10 degrees_a,approx 10 degrees_b,approx 10 degrees,approx 10 degrees_c,3,0.95
+What is the result of critical angle for n1=1.5 n2=1.0 fiber?,418.0 degrees,41.8 degrees,83.6 degrees,125.4 degrees,2,0.95
+What is the result of NA for n1=1.5 n2=1.4?,0.135,0.539,0.270,-0.539,2,0.95
+What is the result of Z0 of coaxial line a=1mm b=3.5mm eps_r=2.3?,50 Ohm,75 Ohm,100 Ohm,17 Ohm,1,0.95
+What is the result of Z0 of parallel-wire line D=1cm d=1mm?,414 *log10(D/d/2) approx 276 Ohm,69 *log10(D/d/2) approx 276 Ohm,276*log10(D/d/2) approx 276 Ohm,92 *log10(D/d/2) approx 276 Ohm,3,0.95
+"What is the result of radar range for P_r=P_t, G=40dB, sigma=1m^2, lambda=0.03m?",approx 218 km,approx 218 km_b,approx 218 km_a,approx 218 km_c,1,0.95
+What is the result of FDM grid: Laplace eqn central difference?,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_c,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_b,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_a,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4,4,0.95
+What is the result of MoM for wire antenna: number of unknowns for N segments?,N_a,N,N_b,N_c,2,0.95
+What is the result of FDTD stability condition Courant?,delta_t <= delta_x/(c*sqrt(3)),delta_t <= delta_x/(c*sqrt(3))_c,delta_t <= delta_x/(c*sqrt(3))_b,delta_t <= delta_x/(c*sqrt(3))_a,1,0.95
+What is the result of skin depth in aluminium sigma=3.8e7 at 1GHz?,2.0 um,12.3 um,32.8 um,8.2 um,4,0.95
+What is the result of attenuation in waveguide: increases as f approaches?,cutoff frequency_b,cutoff frequency_c,cutoff frequency_a,cutoff frequency,4,0.95
+What is the result of microstrip effective eps_r for eps_r_substrate=4?,between 1 and 4_c,between 1 and 4_a,between 1 and 4,between 1 and 4_b,3,0.95
+What is the result of single-mode condition for step-index fiber V-number?,V < 2.405_b,V < 2.405_c,V < 2.405,V < 2.405_a,3,0.95
+What is the result of V-number = 2*pi/lambda * a * NA for a=25um NA=0.1 lambda=1.3um?,12.1 (multimode),-12.1 (multimode),121.0 (multimode),18.1 (multimode),1,0.95
+What is the result of Brewster angle for eps_r=4 incidence from air?,arctan(2) = 63.4 degrees_b,arctan(2) = 63.4 degrees_a,arctan(2) = 63.4 degrees_c,arctan(2) = 63.4 degrees,4,0.95
+What is the result of total reflection for theta>theta_c from n1=1.5 to n2=1?,theta_c=41.8 deg: 45 deg gives TIR_a,theta_c=41.8 deg: 45 deg gives TIR,theta_c=41.8 deg: 45 deg gives TIR_c,theta_c=41.8 deg: 45 deg gives TIR_b,2,0.95
+What is the result of wave impedance ratio TE/TM at interface?,eta_TE * eta_TM = eta^2_a,eta_TE * eta_TM = eta^2_b,eta_TE * eta_TM = eta^2,eta_TE * eta_TM = eta^2_c,3,0.95
+What is the result of number of modes in rectangular guide below f: TE+TM?,"count all (m,n) with f_mn<f_a","count all (m,n) with f_mn<f_b","count all (m,n) with f_mn<f_c","count all (m,n) with f_mn<f",4,0.95
+What is the result of radar maximum unambiguous range for PRF=1kHz?,-150 km,15 km,50 km,150 km,4,0.95
+What is the result of free-space wavelength at 60 GHz?,5 mm,10 mm,1 mm,15 mm,1,0.95
+What is the result of path loss at 60 GHz d=10m?,68 dB,17 dB,-68 dB,272 dB,1,0.95
+What is the result of loop antenna: radiation resistance for small loop A<<lambda^2?,R_rad=320*pi^4*(A/lambda^2)^2_a,R_rad=320*pi^4*(A/lambda^2)^2,R_rad=320*pi^4*(A/lambda^2)^2_b,R_rad=320*pi^4*(A/lambda^2)^2_c,2,0.95
+What is the result of HPBW of 10-element broadside array?,approx 10 degrees,approx 10 degrees_b,approx 10 degrees_a,approx 10 degrees_c,1,0.95
+Calculate: critical angle for n1=1.5 n2=1.0 fiber,31.3 degrees,10.4 degrees,41.8 degrees,4.2 degrees,3,0.95
+Calculate: NA for n1=1.5 n2=1.4,-0.539,1.617,0.808,0.539,4,0.95
+Calculate: Z0 of coaxial line a=1mm b=3.5mm eps_r=2.3,50 Ohm,-50 Ohm,38 Ohm,75 Ohm,1,0.95
+Calculate: Z0 of parallel-wire line D=1cm d=1mm,92 *log10(D/d/2) approx 276 Ohm,276*log10(D/d/2) approx 276 Ohm,414 *log10(D/d/2) approx 276 Ohm,207 *log10(D/d/2) approx 276 Ohm,2,0.95
+"Calculate: radar range for P_r=P_t, G=40dB, sigma=1m^2, lambda=0.03m",approx 218 km_c,approx 218 km_a,approx 218 km,approx 218 km_b,3,0.95
+Calculate: FDM grid: Laplace eqn central difference,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_b,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_c,V_ij = (V_i+1j+V_i-1j+Vi_j+1+Vi_j-1)/4_a,1,0.95
+Evaluate: E inside a spherical cavity in conductor,E_n2=25 V/m,-0,energy multiplies by 4,0,4,1.0
+Evaluate: E normal boundary cond eps1=1 eps2=4 E_n1=100,E_n2=25 V/m_c,E_n2=25 V/m,E_n2=25 V/m_a,E_n2=25 V/m_b,2,1.0
+Evaluate: D_n continuous at boundary: D_n1=D_n2 for no surface charge,true_b,true_c,true,true_a,3,1.0
+Evaluate: group velocity product phase velocity in waveguide,v_p*v_g = c^2,v_p*v_g = c^2_a,v_p*v_g = c^2_c,v_p*v_g = c^2_b,1,1.0
+Evaluate: TE mode with m=0 or n=0: does TM exist,TM has min m=1 n=1,TM has min m=1 n=1_a,TM has min m=1 n=1_b,TM has min m=1 n=1_c,1,1.0
+Evaluate: max power handling: limited by,dielectric breakdown or conductor heating,dielectric breakdown or conductor heating_a,dielectric breakdown or conductor heating_c,dielectric breakdown or conductor heating_b,1,1.0
+Evaluate: phased array beam steering by varying,progressive phase shift between elements,progressive phase shift between elements_a,progressive phase shift between elements_b,progressive phase shift between elements_c,1,1.0
+Evaluate: circular waveguide dominant mode,TE11_a,TE11,TE11_b,TE11_c,2,1.0
+Evaluate: E_r in a dielectric vs free space,reduced by eps_r,reduced by eps_r_c,reduced by eps_r_b,reduced by eps_r_a,1,1.0
+Evaluate: mutual inductance between coils depends on,"geometry, orientation, and permeability_b","geometry, orientation, and permeability","geometry, orientation, and permeability_a","geometry, orientation, and permeability_c",2,1.0
+Evaluate: E stored energy doubles when V doubles in capacitor,energy multiplies by 4_b,energy multiplies by 4,energy multiplies by 4_a,energy multiplies by 4_c,2,1.0
+Evaluate: the uniqueness theorem for EM fields,solution to boundary value problem is unique if BCs specified,solution to boundary value problem is unique if BCs specified_b,solution to boundary value problem is unique if BCs specified_c,solution to boundary value problem is unique if BCs specified_a,1,1.0
+Evaluate: Babinet's principle,complementary slot and dipole antennas have complementary patterns,complementary slot and dipole antennas have complementary patterns_c,complementary slot and dipole antennas have complementary patterns_a,complementary slot and dipole antennas have complementary patterns_b,1,1.0
+Evaluate: antenna effective area A_e for gain G,A_e = G*lambda^2/(4*pi)_a,A_e = G*lambda^2/(4*pi)_c,A_e = G*lambda^2/(4*pi),A_e = G*lambda^2/(4*pi)_b,3,1.0
+Evaluate: VSWR = 1 + |Gamma|)/(1-|Gamma|): VSWR for |Gamma|=0,0 (perfect match),2 (perfect match),1 (perfect match),approx 1 (perfect match)*2,3,1.0
+Evaluate: Poynting theorem: what it states,conservation of EM energy: power in = stored + dissipated_b,conservation of EM energy: power in = stored + dissipated,conservation of EM energy: power in = stored + dissipated_c,conservation of EM energy: power in = stored + dissipated_a,2,1.0
+Evaluate: Maxwell added displacement current to complete,Ampere's law_b,Ampere's law_c,Ampere's law,Ampere's law_a,3,1.0
+Evaluate: div B = 0 implies,no magnetic monopoles exist_b,no magnetic monopoles exist,no magnetic monopoles exist_c,no magnetic monopoles exist_a,2,1.0
+Evaluate: wavelength in waveguide vs free space,lambda_g > lambda_0,lambda_g > lambda_0_a,lambda_g > lambda_0_b,lambda_g > lambda_0_c,1,1.0
+Evaluate: impedance matching purpose on TX line,maximise power transfer and eliminate reflections,maximise power transfer and eliminate reflections_a,maximise power transfer and eliminate reflections_c,maximise power transfer and eliminate reflections_b,1,1.0
+Evaluate: quarter-wave stub: short-ckt stub input Z at lambda/4,open circuit (infinite Z),open circuit (infinite Z)_a,open circuit (infinite Z)_c,open circuit (infinite Z)_b,1,1.0
+Evaluate: cutoff wavelength of TE_mn in rectangular guide,2/sqrt((m/a)^2+(n/b)^2),-2 /sqrt((m/a)^2+(n/b)^2),8 /sqrt((m/a)^2+(n/b)^2),4 /sqrt((m/a)^2+(n/b)^2),1,1.0
+What is the result of E inside a spherical cavity in conductor?,-0,TM has min m=1 n=1,0,complementary slot and dipole antennas have complementary patterns,3,1.0
+What is the result of E normal boundary cond eps1=1 eps2=4 E_n1=100?,E_n2=25 V/m_b,E_n2=25 V/m,E_n2=25 V/m_a,E_n2=25 V/m_c,2,1.0
+What is the result of D_n continuous at boundary: D_n1=D_n2 for no surface charge?,true_a,true_b,true_c,true,4,1.0
+What is the result of group velocity product phase velocity in waveguide?,v_p*v_g = c^2,v_p*v_g = c^2_b,v_p*v_g = c^2_a,v_p*v_g = c^2_c,1,1.0
+What is the result of TE mode with m=0 or n=0: does TM exist?,TM has min m=1 n=1_a,TM has min m=1 n=1_c,TM has min m=1 n=1_b,TM has min m=1 n=1,4,1.0
+What is the result of max power handling: limited by?,dielectric breakdown or conductor heating_c,dielectric breakdown or conductor heating_b,dielectric breakdown or conductor heating_a,dielectric breakdown or conductor heating,4,1.0
+What is the result of phased array beam steering by varying?,progressive phase shift between elements_c,progressive phase shift between elements_b,progressive phase shift between elements,progressive phase shift between elements_a,3,1.0
+What is the result of circular waveguide dominant mode?,TE11_a,TE11_c,TE11,TE11_b,3,1.0
+What is the result of E_r in a dielectric vs free space?,reduced by eps_r_c,reduced by eps_r_b,reduced by eps_r,reduced by eps_r_a,3,1.0
+What is the result of mutual inductance between coils depends on?,"geometry, orientation, and permeability_c","geometry, orientation, and permeability_b","geometry, orientation, and permeability_a","geometry, orientation, and permeability",4,1.0
+What is the result of E stored energy doubles when V doubles in capacitor?,energy multiplies by 4_c,energy multiplies by 4,energy multiplies by 4_b,energy multiplies by 4_a,2,1.0
+What is the result of the uniqueness theorem for EM fields?,solution to boundary value problem is unique if BCs specified_b,solution to boundary value problem is unique if BCs specified_c,solution to boundary value problem is unique if BCs specified_a,solution to boundary value problem is unique if BCs specified,4,1.0
+What is the result of Babinet's principle?,complementary slot and dipole antennas have complementary patterns_b,complementary slot and dipole antennas have complementary patterns_c,complementary slot and dipole antennas have complementary patterns_a,complementary slot and dipole antennas have complementary patterns,4,1.0
+What is the result of antenna effective area A_e for gain G?,A_e = G*lambda^2/(4*pi)_c,A_e = G*lambda^2/(4*pi)_b,A_e = G*lambda^2/(4*pi)_a,A_e = G*lambda^2/(4*pi),4,1.0
+What is the result of VSWR = 1 + |Gamma|)/(1-|Gamma|): VSWR for |Gamma|=0?,approx 1 (perfect match)*2,2 (perfect match),-1 (perfect match),1 (perfect match),4,1.0
+What is the result of Poynting theorem: what it states?,conservation of EM energy: power in = stored + dissipated_b,conservation of EM energy: power in = stored + dissipated_a,conservation of EM energy: power in = stored + dissipated,conservation of EM energy: power in = stored + dissipated_c,3,1.0
+What is the result of Maxwell added displacement current to complete?,Ampere's law,Ampere's law_a,Ampere's law_c,Ampere's law_b,1,1.0
+What is the result of div B = 0 implies?,no magnetic monopoles exist_a,no magnetic monopoles exist,no magnetic monopoles exist_b,no magnetic monopoles exist_c,2,1.0
+What is the result of wavelength in waveguide vs free space?,lambda_g > lambda_0_c,lambda_g > lambda_0,lambda_g > lambda_0_b,lambda_g > lambda_0_a,2,1.0
+What is the result of impedance matching purpose on TX line?,maximise power transfer and eliminate reflections_a,maximise power transfer and eliminate reflections_c,maximise power transfer and eliminate reflections,maximise power transfer and eliminate reflections_b,3,1.0
+What is the result of quarter-wave stub: short-ckt stub input Z at lambda/4?,open circuit (infinite Z)_a,open circuit (infinite Z)_b,open circuit (infinite Z),open circuit (infinite Z)_c,3,1.0
+What is the result of cutoff wavelength of TE_mn in rectangular guide?,approx 2/sqrt((m/a)^2+(n/b)^2)*2,0 /sqrt((m/a)^2+(n/b)^2),2/sqrt((m/a)^2+(n/b)^2),1 /sqrt((m/a)^2+(n/b)^2),3,1.0
+Calculate: E inside a spherical cavity in conductor,TE11,-0,no magnetic monopoles exist,0,4,1.0
+Calculate: E normal boundary cond eps1=1 eps2=4 E_n1=100,E_n2=25 V/m_b,E_n2=25 V/m_a,E_n2=25 V/m_c,E_n2=25 V/m,4,1.0
+Calculate: D_n continuous at boundary: D_n1=D_n2 for no surface charge,true_c,true_a,true_b,true,4,1.0
+Calculate: group velocity product phase velocity in waveguide,v_p*v_g = c^2_b,v_p*v_g = c^2_c,v_p*v_g = c^2,v_p*v_g = c^2_a,3,1.0
+Calculate: TE mode with m=0 or n=0: does TM exist,TM has min m=1 n=1_b,TM has min m=1 n=1,TM has min m=1 n=1_c,TM has min m=1 n=1_a,2,1.0
+Calculate: max power handling: limited by,dielectric breakdown or conductor heating_a,dielectric breakdown or conductor heating,dielectric breakdown or conductor heating_b,dielectric breakdown or conductor heating_c,2,1.0

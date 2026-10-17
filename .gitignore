@@ -1,0 +1,41 @@
+# Python / editor clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+nohup.out
+
+# Bundled Python install (not code)
+Python-3.12.9/
+
+# Textbooks
+books/
+books_ocr/
+*.pdf
+
+# FAISS indexes and per-book data
+user_profiles/
+*.index
+*_cache.db
+*_qcache.index
+
+# Extracted book images (19 GB)
+static/images/
+
+# Databases: passwords, submissions, cache
+*.db
+*.sqlite3
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Old copies and backups
+*_backup_*/
+*.bak
+AIEDS_V2/
+*.bundle

@@ -1,0 +1,1001 @@
+question,opt1,opt2,opt3,opt4,correct_opt,di
+What is digital communication?,the range of frequencies occupied by the signal,transmission of information using continuously varying signals,transmission of information using discrete signal representations,a signal occupying frequencies from near zero up to some maximum,3,0.05
+What is analog communication?,a signal occupying frequencies from near zero up to some maximum,a signal whose spectrum is centred around a carrier frequency,number of bits transmitted per second,transmission of information using continuously varying signals,4,0.05
+What is a baseband signal?,transmission of information using continuously varying signals,combining multiple signals to share a single transmission medium,a signal occupying frequencies from near zero up to some maximum,transmission of information using discrete signal representations,3,0.05
+What is a band-pass signal?,the process of varying a carrier signal to encode information,unwanted random disturbances added to the signal,a signal whose spectrum is centred around a carrier frequency,number of bits transmitted per second,3,0.05
+What is modulation?,recovery of the original information from a modulated carrier,ratio of signal power to noise power at a given point,number of symbols transmitted per second,the process of varying a carrier signal to encode information,4,0.05
+What is demodulation?,the process of varying a carrier signal to encode information,recovery of the original information from a modulated carrier,a signal occupying frequencies from near zero up to some maximum,the device that encodes and sends the signal into the channel,2,0.05
+What is a transmitter?,the device that encodes and sends the signal into the channel,combining multiple signals to share a single transmission medium,transmission of information using continuously varying signals,the device that captures and decodes the transmitted signal,1,0.05
+What is a receiver?,number of symbols transmitted per second,the device that captures and decodes the transmitted signal,transmission of information using discrete signal representations,number of bits transmitted per second,2,0.05
+What is a communication channel?,the physical medium through which the signal propagates,combining multiple signals to share a single transmission medium,transmission of information using continuously varying signals,the device that encodes and sends the signal into the channel,1,0.05
+What is noise in a communication channel?,ratio of signal power to noise power at a given point,a signal whose spectrum is centred around a carrier frequency,number of bits transmitted per second,unwanted random disturbances added to the signal,4,0.05
+What is signal-to-noise ratio (SNR)?,the process of varying a carrier signal to encode information,transmission of information using continuously varying signals,ratio of signal power to noise power at a given point,number of symbols transmitted per second,3,0.05
+What is bandwidth of a signal?,ratio of signal power to noise power at a given point,the process of varying a carrier signal to encode information,the range of frequencies occupied by the signal,the device that captures and decodes the transmitted signal,3,0.05
+What is bit rate?,recovery of the original information from a modulated carrier,number of bits transmitted per second,ratio of signal power to noise power at a given point,a signal whose spectrum is centred around a carrier frequency,2,0.05
+What is baud rate?,ratio of signal power to noise power at a given point,a signal occupying frequencies from near zero up to some maximum,number of symbols transmitted per second,unwanted random disturbances added to the signal,3,0.05
+What is a codec?,a device or algorithm that encodes and decodes digital data,ratio of signal power to noise power at a given point,the process of varying a carrier signal to encode information,the device that encodes and sends the signal into the channel,1,0.05
+What is multiplexing?,number of symbols transmitted per second,number of bits transmitted per second,a device or algorithm that encodes and decodes digital data,combining multiple signals to share a single transmission medium,4,0.05
+Which best describes digital communication?,number of symbols transmitted per second,the device that captures and decodes the transmitted signal,transmission of information using discrete signal representations,the device that encodes and sends the signal into the channel,3,0.05
+Which best describes analog communication?,number of bits transmitted per second,combining multiple signals to share a single transmission medium,transmission of information using continuously varying signals,ratio of signal power to noise power at a given point,3,0.05
+Which best describes a baseband signal?,the range of frequencies occupied by the signal,a signal occupying frequencies from near zero up to some maximum,the physical medium through which the signal propagates,the device that captures and decodes the transmitted signal,2,0.05
+Which best describes a band-pass signal?,a signal whose spectrum is centred around a carrier frequency,the process of varying a carrier signal to encode information,unwanted random disturbances added to the signal,number of bits transmitted per second,1,0.05
+Which best describes modulation?,combining multiple signals to share a single transmission medium,the device that captures and decodes the transmitted signal,the process of varying a carrier signal to encode information,ratio of signal power to noise power at a given point,3,0.05
+Which best describes demodulation?,unwanted random disturbances added to the signal,the physical medium through which the signal propagates,transmission of information using continuously varying signals,recovery of the original information from a modulated carrier,4,0.05
+Which best describes a transmitter?,the range of frequencies occupied by the signal,the device that encodes and sends the signal into the channel,a signal occupying frequencies from near zero up to some maximum,number of symbols transmitted per second,2,0.05
+Which best describes a receiver?,the device that captures and decodes the transmitted signal,the device that encodes and sends the signal into the channel,combining multiple signals to share a single transmission medium,ratio of signal power to noise power at a given point,1,0.05
+Which best describes a communication channel?,transmission of information using discrete signal representations,unwanted random disturbances added to the signal,a device or algorithm that encodes and decodes digital data,the physical medium through which the signal propagates,4,0.05
+Which best describes noise in a communication channel?,recovery of the original information from a modulated carrier,the range of frequencies occupied by the signal,number of symbols transmitted per second,unwanted random disturbances added to the signal,4,0.05
+Which best describes signal-to-noise ratio (SNR)?,a signal occupying frequencies from near zero up to some maximum,ratio of signal power to noise power at a given point,transmission of information using discrete signal representations,the device that captures and decodes the transmitted signal,2,0.05
+Which best describes bandwidth of a signal?,the physical medium through which the signal propagates,the range of frequencies occupied by the signal,ratio of signal power to noise power at a given point,transmission of information using continuously varying signals,2,0.05
+Which best describes bit rate?,number of symbols transmitted per second,number of bits transmitted per second,recovery of the original information from a modulated carrier,a signal occupying frequencies from near zero up to some maximum,2,0.05
+Which best describes baud rate?,recovery of the original information from a modulated carrier,unwanted random disturbances added to the signal,the device that captures and decodes the transmitted signal,number of symbols transmitted per second,4,0.05
+Which best describes a codec?,combining multiple signals to share a single transmission medium,number of bits transmitted per second,a device or algorithm that encodes and decodes digital data,number of symbols transmitted per second,3,0.05
+Which best describes multiplexing?,transmission of information using continuously varying signals,a signal whose spectrum is centred around a carrier frequency,unwanted random disturbances added to the signal,combining multiple signals to share a single transmission medium,4,0.05
+"In digital communications, digital communication refers to?",a signal occupying frequencies from near zero up to some maximum,number of symbols transmitted per second,transmission of information using discrete signal representations,a device or algorithm that encodes and decodes digital data,3,0.05
+"In digital communications, analog communication refers to?",unwanted random disturbances added to the signal,a signal whose spectrum is centred around a carrier frequency,transmission of information using continuously varying signals,recovery of the original information from a modulated carrier,3,0.05
+"In digital communications, a baseband signal refers to?",a signal occupying frequencies from near zero up to some maximum,the device that captures and decodes the transmitted signal,number of bits transmitted per second,recovery of the original information from a modulated carrier,1,0.05
+"In digital communications, a band-pass signal refers to?",the process of varying a carrier signal to encode information,a device or algorithm that encodes and decodes digital data,transmission of information using continuously varying signals,a signal whose spectrum is centred around a carrier frequency,4,0.05
+"In digital communications, modulation refers to?",a signal whose spectrum is centred around a carrier frequency,unwanted random disturbances added to the signal,the process of varying a carrier signal to encode information,ratio of signal power to noise power at a given point,3,0.05
+"In digital communications, demodulation refers to?",transmission of information using discrete signal representations,the range of frequencies occupied by the signal,recovery of the original information from a modulated carrier,number of bits transmitted per second,3,0.05
+"In digital communications, a transmitter refers to?",the device that encodes and sends the signal into the channel,recovery of the original information from a modulated carrier,transmission of information using continuously varying signals,a device or algorithm that encodes and decodes digital data,1,0.05
+"In digital communications, a receiver refers to?",unwanted random disturbances added to the signal,a signal whose spectrum is centred around a carrier frequency,the device that captures and decodes the transmitted signal,a signal occupying frequencies from near zero up to some maximum,3,0.05
+"In digital communications, a communication channel refers to?",the device that encodes and sends the signal into the channel,number of symbols transmitted per second,a signal whose spectrum is centred around a carrier frequency,the physical medium through which the signal propagates,4,0.05
+"In digital communications, noise in a communication channel refers to?",recovery of the original information from a modulated carrier,unwanted random disturbances added to the signal,the device that encodes and sends the signal into the channel,a device or algorithm that encodes and decodes digital data,2,0.05
+"In digital communications, signal-to-noise ratio (SNR) refers to?",combining multiple signals to share a single transmission medium,the range of frequencies occupied by the signal,a device or algorithm that encodes and decodes digital data,ratio of signal power to noise power at a given point,4,0.05
+"In digital communications, bandwidth of a signal refers to?",number of bits transmitted per second,recovery of the original information from a modulated carrier,number of symbols transmitted per second,the range of frequencies occupied by the signal,4,0.05
+"In digital communications, bit rate refers to?",the physical medium through which the signal propagates,number of bits transmitted per second,the device that captures and decodes the transmitted signal,a signal whose spectrum is centred around a carrier frequency,2,0.05
+"In digital communications, baud rate refers to?",the device that captures and decodes the transmitted signal,a signal whose spectrum is centred around a carrier frequency,the process of varying a carrier signal to encode information,number of symbols transmitted per second,4,0.05
+"In digital communications, a codec refers to?",transmission of information using discrete signal representations,ratio of signal power to noise power at a given point,the physical medium through which the signal propagates,a device or algorithm that encodes and decodes digital data,4,0.05
+"In digital communications, multiplexing refers to?",the device that encodes and sends the signal into the channel,a signal occupying frequencies from near zero up to some maximum,combining multiple signals to share a single transmission medium,the device that captures and decodes the transmitted signal,3,0.05
+How is digital communication defined?,transmission of information using continuously varying signals,combining multiple signals to share a single transmission medium,transmission of information using discrete signal representations,a signal whose spectrum is centred around a carrier frequency,3,0.05
+How is analog communication defined?,transmission of information using continuously varying signals,number of symbols transmitted per second,recovery of the original information from a modulated carrier,a device or algorithm that encodes and decodes digital data,1,0.05
+What is the Fourier series of a periodic signal?,passes all frequencies below cutoff and blocks all above,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,expansion as sum of harmonically related complex exponentials,passes frequencies in a band around the centre frequency,3,0.1
+What is the Fourier transform of a signal?,expansion as sum of harmonically related complex exponentials,Fourier transform of the impulse response h(t),a generalised function with unit area concentrated at one point,integral of x(t)*e^(-j2pi*f*t) dt over all t,4,0.1
+What is the inverse Fourier transform?,expansion as sum of harmonically related complex exponentials,integral of X(f)*e^(j2pi*f*t) df over all f,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,output of an LTI system when input is a unit impulse,2,0.1
+What is the convolution theorem?,integral of x(t)*e^(-j2pi*f*t) dt over all t,range of frequencies passed with negligible attenuation,Fourier transform of x*h equals product X(f)*H(f),expansion as sum of harmonically related complex exponentials,3,0.1
+What is the Dirac delta function?,h(t)=0 for all t<0,90-degree phase shift of a signal at all frequencies,a generalised function with unit area concentrated at one point,Fourier transform of x*h equals product X(f)*H(f),3,0.1
+What is the transfer function H(f) of an LTI system?,expansion as sum of harmonically related complex exponentials,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,output of an LTI system when input is a unit impulse,Fourier transform of the impulse response h(t),4,0.1
+What is the energy spectral density?,Fourier transform of x*h equals product X(f)*H(f),x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,squared magnitude of the Fourier transform |X(f)|^2,a generalised function with unit area concentrated at one point,3,0.1
+What is the power spectral density?,time-average of the energy spectral density for power signals,h(t)=0 for all t<0,squared magnitude of the Fourier transform |X(f)|^2,integral of X(f)*e^(j2pi*f*t) df over all f,1,0.1
+What is Parseval's theorem?,passes frequencies in a band around the centre frequency,integral of x(t)*e^(-j2pi*f*t) dt over all t,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,total energy equals integral of energy spectral density over all f,4,0.1
+What is the bandwidth of an LTI system?,Fourier transform of x*h equals product X(f)*H(f),integral of x(t)*e^(-j2pi*f*t) dt over all t,range of frequencies passed with negligible attenuation,total energy equals integral of energy spectral density over all f,3,0.1
+What is the impulse response h(t)?,Fourier transform of x*h equals product X(f)*H(f),output of an LTI system when input is a unit impulse,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,integral of x(t)*e^(-j2pi*f*t) dt over all t,2,0.1
+What is causality of an LTI system via h(t)?,time-average of the energy spectral density for power signals,h(t)=0 for all t<0,total energy equals integral of energy spectral density over all f,90-degree phase shift of a signal at all frequencies,2,0.1
+What is an ideal lowpass filter?,output of an LTI system when input is a unit impulse,passes all frequencies below cutoff and blocks all above,total energy equals integral of energy spectral density over all f,90-degree phase shift of a signal at all frequencies,2,0.1
+What is an ideal bandpass filter?,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,integral of X(f)*e^(j2pi*f*t) df over all f,a generalised function with unit area concentrated at one point,passes frequencies in a band around the centre frequency,4,0.1
+What is the Hilbert transform?,90-degree phase shift of a signal at all frequencies,range of frequencies passed with negligible attenuation,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,a generalised function with unit area concentrated at one point,1,0.1
+What is the pre-envelope (analytic signal)?,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,Fourier transform of x*h equals product X(f)*H(f),passes frequencies in a band around the centre frequency,output of an LTI system when input is a unit impulse,1,0.1
+Which best describes the Fourier series of a periodic signal?,integral of x(t)*e^(-j2pi*f*t) dt over all t,Fourier transform of the impulse response h(t),90-degree phase shift of a signal at all frequencies,expansion as sum of harmonically related complex exponentials,4,0.1
+Which best describes the Fourier transform of a signal?,Fourier transform of the impulse response h(t),expansion as sum of harmonically related complex exponentials,90-degree phase shift of a signal at all frequencies,integral of x(t)*e^(-j2pi*f*t) dt over all t,4,0.1
+Which best describes the inverse Fourier transform?,integral of X(f)*e^(j2pi*f*t) df over all f,h(t)=0 for all t<0,Fourier transform of the impulse response h(t),Fourier transform of x*h equals product X(f)*H(f),1,0.1
+Which best describes the convolution theorem?,range of frequencies passed with negligible attenuation,integral of x(t)*e^(-j2pi*f*t) dt over all t,expansion as sum of harmonically related complex exponentials,Fourier transform of x*h equals product X(f)*H(f),4,0.1
+Which best describes the Dirac delta function?,expansion as sum of harmonically related complex exponentials,a generalised function with unit area concentrated at one point,squared magnitude of the Fourier transform |X(f)|^2,range of frequencies passed with negligible attenuation,2,0.1
+Which best describes the transfer function H(f) of an LTI system?,a generalised function with unit area concentrated at one point,squared magnitude of the Fourier transform |X(f)|^2,expansion as sum of harmonically related complex exponentials,Fourier transform of the impulse response h(t),4,0.1
+Which best describes the energy spectral density?,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,Fourier transform of x*h equals product X(f)*H(f),h(t)=0 for all t<0,squared magnitude of the Fourier transform |X(f)|^2,4,0.1
+Which best describes the power spectral density?,integral of X(f)*e^(j2pi*f*t) df over all f,passes all frequencies below cutoff and blocks all above,time-average of the energy spectral density for power signals,output of an LTI system when input is a unit impulse,3,0.1
+Which best describes Parseval's theorem?,total energy equals integral of energy spectral density over all f,expansion as sum of harmonically related complex exponentials,squared magnitude of the Fourier transform |X(f)|^2,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,1,0.1
+Which best describes the bandwidth of an LTI system?,squared magnitude of the Fourier transform |X(f)|^2,range of frequencies passed with negligible attenuation,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,passes frequencies in a band around the centre frequency,2,0.1
+Which best describes the impulse response h(t)?,passes all frequencies below cutoff and blocks all above,passes frequencies in a band around the centre frequency,output of an LTI system when input is a unit impulse,integral of x(t)*e^(-j2pi*f*t) dt over all t,3,0.1
+Which best describes causality of an LTI system via h(t)?,time-average of the energy spectral density for power signals,h(t)=0 for all t<0,Fourier transform of x*h equals product X(f)*H(f),x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,2,0.1
+Which best describes an ideal lowpass filter?,passes all frequencies below cutoff and blocks all above,expansion as sum of harmonically related complex exponentials,output of an LTI system when input is a unit impulse,Fourier transform of x*h equals product X(f)*H(f),1,0.1
+Which best describes an ideal bandpass filter?,passes frequencies in a band around the centre frequency,integral of x(t)*e^(-j2pi*f*t) dt over all t,a generalised function with unit area concentrated at one point,90-degree phase shift of a signal at all frequencies,1,0.1
+Which best describes the Hilbert transform?,output of an LTI system when input is a unit impulse,total energy equals integral of energy spectral density over all f,90-degree phase shift of a signal at all frequencies,passes frequencies in a band around the centre frequency,3,0.1
+Which best describes the pre-envelope (analytic signal)?,90-degree phase shift of a signal at all frequencies,integral of X(f)*e^(j2pi*f*t) df over all f,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,a generalised function with unit area concentrated at one point,3,0.1
+"In digital communications, the Fourier series of a periodic signal refers to?",squared magnitude of the Fourier transform |X(f)|^2,expansion as sum of harmonically related complex exponentials,output of an LTI system when input is a unit impulse,time-average of the energy spectral density for power signals,2,0.1
+"In digital communications, the Fourier transform of a signal refers to?",a generalised function with unit area concentrated at one point,time-average of the energy spectral density for power signals,integral of x(t)*e^(-j2pi*f*t) dt over all t,output of an LTI system when input is a unit impulse,3,0.1
+"In digital communications, the inverse Fourier transform refers to?",integral of X(f)*e^(j2pi*f*t) df over all f,range of frequencies passed with negligible attenuation,passes frequencies in a band around the centre frequency,expansion as sum of harmonically related complex exponentials,1,0.1
+"In digital communications, the convolution theorem refers to?",integral of x(t)*e^(-j2pi*f*t) dt over all t,Fourier transform of x*h equals product X(f)*H(f),squared magnitude of the Fourier transform |X(f)|^2,h(t)=0 for all t<0,2,0.1
+"In digital communications, the Dirac delta function refers to?",a generalised function with unit area concentrated at one point,passes all frequencies below cutoff and blocks all above,range of frequencies passed with negligible attenuation,Fourier transform of the impulse response h(t),1,0.1
+"In digital communications, the transfer function H(f) of an LTI system refers to?",squared magnitude of the Fourier transform |X(f)|^2,Fourier transform of the impulse response h(t),passes all frequencies below cutoff and blocks all above,time-average of the energy spectral density for power signals,2,0.1
+"In digital communications, the energy spectral density refers to?",Fourier transform of x*h equals product X(f)*H(f),squared magnitude of the Fourier transform |X(f)|^2,time-average of the energy spectral density for power signals,h(t)=0 for all t<0,2,0.1
+"In digital communications, the power spectral density refers to?",output of an LTI system when input is a unit impulse,time-average of the energy spectral density for power signals,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,a generalised function with unit area concentrated at one point,2,0.1
+"In digital communications, Parseval's theorem refers to?",total energy equals integral of energy spectral density over all f,a generalised function with unit area concentrated at one point,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,Fourier transform of x*h equals product X(f)*H(f),1,0.1
+"In digital communications, the bandwidth of an LTI system refers to?",range of frequencies passed with negligible attenuation,90-degree phase shift of a signal at all frequencies,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,time-average of the energy spectral density for power signals,1,0.1
+"In digital communications, the impulse response h(t) refers to?",passes all frequencies below cutoff and blocks all above,output of an LTI system when input is a unit impulse,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,passes frequencies in a band around the centre frequency,2,0.1
+"In digital communications, causality of an LTI system via h(t) refers to?",a generalised function with unit area concentrated at one point,output of an LTI system when input is a unit impulse,h(t)=0 for all t<0,total energy equals integral of energy spectral density over all f,3,0.1
+"In digital communications, an ideal lowpass filter refers to?",Fourier transform of x*h equals product X(f)*H(f),a generalised function with unit area concentrated at one point,passes all frequencies below cutoff and blocks all above,output of an LTI system when input is a unit impulse,3,0.1
+"In digital communications, an ideal bandpass filter refers to?",time-average of the energy spectral density for power signals,Fourier transform of x*h equals product X(f)*H(f),expansion as sum of harmonically related complex exponentials,passes frequencies in a band around the centre frequency,4,0.1
+"In digital communications, the Hilbert transform refers to?",90-degree phase shift of a signal at all frequencies,range of frequencies passed with negligible attenuation,output of an LTI system when input is a unit impulse,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,1,0.1
+"In digital communications, the pre-envelope (analytic signal) refers to?",Fourier transform of x*h equals product X(f)*H(f),x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,squared magnitude of the Fourier transform |X(f)|^2,time-average of the energy spectral density for power signals,2,0.1
+How is the Fourier series of a periodic signal defined?,passes frequencies in a band around the centre frequency,90-degree phase shift of a signal at all frequencies,x(t) + j*x_hat(t) where x_hat is the Hilbert transform of x,expansion as sum of harmonically related complex exponentials,4,0.1
+How is the Fourier transform of a signal defined?,Fourier transform of x*h equals product X(f)*H(f),passes frequencies in a band around the centre frequency,integral of x(t)*e^(-j2pi*f*t) dt over all t,passes all frequencies below cutoff and blocks all above,3,0.1
+Evaluate: FT of rect(t/T),T*sinc(fT),T*sinc(fT)_a,T*sinc(fT)_c,T*sinc(fT)_b,1,0.15
+Evaluate: FT of sinc(2Wt),(1/2W)*rect(f/2W),(1/2W)*rect(f/2W)_b,(1/2W)*rect(f/2W)_a,(1/2W)*rect(f/2W)_c,1,0.15
+Evaluate: FT of delta(t-t0),e^(-j2pi*f*t0),e^(-j2pi*f*t0)_c,e^(-j2pi*f*t0)_a,e^(-j2pi*f*t0)_b,1,0.15
+Evaluate: FT of cos(2pi*f0*t),0.1 *(delta(f-f0)+delta(f+f0)),0.5*(delta(f-f0)+delta(f+f0)),1.5 *(delta(f-f0)+delta(f+f0)),5.0 *(delta(f-f0)+delta(f+f0)),2,0.15
+Evaluate: FT of e^(-a*t)*u(t) with a>0,approx 1/(a+j2pi*f)*2,-1 /(a+j2pi*f),0 /(a+j2pi*f),1/(a+j2pi*f),4,0.15
+Evaluate: 3dB bandwidth of H(f)=1/(1+j*f/B),B Hz_b,B Hz_a,B Hz,B Hz_c,3,0.15
+Evaluate: group delay of linear-phase filter with slope -k,k seconds,k seconds_a,k seconds_b,k seconds_c,1,0.15
+Evaluate: energy of x(t)=e^(-t)*u(t) via Parseval,1.5 J,2.0 J,0.5 J,0.4 J,3,0.15
+Evaluate: Nyquist bandwidth for bit rate R,R/2 Hz_c,R/2 Hz_b,R/2 Hz,R/2 Hz_a,3,0.15
+Evaluate: |H(f)| at f=0 for H(f)=1/(1+j*f/10),-1,approx 1*2,1,0,3,0.15
+Evaluate: convolution of rect(t) with itself,triangular pulse of width 2,triangular pulse of width 2_b,triangular pulse of width 2_a,triangular pulse of width 2_c,1,0.15
+Evaluate: FT of e^(-pi*t^2),e^(-pi*f^2),e^(-pi*f^2)_a,e^(-pi*f^2)_b,e^(-pi*f^2)_c,1,0.15
+Evaluate: FT of d/dt[x(t)],j2pi*f*X(f)_a,j2pi*f*X(f)_b,j2pi*f*X(f)_c,j2pi*f*X(f),4,0.15
+Evaluate: FT of x(t)*cos(2pi*f0*t),0.2 *(X(f-f0)+X(f+f0)),-0.5 *(X(f-f0)+X(f+f0)),0.5*(X(f-f0)+X(f+f0)),0.4 *(X(f-f0)+X(f+f0)),3,0.15
+Evaluate: bandwidth of x(t)=sinc(100t),38 Hz,100 Hz,50 Hz,17 Hz,3,0.15
+Evaluate: duration-bandwidth product for Gaussian pulse,1.5,0.1,2.0,0.5,4,0.15
+Evaluate: output y(t) of ideal diff for x(t)=sin(2pi*f0*t),2pi*f0*cos(2pi*f0*t),4 pi*f0*cos(2pi*f0*t),20 pi*f0*cos(2pi*f0*t),0 pi*f0*cos(2pi*f0*t),1,0.15
+Evaluate: FT of u(t),2.0 *delta(f) + 1/(j2pi*f),0.5*delta(f) + 1/(j2pi*f),1.5 *delta(f) + 1/(j2pi*f),1.0 *delta(f) + 1/(j2pi*f),2,0.15
+Evaluate: phase of FT of e^(-at)*u(t) at f=a/(2pi),minus 45 degrees_a,minus 45 degrees_b,minus 45 degrees,minus 45 degrees_c,3,0.15
+Evaluate: |X(0)| for x(t)=e^(-2t)*u(t),0.5,0.1,0.2,0.4,1,0.15
+Evaluate: Hilbert transform of cos(2pi*f0*t),sin(2pi*f0*t),sin(2pi*f0*t)_b,sin(2pi*f0*t)_c,sin(2pi*f0*t)_a,1,0.15
+Evaluate: complex envelope bandwidth vs bandpass bandwidth,half: BW_complex = BW_bandpass/2_a,half: BW_complex = BW_bandpass/2,half: BW_complex = BW_bandpass/2_c,half: BW_complex = BW_bandpass/2_b,2,0.15
+What is the result of FT of rect(t/T)?,T*sinc(fT),T*sinc(fT)_b,T*sinc(fT)_c,T*sinc(fT)_a,1,0.15
+What is the result of FT of sinc(2Wt)?,(1/2W)*rect(f/2W),(1/2W)*rect(f/2W)_b,(1/2W)*rect(f/2W)_a,(1/2W)*rect(f/2W)_c,1,0.15
+What is the result of FT of delta(t-t0)?,e^(-j2pi*f*t0)_c,e^(-j2pi*f*t0)_b,e^(-j2pi*f*t0)_a,e^(-j2pi*f*t0),4,0.15
+What is the result of FT of cos(2pi*f0*t)?,2.0 *(delta(f-f0)+delta(f+f0)),1.5 *(delta(f-f0)+delta(f+f0)),0.5*(delta(f-f0)+delta(f+f0)),1.0 *(delta(f-f0)+delta(f+f0)),3,0.15
+What is the result of FT of e^(-a*t)*u(t) with a>0?,-1 /(a+j2pi*f),0 /(a+j2pi*f),1/(a+j2pi*f),1 /(a+j2pi*f),3,0.15
+What is the result of 3dB bandwidth of H(f)=1/(1+j*f/B)?,B Hz_c,B Hz_a,B Hz_b,B Hz,4,0.15
+What is the result of group delay of linear-phase filter with slope -k?,k seconds,k seconds_a,k seconds_b,k seconds_c,1,0.15
+What is the result of energy of x(t)=e^(-t)*u(t) via Parseval?,5.0 J,1.5 J,0.5 J,0.1 J,3,0.15
+What is the result of Nyquist bandwidth for bit rate R?,R/2 Hz_b,R/2 Hz_c,R/2 Hz,R/2 Hz_a,3,0.15
+What is the result of |H(f)| at f=0 for H(f)=1/(1+j*f/10)?,1,4,-1,10,1,0.15
+What is the result of convolution of rect(t) with itself?,triangular pulse of width 2_b,triangular pulse of width 2,triangular pulse of width 2_a,triangular pulse of width 2_c,2,0.15
+What is the result of FT of e^(-pi*t^2)?,e^(-pi*f^2)_b,e^(-pi*f^2)_c,e^(-pi*f^2),e^(-pi*f^2)_a,3,0.15
+What is the result of FT of d/dt[x(t)]?,j2pi*f*X(f)_c,j2pi*f*X(f)_b,j2pi*f*X(f)_a,j2pi*f*X(f),4,0.15
+What is the result of FT of x(t)*cos(2pi*f0*t)?,approx 0.5*(X(f-f0)+X(f+f0))*2,0.5*(X(f-f0)+X(f+f0)),0.2 *(X(f-f0)+X(f+f0)),0.8 *(X(f-f0)+X(f+f0)),2,0.15
+What is the result of bandwidth of x(t)=sinc(100t)?,100 Hz,12 Hz,38 Hz,50 Hz,4,0.15
+What is the result of duration-bandwidth product for Gaussian pulse?,0.5,0.4,5.0,0.8,1,0.15
+What is the result of output y(t) of ideal diff for x(t)=sin(2pi*f0*t)?,6 pi*f0*cos(2pi*f0*t),1 pi*f0*cos(2pi*f0*t),2pi*f0*cos(2pi*f0*t),0 pi*f0*cos(2pi*f0*t),3,0.15
+What is the result of FT of u(t)?,2.0 *delta(f) + 1/(j2pi*f),0.1 *delta(f) + 1/(j2pi*f),0.5*delta(f) + 1/(j2pi*f),1.5 *delta(f) + 1/(j2pi*f),3,0.15
+What is the result of phase of FT of e^(-at)*u(t) at f=a/(2pi)?,minus 45 degrees,minus 45 degrees_b,minus 45 degrees_a,minus 45 degrees_c,1,0.15
+What is the result of |X(0)| for x(t)=e^(-2t)*u(t)?,1.0,0.1,5.0,0.5,4,0.15
+What is the result of Hilbert transform of cos(2pi*f0*t)?,sin(2pi*f0*t)_a,sin(2pi*f0*t),sin(2pi*f0*t)_b,sin(2pi*f0*t)_c,2,0.15
+What is the result of complex envelope bandwidth vs bandpass bandwidth?,half: BW_complex = BW_bandpass/2_a,half: BW_complex = BW_bandpass/2,half: BW_complex = BW_bandpass/2_b,half: BW_complex = BW_bandpass/2_c,2,0.15
+Calculate: FT of rect(t/T),T*sinc(fT)_b,T*sinc(fT),T*sinc(fT)_a,T*sinc(fT)_c,2,0.15
+Calculate: FT of sinc(2Wt),(1/2W)*rect(f/2W),(1/2W)*rect(f/2W)_a,(1/2W)*rect(f/2W)_b,(1/2W)*rect(f/2W)_c,1,0.15
+Calculate: FT of delta(t-t0),e^(-j2pi*f*t0)_c,e^(-j2pi*f*t0),e^(-j2pi*f*t0)_a,e^(-j2pi*f*t0)_b,2,0.15
+Calculate: FT of cos(2pi*f0*t),2.0 *(delta(f-f0)+delta(f+f0)),0.8 *(delta(f-f0)+delta(f+f0)),1.0 *(delta(f-f0)+delta(f+f0)),0.5*(delta(f-f0)+delta(f+f0)),4,0.15
+Calculate: FT of e^(-a*t)*u(t) with a>0,1/(a+j2pi*f),approx 1/(a+j2pi*f)*2,2 /(a+j2pi*f),0 /(a+j2pi*f),1,0.15
+Calculate: 3dB bandwidth of H(f)=1/(1+j*f/B),B Hz,B Hz_b,B Hz_c,B Hz_a,1,0.15
+What is a random variable?,a function mapping outcomes of a random experiment to real numbers,"P(X<=x), non-decreasing from 0 to 1","E[e^(j*omega*X)], the Fourier transform of the PDF",PDF = lambda*e^(-lambda*x) for x>=0,1,0.2
+What is the probability density function (PDF)?,"E[(X-mu)^2], measure of spread around the mean",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"derivative of the CDF, non-negative, integrates to 1","bell-shaped PDF, fully characterised by mean and variance",3,0.2
+What is the cumulative distribution function (CDF)?,P(A|B) = P(B|A)*P(A)/P(B),integral of x*f(x) dx over all x,"P(X<=x), non-decreasing from 0 to 1","derivative of the CDF, non-negative, integrates to 1",3,0.2
+What is the mean (expected value) of X?,integral of x*f(x) dx over all x,"derivative of the CDF, non-negative, integrates to 1","f(x,y) = f_X(x)*f_Y(y) for all x,y","f(x,y)/f_X(x), the PDF of Y given X=x",1,0.2
+What is the variance of X?,PDF = lambda*e^(-lambda*x) for x>=0,"E[(X-mu)^2], measure of spread around the mean",non-negative function integrating to 1 over the x-y plane,"derivative of the CDF, non-negative, integrates to 1",2,0.2
+What is the Gaussian (normal) distribution?,"E[e^(j*omega*X)], the Fourier transform of the PDF","bell-shaped PDF, fully characterised by mean and variance",P(A|B) = P(B|A)*P(A)/P(B),non-negative function integrating to 1 over the x-y plane,2,0.2
+What is the Q-function Q(x)?,integral of x*f(x) dx over all x,"f(x,y)/f_X(x), the PDF of Y given X=x",probability that a standard normal RV exceeds x,"derivative of the CDF, non-negative, integrates to 1",3,0.2
+What is the complementary error function erfc(x)?,PDF = lambda*e^(-lambda*x) for x>=0,"2*Q(sqrt(2)*x), related to Q-function",a function mapping outcomes of a random experiment to real numbers,"bell-shaped PDF, fully characterised by mean and variance",2,0.2
+"What is the uniform distribution on [a,b]?","PDF = 1/(b-a) for a<=x<=b, zero elsewhere",P(A|B) = P(B|A)*P(A)/P(B),PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"derivative of the CDF, non-negative, integrates to 1",1,0.2
+What is the exponential distribution?,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere",PDF = lambda*e^(-lambda*x) for x>=0,probability that a standard normal RV exceeds x,"f(x,y)/f_X(x), the PDF of Y given X=x",2,0.2
+What is the Rayleigh distribution?,"f(x,y) = f_X(x)*f_Y(y) for all x,y","bell-shaped PDF, fully characterised by mean and variance","P(X<=x), non-decreasing from 0 to 1",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,4,0.2
+What is statistical independence of X and Y?,"bell-shaped PDF, fully characterised by mean and variance","f(x,y) = f_X(x)*f_Y(y) for all x,y","PDF = 1/(b-a) for a<=x<=b, zero elsewhere",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,2,0.2
+"What is the joint PDF f(x,y)?","f(x,y)/f_X(x), the PDF of Y given X=x","P(X<=x), non-decreasing from 0 to 1",probability that a standard normal RV exceeds x,non-negative function integrating to 1 over the x-y plane,4,0.2
+What is conditional PDF f(y|x)?,"E[(X-mu)^2], measure of spread around the mean","f(x,y)/f_X(x), the PDF of Y given X=x",P(A|B) = P(B|A)*P(A)/P(B),"P(X<=x), non-decreasing from 0 to 1",2,0.2
+What is Bayes' theorem?,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere","E[(X-mu)^2], measure of spread around the mean","bell-shaped PDF, fully characterised by mean and variance",P(A|B) = P(B|A)*P(A)/P(B),4,0.2
+What is the characteristic function of X?,"E[e^(j*omega*X)], the Fourier transform of the PDF","E[(X-mu)^2], measure of spread around the mean","PDF = 1/(b-a) for a<=x<=b, zero elsewhere",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,1,0.2
+Which best describes a random variable?,"P(X<=x), non-decreasing from 0 to 1",a function mapping outcomes of a random experiment to real numbers,PDF = lambda*e^(-lambda*x) for x>=0,PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,2,0.2
+Which best describes the probability density function (PDF)?,integral of x*f(x) dx over all x,"derivative of the CDF, non-negative, integrates to 1",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"f(x,y) = f_X(x)*f_Y(y) for all x,y",2,0.2
+Which best describes the cumulative distribution function (CDF)?,"E[e^(j*omega*X)], the Fourier transform of the PDF",P(A|B) = P(B|A)*P(A)/P(B),a function mapping outcomes of a random experiment to real numbers,"P(X<=x), non-decreasing from 0 to 1",4,0.2
+Which best describes the mean (expected value) of X?,"f(x,y) = f_X(x)*f_Y(y) for all x,y",integral of x*f(x) dx over all x,"E[(X-mu)^2], measure of spread around the mean","f(x,y)/f_X(x), the PDF of Y given X=x",2,0.2
+Which best describes the variance of X?,"E[(X-mu)^2], measure of spread around the mean","PDF = 1/(b-a) for a<=x<=b, zero elsewhere",PDF = lambda*e^(-lambda*x) for x>=0,"f(x,y) = f_X(x)*f_Y(y) for all x,y",1,0.2
+Which best describes the Gaussian (normal) distribution?,"bell-shaped PDF, fully characterised by mean and variance",integral of x*f(x) dx over all x,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere","f(x,y)/f_X(x), the PDF of Y given X=x",1,0.2
+Which best describes the Q-function Q(x)?,probability that a standard normal RV exceeds x,non-negative function integrating to 1 over the x-y plane,a function mapping outcomes of a random experiment to real numbers,"derivative of the CDF, non-negative, integrates to 1",1,0.2
+Which best describes the complementary error function erfc(x)?,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere","2*Q(sqrt(2)*x), related to Q-function",integral of x*f(x) dx over all x,"E[e^(j*omega*X)], the Fourier transform of the PDF",2,0.2
+"Which best describes the uniform distribution on [a,b]?","PDF = 1/(b-a) for a<=x<=b, zero elsewhere","bell-shaped PDF, fully characterised by mean and variance",non-negative function integrating to 1 over the x-y plane,P(A|B) = P(B|A)*P(A)/P(B),1,0.2
+Which best describes the exponential distribution?,probability that a standard normal RV exceeds x,PDF = lambda*e^(-lambda*x) for x>=0,"f(x,y)/f_X(x), the PDF of Y given X=x","P(X<=x), non-decreasing from 0 to 1",2,0.2
+Which best describes the Rayleigh distribution?,"2*Q(sqrt(2)*x), related to Q-function",integral of x*f(x) dx over all x,"bell-shaped PDF, fully characterised by mean and variance",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,4,0.2
+Which best describes statistical independence of X and Y?,"derivative of the CDF, non-negative, integrates to 1","P(X<=x), non-decreasing from 0 to 1",integral of x*f(x) dx over all x,"f(x,y) = f_X(x)*f_Y(y) for all x,y",4,0.2
+"Which best describes the joint PDF f(x,y)?",PDF = lambda*e^(-lambda*x) for x>=0,probability that a standard normal RV exceeds x,non-negative function integrating to 1 over the x-y plane,P(A|B) = P(B|A)*P(A)/P(B),3,0.2
+Which best describes conditional PDF f(y|x)?,"E[e^(j*omega*X)], the Fourier transform of the PDF","f(x,y) = f_X(x)*f_Y(y) for all x,y","f(x,y)/f_X(x), the PDF of Y given X=x",PDF = lambda*e^(-lambda*x) for x>=0,3,0.2
+Which best describes Bayes' theorem?,P(A|B) = P(B|A)*P(A)/P(B),"PDF = 1/(b-a) for a<=x<=b, zero elsewhere","2*Q(sqrt(2)*x), related to Q-function","E[e^(j*omega*X)], the Fourier transform of the PDF",1,0.2
+Which best describes the characteristic function of X?,a function mapping outcomes of a random experiment to real numbers,"derivative of the CDF, non-negative, integrates to 1","E[e^(j*omega*X)], the Fourier transform of the PDF",probability that a standard normal RV exceeds x,3,0.2
+"In digital communications, a random variable refers to?","derivative of the CDF, non-negative, integrates to 1",probability that a standard normal RV exceeds x,PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,a function mapping outcomes of a random experiment to real numbers,4,0.2
+"In digital communications, the probability density function (PDF) refers to?",P(A|B) = P(B|A)*P(A)/P(B),"derivative of the CDF, non-negative, integrates to 1",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"f(x,y) = f_X(x)*f_Y(y) for all x,y",2,0.2
+"In digital communications, the cumulative distribution function (CDF) refers to?","P(X<=x), non-decreasing from 0 to 1","derivative of the CDF, non-negative, integrates to 1","2*Q(sqrt(2)*x), related to Q-function",P(A|B) = P(B|A)*P(A)/P(B),1,0.2
+"In digital communications, the mean (expected value) of X refers to?","2*Q(sqrt(2)*x), related to Q-function",probability that a standard normal RV exceeds x,"f(x,y)/f_X(x), the PDF of Y given X=x",integral of x*f(x) dx over all x,4,0.2
+"In digital communications, the variance of X refers to?","E[(X-mu)^2], measure of spread around the mean",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,integral of x*f(x) dx over all x,PDF = lambda*e^(-lambda*x) for x>=0,1,0.2
+"In digital communications, the Gaussian (normal) distribution refers to?","bell-shaped PDF, fully characterised by mean and variance","derivative of the CDF, non-negative, integrates to 1","2*Q(sqrt(2)*x), related to Q-function",PDF = lambda*e^(-lambda*x) for x>=0,1,0.2
+"In digital communications, the Q-function Q(x) refers to?",P(A|B) = P(B|A)*P(A)/P(B),PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"f(x,y) = f_X(x)*f_Y(y) for all x,y",probability that a standard normal RV exceeds x,4,0.2
+"In digital communications, the complementary error function erfc(x) refers to?","2*Q(sqrt(2)*x), related to Q-function",probability that a standard normal RV exceeds x,"f(x,y)/f_X(x), the PDF of Y given X=x","bell-shaped PDF, fully characterised by mean and variance",1,0.2
+"In digital communications, the uniform distribution on [a,b] refers to?","f(x,y)/f_X(x), the PDF of Y given X=x","PDF = 1/(b-a) for a<=x<=b, zero elsewhere","P(X<=x), non-decreasing from 0 to 1",integral of x*f(x) dx over all x,2,0.2
+"In digital communications, the exponential distribution refers to?",PDF = lambda*e^(-lambda*x) for x>=0,"P(X<=x), non-decreasing from 0 to 1",a function mapping outcomes of a random experiment to real numbers,"E[e^(j*omega*X)], the Fourier transform of the PDF",1,0.2
+"In digital communications, the Rayleigh distribution refers to?",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,PDF = lambda*e^(-lambda*x) for x>=0,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere","P(X<=x), non-decreasing from 0 to 1",1,0.2
+"In digital communications, statistical independence of X and Y refers to?","f(x,y) = f_X(x)*f_Y(y) for all x,y","P(X<=x), non-decreasing from 0 to 1",PDF = lambda*e^(-lambda*x) for x>=0,probability that a standard normal RV exceeds x,1,0.2
+"In digital communications, the joint PDF f(x,y) refers to?",non-negative function integrating to 1 over the x-y plane,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere",P(A|B) = P(B|A)*P(A)/P(B),"E[e^(j*omega*X)], the Fourier transform of the PDF",1,0.2
+"In digital communications, conditional PDF f(y|x) refers to?",a function mapping outcomes of a random experiment to real numbers,"f(x,y)/f_X(x), the PDF of Y given X=x","2*Q(sqrt(2)*x), related to Q-function",P(A|B) = P(B|A)*P(A)/P(B),2,0.2
+"In digital communications, Bayes' theorem refers to?","E[(X-mu)^2], measure of spread around the mean",probability that a standard normal RV exceeds x,PDF = lambda*e^(-lambda*x) for x>=0,P(A|B) = P(B|A)*P(A)/P(B),4,0.2
+"In digital communications, the characteristic function of X refers to?",non-negative function integrating to 1 over the x-y plane,"E[e^(j*omega*X)], the Fourier transform of the PDF",PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"E[(X-mu)^2], measure of spread around the mean",2,0.2
+How is a random variable defined?,PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,"PDF = 1/(b-a) for a<=x<=b, zero elsewhere",a function mapping outcomes of a random experiment to real numbers,integral of x*f(x) dx over all x,3,0.2
+How is the probability density function (PDF) defined?,a function mapping outcomes of a random experiment to real numbers,PDF = (r/sigma^2)*e^(-r^2/2sigma^2) for r>=0,non-negative function integrating to 1 over the x-y plane,"derivative of the CDF, non-negative, integrates to 1",4,0.2
+Evaluate: P(X>1) for X~Exp(2),e^(-2),e^(-2)_a,e^(-2)_b,e^(-2)_c,1,0.25
+"Evaluate: mean of X~Uniform(0,4)",4,8,0,2,4,0.25
+"Evaluate: variance of X~Uniform(0,4)",-1.333,1.333,1.000,2.666,2,0.25
+Evaluate: mean of X~Exp(lambda),0 /lambda,10 /lambda,1/lambda,4 /lambda,3,0.25
+"Evaluate: variance of X~Gaussian(0,sigma^2)",sigma^2_a,sigma^2_b,sigma^2_c,sigma^2,4,0.25
+"Evaluate: P(X<0) for X~Gaussian(0,1)",1.5,0.5,0.1,-0.5,2,0.25
+Evaluate: Q(0),1.0,0.2,-0.5,0.5,4,0.25
+Evaluate: Q(x) + Q(-x) for any x,10,3,0,1,4,0.25
+"Evaluate: P(|X|<1) for X~Gaussian(0,1) approximately",2.732,0.683,1.366,0.342,2,0.25
+"Evaluate: E[X^2] for X~Gaussian(0,sigma^2)",sigma^2_b,sigma^2_a,sigma^2_c,sigma^2,4,0.25
+"Evaluate: E[X^2] for X~Gaussian(mu,sigma^2)",mu^2 + sigma^2_b,mu^2 + sigma^2_a,mu^2 + sigma^2,mu^2 + sigma^2_c,3,0.25
+Evaluate: variance of X~Exp(lambda),10 /lambda^2,1/lambda^2,3 /lambda^2,2 /lambda^2,2,0.25
+"Evaluate: P(X>2) for X~Gaussian(0,1)",Q(2)_c,Q(2),Q(2)_a,Q(2)_b,2,0.25
+Evaluate: Rayleigh mean for sigma=1,sqrt(pi/2)_b,sqrt(pi/2),sqrt(pi/2)_a,sqrt(pi/2)_c,2,0.25
+Evaluate: Rayleigh variance for sigma=1,(4-pi)/2,(4-pi)/2_a,(4-pi)/2_b,(4-pi)/2_c,1,0.25
+Evaluate: P(error) for BPSK at SNR=Eb/N0,Q(sqrt(2*Eb/N0))_c,Q(sqrt(2*Eb/N0)),Q(sqrt(2*Eb/N0))_b,Q(sqrt(2*Eb/N0))_a,2,0.25
+"Evaluate: mean of X~Gaussian(3,4)",-3,approx 3*2,3,1,3,0.25
+"Evaluate: std dev of X~Gaussian(3,4)",4,3,2,8,3,0.25
+Evaluate: E[aX+b],a*mu + b_c,a*mu + b,a*mu + b_a,a*mu + b_b,2,0.25
+Evaluate: Var[aX+b],a^2*sigma^2,a^2*sigma^2_a,a^2*sigma^2_c,a^2*sigma^2_b,1,0.25
+Evaluate: covariance of independent X and Y,0,1/lambda,-0,a^2*sigma^2,1,0.25
+Evaluate: P(A and B) when P(A)=0.3 and P(B)=0.4 independent,0.09,0.12,0.01,0.18,2,0.25
+What is the result of P(X>1) for X~Exp(2)?,e^(-2),e^(-2)_b,e^(-2)_c,e^(-2)_a,1,0.25
+"What is the result of mean of X~Uniform(0,4)?",2,3,0,4,1,0.25
+"What is the result of variance of X~Uniform(0,4)?",1.333,0.666,5.332,1.000,1,0.25
+What is the result of mean of X~Exp(lambda)?,0 /lambda,1/lambda,4 /lambda,10 /lambda,2,0.25
+"What is the result of variance of X~Gaussian(0,sigma^2)?",sigma^2,sigma^2_a,sigma^2_c,sigma^2_b,1,0.25
+"What is the result of P(X<0) for X~Gaussian(0,1)?",0.5,0.4,0.1,1.0,1,0.25
+What is the result of Q(0)?,1.0,0.5,1.5,0.2,2,0.25
+What is the result of Q(x) + Q(-x) for any x?,2,approx 1*2,0,1,4,0.25
+"What is the result of P(|X|<1) for X~Gaussian(0,1) approximately?",-0.683,0.171,0.683,0.342,3,0.25
+"What is the result of E[X^2] for X~Gaussian(0,sigma^2)?",sigma^2,sigma^2_a,sigma^2_c,sigma^2_b,1,0.25
+"What is the result of E[X^2] for X~Gaussian(mu,sigma^2)?",mu^2 + sigma^2,mu^2 + sigma^2_b,mu^2 + sigma^2_a,mu^2 + sigma^2_c,1,0.25
+What is the result of variance of X~Exp(lambda)?,2 /lambda^2,1 /lambda^2,4 /lambda^2,1/lambda^2,4,0.25
+"What is the result of P(X>2) for X~Gaussian(0,1)?",Q(2)_b,Q(2)_c,Q(2),Q(2)_a,3,0.25
+What is the result of Rayleigh mean for sigma=1?,sqrt(pi/2)_a,sqrt(pi/2)_b,sqrt(pi/2),sqrt(pi/2)_c,3,0.25
+What is the result of Rayleigh variance for sigma=1?,(4-pi)/2,(4-pi)/2_b,(4-pi)/2_c,(4-pi)/2_a,1,0.25
+What is the result of P(error) for BPSK at SNR=Eb/N0?,Q(sqrt(2*Eb/N0))_a,Q(sqrt(2*Eb/N0))_c,Q(sqrt(2*Eb/N0)),Q(sqrt(2*Eb/N0))_b,3,0.25
+"What is the result of mean of X~Gaussian(3,4)?",1,12,3,30,3,0.25
+"What is the result of std dev of X~Gaussian(3,4)?",8,1,2,20,3,0.25
+What is the result of E[aX+b]?,a*mu + b_a,a*mu + b,a*mu + b_c,a*mu + b_b,2,0.25
+What is the result of Var[aX+b]?,a^2*sigma^2_a,a^2*sigma^2_c,a^2*sigma^2,a^2*sigma^2_b,3,0.25
+What is the result of covariance of independent X and Y?,3,-0,0,1.333,3,0.25
+What is the result of P(A and B) when P(A)=0.3 and P(B)=0.4 independent?,-0.12,0.09,0.12,0.18,3,0.25
+Calculate: P(X>1) for X~Exp(2),e^(-2)_a,e^(-2)_c,e^(-2)_b,e^(-2),4,0.25
+"Calculate: mean of X~Uniform(0,4)",8,3,20,2,4,0.25
+"Calculate: variance of X~Uniform(0,4)",0.333,-1.333,1.000,1.333,4,0.25
+Calculate: mean of X~Exp(lambda),0 /lambda,1/lambda,2 /lambda,approx 1/lambda*2,2,0.25
+"Calculate: variance of X~Gaussian(0,sigma^2)",sigma^2_b,sigma^2_a,sigma^2_c,sigma^2,4,0.25
+"Calculate: P(X<0) for X~Gaussian(0,1)",0.4,2.0,0.5,0.8,3,0.25
+What is a stochastic process X(t)?,a process with flat PSD over all frequencies,a collection of random variables indexed by time t,noise power = N0*W,"N0/2, symmetric about zero frequency",2,0.3
+What is a wide-sense stationary (WSS) process?,a process with flat PSD over all frequencies,mean is constant and autocorrelation depends only on time lag tau,"future state depends only on the present, not the past","one-sided PSD of AWGN, in W/Hz",2,0.3
+What is the autocorrelation function R_X(tau)?,"E[X(t)*X(t+tau)], measure of time correlation",Fourier transform of the autocorrelation function R_X(tau),"one-sided PSD of AWGN, in W/Hz",a process with flat PSD over all frequencies,1,0.3
+What is the power spectral density S_X(f)?,noise power = N0*W,Fourier transform of the autocorrelation function R_X(tau),a collection of random variables indexed by time t,"one-sided PSD of AWGN, in W/Hz",2,0.3
+What is white noise?,a process with flat PSD over all frequencies,"one-sided PSD of AWGN, in W/Hz",Fourier transform of the autocorrelation function R_X(tau),"future state depends only on the present, not the past",1,0.3
+What is band-limited white noise?,"E[X(t)*X(t+tau)], measure of time correlation",time averages equal ensemble averages with probability 1,a collection of random variables indexed by time t,white noise passed through a lowpass filter,4,0.3
+What is AWGN?,Fourier transform of the autocorrelation function R_X(tau),"one-sided PSD of AWGN, in W/Hz","additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",a collection of random variables indexed by time t,3,0.3
+What is the Wiener-Khinchin theorem?,"one-sided PSD of AWGN, in W/Hz",PSD is the Fourier transform of the autocorrelation,Fourier transform of the autocorrelation function R_X(tau),noise power = N0*W,2,0.3
+What is an ergodic process?,noise power = N0*W,"future state depends only on the present, not the past",white noise passed through a lowpass filter,time averages equal ensemble averages with probability 1,4,0.3
+What is the cross-correlation R_XY(tau)?,"E[X(t)*X(t+tau)], measure of time correlation","one-sided PSD of AWGN, in W/Hz",all joint distributions are multivariate Gaussian,E[X(t)*Y(t+tau)],4,0.3
+What is the noise power spectral density N0?,mean is constant and autocorrelation depends only on time lag tau,"one-sided PSD of AWGN, in W/Hz",white noise passed through a lowpass filter,all joint distributions are multivariate Gaussian,2,0.3
+What is two-sided PSD of AWGN?,a process with flat PSD over all frequencies,noise power = N0*W,"N0/2, symmetric about zero frequency",white noise passed through a lowpass filter,3,0.3
+What is a Gaussian random process?,PSD is the Fourier transform of the autocorrelation,"future state depends only on the present, not the past",all joint distributions are multivariate Gaussian,"one-sided PSD of AWGN, in W/Hz",3,0.3
+What is a Markov process?,"future state depends only on the present, not the past","one-sided PSD of AWGN, in W/Hz",E[X(t)*Y(t+tau)],Fourier transform of the autocorrelation function R_X(tau),1,0.3
+What is a cyclostationary process?,a process with flat PSD over all frequencies,noise power = N0*W,statistical properties periodic in time with some period,"N0/2, symmetric about zero frequency",3,0.3
+What is bandwidth of AWGN after ideal LPF of bandwidth W?,E[X(t)*Y(t+tau)],"N0/2, symmetric about zero frequency","additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",noise power = N0*W,4,0.3
+Which best describes a stochastic process X(t)?,"one-sided PSD of AWGN, in W/Hz",a collection of random variables indexed by time t,"future state depends only on the present, not the past",noise power = N0*W,2,0.3
+Which best describes a wide-sense stationary (WSS) process?,noise power = N0*W,mean is constant and autocorrelation depends only on time lag tau,Fourier transform of the autocorrelation function R_X(tau),time averages equal ensemble averages with probability 1,2,0.3
+Which best describes the autocorrelation function R_X(tau)?,statistical properties periodic in time with some period,"E[X(t)*X(t+tau)], measure of time correlation","additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",a process with flat PSD over all frequencies,2,0.3
+Which best describes the power spectral density S_X(f)?,"N0/2, symmetric about zero frequency",Fourier transform of the autocorrelation function R_X(tau),statistical properties periodic in time with some period,all joint distributions are multivariate Gaussian,2,0.3
+Which best describes white noise?,statistical properties periodic in time with some period,Fourier transform of the autocorrelation function R_X(tau),white noise passed through a lowpass filter,a process with flat PSD over all frequencies,4,0.3
+Which best describes band-limited white noise?,mean is constant and autocorrelation depends only on time lag tau,"future state depends only on the present, not the past",all joint distributions are multivariate Gaussian,white noise passed through a lowpass filter,4,0.3
+Which best describes AWGN?,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",all joint distributions are multivariate Gaussian,PSD is the Fourier transform of the autocorrelation,time averages equal ensemble averages with probability 1,1,0.3
+Which best describes the Wiener-Khinchin theorem?,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",noise power = N0*W,PSD is the Fourier transform of the autocorrelation,white noise passed through a lowpass filter,3,0.3
+Which best describes an ergodic process?,statistical properties periodic in time with some period,"one-sided PSD of AWGN, in W/Hz",time averages equal ensemble averages with probability 1,"future state depends only on the present, not the past",3,0.3
+Which best describes the cross-correlation R_XY(tau)?,a collection of random variables indexed by time t,mean is constant and autocorrelation depends only on time lag tau,E[X(t)*Y(t+tau)],"future state depends only on the present, not the past",3,0.3
+Which best describes the noise power spectral density N0?,statistical properties periodic in time with some period,a process with flat PSD over all frequencies,"one-sided PSD of AWGN, in W/Hz",mean is constant and autocorrelation depends only on time lag tau,3,0.3
+Which best describes two-sided PSD of AWGN?,mean is constant and autocorrelation depends only on time lag tau,all joint distributions are multivariate Gaussian,"E[X(t)*X(t+tau)], measure of time correlation","N0/2, symmetric about zero frequency",4,0.3
+Which best describes a Gaussian random process?,all joint distributions are multivariate Gaussian,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",a collection of random variables indexed by time t,"N0/2, symmetric about zero frequency",1,0.3
+Which best describes a Markov process?,"E[X(t)*X(t+tau)], measure of time correlation",mean is constant and autocorrelation depends only on time lag tau,"future state depends only on the present, not the past",a collection of random variables indexed by time t,3,0.3
+Which best describes a cyclostationary process?,statistical properties periodic in time with some period,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",time averages equal ensemble averages with probability 1,"N0/2, symmetric about zero frequency",1,0.3
+Which best describes bandwidth of AWGN after ideal LPF of bandwidth W?,mean is constant and autocorrelation depends only on time lag tau,Fourier transform of the autocorrelation function R_X(tau),a process with flat PSD over all frequencies,noise power = N0*W,4,0.3
+"In digital communications, a stochastic process X(t) refers to?",mean is constant and autocorrelation depends only on time lag tau,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",Fourier transform of the autocorrelation function R_X(tau),a collection of random variables indexed by time t,4,0.3
+"In digital communications, a wide-sense stationary (WSS) process refers to?",white noise passed through a lowpass filter,statistical properties periodic in time with some period,mean is constant and autocorrelation depends only on time lag tau,"N0/2, symmetric about zero frequency",3,0.3
+"In digital communications, the autocorrelation function R_X(tau) refers to?",Fourier transform of the autocorrelation function R_X(tau),a collection of random variables indexed by time t,"E[X(t)*X(t+tau)], measure of time correlation",a process with flat PSD over all frequencies,3,0.3
+"In digital communications, the power spectral density S_X(f) refers to?",Fourier transform of the autocorrelation function R_X(tau),mean is constant and autocorrelation depends only on time lag tau,statistical properties periodic in time with some period,white noise passed through a lowpass filter,1,0.3
+"In digital communications, white noise refers to?",white noise passed through a lowpass filter,noise power = N0*W,"N0/2, symmetric about zero frequency",a process with flat PSD over all frequencies,4,0.3
+"In digital communications, band-limited white noise refers to?",PSD is the Fourier transform of the autocorrelation,"E[X(t)*X(t+tau)], measure of time correlation",white noise passed through a lowpass filter,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",3,0.3
+"In digital communications, AWGN refers to?",a process with flat PSD over all frequencies,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",a collection of random variables indexed by time t,time averages equal ensemble averages with probability 1,2,0.3
+"In digital communications, the Wiener-Khinchin theorem refers to?",statistical properties periodic in time with some period,a process with flat PSD over all frequencies,"one-sided PSD of AWGN, in W/Hz",PSD is the Fourier transform of the autocorrelation,4,0.3
+"In digital communications, an ergodic process refers to?",mean is constant and autocorrelation depends only on time lag tau,time averages equal ensemble averages with probability 1,"N0/2, symmetric about zero frequency",white noise passed through a lowpass filter,2,0.3
+"In digital communications, the cross-correlation R_XY(tau) refers to?",E[X(t)*Y(t+tau)],time averages equal ensemble averages with probability 1,a collection of random variables indexed by time t,"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD",1,0.3
+"In digital communications, the noise power spectral density N0 refers to?",PSD is the Fourier transform of the autocorrelation,E[X(t)*Y(t+tau)],"one-sided PSD of AWGN, in W/Hz",Fourier transform of the autocorrelation function R_X(tau),3,0.3
+"In digital communications, two-sided PSD of AWGN refers to?",noise power = N0*W,all joint distributions are multivariate Gaussian,statistical properties periodic in time with some period,"N0/2, symmetric about zero frequency",4,0.3
+"In digital communications, a Gaussian random process refers to?",PSD is the Fourier transform of the autocorrelation,"future state depends only on the present, not the past",all joint distributions are multivariate Gaussian,mean is constant and autocorrelation depends only on time lag tau,3,0.3
+"In digital communications, a Markov process refers to?",Fourier transform of the autocorrelation function R_X(tau),"E[X(t)*X(t+tau)], measure of time correlation",all joint distributions are multivariate Gaussian,"future state depends only on the present, not the past",4,0.3
+"In digital communications, a cyclostationary process refers to?",statistical properties periodic in time with some period,Fourier transform of the autocorrelation function R_X(tau),"additive white Gaussian noise, with Gaussian amplitude distribution and flat PSD","one-sided PSD of AWGN, in W/Hz",1,0.3
+"In digital communications, bandwidth of AWGN after ideal LPF of bandwidth W refers to?","N0/2, symmetric about zero frequency",white noise passed through a lowpass filter,all joint distributions are multivariate Gaussian,noise power = N0*W,4,0.3
+How is a stochastic process X(t) defined?,a collection of random variables indexed by time t,noise power = N0*W,E[X(t)*Y(t+tau)],PSD is the Fourier transform of the autocorrelation,1,0.3
+How is a wide-sense stationary (WSS) process defined?,statistical properties periodic in time with some period,noise power = N0*W,mean is constant and autocorrelation depends only on time lag tau,a collection of random variables indexed by time t,3,0.3
+Evaluate: noise power for AWGN with N0/2=1e-10 and BW=10 kHz,3.000e-06 W,2e-6 W,6.667e-07 W,2.000e-07 W,2,0.35
+Evaluate: R_X(0) for WSS process,"E[X^2(t)], the total power","E[X^2(t)], the total power_a","E[X^2(t)], the total power_b","E[X^2(t)], the total power_c",1,0.35
+Evaluate: R_X(tau) as tau->inf for ergodic process,approaches mean^2_b,approaches mean^2_c,approaches mean^2_a,approaches mean^2,4,0.35
+Evaluate: PSD S_X(f) for white noise with two-sided PSD N0/2,N0/2 for all f_a,N0/2 for all f,N0/2 for all f_c,N0/2 for all f_b,2,0.35
+Evaluate: noise power at output of LPF with H(f)=rect(f/2W),N0*W_a,N0*W_b,N0*W,N0*W_c,3,0.35
+Evaluate: R_X(0) >= |R_X(tau)| for WSS: true or false,true_c,true_a,true_b,true,4,0.35
+Evaluate: SNR at output of matched filter,2*E/N0,20 *E/N0,3 *E/N0,1 *E/N0,1,0.35
+"Evaluate: PSD of X+Y for uncorrelated X,Y",S_X(f)+S_Y(f)_b,S_X(f)+S_Y(f)_a,S_X(f)+S_Y(f),S_X(f)+S_Y(f)_c,3,0.35
+Evaluate: output noise PSD S_Y(f) for input X through H(f),S_X(f)*|H(f)|^2_a,S_X(f)*|H(f)|^2_b,S_X(f)*|H(f)|^2,S_X(f)*|H(f)|^2_c,3,0.35
+Evaluate: output noise power for N0/2 PSD through H(f),(N0/2)*integral|H(f)|^2 df_b,(N0/2)*integral|H(f)|^2 df,(N0/2)*integral|H(f)|^2 df_c,(N0/2)*integral|H(f)|^2 df_a,2,0.35
+Evaluate: bandwidth of S_X(f)=rect(f/20),2 Hz,40 Hz,10 Hz,100 Hz,3,0.35
+Evaluate: noise power density at receiver input for N0/2=10^-21,20 ^-21 W/Hz,10^-21 W/Hz,3 ^-21 W/Hz,1 ^-21 W/Hz,2,0.35
+Evaluate: S_X(f) of white noise through RC filter H(f)=1/(1+j*f/B),(N0/2)/(1+(f/B)^2)_b,(N0/2)/(1+(f/B)^2)_a,(N0/2)/(1+(f/B)^2),(N0/2)/(1+(f/B)^2)_c,3,0.35
+"Evaluate: noise power of above for N0/2=1, B=1",pi/2_b,pi/2_c,pi/2_a,pi/2,4,0.35
+Evaluate: mean of AWGN,0,S_X(f)*|H(f)|^2,-0,N0/2 for all f,1,0.35
+"Evaluate: variance of AWGN sample at LPF output, BW=W, N0/2",N0*W,N0*W_c,N0*W_a,N0*W_b,1,0.35
+Evaluate: R_X(tau) for white noise N0/2,(N0/2)*delta(tau)_b,(N0/2)*delta(tau)_c,(N0/2)*delta(tau),(N0/2)*delta(tau)_a,3,0.35
+Evaluate: noise figure definition,ratio of SNR at input to SNR at output_a,ratio of SNR at input to SNR at output_c,ratio of SNR at input to SNR at output,ratio of SNR at input to SNR at output_b,3,0.35
+Evaluate: noise temperature definition,equivalent temperature producing same noise power_c,equivalent temperature producing same noise power_b,equivalent temperature producing same noise power_a,equivalent temperature producing same noise power,4,0.35
+"Evaluate: minimum detectable signal power at SNR=1, N0/2=kT/2, BW=B",kT*B_c,kT*B_a,kT*B,kT*B_b,3,0.35
+Evaluate: output SNR of correlator receiver,3 *E_b/N0,2 *E_b/N0,20 *E_b/N0,2*E_b/N0,4,0.35
+Evaluate: effective noise bandwidth of RC filter H(f)=1/(1+jf/B),pi*B/2_c,pi*B/2_a,pi*B/2,pi*B/2_b,3,0.35
+What is the result of noise power for AWGN with N0/2=1e-10 and BW=10 kHz?,2e-6 W,-2.000e-06 W,2.000e-05 W,5.000e-07 W,1,0.35
+What is the result of R_X(0) for WSS process?,"E[X^2(t)], the total power_c","E[X^2(t)], the total power_b","E[X^2(t)], the total power_a","E[X^2(t)], the total power",4,0.35
+What is the result of R_X(tau) as tau->inf for ergodic process?,approaches mean^2_a,approaches mean^2_c,approaches mean^2,approaches mean^2_b,3,0.35
+What is the result of PSD S_X(f) for white noise with two-sided PSD N0/2?,N0/2 for all f,N0/2 for all f_a,N0/2 for all f_b,N0/2 for all f_c,1,0.35
+What is the result of noise power at output of LPF with H(f)=rect(f/2W)?,N0*W_a,N0*W_b,N0*W_c,N0*W,4,0.35
+What is the result of R_X(0) >= |R_X(tau)| for WSS: true or false?,true_c,true_a,true_b,true,4,0.35
+What is the result of SNR at output of matched filter?,-2 *E/N0,0 *E/N0,6 *E/N0,2*E/N0,4,0.35
+"What is the result of PSD of X+Y for uncorrelated X,Y?",S_X(f)+S_Y(f)_a,S_X(f)+S_Y(f),S_X(f)+S_Y(f)_c,S_X(f)+S_Y(f)_b,2,0.35
+What is the result of output noise PSD S_Y(f) for input X through H(f)?,S_X(f)*|H(f)|^2_c,S_X(f)*|H(f)|^2_b,S_X(f)*|H(f)|^2_a,S_X(f)*|H(f)|^2,4,0.35
+What is the result of output noise power for N0/2 PSD through H(f)?,(N0/2)*integral|H(f)|^2 df_a,(N0/2)*integral|H(f)|^2 df_c,(N0/2)*integral|H(f)|^2 df_b,(N0/2)*integral|H(f)|^2 df,4,0.35
+What is the result of bandwidth of S_X(f)=rect(f/20)?,10 Hz,1 Hz,8 Hz,30 Hz,1,0.35
+What is the result of noise power density at receiver input for N0/2=10^-21?,5 ^-21 W/Hz,10^-21 W/Hz,15 ^-21 W/Hz,30 ^-21 W/Hz,2,0.35
+What is the result of S_X(f) of white noise through RC filter H(f)=1/(1+j*f/B)?,(N0/2)/(1+(f/B)^2),(N0/2)/(1+(f/B)^2)_c,(N0/2)/(1+(f/B)^2)_b,(N0/2)/(1+(f/B)^2)_a,1,0.35
+"What is the result of noise power of above for N0/2=1, B=1?",pi/2,pi/2_c,pi/2_a,pi/2_b,1,0.35
+What is the result of mean of AWGN?,10^-21 W/Hz,true,-0,0,4,0.35
+"What is the result of variance of AWGN sample at LPF output, BW=W, N0/2?",N0*W_a,N0*W_c,N0*W,N0*W_b,3,0.35
+What is the result of R_X(tau) for white noise N0/2?,(N0/2)*delta(tau)_a,(N0/2)*delta(tau),(N0/2)*delta(tau)_c,(N0/2)*delta(tau)_b,2,0.35
+What is the result of noise figure definition?,ratio of SNR at input to SNR at output_c,ratio of SNR at input to SNR at output_b,ratio of SNR at input to SNR at output,ratio of SNR at input to SNR at output_a,3,0.35
+What is the result of noise temperature definition?,equivalent temperature producing same noise power_c,equivalent temperature producing same noise power_b,equivalent temperature producing same noise power,equivalent temperature producing same noise power_a,3,0.35
+"What is the result of minimum detectable signal power at SNR=1, N0/2=kT/2, BW=B?",kT*B_b,kT*B,kT*B_c,kT*B_a,2,0.35
+What is the result of output SNR of correlator receiver?,4 *E_b/N0,3 *E_b/N0,-2 *E_b/N0,2*E_b/N0,4,0.35
+What is the result of effective noise bandwidth of RC filter H(f)=1/(1+jf/B)?,pi*B/2_c,pi*B/2,pi*B/2_a,pi*B/2_b,2,0.35
+Calculate: noise power for AWGN with N0/2=1e-10 and BW=10 kHz,2.000e-07 W,6.667e-07 W,2e-6 W,3.000e-06 W,3,0.35
+Calculate: R_X(0) for WSS process,"E[X^2(t)], the total power_a","E[X^2(t)], the total power","E[X^2(t)], the total power_c","E[X^2(t)], the total power_b",2,0.35
+Calculate: R_X(tau) as tau->inf for ergodic process,approaches mean^2_b,approaches mean^2_a,approaches mean^2_c,approaches mean^2,4,0.35
+Calculate: PSD S_X(f) for white noise with two-sided PSD N0/2,N0/2 for all f,N0/2 for all f_b,N0/2 for all f_a,N0/2 for all f_c,1,0.35
+Calculate: noise power at output of LPF with H(f)=rect(f/2W),N0*W_b,N0*W_c,N0*W_a,N0*W,4,0.35
+Calculate: R_X(0) >= |R_X(tau)| for WSS: true or false,true_a,true,true_b,true_c,2,0.35
+What is entropy H(X) of a discrete source?,H(X) - H(X|Y) = H(Y) - H(Y|X),the usable frequency bandwidth in Hz,it is possible to compress below entropy with arbitrarily low error,"sum of -p_i*log2(p_i) over all symbols i, in bits",4,0.4
+What is the maximum entropy of a source with M symbols?,"log2(M) bits, achieved by uniform distribution",C = B*log2(1+SNR) bits per second,integral of -f(x)*log2(f(x)) dx,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",1,0.4
+What is the mutual information I(X;Y)?,"sum of -p_i*log2(p_i) over all symbols i, in bits",reliable communication is possible at rates below capacity C,H(X) - H(X|Y) = H(Y) - H(Y|X),"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",3,0.4
+What is the channel capacity C?,"log2(M) bits, achieved by uniform distribution",integral of -f(x)*log2(f(x)) dx,maximum mutual information over all input distributions,adding redundancy to protect against channel errors,3,0.4
+What is the Shannon channel capacity formula?,C = B*log2(1+SNR) bits per second,no codeword is a prefix of another; allows instant decoding,compression of source output to approach entropy rate,it is possible to compress below entropy with arbitrarily low error,1,0.4
+What is the channel bandwidth B in Shannon formula?,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",the usable frequency bandwidth in Hz,integral of -f(x)*log2(f(x)) dx,H(X) - H(X|Y) = H(Y) - H(Y|X),2,0.4
+What is source coding?,maximum mutual information over all input distributions,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",compression of source output to approach entropy rate,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",3,0.4
+What is channel coding?,maximum mutual information over all input distributions,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",adding redundancy to protect against channel errors,no codeword is a prefix of another; allows instant decoding,3,0.4
+What is the source coding theorem?,"log2(M) bits, achieved by uniform distribution",it is possible to compress below entropy with arbitrarily low error,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",integral of -f(x)*log2(f(x)) dx,2,0.4
+What is the noisy channel coding theorem?,it is possible to compress below entropy with arbitrarily low error,no codeword is a prefix of another; allows instant decoding,optimal variable-length source code achieving minimum average length,reliable communication is possible at rates below capacity C,4,0.4
+What is the rate-distortion function?,adding redundancy to protect against channel errors,minimum channel capacity needed for given reconstruction quality,reliable communication is possible at rates below capacity C,the usable frequency bandwidth in Hz,2,0.4
+What is differential entropy h(X) of continuous RV?,optimal variable-length source code achieving minimum average length,it is possible to compress below entropy with arbitrarily low error,integral of -f(x)*log2(f(x)) dx,C = B*log2(1+SNR) bits per second,3,0.4
+What is maximum differential entropy distribution for fixed variance?,it is possible to compress below entropy with arbitrarily low error,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits","sum of -p_i*log2(p_i) over all symbols i, in bits",optimal variable-length source code achieving minimum average length,2,0.4
+What is the Huffman code?,the usable frequency bandwidth in Hz,optimal variable-length source code achieving minimum average length,compression of source output to approach entropy rate,it is possible to compress below entropy with arbitrarily low error,2,0.4
+What is prefix-free code?,integral of -f(x)*log2(f(x)) dx,no codeword is a prefix of another; allows instant decoding,adding redundancy to protect against channel errors,it is possible to compress below entropy with arbitrarily low error,2,0.4
+What is the Kraft inequality?,"sum of -p_i*log2(p_i) over all symbols i, in bits","sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",minimum channel capacity needed for given reconstruction quality,maximum mutual information over all input distributions,2,0.4
+Which best describes entropy H(X) of a discrete source?,minimum channel capacity needed for given reconstruction quality,compression of source output to approach entropy rate,"sum of -p_i*log2(p_i) over all symbols i, in bits","sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",3,0.4
+Which best describes the maximum entropy of a source with M symbols?,it is possible to compress below entropy with arbitrarily low error,"log2(M) bits, achieved by uniform distribution",C = B*log2(1+SNR) bits per second,the usable frequency bandwidth in Hz,2,0.4
+Which best describes the mutual information I(X;Y)?,H(X) - H(X|Y) = H(Y) - H(Y|X),it is possible to compress below entropy with arbitrarily low error,adding redundancy to protect against channel errors,C = B*log2(1+SNR) bits per second,1,0.4
+Which best describes the channel capacity C?,adding redundancy to protect against channel errors,maximum mutual information over all input distributions,compression of source output to approach entropy rate,no codeword is a prefix of another; allows instant decoding,2,0.4
+Which best describes the Shannon channel capacity formula?,H(X) - H(X|Y) = H(Y) - H(Y|X),"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",C = B*log2(1+SNR) bits per second,minimum channel capacity needed for given reconstruction quality,3,0.4
+Which best describes the channel bandwidth B in Shannon formula?,maximum mutual information over all input distributions,the usable frequency bandwidth in Hz,optimal variable-length source code achieving minimum average length,reliable communication is possible at rates below capacity C,2,0.4
+Which best describes source coding?,optimal variable-length source code achieving minimum average length,compression of source output to approach entropy rate,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",H(X) - H(X|Y) = H(Y) - H(Y|X),2,0.4
+Which best describes channel coding?,adding redundancy to protect against channel errors,it is possible to compress below entropy with arbitrarily low error,compression of source output to approach entropy rate,H(X) - H(X|Y) = H(Y) - H(Y|X),1,0.4
+Which best describes the source coding theorem?,optimal variable-length source code achieving minimum average length,it is possible to compress below entropy with arbitrarily low error,C = B*log2(1+SNR) bits per second,adding redundancy to protect against channel errors,2,0.4
+Which best describes the noisy channel coding theorem?,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits","log2(M) bits, achieved by uniform distribution",reliable communication is possible at rates below capacity C,compression of source output to approach entropy rate,3,0.4
+Which best describes the rate-distortion function?,adding redundancy to protect against channel errors,C = B*log2(1+SNR) bits per second,no codeword is a prefix of another; allows instant decoding,minimum channel capacity needed for given reconstruction quality,4,0.4
+Which best describes differential entropy h(X) of continuous RV?,no codeword is a prefix of another; allows instant decoding,integral of -f(x)*log2(f(x)) dx,C = B*log2(1+SNR) bits per second,the usable frequency bandwidth in Hz,2,0.4
+Which best describes maximum differential entropy distribution for fixed variance?,the usable frequency bandwidth in Hz,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits","log2(M) bits, achieved by uniform distribution",compression of source output to approach entropy rate,2,0.4
+Which best describes the Huffman code?,optimal variable-length source code achieving minimum average length,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",the usable frequency bandwidth in Hz,C = B*log2(1+SNR) bits per second,1,0.4
+Which best describes prefix-free code?,adding redundancy to protect against channel errors,integral of -f(x)*log2(f(x)) dx,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",no codeword is a prefix of another; allows instant decoding,4,0.4
+Which best describes the Kraft inequality?,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",H(X) - H(X|Y) = H(Y) - H(Y|X),minimum channel capacity needed for given reconstruction quality,adding redundancy to protect against channel errors,1,0.4
+"In digital communications, entropy H(X) of a discrete source refers to?",adding redundancy to protect against channel errors,integral of -f(x)*log2(f(x)) dx,"sum of -p_i*log2(p_i) over all symbols i, in bits",minimum channel capacity needed for given reconstruction quality,3,0.4
+"In digital communications, the maximum entropy of a source with M symbols refers to?","log2(M) bits, achieved by uniform distribution",C = B*log2(1+SNR) bits per second,maximum mutual information over all input distributions,compression of source output to approach entropy rate,1,0.4
+"In digital communications, the mutual information I(X;Y) refers to?",H(X) - H(X|Y) = H(Y) - H(Y|X),the usable frequency bandwidth in Hz,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",minimum channel capacity needed for given reconstruction quality,1,0.4
+"In digital communications, the channel capacity C refers to?",no codeword is a prefix of another; allows instant decoding,maximum mutual information over all input distributions,optimal variable-length source code achieving minimum average length,compression of source output to approach entropy rate,2,0.4
+"In digital communications, the Shannon channel capacity formula refers to?","sum of -p_i*log2(p_i) over all symbols i, in bits",C = B*log2(1+SNR) bits per second,no codeword is a prefix of another; allows instant decoding,H(X) - H(X|Y) = H(Y) - H(Y|X),2,0.4
+"In digital communications, the channel bandwidth B in Shannon formula refers to?",integral of -f(x)*log2(f(x)) dx,C = B*log2(1+SNR) bits per second,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",the usable frequency bandwidth in Hz,4,0.4
+"In digital communications, source coding refers to?","log2(M) bits, achieved by uniform distribution",no codeword is a prefix of another; allows instant decoding,adding redundancy to protect against channel errors,compression of source output to approach entropy rate,4,0.4
+"In digital communications, channel coding refers to?",optimal variable-length source code achieving minimum average length,"sum of -p_i*log2(p_i) over all symbols i, in bits",compression of source output to approach entropy rate,adding redundancy to protect against channel errors,4,0.4
+"In digital communications, the source coding theorem refers to?",H(X) - H(X|Y) = H(Y) - H(Y|X),it is possible to compress below entropy with arbitrarily low error,minimum channel capacity needed for given reconstruction quality,"log2(M) bits, achieved by uniform distribution",2,0.4
+"In digital communications, the noisy channel coding theorem refers to?",maximum mutual information over all input distributions,reliable communication is possible at rates below capacity C,"Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",C = B*log2(1+SNR) bits per second,2,0.4
+"In digital communications, the rate-distortion function refers to?",it is possible to compress below entropy with arbitrarily low error,H(X) - H(X|Y) = H(Y) - H(Y|X),"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",minimum channel capacity needed for given reconstruction quality,4,0.4
+"In digital communications, differential entropy h(X) of continuous RV refers to?",integral of -f(x)*log2(f(x)) dx,no codeword is a prefix of another; allows instant decoding,the usable frequency bandwidth in Hz,adding redundancy to protect against channel errors,1,0.4
+"In digital communications, maximum differential entropy distribution for fixed variance refers to?","Gaussian, with h=0.5*log2(2*pi*e*sigma^2) bits",H(X) - H(X|Y) = H(Y) - H(Y|X),adding redundancy to protect against channel errors,it is possible to compress below entropy with arbitrarily low error,1,0.4
+"In digital communications, the Huffman code refers to?",optimal variable-length source code achieving minimum average length,minimum channel capacity needed for given reconstruction quality,integral of -f(x)*log2(f(x)) dx,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",1,0.4
+"In digital communications, prefix-free code refers to?",the usable frequency bandwidth in Hz,adding redundancy to protect against channel errors,no codeword is a prefix of another; allows instant decoding,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",3,0.4
+"In digital communications, the Kraft inequality refers to?",compression of source output to approach entropy rate,C = B*log2(1+SNR) bits per second,"sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",the usable frequency bandwidth in Hz,3,0.4
+How is entropy H(X) of a discrete source defined?,"sum of -p_i*log2(p_i) over all symbols i, in bits","sum of 2^(-l_i) <= 1, necessary condition for prefix-free code",reliable communication is possible at rates below capacity C,"log2(M) bits, achieved by uniform distribution",1,0.4
+How is the maximum entropy of a source with M symbols defined?,"log2(M) bits, achieved by uniform distribution",reliable communication is possible at rates below capacity C,it is possible to compress below entropy with arbitrarily low error,"sum of -p_i*log2(p_i) over all symbols i, in bits",1,0.4
+Evaluate: H(X) for fair coin (p=0.5),2 bit,0 bit,1 bit,approx 1 bit*2,3,0.45
+"Evaluate: H(X) for p=0.25,0.75",0.811 bits,3.244 bits,1.622 bits,1.217 bits,1,0.45
+Evaluate: max entropy for 4-symbol alphabet,2 bits,6 bits,8 bits,0 bits,1,0.45
+Evaluate: capacity C for B=4 kHz SNR=15,2 kbps,16 kbps,24 kbps,8 kbps,2,0.45
+Evaluate: capacity C for B=1 MHz SNR=3,-2 Mbps,8 Mbps,2 Mbps,0 Mbps,3,0.45
+Evaluate: minimum SNR for C=B (1 b/s/Hz),2 (0 dB),1 (0 dB),approx 1 (0 dB)*2,0 (0 dB),2,0.45
+Evaluate: required Eb/N0 at Shannon limit (BPSK efficient),approx -1.6 dB_a,approx -1.6 dB_b,approx -1.6 dB_c,approx -1.6 dB,4,0.45
+Evaluate: bandwidth efficiency eta = R/B for 1 b/s/Hz,10 b/s/Hz,-1 b/s/Hz,0 b/s/Hz,1 b/s/Hz,4,0.45
+Evaluate: capacity doubling if SNR doubles (approx for large SNR),increases by 1 b/s/Hz_a,increases by 1 b/s/Hz_b,increases by 1 b/s/Hz,increases by 1 b/s/Hz_c,3,0.45
+Evaluate: entropy of uniform 8-symbol source,6 bits,3 bits,12 bits,1 bits,2,0.45
+Evaluate: H(X) when one symbol has p=1,approx -1.6 dB,0 bits,1 bit,-0 bits,2,0.45
+Evaluate: mutual information for noiseless channel,H(X) bits_b,H(X) bits_a,H(X) bits,H(X) bits_c,3,0.45
+Evaluate: mutual information for completely random channel,0 bits,-0 bits,3 bits,increases by 1 b/s/Hz,1,0.45
+Evaluate: average code length of optimal code for H=3.5 bits,approaches 3.5 bits/symbol_c,approaches 3.5 bits/symbol_a,approaches 3.5 bits/symbol_b,approaches 3.5 bits/symbol,4,0.45
+Evaluate: capacity of binary symmetric channel error prob p,approx 1 - H(p) bits*2,2 - H(p) bits,1 - H(p) bits,0 - H(p) bits,3,0.45
+Evaluate: capacity at p=0 for BSC,-1 bit,0 bit,approx 1 bit*2,1 bit,4,0.45
+Evaluate: capacity at p=0.5 for BSC,0 bits,1 - H(p) bits,-0 bits,approx -1.6 dB,1,0.45
+"Evaluate: differential entropy of Gaussian N(0,1)",2.0 *log2(2*pi*e) bits,0.5*log2(2*pi*e) bits,0.2 *log2(2*pi*e) bits,-0.5 *log2(2*pi*e) bits,2,0.45
+Evaluate: Shannon limit bandwidth efficiency,log2(1+SNR) b/s/Hz_c,log2(1+SNR) b/s/Hz,log2(1+SNR) b/s/Hz_b,log2(1+SNR) b/s/Hz_a,2,0.45
+Evaluate: redundancy of a source with H=2 bits from M=4 symbols,-0 bits (already at max entropy),0 bits,0 bits (already at max entropy),0,3,0.45
+Evaluate: H(X|Y) when X and Y independent,H(X)_b,H(X),H(X)_a,H(X)_c,2,0.45
+Evaluate: I(X;Y) when X and Y independent,1 (0 dB),0,-0,3 bits,2,0.45
+What is the result of H(X) for fair coin (p=0.5)?,1 bit,0 bit,4 bit,approx 1 bit*2,1,0.45
+"What is the result of H(X) for p=0.25,0.75?",0.203 bits,0.811 bits,1.217 bits,0.270 bits,2,0.45
+What is the result of max entropy for 4-symbol alphabet?,20 bits,4 bits,1 bits,2 bits,4,0.45
+What is the result of capacity C for B=4 kHz SNR=15?,8 kbps,-16 kbps,32 kbps,16 kbps,4,0.45
+What is the result of capacity C for B=1 MHz SNR=3?,0 Mbps,4 Mbps,1 Mbps,2 Mbps,4,0.45
+What is the result of minimum SNR for C=B (1 b/s/Hz)?,-1 (0 dB),0 (0 dB),2 (0 dB),1 (0 dB),4,0.45
+What is the result of required Eb/N0 at Shannon limit (BPSK efficient)?,approx -1.6 dB_c,approx -1.6 dB,approx -1.6 dB_b,approx -1.6 dB_a,2,0.45
+What is the result of bandwidth efficiency eta = R/B for 1 b/s/Hz?,1 b/s/Hz,4 b/s/Hz,10 b/s/Hz,2 b/s/Hz,1,0.45
+What is the result of capacity doubling if SNR doubles (approx for large SNR)?,increases by 1 b/s/Hz_b,increases by 1 b/s/Hz_a,increases by 1 b/s/Hz_c,increases by 1 b/s/Hz,4,0.45
+What is the result of entropy of uniform 8-symbol source?,2 bits,4 bits,3 bits,1 bits,3,0.45
+What is the result of H(X) when one symbol has p=1?,0,-0 bits,increases by 1 b/s/Hz,0 bits,4,0.45
+What is the result of mutual information for noiseless channel?,H(X) bits_b,H(X) bits_a,H(X) bits,H(X) bits_c,3,0.45
+What is the result of mutual information for completely random channel?,1 bit,log2(1+SNR) b/s/Hz,-0 bits,0 bits,4,0.45
+What is the result of average code length of optimal code for H=3.5 bits?,approaches 3.5 bits/symbol_a,approaches 3.5 bits/symbol_b,approaches 3.5 bits/symbol,approaches 3.5 bits/symbol_c,3,0.45
+What is the result of capacity of binary symmetric channel error prob p?,0 - H(p) bits,3 - H(p) bits,10 - H(p) bits,1 - H(p) bits,4,0.45
+What is the result of capacity at p=0 for BSC?,0 bit,3 bit,1 bit,approx 1 bit*2,3,0.45
+What is the result of capacity at p=0.5 for BSC?,0,3 bits,0 bits,-0 bits,3,0.45
+"What is the result of differential entropy of Gaussian N(0,1)?",-0.5 *log2(2*pi*e) bits,0.1 *log2(2*pi*e) bits,0.2 *log2(2*pi*e) bits,0.5*log2(2*pi*e) bits,4,0.45
+What is the result of Shannon limit bandwidth efficiency?,log2(1+SNR) b/s/Hz_c,log2(1+SNR) b/s/Hz_a,log2(1+SNR) b/s/Hz_b,log2(1+SNR) b/s/Hz,4,0.45
+What is the result of redundancy of a source with H=2 bits from M=4 symbols?,-0 bits (already at max entropy),0 bits (already at max entropy),approaches 3.5 bits/symbol,1 b/s/Hz,2,0.45
+What is the result of H(X|Y) when X and Y independent?,H(X)_c,H(X)_a,H(X)_b,H(X),4,0.45
+What is the result of I(X;Y) when X and Y independent?,0,0.811 bits,-0,0 bits,1,0.45
+Calculate: H(X) for fair coin (p=0.5),2 bit,10 bit,0 bit,1 bit,4,0.45
+"Calculate: H(X) for p=0.25,0.75",0.608 bits,8.110 bits,0.811 bits,2.433 bits,3,0.45
+Calculate: max entropy for 4-symbol alphabet,4 bits,2 bits,1 bits,8 bits,2,0.45
+Calculate: capacity C for B=4 kHz SNR=15,16 kbps,12 kbps,64 kbps,8 kbps,1,0.45
+Calculate: capacity C for B=1 MHz SNR=3,20 Mbps,-2 Mbps,1 Mbps,2 Mbps,4,0.45
+Calculate: minimum SNR for C=B (1 b/s/Hz),0 (0 dB),3 (0 dB),approx 1 (0 dB)*2,1 (0 dB),4,0.45
+What is pulse-code modulation (PCM)?,quantisation error when signal changes faster than the quantiser can track,nonlinear compression before and expansion after quantisation,European standard companding law with parameter A=87.6,sampling + quantisation + binary encoding of analog signals,4,0.5
+What is the Nyquist sampling theorem?,encodes the difference between successive samples,North American standard companding law with parameter mu=255,rounding each sample to the nearest level in a discrete set,sampling rate must be at least twice the highest signal frequency,4,0.5
+What is quantisation?,European standard companding law with parameter A=87.6,nonlinear compression before and expansion after quantisation,rounding each sample to the nearest level in a discrete set,encodes the difference between successive samples,3,0.5
+What is quantisation noise?,ratio of signal power to quantisation noise power,error introduced by replacing a sample with its quantised value,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,nonlinear compression before and expansion after quantisation,2,0.5
+What is granular noise?,encodes the difference between successive samples,quantisation noise when signal amplitude is small relative to step size,number of bits per sample times the sampling rate,1-bit DPCM with fixed step size,2,0.5
+What is slope overload distortion?,sampling + quantisation + binary encoding of analog signals,quantisation error when signal changes faster than the quantiser can track,encodes the difference between successive samples,nonlinear compression before and expansion after quantisation,2,0.5
+What is the signal-to-quantisation-noise ratio (SQNR)?,quantisation noise when signal amplitude is small relative to step size,sampling rate must be at least twice the highest signal frequency,ratio of signal power to quantisation noise power,rounding each sample to the nearest level in a discrete set,3,0.5
+What is SQNR formula for R-bit uniform PCM?,approximately 6 dB per additional bit,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,rounding each sample to the nearest level in a discrete set,number of bits per sample times the sampling rate,2,0.5
+What is SQNR improvement per extra bit?,rounding each sample to the nearest level in a discrete set,sampling rate must be at least twice the highest signal frequency,approximately 6 dB per additional bit,nonlinear compression before and expansion after quantisation,3,0.5
+What is the bit rate of PCM?,European standard companding law with parameter A=87.6,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,sampling rate must be at least twice the highest signal frequency,number of bits per sample times the sampling rate,4,0.5
+What is differential PCM (DPCM)?,encodes the difference between successive samples,delta modulation with variable step size to reduce noise,European standard companding law with parameter A=87.6,sampling rate must be at least twice the highest signal frequency,1,0.5
+What is delta modulation?,1-bit DPCM with fixed step size,error introduced by replacing a sample with its quantised value,rounding each sample to the nearest level in a discrete set,delta modulation with variable step size to reduce noise,1,0.5
+What is adaptive delta modulation?,ratio of signal power to quantisation noise power,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,delta modulation with variable step size to reduce noise,approximately 6 dB per additional bit,3,0.5
+What is companding?,number of bits per sample times the sampling rate,nonlinear compression before and expansion after quantisation,rounding each sample to the nearest level in a discrete set,1-bit DPCM with fixed step size,2,0.5
+What is mu-law companding?,North American standard companding law with parameter mu=255,delta modulation with variable step size to reduce noise,encodes the difference between successive samples,nonlinear compression before and expansion after quantisation,1,0.5
+What is A-law companding?,error introduced by replacing a sample with its quantised value,approximately 6 dB per additional bit,European standard companding law with parameter A=87.6,sampling + quantisation + binary encoding of analog signals,3,0.5
+Which best describes pulse-code modulation (PCM)?,ratio of signal power to quantisation noise power,sampling + quantisation + binary encoding of analog signals,nonlinear compression before and expansion after quantisation,encodes the difference between successive samples,2,0.5
+Which best describes the Nyquist sampling theorem?,sampling + quantisation + binary encoding of analog signals,quantisation error when signal changes faster than the quantiser can track,quantisation noise when signal amplitude is small relative to step size,sampling rate must be at least twice the highest signal frequency,4,0.5
+Which best describes quantisation?,error introduced by replacing a sample with its quantised value,approximately 6 dB per additional bit,North American standard companding law with parameter mu=255,rounding each sample to the nearest level in a discrete set,4,0.5
+Which best describes quantisation noise?,error introduced by replacing a sample with its quantised value,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,quantisation error when signal changes faster than the quantiser can track,quantisation noise when signal amplitude is small relative to step size,1,0.5
+Which best describes granular noise?,sampling + quantisation + binary encoding of analog signals,delta modulation with variable step size to reduce noise,sampling rate must be at least twice the highest signal frequency,quantisation noise when signal amplitude is small relative to step size,4,0.5
+Which best describes slope overload distortion?,rounding each sample to the nearest level in a discrete set,quantisation error when signal changes faster than the quantiser can track,nonlinear compression before and expansion after quantisation,sampling + quantisation + binary encoding of analog signals,2,0.5
+Which best describes the signal-to-quantisation-noise ratio (SQNR)?,ratio of signal power to quantisation noise power,sampling rate must be at least twice the highest signal frequency,error introduced by replacing a sample with its quantised value,delta modulation with variable step size to reduce noise,1,0.5
+Which best describes SQNR formula for R-bit uniform PCM?,ratio of signal power to quantisation noise power,delta modulation with variable step size to reduce noise,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,error introduced by replacing a sample with its quantised value,3,0.5
+Which best describes SQNR improvement per extra bit?,approximately 6 dB per additional bit,sampling rate must be at least twice the highest signal frequency,error introduced by replacing a sample with its quantised value,quantisation error when signal changes faster than the quantiser can track,1,0.5
+Which best describes the bit rate of PCM?,error introduced by replacing a sample with its quantised value,ratio of signal power to quantisation noise power,number of bits per sample times the sampling rate,North American standard companding law with parameter mu=255,3,0.5
+Which best describes differential PCM (DPCM)?,number of bits per sample times the sampling rate,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,encodes the difference between successive samples,sampling + quantisation + binary encoding of analog signals,3,0.5
+Which best describes delta modulation?,1-bit DPCM with fixed step size,number of bits per sample times the sampling rate,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,European standard companding law with parameter A=87.6,1,0.5
+Which best describes adaptive delta modulation?,delta modulation with variable step size to reduce noise,1-bit DPCM with fixed step size,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,rounding each sample to the nearest level in a discrete set,1,0.5
+Which best describes companding?,quantisation error when signal changes faster than the quantiser can track,error introduced by replacing a sample with its quantised value,nonlinear compression before and expansion after quantisation,quantisation noise when signal amplitude is small relative to step size,3,0.5
+Which best describes mu-law companding?,North American standard companding law with parameter mu=255,rounding each sample to the nearest level in a discrete set,quantisation noise when signal amplitude is small relative to step size,sampling rate must be at least twice the highest signal frequency,1,0.5
+Which best describes A-law companding?,delta modulation with variable step size to reduce noise,European standard companding law with parameter A=87.6,quantisation error when signal changes faster than the quantiser can track,rounding each sample to the nearest level in a discrete set,2,0.5
+"In digital communications, pulse-code modulation (PCM) refers to?",1-bit DPCM with fixed step size,sampling + quantisation + binary encoding of analog signals,European standard companding law with parameter A=87.6,nonlinear compression before and expansion after quantisation,2,0.5
+"In digital communications, the Nyquist sampling theorem refers to?",SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,rounding each sample to the nearest level in a discrete set,sampling rate must be at least twice the highest signal frequency,number of bits per sample times the sampling rate,3,0.5
+"In digital communications, quantisation refers to?",quantisation error when signal changes faster than the quantiser can track,North American standard companding law with parameter mu=255,approximately 6 dB per additional bit,rounding each sample to the nearest level in a discrete set,4,0.5
+"In digital communications, quantisation noise refers to?",error introduced by replacing a sample with its quantised value,North American standard companding law with parameter mu=255,quantisation noise when signal amplitude is small relative to step size,delta modulation with variable step size to reduce noise,1,0.5
+"In digital communications, granular noise refers to?",European standard companding law with parameter A=87.6,quantisation noise when signal amplitude is small relative to step size,error introduced by replacing a sample with its quantised value,encodes the difference between successive samples,2,0.5
+"In digital communications, slope overload distortion refers to?",SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,quantisation error when signal changes faster than the quantiser can track,sampling + quantisation + binary encoding of analog signals,North American standard companding law with parameter mu=255,2,0.5
+"In digital communications, the signal-to-quantisation-noise ratio (SQNR) refers to?",SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,ratio of signal power to quantisation noise power,number of bits per sample times the sampling rate,European standard companding law with parameter A=87.6,2,0.5
+"In digital communications, SQNR formula for R-bit uniform PCM refers to?",approximately 6 dB per additional bit,error introduced by replacing a sample with its quantised value,European standard companding law with parameter A=87.6,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,4,0.5
+"In digital communications, SQNR improvement per extra bit refers to?",European standard companding law with parameter A=87.6,ratio of signal power to quantisation noise power,approximately 6 dB per additional bit,delta modulation with variable step size to reduce noise,3,0.5
+"In digital communications, the bit rate of PCM refers to?",error introduced by replacing a sample with its quantised value,quantisation noise when signal amplitude is small relative to step size,1-bit DPCM with fixed step size,number of bits per sample times the sampling rate,4,0.5
+"In digital communications, differential PCM (DPCM) refers to?",1-bit DPCM with fixed step size,encodes the difference between successive samples,quantisation noise when signal amplitude is small relative to step size,rounding each sample to the nearest level in a discrete set,2,0.5
+"In digital communications, delta modulation refers to?",1-bit DPCM with fixed step size,nonlinear compression before and expansion after quantisation,European standard companding law with parameter A=87.6,SQNR ≈ 6.02*R + alpha dB where alpha depends on distribution,1,0.5
+"In digital communications, adaptive delta modulation refers to?",rounding each sample to the nearest level in a discrete set,delta modulation with variable step size to reduce noise,nonlinear compression before and expansion after quantisation,quantisation error when signal changes faster than the quantiser can track,2,0.5
+"In digital communications, companding refers to?",nonlinear compression before and expansion after quantisation,North American standard companding law with parameter mu=255,encodes the difference between successive samples,sampling rate must be at least twice the highest signal frequency,1,0.5
+"In digital communications, mu-law companding refers to?",sampling + quantisation + binary encoding of analog signals,North American standard companding law with parameter mu=255,approximately 6 dB per additional bit,quantisation noise when signal amplitude is small relative to step size,2,0.5
+"In digital communications, A-law companding refers to?",delta modulation with variable step size to reduce noise,European standard companding law with parameter A=87.6,sampling rate must be at least twice the highest signal frequency,encodes the difference between successive samples,2,0.5
+How is pulse-code modulation (PCM) defined?,1-bit DPCM with fixed step size,number of bits per sample times the sampling rate,ratio of signal power to quantisation noise power,sampling + quantisation + binary encoding of analog signals,4,0.5
+How is the Nyquist sampling theorem defined?,encodes the difference between successive samples,approximately 6 dB per additional bit,ratio of signal power to quantisation noise power,sampling rate must be at least twice the highest signal frequency,4,0.5
+Evaluate: Nyquist rate for audio signal of 4 kHz bandwidth,8 kHz,12 kHz,24 kHz,3 kHz,1,0.55
+Evaluate: bit rate for 8 kHz sampling and 8 bits/sample,640 kbps,64 kbps,21 kbps,192 kbps,2,0.55
+Evaluate: SQNR for R=8 bits uniform PCM (approx),75 dB,200 dB,50 dB,17 dB,3,0.55
+Evaluate: SQNR for R=12 bits,111 dB,7 dB,148 dB,74 dB,4,0.55
+Evaluate: SQNR improvement from 8 to 16 bits,-48 dB,5 dB,36 dB,48 dB,4,0.55
+Evaluate: quantisation noise power for step size delta,delta^2/12_b,delta^2/12_a,delta^2/12,delta^2/12_c,3,0.55
+Evaluate: number of levels for R=8 bits,384,26,128,256,4,0.55
+Evaluate: number of levels for R=12 bits,8.192e+03,1.365e+03,6.144e+03,4096,4,0.55
+"Evaluate: bit rate for T1 carrier (24 voice channels, PCM)",0.772 Mbps,1.544 Mbps,0.515 Mbps,4.632 Mbps,2,0.55
+Evaluate: Nyquist rate for signal with 20 kHz bandwidth,40 kHz,20 kHz,4 kHz,160 kHz,1,0.55
+Evaluate: SQNR improvement from 8 to 12 bits,96 dB,48 dB,24 dB,36 dB,3,0.55
+Evaluate: samples per second for voice at 8 kHz,3.200e+04 samples/s,8000 samples/s,6.000e+03 samples/s,-8.000e+03 samples/s,2,0.55
+Evaluate: bandwidth of PCM signal with R=8 and fs=8 kHz (NRZ),6 kHz,64 kHz,-64 kHz,48 kHz,2,0.55
+Evaluate: minimum bandwidth for binary PCM at bit rate Rb,Rb/2 Hz_b,Rb/2 Hz_a,Rb/2 Hz_c,Rb/2 Hz,4,0.55
+Evaluate: number of bits for 1024 quantisation levels,3 bits,10 bits,40 bits,20 bits,2,0.55
+Evaluate: step size delta for 8-bit PCM over range -4V to 4V,0.02344 V,-0.03125 V,0.03125 V,0.06250 V,3,0.55
+Evaluate: SQNR formula slope,-6.02 dB/bit,60.20 dB/bit,18.06 dB/bit,6.02 dB/bit,4,0.55
+Evaluate: bandwidth of DPCM vs PCM for same quality,DPCM requires less bandwidth_b,DPCM requires less bandwidth,DPCM requires less bandwidth_a,DPCM requires less bandwidth_c,2,0.55
+Evaluate: bit rate of video PCM at 30 fps 1080p 24-bit colour,0.933 Gbps,0.622 Gbps,1.866 Gbps,7.464 Gbps,3,0.55
+Evaluate: companding advantage,improves SQNR for small-amplitude signals_a,improves SQNR for small-amplitude signals,improves SQNR for small-amplitude signals_b,improves SQNR for small-amplitude signals_c,2,0.55
+Evaluate: oversampling ratio to gain 1 extra bit resolution,40 x,4x,3 x,2 x,2,0.55
+Evaluate: Nyquist rate for 3 kHz telephone channel,-6 kHz,60 kHz,6 kHz,2 kHz,3,0.55
+What is the result of Nyquist rate for audio signal of 4 kHz bandwidth?,8 kHz,32 kHz,12 kHz,3 kHz,1,0.55
+What is the result of bit rate for 8 kHz sampling and 8 bits/sample?,640 kbps,64 kbps,16 kbps,6 kbps,2,0.55
+What is the result of SQNR for R=8 bits uniform PCM (approx)?,75 dB,100 dB,12 dB,50 dB,4,0.55
+What is the result of SQNR for R=12 bits?,222 dB,74 dB,111 dB,148 dB,2,0.55
+What is the result of SQNR improvement from 8 to 16 bits?,96 dB,48 dB,36 dB,5 dB,2,0.55
+What is the result of quantisation noise power for step size delta?,delta^2/12_a,delta^2/12,delta^2/12_b,delta^2/12_c,2,0.55
+What is the result of number of levels for R=8 bits?,384,192,256,-256,3,0.55
+What is the result of number of levels for R=12 bits?,4096,1.229e+04,4.096e+04,2.048e+03,1,0.55
+"What is the result of bit rate for T1 carrier (24 voice channels, PCM)?",-1.544 Mbps,6.176 Mbps,1.544 Mbps,4.632 Mbps,3,0.55
+What is the result of Nyquist rate for signal with 20 kHz bandwidth?,40 kHz,20 kHz,80 kHz,-40 kHz,1,0.55
+What is the result of SQNR improvement from 8 to 12 bits?,6 dB,24 dB,72 dB,2 dB,2,0.55
+What is the result of samples per second for voice at 8 kHz?,8000 samples/s,2.000e+03 samples/s,2.667e+03 samples/s,1.200e+04 samples/s,1,0.55
+What is the result of bandwidth of PCM signal with R=8 and fs=8 kHz (NRZ)?,64 kHz,96 kHz,32 kHz,-64 kHz,1,0.55
+What is the result of minimum bandwidth for binary PCM at bit rate Rb?,Rb/2 Hz,Rb/2 Hz_b,Rb/2 Hz_a,Rb/2 Hz_c,1,0.55
+What is the result of number of bits for 1024 quantisation levels?,30 bits,3 bits,10 bits,20 bits,3,0.55
+What is the result of step size delta for 8-bit PCM over range -4V to 4V?,0.03125 V,0.00781 V,0.01562 V,0.31250 V,1,0.55
+What is the result of SQNR formula slope?,60.20 dB/bit,12.04 dB/bit,6.02 dB/bit,0.60 dB/bit,3,0.55
+What is the result of bandwidth of DPCM vs PCM for same quality?,DPCM requires less bandwidth_b,DPCM requires less bandwidth_a,DPCM requires less bandwidth,DPCM requires less bandwidth_c,3,0.55
+What is the result of bit rate of video PCM at 30 fps 1080p 24-bit colour?,1.866 Gbps,7.464 Gbps,2.799 Gbps,0.467 Gbps,1,0.55
+What is the result of companding advantage?,improves SQNR for small-amplitude signals_b,improves SQNR for small-amplitude signals_a,improves SQNR for small-amplitude signals_c,improves SQNR for small-amplitude signals,4,0.55
+What is the result of oversampling ratio to gain 1 extra bit resolution?,1 x,3 x,8 x,4x,4,0.55
+What is the result of Nyquist rate for 3 kHz telephone channel?,4 kHz,-6 kHz,3 kHz,6 kHz,4,0.55
+Calculate: Nyquist rate for audio signal of 4 kHz bandwidth,-8 kHz,1 kHz,8 kHz,80 kHz,3,0.55
+Calculate: bit rate for 8 kHz sampling and 8 bits/sample,640 kbps,128 kbps,48 kbps,64 kbps,4,0.55
+Calculate: SQNR for R=8 bits uniform PCM (approx),17 dB,12 dB,25 dB,50 dB,4,0.55
+Calculate: SQNR for R=12 bits,7 dB,18 dB,25 dB,74 dB,4,0.55
+Calculate: SQNR improvement from 8 to 16 bits,480 dB,5 dB,12 dB,48 dB,4,0.55
+Calculate: quantisation noise power for step size delta,delta^2/12,delta^2/12_b,delta^2/12_c,delta^2/12_a,1,0.55
+What is the matched filter?,modulation using four phases 90 degrees apart; 2 bits per symbol,probability that a received bit is decoded incorrectly,Q(sqrt(Eb/N0)),a filter whose impulse response is the time-reverse of the signal; maximises SNR,4,0.6
+What is the correlator receiver?,equivalent to matched filter; computes inner product of received signal with template,a filter whose impulse response is the time-reverse of the signal; maximises SNR,Eb/N0 required to achieve a given BER,detection without knowledge of carrier phase,1,0.6
+What is BPSK (binary phase shift keying)?,Eb/N0 required to achieve a given BER,equivalent to matched filter; computes inner product of received signal with template,modulation using two opposite phases to represent 0 and 1,energy per bit divided by one-sided noise spectral density,3,0.6
+What is QPSK (quadrature PSK)?,uses two different carrier frequencies for 0 and 1,modulation using M phases; log2(M) bits per symbol,energy per bit divided by one-sided noise spectral density,modulation using four phases 90 degrees apart; 2 bits per symbol,4,0.6
+What is 8-PSK?,modulation using eight equally spaced phases; 3 bits per symbol,modulation using M phases; log2(M) bits per symbol,equivalent to matched filter; computes inner product of received signal with template,uses two different carrier frequencies for 0 and 1,1,0.6
+What is M-ary PSK?,a filter whose impulse response is the time-reverse of the signal; maximises SNR,plot of signal points in the I-Q plane,modulation using M phases; log2(M) bits per symbol,detection without knowledge of carrier phase,3,0.6
+What is BFSK (binary frequency shift keying)?,modulation using eight equally spaced phases; 3 bits per symbol,smallest distance between any two constellation points,uses two different carrier frequencies for 0 and 1,a filter whose impulse response is the time-reverse of the signal; maximises SNR,3,0.6
+What is coherent detection?,a filter whose impulse response is the time-reverse of the signal; maximises SNR,probability that a received bit is decoded incorrectly,detection using a reference carrier in phase with the transmitted carrier,equivalent to matched filter; computes inner product of received signal with template,3,0.6
+What is non-coherent detection?,detection without knowledge of carrier phase,uses two different carrier frequencies for 0 and 1,energy per bit divided by one-sided noise spectral density,detection using a reference carrier in phase with the transmitted carrier,1,0.6
+What is BER (bit error rate)?,modulation using M phases; log2(M) bits per symbol,probability that a received bit is decoded incorrectly,Eb/N0 required to achieve a given BER,plot of signal points in the I-Q plane,2,0.6
+What is the Eb/N0 ratio?,energy per bit divided by one-sided noise spectral density,modulation using two opposite phases to represent 0 and 1,plot of signal points in the I-Q plane,detection without knowledge of carrier phase,1,0.6
+What is BER of BPSK?,Q(sqrt(Eb/N0)),modulation using two opposite phases to represent 0 and 1,Q(sqrt(2*Eb/N0)),smallest distance between any two constellation points,3,0.6
+What is BER of BFSK coherent?,uses two different carrier frequencies for 0 and 1,Q(sqrt(Eb/N0)),Eb/N0 required to achieve a given BER,modulation using four phases 90 degrees apart; 2 bits per symbol,2,0.6
+What is the constellation diagram?,energy per bit divided by one-sided noise spectral density,plot of signal points in the I-Q plane,Q(sqrt(2*Eb/N0)),detection using a reference carrier in phase with the transmitted carrier,2,0.6
+What is minimum Euclidean distance d_min?,Q(sqrt(2*Eb/N0)),plot of signal points in the I-Q plane,modulation using two opposite phases to represent 0 and 1,smallest distance between any two constellation points,4,0.6
+What is power efficiency?,detection without knowledge of carrier phase,energy per bit divided by one-sided noise spectral density,equivalent to matched filter; computes inner product of received signal with template,Eb/N0 required to achieve a given BER,4,0.6
+Which best describes the matched filter?,energy per bit divided by one-sided noise spectral density,a filter whose impulse response is the time-reverse of the signal; maximises SNR,probability that a received bit is decoded incorrectly,modulation using eight equally spaced phases; 3 bits per symbol,2,0.6
+Which best describes the correlator receiver?,Q(sqrt(2*Eb/N0)),probability that a received bit is decoded incorrectly,equivalent to matched filter; computes inner product of received signal with template,modulation using two opposite phases to represent 0 and 1,3,0.6
+Which best describes BPSK (binary phase shift keying)?,modulation using eight equally spaced phases; 3 bits per symbol,plot of signal points in the I-Q plane,modulation using two opposite phases to represent 0 and 1,smallest distance between any two constellation points,3,0.6
+Which best describes QPSK (quadrature PSK)?,energy per bit divided by one-sided noise spectral density,detection using a reference carrier in phase with the transmitted carrier,modulation using four phases 90 degrees apart; 2 bits per symbol,a filter whose impulse response is the time-reverse of the signal; maximises SNR,3,0.6
+Which best describes 8-PSK?,Eb/N0 required to achieve a given BER,detection using a reference carrier in phase with the transmitted carrier,modulation using two opposite phases to represent 0 and 1,modulation using eight equally spaced phases; 3 bits per symbol,4,0.6
+Which best describes M-ary PSK?,detection using a reference carrier in phase with the transmitted carrier,modulation using eight equally spaced phases; 3 bits per symbol,equivalent to matched filter; computes inner product of received signal with template,modulation using M phases; log2(M) bits per symbol,4,0.6
+Which best describes BFSK (binary frequency shift keying)?,modulation using eight equally spaced phases; 3 bits per symbol,smallest distance between any two constellation points,uses two different carrier frequencies for 0 and 1,modulation using two opposite phases to represent 0 and 1,3,0.6
+Which best describes coherent detection?,uses two different carrier frequencies for 0 and 1,Q(sqrt(2*Eb/N0)),detection using a reference carrier in phase with the transmitted carrier,modulation using eight equally spaced phases; 3 bits per symbol,3,0.6
+Which best describes non-coherent detection?,Q(sqrt(Eb/N0)),a filter whose impulse response is the time-reverse of the signal; maximises SNR,modulation using two opposite phases to represent 0 and 1,detection without knowledge of carrier phase,4,0.6
+Which best describes BER (bit error rate)?,probability that a received bit is decoded incorrectly,modulation using M phases; log2(M) bits per symbol,equivalent to matched filter; computes inner product of received signal with template,modulation using two opposite phases to represent 0 and 1,1,0.6
+Which best describes the Eb/N0 ratio?,uses two different carrier frequencies for 0 and 1,smallest distance between any two constellation points,equivalent to matched filter; computes inner product of received signal with template,energy per bit divided by one-sided noise spectral density,4,0.6
+Which best describes BER of BPSK?,Q(sqrt(2*Eb/N0)),probability that a received bit is decoded incorrectly,smallest distance between any two constellation points,plot of signal points in the I-Q plane,1,0.6
+Which best describes BER of BFSK coherent?,Q(sqrt(Eb/N0)),a filter whose impulse response is the time-reverse of the signal; maximises SNR,equivalent to matched filter; computes inner product of received signal with template,modulation using eight equally spaced phases; 3 bits per symbol,1,0.6
+Which best describes the constellation diagram?,equivalent to matched filter; computes inner product of received signal with template,plot of signal points in the I-Q plane,detection using a reference carrier in phase with the transmitted carrier,a filter whose impulse response is the time-reverse of the signal; maximises SNR,2,0.6
+Which best describes minimum Euclidean distance d_min?,Eb/N0 required to achieve a given BER,a filter whose impulse response is the time-reverse of the signal; maximises SNR,modulation using eight equally spaced phases; 3 bits per symbol,smallest distance between any two constellation points,4,0.6
+Which best describes power efficiency?,modulation using eight equally spaced phases; 3 bits per symbol,probability that a received bit is decoded incorrectly,Eb/N0 required to achieve a given BER,uses two different carrier frequencies for 0 and 1,3,0.6
+"In digital communications, the matched filter refers to?",modulation using four phases 90 degrees apart; 2 bits per symbol,uses two different carrier frequencies for 0 and 1,a filter whose impulse response is the time-reverse of the signal; maximises SNR,plot of signal points in the I-Q plane,3,0.6
+"In digital communications, the correlator receiver refers to?",probability that a received bit is decoded incorrectly,Eb/N0 required to achieve a given BER,detection without knowledge of carrier phase,equivalent to matched filter; computes inner product of received signal with template,4,0.6
+"In digital communications, BPSK (binary phase shift keying) refers to?",modulation using M phases; log2(M) bits per symbol,energy per bit divided by one-sided noise spectral density,modulation using two opposite phases to represent 0 and 1,smallest distance between any two constellation points,3,0.6
+"In digital communications, QPSK (quadrature PSK) refers to?",modulation using four phases 90 degrees apart; 2 bits per symbol,Eb/N0 required to achieve a given BER,modulation using M phases; log2(M) bits per symbol,detection without knowledge of carrier phase,1,0.6
+"In digital communications, 8-PSK refers to?",modulation using eight equally spaced phases; 3 bits per symbol,Q(sqrt(2*Eb/N0)),smallest distance between any two constellation points,uses two different carrier frequencies for 0 and 1,1,0.6
+"In digital communications, M-ary PSK refers to?",modulation using two opposite phases to represent 0 and 1,Q(sqrt(Eb/N0)),a filter whose impulse response is the time-reverse of the signal; maximises SNR,modulation using M phases; log2(M) bits per symbol,4,0.6
+"In digital communications, BFSK (binary frequency shift keying) refers to?",uses two different carrier frequencies for 0 and 1,equivalent to matched filter; computes inner product of received signal with template,Q(sqrt(Eb/N0)),detection using a reference carrier in phase with the transmitted carrier,1,0.6
+"In digital communications, coherent detection refers to?",detection using a reference carrier in phase with the transmitted carrier,Eb/N0 required to achieve a given BER,modulation using four phases 90 degrees apart; 2 bits per symbol,uses two different carrier frequencies for 0 and 1,1,0.6
+"In digital communications, non-coherent detection refers to?",modulation using eight equally spaced phases; 3 bits per symbol,detection without knowledge of carrier phase,Q(sqrt(2*Eb/N0)),plot of signal points in the I-Q plane,2,0.6
+"In digital communications, BER (bit error rate) refers to?",probability that a received bit is decoded incorrectly,modulation using M phases; log2(M) bits per symbol,smallest distance between any two constellation points,Q(sqrt(2*Eb/N0)),1,0.6
+"In digital communications, the Eb/N0 ratio refers to?",modulation using two opposite phases to represent 0 and 1,a filter whose impulse response is the time-reverse of the signal; maximises SNR,Q(sqrt(Eb/N0)),energy per bit divided by one-sided noise spectral density,4,0.6
+"In digital communications, BER of BPSK refers to?",Q(sqrt(2*Eb/N0)),Eb/N0 required to achieve a given BER,energy per bit divided by one-sided noise spectral density,a filter whose impulse response is the time-reverse of the signal; maximises SNR,1,0.6
+"In digital communications, BER of BFSK coherent refers to?",plot of signal points in the I-Q plane,detection without knowledge of carrier phase,uses two different carrier frequencies for 0 and 1,Q(sqrt(Eb/N0)),4,0.6
+"In digital communications, the constellation diagram refers to?",detection without knowledge of carrier phase,plot of signal points in the I-Q plane,a filter whose impulse response is the time-reverse of the signal; maximises SNR,energy per bit divided by one-sided noise spectral density,2,0.6
+"In digital communications, minimum Euclidean distance d_min refers to?",uses two different carrier frequencies for 0 and 1,smallest distance between any two constellation points,modulation using M phases; log2(M) bits per symbol,plot of signal points in the I-Q plane,2,0.6
+"In digital communications, power efficiency refers to?",Q(sqrt(Eb/N0)),plot of signal points in the I-Q plane,smallest distance between any two constellation points,Eb/N0 required to achieve a given BER,4,0.6
+How is the matched filter defined?,uses two different carrier frequencies for 0 and 1,modulation using eight equally spaced phases; 3 bits per symbol,detection without knowledge of carrier phase,a filter whose impulse response is the time-reverse of the signal; maximises SNR,4,0.6
+How is the correlator receiver defined?,plot of signal points in the I-Q plane,Q(sqrt(2*Eb/N0)),equivalent to matched filter; computes inner product of received signal with template,modulation using M phases; log2(M) bits per symbol,3,0.6
+Evaluate: BER of BPSK at Eb/N0 = 10 dB (approx),Q(4.47) ≈ 4e-6_c,Q(4.47) ≈ 4e-6,Q(4.47) ≈ 4e-6_b,Q(4.47) ≈ 4e-6_a,2,0.65
+Evaluate: required Eb/N0 dB for BPSK BER=10^-5,approx 9.6 dB_b,approx 9.6 dB_c,approx 9.6 dB_a,approx 9.6 dB,4,0.65
+Evaluate: BER of BFSK vs BPSK at same Eb/N0,BFSK BER higher (worse)_a,BFSK BER higher (worse)_c,BFSK BER higher (worse),BFSK BER higher (worse)_b,3,0.65
+Evaluate: bits per symbol for 16-QAM,1 bits,6 bits,8 bits,4 bits,4,0.65
+Evaluate: bits per symbol for QPSK,6 bits,2 bits,20 bits,0 bits,2,0.65
+Evaluate: bits per symbol for 64-QAM,1 bits,6 bits,4 bits,60 bits,2,0.65
+Evaluate: bandwidth efficiency of BPSK,4 b/s/Hz,1 b/s/Hz,0 b/s/Hz,approx 1 b/s/Hz*2,2,0.65
+Evaluate: bandwidth efficiency of QPSK,20 b/s/Hz,0 b/s/Hz,2 b/s/Hz,1 b/s/Hz,3,0.65
+Evaluate: bandwidth efficiency of 16-QAM,3 b/s/Hz,4 b/s/Hz,8 b/s/Hz,16 b/s/Hz,2,0.65
+Evaluate: d_min for BPSK with unit energy,2,-2,1,4,1,0.65
+Evaluate: peak-to-average power ratio of BPSK,2 (0 dB),1 (0 dB),-1 (0 dB),4 (0 dB),2,0.65
+Evaluate: PAPR of OFDM with N subcarriers (worst case),N (10*log10(N) dB),N (10*log10(N) dB)_b,N (10*log10(N) dB)_a,N (10*log10(N) dB)_c,1,0.65
+Evaluate: SNR gain of matched filter over unmatched,2*E/N0 vs lower,2 *E/N0 vs lower,20 *E/N0 vs lower,0 *E/N0 vs lower,1,0.65
+Evaluate: BER of BPSK at Eb/N0=0 dB,Q(sqrt(2)) ≈ 0.079_b,Q(sqrt(2)) ≈ 0.079,Q(sqrt(2)) ≈ 0.079_c,Q(sqrt(2)) ≈ 0.079_a,2,0.65
+Evaluate: probability of symbol error for QPSK,approximately 2*Q(sqrt(2*Eb/N0))_a,approximately 2*Q(sqrt(2*Eb/N0)),approximately 2*Q(sqrt(2*Eb/N0))_c,approximately 2*Q(sqrt(2*Eb/N0))_b,2,0.65
+Evaluate: approximate Eb/N0 gain of QPSK over BPSK for same BER,-0 dB (same),2,N (10*log10(N) dB),0 dB (same),4,0.65
+Evaluate: bandwidth required for BPSK at 1 Mbps (null-to-null),2 MHz,3 MHz,8 MHz,1 MHz,1,0.65
+Evaluate: bandwidth for QPSK at 1 Mbps,2 MHz,3 MHz,0 MHz,1 MHz,4,0.65
+Evaluate: SNR improvement from doubling d_min,4 dB,12 dB,6 dB,60 dB,3,0.65
+Evaluate: BER expression for M-ary PSK (approx),(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_b,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_c,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_a,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0)),4,0.65
+Evaluate: matched filter output peak SNR,6 *E/N0,0 *E/N0,2*E/N0,-2 *E/N0,3,0.65
+Evaluate: noise variance at correlator output for BPSK,N0/2_c,N0/2_b,N0/2,N0/2_a,3,0.65
+What is the result of BER of BPSK at Eb/N0 = 10 dB (approx)?,Q(4.47) ≈ 4e-6,Q(4.47) ≈ 4e-6_c,Q(4.47) ≈ 4e-6_b,Q(4.47) ≈ 4e-6_a,1,0.65
+What is the result of required Eb/N0 dB for BPSK BER=10^-5?,approx 9.6 dB_a,approx 9.6 dB_c,approx 9.6 dB,approx 9.6 dB_b,3,0.65
+What is the result of BER of BFSK vs BPSK at same Eb/N0?,BFSK BER higher (worse)_c,BFSK BER higher (worse)_a,BFSK BER higher (worse)_b,BFSK BER higher (worse),4,0.65
+What is the result of bits per symbol for 16-QAM?,40 bits,4 bits,1 bits,16 bits,2,0.65
+What is the result of bits per symbol for QPSK?,3 bits,2 bits,0 bits,8 bits,2,0.65
+What is the result of bits per symbol for 64-QAM?,12 bits,9 bits,6 bits,18 bits,3,0.65
+What is the result of bandwidth efficiency of BPSK?,1 b/s/Hz,approx 1 b/s/Hz*2,0 b/s/Hz,approx 1 b/s/Hz/2,1,0.65
+What is the result of bandwidth efficiency of QPSK?,1 b/s/Hz,2 b/s/Hz,4 b/s/Hz,0 b/s/Hz,2,0.65
+What is the result of bandwidth efficiency of 16-QAM?,1 b/s/Hz,4 b/s/Hz,16 b/s/Hz,-4 b/s/Hz,2,0.65
+What is the result of d_min for BPSK with unit energy?,1,approx 2*2,2,3,3,0.65
+What is the result of peak-to-average power ratio of BPSK?,1 (0 dB),3 (0 dB),0 (0 dB),approx 1 (0 dB)*2,1,0.65
+What is the result of PAPR of OFDM with N subcarriers (worst case)?,N (10*log10(N) dB)_c,N (10*log10(N) dB)_b,N (10*log10(N) dB),N (10*log10(N) dB)_a,3,0.65
+What is the result of SNR gain of matched filter over unmatched?,20 *E/N0 vs lower,2*E/N0 vs lower,4 *E/N0 vs lower,1 *E/N0 vs lower,2,0.65
+What is the result of BER of BPSK at Eb/N0=0 dB?,Q(sqrt(2)) ≈ 0.079,Q(sqrt(2)) ≈ 0.079_b,Q(sqrt(2)) ≈ 0.079_c,Q(sqrt(2)) ≈ 0.079_a,1,0.65
+What is the result of probability of symbol error for QPSK?,approximately 2*Q(sqrt(2*Eb/N0))_a,approximately 2*Q(sqrt(2*Eb/N0))_b,approximately 2*Q(sqrt(2*Eb/N0)),approximately 2*Q(sqrt(2*Eb/N0))_c,3,0.65
+What is the result of approximate Eb/N0 gain of QPSK over BPSK for same BER?,6 dB,-0 dB (same),2 b/s/Hz,0 dB (same),4,0.65
+What is the result of bandwidth required for BPSK at 1 Mbps (null-to-null)?,1 MHz,2 MHz,8 MHz,4 MHz,2,0.65
+What is the result of bandwidth for QPSK at 1 Mbps?,0 MHz,1 MHz,4 MHz,approx 1 MHz*2,2,0.65
+What is the result of SNR improvement from doubling d_min?,6 dB,-6 dB,12 dB,1 dB,1,0.65
+What is the result of BER expression for M-ary PSK (approx)?,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_a,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_c,(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0)),(2/log2(M))*Q(sqrt(2*log2(M)*sin^2(pi/M)*Eb/N0))_b,3,0.65
+What is the result of matched filter output peak SNR?,2*E/N0,20 *E/N0,0 *E/N0,4 *E/N0,1,0.65
+What is the result of noise variance at correlator output for BPSK?,N0/2_b,N0/2_c,N0/2,N0/2_a,3,0.65
+Calculate: BER of BPSK at Eb/N0 = 10 dB (approx),Q(4.47) ≈ 4e-6,Q(4.47) ≈ 4e-6_a,Q(4.47) ≈ 4e-6_c,Q(4.47) ≈ 4e-6_b,1,0.65
+Calculate: required Eb/N0 dB for BPSK BER=10^-5,approx 9.6 dB_c,approx 9.6 dB_a,approx 9.6 dB_b,approx 9.6 dB,4,0.65
+Calculate: BER of BFSK vs BPSK at same Eb/N0,BFSK BER higher (worse)_b,BFSK BER higher (worse),BFSK BER higher (worse)_c,BFSK BER higher (worse)_a,2,0.65
+Calculate: bits per symbol for 16-QAM,4 bits,3 bits,0 bits,1 bits,1,0.65
+Calculate: bits per symbol for QPSK,0 bits,-2 bits,2 bits,4 bits,3,0.65
+Calculate: bits per symbol for 64-QAM,4 bits,-6 bits,60 bits,6 bits,4,0.65
+What is intersymbol interference (ISI)?,high-speed data over copper telephone local loop,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,smearing of adjacent symbols due to channel bandwidth limitation,processing to compensate for ISI introduced by the channel,3,0.7
+What is the Nyquist criterion for zero ISI?,spectrum satisfies folded spectrum = constant over signal bandwidth,oscilloscope pattern showing ISI; open eye means low ISI,high-speed data over copper telephone local loop,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,1,0.7
+What is the raised-cosine pulse?,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,oscilloscope pattern showing ISI; open eye means low ISI,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,4,0.7
+What is the rolloff factor alpha?,high-speed data over copper telephone local loop,1/2T Hz for a signal at symbol rate 1/T,split raised-cosine between transmitter and receiver filters,controls excess bandwidth; alpha=0 gives minimum bandwidth,4,0.7
+What is the root raised-cosine filter?,high-speed data over copper telephone local loop,guard interval appended to each symbol to eliminate ISI,split raised-cosine between transmitter and receiver filters,oscilloscope pattern showing ISI; open eye means low ISI,3,0.7
+What is equalisation?,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,optimal maximum-likelihood sequence detector for ISI channels,processing to compensate for ISI introduced by the channel,1/2T Hz for a signal at symbol rate 1/T,3,0.7
+What is linear equalisation?,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,processing to compensate for ISI introduced by the channel,a linear filter applied at receiver to invert channel effects,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,3,0.7
+What is decision-feedback equalisation (DFE)?,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,optimal maximum-likelihood sequence detector for ISI channels,uses previously detected symbols to cancel trailing ISI,a linear filter applied at receiver to invert channel effects,3,0.7
+What is the Viterbi algorithm?,controls excess bandwidth; alpha=0 gives minimum bandwidth,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,guard interval appended to each symbol to eliminate ISI,optimal maximum-likelihood sequence detector for ISI channels,4,0.7
+What is eye diagram?,split raised-cosine between transmitter and receiver filters,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,oscilloscope pattern showing ISI; open eye means low ISI,uses previously detected symbols to cancel trailing ISI,3,0.7
+What is the minimum Nyquist bandwidth?,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,split raised-cosine between transmitter and receiver filters,controls excess bandwidth; alpha=0 gives minimum bandwidth,1/2T Hz for a signal at symbol rate 1/T,4,0.7
+What is excess bandwidth?,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,processing to compensate for ISI introduced by the channel,smearing of adjacent symbols due to channel bandwidth limitation,guard interval appended to each symbol to eliminate ISI,1,0.7
+What is DSL (digital subscriber line)?,processing to compensate for ISI introduced by the channel,high-speed data over copper telephone local loop,smearing of adjacent symbols due to channel bandwidth limitation,spectrum satisfies folded spectrum = constant over signal bandwidth,2,0.7
+What is DMT (discrete multitone) modulation?,smearing of adjacent symbols due to channel bandwidth limitation,processing to compensate for ISI introduced by the channel,a linear filter applied at receiver to invert channel effects,OFDM-based modulation used in DSL; different bits per sub-channel,4,0.7
+What is OFDM orthogonality condition?,spectrum satisfies folded spectrum = constant over signal bandwidth,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,optimal maximum-likelihood sequence detector for ISI channels,controls excess bandwidth; alpha=0 gives minimum bandwidth,2,0.7
+What is the cyclic prefix in OFDM?,guard interval appended to each symbol to eliminate ISI,smearing of adjacent symbols due to channel bandwidth limitation,uses previously detected symbols to cancel trailing ISI,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,1,0.7
+Which best describes intersymbol interference (ISI)?,smearing of adjacent symbols due to channel bandwidth limitation,uses previously detected symbols to cancel trailing ISI,split raised-cosine between transmitter and receiver filters,optimal maximum-likelihood sequence detector for ISI channels,1,0.7
+Which best describes the Nyquist criterion for zero ISI?,oscilloscope pattern showing ISI; open eye means low ISI,uses previously detected symbols to cancel trailing ISI,spectrum satisfies folded spectrum = constant over signal bandwidth,controls excess bandwidth; alpha=0 gives minimum bandwidth,3,0.7
+Which best describes the raised-cosine pulse?,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,optimal maximum-likelihood sequence detector for ISI channels,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,3,0.7
+Which best describes the rolloff factor alpha?,high-speed data over copper telephone local loop,controls excess bandwidth; alpha=0 gives minimum bandwidth,smearing of adjacent symbols due to channel bandwidth limitation,uses previously detected symbols to cancel trailing ISI,2,0.7
+Which best describes the root raised-cosine filter?,controls excess bandwidth; alpha=0 gives minimum bandwidth,spectrum satisfies folded spectrum = constant over signal bandwidth,processing to compensate for ISI introduced by the channel,split raised-cosine between transmitter and receiver filters,4,0.7
+Which best describes equalisation?,uses previously detected symbols to cancel trailing ISI,high-speed data over copper telephone local loop,a linear filter applied at receiver to invert channel effects,processing to compensate for ISI introduced by the channel,4,0.7
+Which best describes linear equalisation?,split raised-cosine between transmitter and receiver filters,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,optimal maximum-likelihood sequence detector for ISI channels,a linear filter applied at receiver to invert channel effects,4,0.7
+Which best describes decision-feedback equalisation (DFE)?,uses previously detected symbols to cancel trailing ISI,optimal maximum-likelihood sequence detector for ISI channels,OFDM-based modulation used in DSL; different bits per sub-channel,oscilloscope pattern showing ISI; open eye means low ISI,1,0.7
+Which best describes the Viterbi algorithm?,oscilloscope pattern showing ISI; open eye means low ISI,high-speed data over copper telephone local loop,optimal maximum-likelihood sequence detector for ISI channels,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,3,0.7
+Which best describes eye diagram?,OFDM-based modulation used in DSL; different bits per sub-channel,smearing of adjacent symbols due to channel bandwidth limitation,oscilloscope pattern showing ISI; open eye means low ISI,spectrum satisfies folded spectrum = constant over signal bandwidth,3,0.7
+Which best describes the minimum Nyquist bandwidth?,smearing of adjacent symbols due to channel bandwidth limitation,OFDM-based modulation used in DSL; different bits per sub-channel,1/2T Hz for a signal at symbol rate 1/T,optimal maximum-likelihood sequence detector for ISI channels,3,0.7
+Which best describes excess bandwidth?,high-speed data over copper telephone local loop,oscilloscope pattern showing ISI; open eye means low ISI,a linear filter applied at receiver to invert channel effects,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,4,0.7
+Which best describes DSL (digital subscriber line)?,guard interval appended to each symbol to eliminate ISI,uses previously detected symbols to cancel trailing ISI,split raised-cosine between transmitter and receiver filters,high-speed data over copper telephone local loop,4,0.7
+Which best describes DMT (discrete multitone) modulation?,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,OFDM-based modulation used in DSL; different bits per sub-channel,oscilloscope pattern showing ISI; open eye means low ISI,3,0.7
+Which best describes OFDM orthogonality condition?,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,split raised-cosine between transmitter and receiver filters,spectrum satisfies folded spectrum = constant over signal bandwidth,high-speed data over copper telephone local loop,1,0.7
+Which best describes the cyclic prefix in OFDM?,controls excess bandwidth; alpha=0 gives minimum bandwidth,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,uses previously detected symbols to cancel trailing ISI,guard interval appended to each symbol to eliminate ISI,4,0.7
+"In digital communications, intersymbol interference (ISI) refers to?",1/2T Hz for a signal at symbol rate 1/T,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,smearing of adjacent symbols due to channel bandwidth limitation,split raised-cosine between transmitter and receiver filters,3,0.7
+"In digital communications, the Nyquist criterion for zero ISI refers to?",controls excess bandwidth; alpha=0 gives minimum bandwidth,smearing of adjacent symbols due to channel bandwidth limitation,spectrum satisfies folded spectrum = constant over signal bandwidth,uses previously detected symbols to cancel trailing ISI,3,0.7
+"In digital communications, the raised-cosine pulse refers to?",1/2T Hz for a signal at symbol rate 1/T,smearing of adjacent symbols due to channel bandwidth limitation,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,uses previously detected symbols to cancel trailing ISI,3,0.7
+"In digital communications, the rolloff factor alpha refers to?",uses previously detected symbols to cancel trailing ISI,controls excess bandwidth; alpha=0 gives minimum bandwidth,oscilloscope pattern showing ISI; open eye means low ISI,guard interval appended to each symbol to eliminate ISI,2,0.7
+"In digital communications, the root raised-cosine filter refers to?",a linear filter applied at receiver to invert channel effects,controls excess bandwidth; alpha=0 gives minimum bandwidth,split raised-cosine between transmitter and receiver filters,uses previously detected symbols to cancel trailing ISI,3,0.7
+"In digital communications, equalisation refers to?",split raised-cosine between transmitter and receiver filters,smearing of adjacent symbols due to channel bandwidth limitation,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,processing to compensate for ISI introduced by the channel,4,0.7
+"In digital communications, linear equalisation refers to?",processing to compensate for ISI introduced by the channel,split raised-cosine between transmitter and receiver filters,a linear filter applied at receiver to invert channel effects,high-speed data over copper telephone local loop,3,0.7
+"In digital communications, decision-feedback equalisation (DFE) refers to?",guard interval appended to each symbol to eliminate ISI,smearing of adjacent symbols due to channel bandwidth limitation,a pulse satisfying Nyquist criterion with bandwidth = (1+alpha)/2T,uses previously detected symbols to cancel trailing ISI,4,0.7
+"In digital communications, the Viterbi algorithm refers to?",optimal maximum-likelihood sequence detector for ISI channels,high-speed data over copper telephone local loop,processing to compensate for ISI introduced by the channel,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,1,0.7
+"In digital communications, eye diagram refers to?",1/2T Hz for a signal at symbol rate 1/T,split raised-cosine between transmitter and receiver filters,oscilloscope pattern showing ISI; open eye means low ISI,spectrum satisfies folded spectrum = constant over signal bandwidth,3,0.7
+"In digital communications, the minimum Nyquist bandwidth refers to?",uses previously detected symbols to cancel trailing ISI,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,1/2T Hz for a signal at symbol rate 1/T,processing to compensate for ISI introduced by the channel,3,0.7
+"In digital communications, excess bandwidth refers to?",bandwidth beyond minimum Nyquist = alpha/(2T) Hz,smearing of adjacent symbols due to channel bandwidth limitation,guard interval appended to each symbol to eliminate ISI,1/2T Hz for a signal at symbol rate 1/T,1,0.7
+"In digital communications, DSL (digital subscriber line) refers to?",processing to compensate for ISI introduced by the channel,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,high-speed data over copper telephone local loop,OFDM-based modulation used in DSL; different bits per sub-channel,3,0.7
+"In digital communications, DMT (discrete multitone) modulation refers to?",controls excess bandwidth; alpha=0 gives minimum bandwidth,oscilloscope pattern showing ISI; open eye means low ISI,a linear filter applied at receiver to invert channel effects,OFDM-based modulation used in DSL; different bits per sub-channel,4,0.7
+"In digital communications, OFDM orthogonality condition refers to?",1/2T Hz for a signal at symbol rate 1/T,bandwidth beyond minimum Nyquist = alpha/(2T) Hz,oscilloscope pattern showing ISI; open eye means low ISI,subcarrier spacing = 1/T_s ensures zero inter-subcarrier interference,4,0.7
+"In digital communications, the cyclic prefix in OFDM refers to?",bandwidth beyond minimum Nyquist = alpha/(2T) Hz,controls excess bandwidth; alpha=0 gives minimum bandwidth,uses previously detected symbols to cancel trailing ISI,guard interval appended to each symbol to eliminate ISI,4,0.7
+How is intersymbol interference (ISI) defined?,optimal maximum-likelihood sequence detector for ISI channels,smearing of adjacent symbols due to channel bandwidth limitation,high-speed data over copper telephone local loop,processing to compensate for ISI introduced by the channel,2,0.7
+How is the Nyquist criterion for zero ISI defined?,spectrum satisfies folded spectrum = constant over signal bandwidth,smearing of adjacent symbols due to channel bandwidth limitation,controls excess bandwidth; alpha=0 gives minimum bandwidth,split raised-cosine between transmitter and receiver filters,1,0.7
+Evaluate: minimum bandwidth for 1 Msymbol/s Nyquist signalling,500 kHz,5.000e+03 kHz,250 kHz,1.500e+03 kHz,1,0.75
+Evaluate: bandwidth for raised-cosine alpha=0.5 at 1 Msymbol/s,250 kHz,750 kHz,7.500e+03 kHz,1.125e+03 kHz,2,0.75
+Evaluate: bandwidth for raised-cosine alpha=1 at 1 Msymbol/s,1 MHz,-1 MHz,0 MHz,2 MHz,1,0.75
+Evaluate: bandwidth efficiency for alpha=0 raised cosine,6 b/s/Hz with QPSK,1 b/s/Hz with QPSK,2 b/s/Hz with QPSK,4 b/s/Hz with QPSK,3,0.75
+Evaluate: excess bandwidth for alpha=0.25 at 1 Msymbol/s,42 kHz,500 kHz,375 kHz,125 kHz,4,0.75
+Evaluate: symbol rate for 2 Mbps 16-QAM,375 ksymbol/s,1.000e+03 ksymbol/s,500 ksymbol/s,167 ksymbol/s,3,0.75
+Evaluate: symbol rate for 6 Mbps 64-QAM,1 Msymbol/s,4 Msymbol/s,10 Msymbol/s,0 Msymbol/s,1,0.75
+Evaluate: minimum Nyquist BW for 500 ksymbol/s,250 kHz,188 kHz,375 kHz,500 kHz,1,0.75
+Evaluate: cyclic prefix overhead fraction for CP=T_s/4,40 %,200 %,20%,60 %,3,0.75
+Evaluate: ISI-free condition in time domain,h(n*T)=0 for all n not equal 0_b,h(n*T)=0 for all n not equal 0,h(n*T)=0 for all n not equal 0_a,h(n*T)=0 for all n not equal 0_c,2,0.75
+Evaluate: eye opening at ISI=0,maximum possible,maximum possible_b,maximum possible_a,maximum possible_c,1,0.75
+Evaluate: tap spacing of T-spaced equaliser,T seconds (symbol period)_b,T seconds (symbol period),T seconds (symbol period)_c,T seconds (symbol period)_a,2,0.75
+Evaluate: number of OFDM subcarriers for DMT with BW=1 MHz df=4.3125 kHz,464 sub-carriers,58 sub-carriers,2.320e+03 sub-carriers,232 sub-carriers,4,0.75
+Evaluate: ADSL downstream bit rate (approx theoretical max),12 Mbps,8 Mbps,2 Mbps,-8 Mbps,2,0.75
+Evaluate: rolloff factor alpha=0: bandwidth equals,3 /2T Hz (minimum),0 /2T Hz (minimum),1/2T Hz (minimum),approx 1/2T Hz (minimum)*2,3,0.75
+Evaluate: rolloff factor alpha=1: bandwidth equals,2 /T Hz (double minimum),1/T Hz (double minimum),0 /T Hz (double minimum),10 /T Hz (double minimum),2,0.75
+Evaluate: noise enhancement factor for zero-forcing equaliser,amplifies noise at frequency nulls,amplifies noise at frequency nulls_b,amplifies noise at frequency nulls_a,amplifies noise at frequency nulls_c,1,0.75
+Evaluate: minimum MSE equaliser trade-off,balances ISI cancellation against noise enhancement_b,balances ISI cancellation against noise enhancement_a,balances ISI cancellation against noise enhancement_c,balances ISI cancellation against noise enhancement,4,0.75
+Evaluate: bit loading in DMT,allocate more bits to sub-channels with high SNR,allocate more bits to sub-channels with high SNR_c,allocate more bits to sub-channels with high SNR_b,allocate more bits to sub-channels with high SNR_a,1,0.75
+Evaluate: OFDM advantage over single-carrier for ISI,converts frequency-selective channel into flat sub-channels_b,converts frequency-selective channel into flat sub-channels_c,converts frequency-selective channel into flat sub-channels,converts frequency-selective channel into flat sub-channels_a,3,0.75
+Evaluate: CP length requirement vs channel delay spread tau_max,CP >= tau_max_c,CP >= tau_max,CP >= tau_max_a,CP >= tau_max_b,2,0.75
+Evaluate: effective data rate reduction from CP overhead for 20% CP,1.6 * full rate,0.8 * full rate,3.2 * full rate,8.0 * full rate,2,0.75
+What is the result of minimum bandwidth for 1 Msymbol/s Nyquist signalling?,500 kHz,2.000e+03 kHz,1.500e+03 kHz,-500 kHz,1,0.75
+What is the result of bandwidth for raised-cosine alpha=0.5 at 1 Msymbol/s?,2.250e+03 kHz,3.000e+03 kHz,1.500e+03 kHz,750 kHz,4,0.75
+What is the result of bandwidth for raised-cosine alpha=1 at 1 Msymbol/s?,0 MHz,10 MHz,approx 1 MHz*2,1 MHz,4,0.75
+What is the result of bandwidth efficiency for alpha=0 raised cosine?,2 b/s/Hz with QPSK,4 b/s/Hz with QPSK,3 b/s/Hz with QPSK,20 b/s/Hz with QPSK,1,0.75
+What is the result of excess bandwidth for alpha=0.25 at 1 Msymbol/s?,500 kHz,125 kHz,62 kHz,375 kHz,2,0.75
+What is the result of symbol rate for 2 Mbps 16-QAM?,500 ksymbol/s,50 ksymbol/s,375 ksymbol/s,2.000e+03 ksymbol/s,1,0.75
+What is the result of symbol rate for 6 Mbps 64-QAM?,0 Msymbol/s,-1 Msymbol/s,1 Msymbol/s,4 Msymbol/s,3,0.75
+What is the result of minimum Nyquist BW for 500 ksymbol/s?,-250 kHz,250 kHz,83 kHz,25 kHz,2,0.75
+What is the result of cyclic prefix overhead fraction for CP=T_s/4?,15 %,10 %,20%,30 %,3,0.75
+What is the result of ISI-free condition in time domain?,h(n*T)=0 for all n not equal 0,h(n*T)=0 for all n not equal 0_b,h(n*T)=0 for all n not equal 0_a,h(n*T)=0 for all n not equal 0_c,1,0.75
+What is the result of eye opening at ISI=0?,maximum possible_b,maximum possible,maximum possible_a,maximum possible_c,2,0.75
+What is the result of tap spacing of T-spaced equaliser?,T seconds (symbol period)_a,T seconds (symbol period),T seconds (symbol period)_b,T seconds (symbol period)_c,2,0.75
+What is the result of number of OFDM subcarriers for DMT with BW=1 MHz df=4.3125 kHz?,116 sub-carriers,23 sub-carriers,232 sub-carriers,928 sub-carriers,3,0.75
+What is the result of ADSL downstream bit rate (approx theoretical max)?,2 Mbps,6 Mbps,8 Mbps,-8 Mbps,3,0.75
+What is the result of rolloff factor alpha=0: bandwidth equals?,0 /2T Hz (minimum),2 /2T Hz (minimum),1/2T Hz (minimum),10 /2T Hz (minimum),3,0.75
+What is the result of rolloff factor alpha=1: bandwidth equals?,0 /T Hz (double minimum),3 /T Hz (double minimum),10 /T Hz (double minimum),1/T Hz (double minimum),4,0.75
+What is the result of noise enhancement factor for zero-forcing equaliser?,amplifies noise at frequency nulls_b,amplifies noise at frequency nulls_a,amplifies noise at frequency nulls,amplifies noise at frequency nulls_c,3,0.75
+What is the result of minimum MSE equaliser trade-off?,balances ISI cancellation against noise enhancement_c,balances ISI cancellation against noise enhancement_a,balances ISI cancellation against noise enhancement,balances ISI cancellation against noise enhancement_b,3,0.75
+What is the result of bit loading in DMT?,allocate more bits to sub-channels with high SNR_b,allocate more bits to sub-channels with high SNR_c,allocate more bits to sub-channels with high SNR,allocate more bits to sub-channels with high SNR_a,3,0.75
+What is the result of OFDM advantage over single-carrier for ISI?,converts frequency-selective channel into flat sub-channels_b,converts frequency-selective channel into flat sub-channels_a,converts frequency-selective channel into flat sub-channels,converts frequency-selective channel into flat sub-channels_c,3,0.75
+What is the result of CP length requirement vs channel delay spread tau_max?,CP >= tau_max,CP >= tau_max_c,CP >= tau_max_a,CP >= tau_max_b,1,0.75
+What is the result of effective data rate reduction from CP overhead for 20% CP?,0.8 * full rate,8.0 * full rate,0.2 * full rate,0.4 * full rate,1,0.75
+Calculate: minimum bandwidth for 1 Msymbol/s Nyquist signalling,1.000e+03 kHz,500 kHz,250 kHz,-500 kHz,2,0.75
+Calculate: bandwidth for raised-cosine alpha=0.5 at 1 Msymbol/s,562 kHz,750 kHz,250 kHz,3.000e+03 kHz,2,0.75
+Calculate: bandwidth for raised-cosine alpha=1 at 1 Msymbol/s,approx 1 MHz*2,0 MHz,2 MHz,1 MHz,4,0.75
+Calculate: bandwidth efficiency for alpha=0 raised cosine,2 b/s/Hz with QPSK,8 b/s/Hz with QPSK,1 b/s/Hz with QPSK,3 b/s/Hz with QPSK,1,0.75
+Calculate: excess bandwidth for alpha=0.25 at 1 Msymbol/s,188 kHz,94 kHz,125 kHz,62 kHz,3,0.75
+Calculate: symbol rate for 2 Mbps 16-QAM,500 ksymbol/s,-500 ksymbol/s,50 ksymbol/s,5.000e+03 ksymbol/s,1,0.75
+What is multipath fading?,simulation model for Rayleigh fading using sum of sinusoids,change in received frequency due to relative motion of transmitter and receiver,transmitting same information over multiple frequency bands,fluctuation in received signal amplitude due to multiple propagation paths,4,0.8
+What is flat fading?,channel coherence time much greater than symbol period,fading where all frequency components of the signal fade equally,fluctuation in received signal amplitude due to multiple propagation paths,simulation model for Rayleigh fading using sum of sinusoids,2,0.8
+What is frequency-selective fading?,"fading that varies across the signal bandwidth, causing ISI",time duration over which channel is approximately constant,technique of providing multiple independent copies of signal to combat fading,channel coherence time much greater than symbol period,1,0.8
+What is slow fading?,simulation model for Rayleigh fading using sum of sinusoids,amplitude follows Rayleigh distribution when no dominant LOS path,combines multipath components constructively using matched filters,channel coherence time much greater than symbol period,4,0.8
+What is fast fading?,simulation model for Rayleigh fading using sum of sinusoids,channel varies significantly within a symbol period,amplitude follows Rician distribution when dominant LOS path exists,amplitude follows Rayleigh distribution when no dominant LOS path,2,0.8
+What is the Rayleigh fading model?,ratio of LOS component power to scattered component power,transmitting same information over multiple frequency bands,amplitude follows Rayleigh distribution when no dominant LOS path,range of frequencies over which channel is approximately flat,3,0.8
+What is the Rician fading model?,fading where all frequency components of the signal fade equally,range of frequencies over which channel is approximately flat,amplitude follows Rician distribution when dominant LOS path exists,change in received frequency due to relative motion of transmitter and receiver,3,0.8
+What is the K-factor in Rician fading?,simulation model for Rayleigh fading using sum of sinusoids,fluctuation in received signal amplitude due to multiple propagation paths,ratio of LOS component power to scattered component power,transmitting same information over multiple frequency bands,3,0.8
+What is coherence bandwidth Bc?,ratio of LOS component power to scattered component power,range of frequencies over which channel is approximately flat,"fading that varies across the signal bandwidth, causing ISI",technique of providing multiple independent copies of signal to combat fading,2,0.8
+What is coherence time Tc?,time duration over which channel is approximately constant,amplitude follows Rayleigh distribution when no dominant LOS path,range of frequencies over which channel is approximately flat,"fading that varies across the signal bandwidth, causing ISI",1,0.8
+What is Doppler shift?,change in received frequency due to relative motion of transmitter and receiver,fading where all frequency components of the signal fade equally,"fading that varies across the signal bandwidth, causing ISI",range of frequencies over which channel is approximately flat,1,0.8
+What is the Jakes model?,simulation model for Rayleigh fading using sum of sinusoids,technique of providing multiple independent copies of signal to combat fading,using multiple antennas separated in space,ratio of LOS component power to scattered component power,1,0.8
+What is diversity?,technique of providing multiple independent copies of signal to combat fading,amplitude follows Rician distribution when dominant LOS path exists,combines multipath components constructively using matched filters,fading where all frequency components of the signal fade equally,1,0.8
+What is space diversity?,"fading that varies across the signal bandwidth, causing ISI",time duration over which channel is approximately constant,using multiple antennas separated in space,change in received frequency due to relative motion of transmitter and receiver,3,0.8
+What is frequency diversity?,time duration over which channel is approximately constant,combines multipath components constructively using matched filters,transmitting same information over multiple frequency bands,amplitude follows Rayleigh distribution when no dominant LOS path,3,0.8
+What is RAKE receiver?,simulation model for Rayleigh fading using sum of sinusoids,using multiple antennas separated in space,combines multipath components constructively using matched filters,fluctuation in received signal amplitude due to multiple propagation paths,3,0.8
+Which best describes multipath fading?,"fading that varies across the signal bandwidth, causing ISI",fluctuation in received signal amplitude due to multiple propagation paths,simulation model for Rayleigh fading using sum of sinusoids,range of frequencies over which channel is approximately flat,2,0.8
+Which best describes flat fading?,technique of providing multiple independent copies of signal to combat fading,combines multipath components constructively using matched filters,fading where all frequency components of the signal fade equally,using multiple antennas separated in space,3,0.8
+Which best describes frequency-selective fading?,technique of providing multiple independent copies of signal to combat fading,ratio of LOS component power to scattered component power,"fading that varies across the signal bandwidth, causing ISI",using multiple antennas separated in space,3,0.8
+Which best describes slow fading?,change in received frequency due to relative motion of transmitter and receiver,fading where all frequency components of the signal fade equally,amplitude follows Rayleigh distribution when no dominant LOS path,channel coherence time much greater than symbol period,4,0.8
+Which best describes fast fading?,using multiple antennas separated in space,range of frequencies over which channel is approximately flat,amplitude follows Rician distribution when dominant LOS path exists,channel varies significantly within a symbol period,4,0.8
+Which best describes the Rayleigh fading model?,fading where all frequency components of the signal fade equally,technique of providing multiple independent copies of signal to combat fading,amplitude follows Rayleigh distribution when no dominant LOS path,range of frequencies over which channel is approximately flat,3,0.8
+Which best describes the Rician fading model?,amplitude follows Rician distribution when dominant LOS path exists,channel coherence time much greater than symbol period,channel varies significantly within a symbol period,range of frequencies over which channel is approximately flat,1,0.8
+Which best describes the K-factor in Rician fading?,combines multipath components constructively using matched filters,ratio of LOS component power to scattered component power,technique of providing multiple independent copies of signal to combat fading,channel coherence time much greater than symbol period,2,0.8
+Which best describes coherence bandwidth Bc?,fading where all frequency components of the signal fade equally,change in received frequency due to relative motion of transmitter and receiver,fluctuation in received signal amplitude due to multiple propagation paths,range of frequencies over which channel is approximately flat,4,0.8
+Which best describes coherence time Tc?,fluctuation in received signal amplitude due to multiple propagation paths,time duration over which channel is approximately constant,using multiple antennas separated in space,"fading that varies across the signal bandwidth, causing ISI",2,0.8
+Which best describes Doppler shift?,amplitude follows Rayleigh distribution when no dominant LOS path,"fading that varies across the signal bandwidth, causing ISI",change in received frequency due to relative motion of transmitter and receiver,simulation model for Rayleigh fading using sum of sinusoids,3,0.8
+Which best describes the Jakes model?,ratio of LOS component power to scattered component power,simulation model for Rayleigh fading using sum of sinusoids,time duration over which channel is approximately constant,transmitting same information over multiple frequency bands,2,0.8
+Which best describes diversity?,technique of providing multiple independent copies of signal to combat fading,using multiple antennas separated in space,fading where all frequency components of the signal fade equally,ratio of LOS component power to scattered component power,1,0.8
+Which best describes space diversity?,fading where all frequency components of the signal fade equally,transmitting same information over multiple frequency bands,time duration over which channel is approximately constant,using multiple antennas separated in space,4,0.8
+Which best describes frequency diversity?,combines multipath components constructively using matched filters,ratio of LOS component power to scattered component power,transmitting same information over multiple frequency bands,fading where all frequency components of the signal fade equally,3,0.8
+Which best describes RAKE receiver?,combines multipath components constructively using matched filters,channel varies significantly within a symbol period,fluctuation in received signal amplitude due to multiple propagation paths,channel coherence time much greater than symbol period,1,0.8
+"In digital communications, multipath fading refers to?","fading that varies across the signal bandwidth, causing ISI",channel coherence time much greater than symbol period,fluctuation in received signal amplitude due to multiple propagation paths,transmitting same information over multiple frequency bands,3,0.8
+"In digital communications, flat fading refers to?",change in received frequency due to relative motion of transmitter and receiver,fading where all frequency components of the signal fade equally,transmitting same information over multiple frequency bands,time duration over which channel is approximately constant,2,0.8
+"In digital communications, frequency-selective fading refers to?",technique of providing multiple independent copies of signal to combat fading,"fading that varies across the signal bandwidth, causing ISI",time duration over which channel is approximately constant,fading where all frequency components of the signal fade equally,2,0.8
+"In digital communications, slow fading refers to?",ratio of LOS component power to scattered component power,fluctuation in received signal amplitude due to multiple propagation paths,channel coherence time much greater than symbol period,amplitude follows Rician distribution when dominant LOS path exists,3,0.8
+"In digital communications, fast fading refers to?",using multiple antennas separated in space,fluctuation in received signal amplitude due to multiple propagation paths,channel varies significantly within a symbol period,combines multipath components constructively using matched filters,3,0.8
+"In digital communications, the Rayleigh fading model refers to?",using multiple antennas separated in space,combines multipath components constructively using matched filters,simulation model for Rayleigh fading using sum of sinusoids,amplitude follows Rayleigh distribution when no dominant LOS path,4,0.8
+"In digital communications, the Rician fading model refers to?",using multiple antennas separated in space,change in received frequency due to relative motion of transmitter and receiver,fading where all frequency components of the signal fade equally,amplitude follows Rician distribution when dominant LOS path exists,4,0.8
+"In digital communications, the K-factor in Rician fading refers to?",technique of providing multiple independent copies of signal to combat fading,amplitude follows Rician distribution when dominant LOS path exists,change in received frequency due to relative motion of transmitter and receiver,ratio of LOS component power to scattered component power,4,0.8
+"In digital communications, coherence bandwidth Bc refers to?","fading that varies across the signal bandwidth, causing ISI",channel varies significantly within a symbol period,technique of providing multiple independent copies of signal to combat fading,range of frequencies over which channel is approximately flat,4,0.8
+"In digital communications, coherence time Tc refers to?",time duration over which channel is approximately constant,channel coherence time much greater than symbol period,ratio of LOS component power to scattered component power,range of frequencies over which channel is approximately flat,1,0.8
+"In digital communications, Doppler shift refers to?",channel varies significantly within a symbol period,using multiple antennas separated in space,channel coherence time much greater than symbol period,change in received frequency due to relative motion of transmitter and receiver,4,0.8
+"In digital communications, the Jakes model refers to?",simulation model for Rayleigh fading using sum of sinusoids,transmitting same information over multiple frequency bands,combines multipath components constructively using matched filters,using multiple antennas separated in space,1,0.8
+"In digital communications, diversity refers to?",simulation model for Rayleigh fading using sum of sinusoids,change in received frequency due to relative motion of transmitter and receiver,combines multipath components constructively using matched filters,technique of providing multiple independent copies of signal to combat fading,4,0.8
+"In digital communications, space diversity refers to?",fluctuation in received signal amplitude due to multiple propagation paths,using multiple antennas separated in space,amplitude follows Rician distribution when dominant LOS path exists,technique of providing multiple independent copies of signal to combat fading,2,0.8
+"In digital communications, frequency diversity refers to?",simulation model for Rayleigh fading using sum of sinusoids,combines multipath components constructively using matched filters,transmitting same information over multiple frequency bands,amplitude follows Rician distribution when dominant LOS path exists,3,0.8
+"In digital communications, RAKE receiver refers to?",amplitude follows Rayleigh distribution when no dominant LOS path,fading where all frequency components of the signal fade equally,combines multipath components constructively using matched filters,time duration over which channel is approximately constant,3,0.8
+How is multipath fading defined?,channel varies significantly within a symbol period,fading where all frequency components of the signal fade equally,fluctuation in received signal amplitude due to multiple propagation paths,ratio of LOS component power to scattered component power,3,0.8
+How is flat fading defined?,channel varies significantly within a symbol period,ratio of LOS component power to scattered component power,technique of providing multiple independent copies of signal to combat fading,fading where all frequency components of the signal fade equally,4,0.8
+Evaluate: Doppler shift for v=30 m/s f_c=1 GHz,100 Hz,-100 Hz,33 Hz,300 Hz,1,0.85
+Evaluate: Doppler shift for v=100 km/h f_c=900 MHz,-83 Hz,42 Hz,83 Hz,332 Hz,3,0.85
+Evaluate: coherence time Tc approx for Doppler fd=100 Hz,-0.01 s,0.01 s,0.04 s,0.00 s,2,0.85
+Evaluate: coherence bandwidth Bc for delay spread sigma_tau=1 us,1 MHz,0 MHz,approx 1 MHz*2,10 MHz,1,0.85
+"Evaluate: BER of BPSK in Rayleigh fading (average, high SNR)",0 /(4*gamma_bar),approx 1/(4*gamma_bar)*2,1 /(4*gamma_bar),1/(4*gamma_bar),4,0.85
+Evaluate: BER of BPSK AWGN vs Rayleigh at same avg SNR,Rayleigh BER much higher_a,Rayleigh BER much higher_c,Rayleigh BER much higher_b,Rayleigh BER much higher,4,0.85
+Evaluate: diversity order needed to reduce Rayleigh BER to AWGN level,L=log(BER)/log(SNR)_b,L=log(BER)/log(SNR)_a,L=log(BER)/log(SNR),L=log(BER)/log(SNR)_c,3,0.85
+Evaluate: MRC output SNR for L=2 branches equal avg SNR gamma,2 *gamma,-2 *gamma,1 *gamma,2*gamma,4,0.85
+Evaluate: MRC gain for L=4 branches vs no diversity,4x (6 dB) SNR gain,8 x (6 dB) SNR gain,40 x (6 dB) SNR gain,3 x (6 dB) SNR gain,1,0.85
+"Evaluate: outage probability at SNR threshold gamma_th, Rayleigh",2 - e^(-gamma_th/gamma_bar),1 - e^(-gamma_th/gamma_bar),-1 - e^(-gamma_th/gamma_bar),3 - e^(-gamma_th/gamma_bar),2,0.85
+Evaluate: mean SNR required to achieve 1% outage at gamma_th=10 dB,approximately 100*gamma_th,approximately 100*gamma_th_b,approximately 100*gamma_th_a,approximately 100*gamma_th_c,1,0.85
+Evaluate: K-factor K=0 corresponds to,pure Rayleigh fading (no LOS),pure Rayleigh fading (no LOS)_b,pure Rayleigh fading (no LOS)_a,pure Rayleigh fading (no LOS)_c,1,0.85
+Evaluate: K-factor K->inf corresponds to,"AWGN (dominant LOS, no fading)","AWGN (dominant LOS, no fading)_c","AWGN (dominant LOS, no fading)_a","AWGN (dominant LOS, no fading)_b",1,0.85
+Evaluate: flat fading condition: signal BW vs Bc,signal BW << Bc_a,signal BW << Bc_c,signal BW << Bc,signal BW << Bc_b,3,0.85
+Evaluate: frequency-selective fading condition,signal BW >> Bc_b,signal BW >> Bc_c,signal BW >> Bc,signal BW >> Bc_a,3,0.85
+Evaluate: slow fading condition: symbol period Ts vs Tc,Ts << Tc_a,Ts << Tc_c,Ts << Tc,Ts << Tc_b,3,0.85
+Evaluate: fast fading condition,Ts >> Tc_a,Ts >> Tc_b,Ts >> Tc_c,Ts >> Tc,4,0.85
+Evaluate: OFDM advantage in fading channel,converts frequency-selective to flat fading per subcarrier_b,converts frequency-selective to flat fading per subcarrier_c,converts frequency-selective to flat fading per subcarrier_a,converts frequency-selective to flat fading per subcarrier,4,0.85
+Evaluate: SNR gain from antenna selection diversity (L=2),about 1.5 dB vs no diversity,about 1.5 dB vs no diversity_a,about 1.5 dB vs no diversity_c,about 1.5 dB vs no diversity_b,1,0.85
+Evaluate: MIMO capacity formula,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_b,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_c,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_a,1,0.85
+Evaluate: spatial multiplexing gain,"min(Nt,Nr) independent streams_b","min(Nt,Nr) independent streams","min(Nt,Nr) independent streams_a","min(Nt,Nr) independent streams_c",2,0.85
+Evaluate: diversity gain in MIMO Nt x Nr system,up to Nt*Nr_b,up to Nt*Nr_c,up to Nt*Nr_a,up to Nt*Nr,4,0.85
+What is the result of Doppler shift for v=30 m/s f_c=1 GHz?,1.000e+03 Hz,-100 Hz,100 Hz,10 Hz,3,0.85
+What is the result of Doppler shift for v=100 km/h f_c=900 MHz?,332 Hz,83 Hz,830 Hz,124 Hz,2,0.85
+What is the result of coherence time Tc approx for Doppler fd=100 Hz?,0.00 s,0.04 s,-0.01 s,0.01 s,4,0.85
+What is the result of coherence bandwidth Bc for delay spread sigma_tau=1 us?,2 MHz,3 MHz,1 MHz,0 MHz,3,0.85
+"What is the result of BER of BPSK in Rayleigh fading (average, high SNR)?",3 /(4*gamma_bar),2 /(4*gamma_bar),1 /(4*gamma_bar),1/(4*gamma_bar),4,0.85
+What is the result of BER of BPSK AWGN vs Rayleigh at same avg SNR?,Rayleigh BER much higher,Rayleigh BER much higher_c,Rayleigh BER much higher_b,Rayleigh BER much higher_a,1,0.85
+What is the result of diversity order needed to reduce Rayleigh BER to AWGN level?,L=log(BER)/log(SNR)_b,L=log(BER)/log(SNR)_a,L=log(BER)/log(SNR)_c,L=log(BER)/log(SNR),4,0.85
+What is the result of MRC output SNR for L=2 branches equal avg SNR gamma?,2 *gamma,-2 *gamma,6 *gamma,2*gamma,4,0.85
+What is the result of MRC gain for L=4 branches vs no diversity?,4x (6 dB) SNR gain,16 x (6 dB) SNR gain,8 x (6 dB) SNR gain,-4 x (6 dB) SNR gain,1,0.85
+"What is the result of outage probability at SNR threshold gamma_th, Rayleigh?",1 - e^(-gamma_th/gamma_bar),2 - e^(-gamma_th/gamma_bar),10 - e^(-gamma_th/gamma_bar),-1 - e^(-gamma_th/gamma_bar),1,0.85
+What is the result of mean SNR required to achieve 1% outage at gamma_th=10 dB?,approximately 100*gamma_th_c,approximately 100*gamma_th_a,approximately 100*gamma_th,approximately 100*gamma_th_b,3,0.85
+What is the result of K-factor K=0 corresponds to?,pure Rayleigh fading (no LOS)_a,pure Rayleigh fading (no LOS),pure Rayleigh fading (no LOS)_b,pure Rayleigh fading (no LOS)_c,2,0.85
+What is the result of K-factor K->inf corresponds to?,"AWGN (dominant LOS, no fading)","AWGN (dominant LOS, no fading)_a","AWGN (dominant LOS, no fading)_c","AWGN (dominant LOS, no fading)_b",1,0.85
+What is the result of flat fading condition: signal BW vs Bc?,signal BW << Bc_a,signal BW << Bc,signal BW << Bc_c,signal BW << Bc_b,2,0.85
+What is the result of frequency-selective fading condition?,signal BW >> Bc_b,signal BW >> Bc,signal BW >> Bc_c,signal BW >> Bc_a,2,0.85
+What is the result of slow fading condition: symbol period Ts vs Tc?,Ts << Tc_c,Ts << Tc,Ts << Tc_a,Ts << Tc_b,2,0.85
+What is the result of fast fading condition?,Ts >> Tc_c,Ts >> Tc_a,Ts >> Tc_b,Ts >> Tc,4,0.85
+What is the result of OFDM advantage in fading channel?,converts frequency-selective to flat fading per subcarrier_a,converts frequency-selective to flat fading per subcarrier_c,converts frequency-selective to flat fading per subcarrier,converts frequency-selective to flat fading per subcarrier_b,3,0.85
+What is the result of SNR gain from antenna selection diversity (L=2)?,about 1.5 dB vs no diversity_c,about 1.5 dB vs no diversity,about 1.5 dB vs no diversity_a,about 1.5 dB vs no diversity_b,2,0.85
+What is the result of MIMO capacity formula?,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_a,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_b,C = B*log2(det(I + SNR/Nt * H*H^H)) b/s_c,1,0.85
+What is the result of spatial multiplexing gain?,"min(Nt,Nr) independent streams","min(Nt,Nr) independent streams_c","min(Nt,Nr) independent streams_b","min(Nt,Nr) independent streams_a",1,0.85
+What is the result of diversity gain in MIMO Nt x Nr system?,up to Nt*Nr_a,up to Nt*Nr_b,up to Nt*Nr,up to Nt*Nr_c,3,0.85
+Calculate: Doppler shift for v=30 m/s f_c=1 GHz,-100 Hz,300 Hz,400 Hz,100 Hz,4,0.85
+Calculate: Doppler shift for v=100 km/h f_c=900 MHz,42 Hz,830 Hz,83 Hz,124 Hz,3,0.85
+Calculate: coherence time Tc approx for Doppler fd=100 Hz,0.01 s,0.03 s,0.00 s,0.04 s,1,0.85
+Calculate: coherence bandwidth Bc for delay spread sigma_tau=1 us,1 MHz,0 MHz,4 MHz,2 MHz,1,0.85
+"Calculate: BER of BPSK in Rayleigh fading (average, high SNR)",4 /(4*gamma_bar),0 /(4*gamma_bar),1/(4*gamma_bar),approx 1/(4*gamma_bar)*2,3,0.85
+Calculate: BER of BPSK AWGN vs Rayleigh at same avg SNR,Rayleigh BER much higher,Rayleigh BER much higher_c,Rayleigh BER much higher_b,Rayleigh BER much higher_a,1,0.85
+"What is a block code (n,k)?",encodes by passing bits through a shift register with linear feedback,encodes k information bits into n codeword bits,maximum-likelihood decoding of convolutional codes via trellis,k x n matrix mapping message to codeword: c = m*G,2,0.9
+What is the code rate R_c?,"k/n, fraction of codeword carrying information",maximum-likelihood decoding of convolutional codes via trellis,"single-error-correcting code with n=7, k=4, d_min=3",(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,1,0.9
+What is the minimum Hamming distance d_min?,decoder uses reliability (log-likelihood) values from channel,smallest Hamming distance between any two codewords,"reduction in required Eb/N0 due to channel coding, in dB",low-density parity-check codes; sparse parity check matrix; near-Shannon,2,0.9
+What is error detection capability?,smallest Hamming distance between any two codewords,can detect up to d_min - 1 errors per codeword,maximum-likelihood decoding of convolutional codes via trellis,first k bits of codeword equal the message bits,2,0.9
+What is error correction capability t?,first k bits of codeword equal the message bits,can correct t = floor((d_min-1)/2) errors per codeword,can detect up to d_min - 1 errors per codeword,encodes k information bits into n codeword bits,2,0.9
+What is the generator matrix G?,can correct t = floor((d_min-1)/2) errors per codeword,"single-error-correcting code with n=7, k=4, d_min=3",k x n matrix mapping message to codeword: c = m*G,decoder uses reliability (log-likelihood) values from channel,3,0.9
+What is the parity check matrix H?,can detect up to d_min - 1 errors per codeword,low-density parity-check codes; sparse parity check matrix; near-Shannon,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,encodes k information bits into n codeword bits,3,0.9
+What is a systematic code?,first k bits of codeword equal the message bits,maximum-likelihood decoding of convolutional codes via trellis,can correct t = floor((d_min-1)/2) errors per codeword,low-density parity-check codes; sparse parity check matrix; near-Shannon,1,0.9
+"What is the Hamming (7,4) code?",maximum-likelihood decoding of convolutional codes via trellis,"single-error-correcting code with n=7, k=4, d_min=3",parallel concatenated convolutional codes achieving near-Shannon capacity,k x n matrix mapping message to codeword: c = m*G,2,0.9
+What is a convolutional code?,decoder uses only the decided bit values (not soft channel values),encodes by passing bits through a shift register with linear feedback,k x n matrix mapping message to codeword: c = m*G,decoder uses reliability (log-likelihood) values from channel,2,0.9
+What is the Viterbi algorithm for decoding?,first k bits of codeword equal the message bits,decoder uses only the decided bit values (not soft channel values),maximum-likelihood decoding of convolutional codes via trellis,low-density parity-check codes; sparse parity check matrix; near-Shannon,3,0.9
+What is turbo codes?,maximum-likelihood decoding of convolutional codes via trellis,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,parallel concatenated convolutional codes achieving near-Shannon capacity,can correct t = floor((d_min-1)/2) errors per codeword,3,0.9
+What is LDPC codes?,maximum-likelihood decoding of convolutional codes via trellis,"single-error-correcting code with n=7, k=4, d_min=3",low-density parity-check codes; sparse parity check matrix; near-Shannon,first k bits of codeword equal the message bits,3,0.9
+What is the coding gain?,"reduction in required Eb/N0 due to channel coding, in dB",k x n matrix mapping message to codeword: c = m*G,parallel concatenated convolutional codes achieving near-Shannon capacity,"single-error-correcting code with n=7, k=4, d_min=3",1,0.9
+What is hard-decision decoding?,first k bits of codeword equal the message bits,maximum-likelihood decoding of convolutional codes via trellis,decoder uses reliability (log-likelihood) values from channel,decoder uses only the decided bit values (not soft channel values),4,0.9
+What is soft-decision decoding?,k x n matrix mapping message to codeword: c = m*G,decoder uses reliability (log-likelihood) values from channel,encodes by passing bits through a shift register with linear feedback,decoder uses only the decided bit values (not soft channel values),2,0.9
+"Which best describes a block code (n,k)?",k x n matrix mapping message to codeword: c = m*G,"reduction in required Eb/N0 due to channel coding, in dB",encodes k information bits into n codeword bits,encodes by passing bits through a shift register with linear feedback,3,0.9
+Which best describes the code rate R_c?,decoder uses reliability (log-likelihood) values from channel,"k/n, fraction of codeword carrying information",encodes by passing bits through a shift register with linear feedback,can detect up to d_min - 1 errors per codeword,2,0.9
+Which best describes the minimum Hamming distance d_min?,first k bits of codeword equal the message bits,can correct t = floor((d_min-1)/2) errors per codeword,smallest Hamming distance between any two codewords,"k/n, fraction of codeword carrying information",3,0.9
+Which best describes error detection capability?,can detect up to d_min - 1 errors per codeword,smallest Hamming distance between any two codewords,decoder uses only the decided bit values (not soft channel values),decoder uses reliability (log-likelihood) values from channel,1,0.9
+Which best describes error correction capability t?,can correct t = floor((d_min-1)/2) errors per codeword,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,"reduction in required Eb/N0 due to channel coding, in dB",can detect up to d_min - 1 errors per codeword,1,0.9
+Which best describes the generator matrix G?,decoder uses reliability (log-likelihood) values from channel,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,"reduction in required Eb/N0 due to channel coding, in dB",k x n matrix mapping message to codeword: c = m*G,4,0.9
+Which best describes the parity check matrix H?,decoder uses reliability (log-likelihood) values from channel,encodes by passing bits through a shift register with linear feedback,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,decoder uses only the decided bit values (not soft channel values),3,0.9
+Which best describes a systematic code?,decoder uses reliability (log-likelihood) values from channel,first k bits of codeword equal the message bits,"single-error-correcting code with n=7, k=4, d_min=3","reduction in required Eb/N0 due to channel coding, in dB",2,0.9
+"Which best describes the Hamming (7,4) code?",decoder uses only the decided bit values (not soft channel values),"single-error-correcting code with n=7, k=4, d_min=3",decoder uses reliability (log-likelihood) values from channel,smallest Hamming distance between any two codewords,2,0.9
+Which best describes a convolutional code?,"single-error-correcting code with n=7, k=4, d_min=3",encodes by passing bits through a shift register with linear feedback,decoder uses only the decided bit values (not soft channel values),k x n matrix mapping message to codeword: c = m*G,2,0.9
+Which best describes the Viterbi algorithm for decoding?,maximum-likelihood decoding of convolutional codes via trellis,"k/n, fraction of codeword carrying information",parallel concatenated convolutional codes achieving near-Shannon capacity,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,1,0.9
+Which best describes turbo codes?,encodes k information bits into n codeword bits,maximum-likelihood decoding of convolutional codes via trellis,parallel concatenated convolutional codes achieving near-Shannon capacity,can detect up to d_min - 1 errors per codeword,3,0.9
+Which best describes LDPC codes?,decoder uses reliability (log-likelihood) values from channel,encodes by passing bits through a shift register with linear feedback,low-density parity-check codes; sparse parity check matrix; near-Shannon,parallel concatenated convolutional codes achieving near-Shannon capacity,3,0.9
+Which best describes the coding gain?,encodes by passing bits through a shift register with linear feedback,"reduction in required Eb/N0 due to channel coding, in dB",can detect up to d_min - 1 errors per codeword,smallest Hamming distance between any two codewords,2,0.9
+Which best describes hard-decision decoding?,k x n matrix mapping message to codeword: c = m*G,decoder uses only the decided bit values (not soft channel values),encodes k information bits into n codeword bits,parallel concatenated convolutional codes achieving near-Shannon capacity,2,0.9
+Which best describes soft-decision decoding?,"reduction in required Eb/N0 due to channel coding, in dB",decoder uses reliability (log-likelihood) values from channel,first k bits of codeword equal the message bits,smallest Hamming distance between any two codewords,2,0.9
+"In digital communications, a block code (n,k) refers to?","single-error-correcting code with n=7, k=4, d_min=3",encodes k information bits into n codeword bits,low-density parity-check codes; sparse parity check matrix; near-Shannon,can detect up to d_min - 1 errors per codeword,2,0.9
+"In digital communications, the code rate R_c refers to?","k/n, fraction of codeword carrying information",encodes k information bits into n codeword bits,smallest Hamming distance between any two codewords,k x n matrix mapping message to codeword: c = m*G,1,0.9
+"In digital communications, the minimum Hamming distance d_min refers to?","single-error-correcting code with n=7, k=4, d_min=3",can correct t = floor((d_min-1)/2) errors per codeword,smallest Hamming distance between any two codewords,parallel concatenated convolutional codes achieving near-Shannon capacity,3,0.9
+"In digital communications, error detection capability refers to?",parallel concatenated convolutional codes achieving near-Shannon capacity,"single-error-correcting code with n=7, k=4, d_min=3",encodes by passing bits through a shift register with linear feedback,can detect up to d_min - 1 errors per codeword,4,0.9
+"In digital communications, error correction capability t refers to?",decoder uses only the decided bit values (not soft channel values),can correct t = floor((d_min-1)/2) errors per codeword,smallest Hamming distance between any two codewords,can detect up to d_min - 1 errors per codeword,2,0.9
+"In digital communications, the generator matrix G refers to?",k x n matrix mapping message to codeword: c = m*G,encodes k information bits into n codeword bits,low-density parity-check codes; sparse parity check matrix; near-Shannon,decoder uses reliability (log-likelihood) values from channel,1,0.9
+"In digital communications, the parity check matrix H refers to?",first k bits of codeword equal the message bits,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,decoder uses only the decided bit values (not soft channel values),"k/n, fraction of codeword carrying information",2,0.9
+"In digital communications, a systematic code refers to?",maximum-likelihood decoding of convolutional codes via trellis,"reduction in required Eb/N0 due to channel coding, in dB",low-density parity-check codes; sparse parity check matrix; near-Shannon,first k bits of codeword equal the message bits,4,0.9
+"In digital communications, the Hamming (7,4) code refers to?",encodes k information bits into n codeword bits,"single-error-correcting code with n=7, k=4, d_min=3",decoder uses only the decided bit values (not soft channel values),low-density parity-check codes; sparse parity check matrix; near-Shannon,2,0.9
+"In digital communications, a convolutional code refers to?",(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,encodes by passing bits through a shift register with linear feedback,k x n matrix mapping message to codeword: c = m*G,low-density parity-check codes; sparse parity check matrix; near-Shannon,2,0.9
+"In digital communications, the Viterbi algorithm for decoding refers to?","k/n, fraction of codeword carrying information",can correct t = floor((d_min-1)/2) errors per codeword,smallest Hamming distance between any two codewords,maximum-likelihood decoding of convolutional codes via trellis,4,0.9
+"In digital communications, turbo codes refers to?",k x n matrix mapping message to codeword: c = m*G,maximum-likelihood decoding of convolutional codes via trellis,parallel concatenated convolutional codes achieving near-Shannon capacity,(n-k) x n matrix satisfying H*c^T = 0 for all valid codewords,3,0.9
+"In digital communications, LDPC codes refers to?",can detect up to d_min - 1 errors per codeword,"reduction in required Eb/N0 due to channel coding, in dB",low-density parity-check codes; sparse parity check matrix; near-Shannon,first k bits of codeword equal the message bits,3,0.9
+"In digital communications, the coding gain refers to?","reduction in required Eb/N0 due to channel coding, in dB",maximum-likelihood decoding of convolutional codes via trellis,parallel concatenated convolutional codes achieving near-Shannon capacity,"k/n, fraction of codeword carrying information",1,0.9
+"In digital communications, hard-decision decoding refers to?",decoder uses only the decided bit values (not soft channel values),decoder uses reliability (log-likelihood) values from channel,low-density parity-check codes; sparse parity check matrix; near-Shannon,can detect up to d_min - 1 errors per codeword,1,0.9
+"In digital communications, soft-decision decoding refers to?",decoder uses reliability (log-likelihood) values from channel,parallel concatenated convolutional codes achieving near-Shannon capacity,first k bits of codeword equal the message bits,k x n matrix mapping message to codeword: c = m*G,1,0.9
+"How is a block code (n,k) defined?",maximum-likelihood decoding of convolutional codes via trellis,k x n matrix mapping message to codeword: c = m*G,decoder uses reliability (log-likelihood) values from channel,encodes k information bits into n codeword bits,4,0.9
+How is the code rate R_c defined?,"k/n, fraction of codeword carrying information",k x n matrix mapping message to codeword: c = m*G,encodes k information bits into n codeword bits,encodes by passing bits through a shift register with linear feedback,1,0.9
+"Evaluate: code rate of (7,4) Hamming code",2 /7,4/7,8 /7,6 /7,2,0.95
+"Evaluate: error correction capability of (7,4) code",t=1 (single error)_c,t=1 (single error)_b,t=1 (single error),t=1 (single error)_a,3,0.95
+"Evaluate: d_min of (7,4) Hamming code",-3,3,1,2,2,0.95
+"Evaluate: error detection capability of (7,4) code",0 errors,1 errors,2 errors,8 errors,3,0.95
+Evaluate: bandwidth expansion factor for R_c=1/2 code,2 (requires double bandwidth),-2 (requires double bandwidth),1 (requires double bandwidth),8 (requires double bandwidth),1,0.95
+Evaluate: bandwidth expansion factor for R_c=3/4 code,3 /3,12 /3,1 /3,4/3,4,0.95
+"Evaluate: coding gain of (7,4) Hamming code over uncoded BPSK",approx 1.1 dB,approx 1.1 dB_b,approx 1.1 dB_c,approx 1.1 dB_a,1,0.95
+"Evaluate: overhead bits in (15,11) Hamming code",2 redundancy bits,4 redundancy bits,8 redundancy bits,0 redundancy bits,2,0.95
+Evaluate: d_min needed to correct 2 errors,10,0,50,5,4,0.95
+Evaluate: d_min needed to detect 3 errors,2,6,3,4,4,0.95
+Evaluate: maximum coding gain of turbo codes vs Shannon limit,within 0.5 dB,within 0.5 dB_b,within 0.5 dB_a,within 0.5 dB_c,1,0.95
+Evaluate: constraint length of convolutional code with 3 shift registers,30,4,2,3,4,0.95
+Evaluate: number of states in Viterbi trellis for K=4,8,-8,1,2,1,0.95
+Evaluate: number of states for K=3 conv code,1,12,3,4,4,0.95
+Evaluate: code rate of rate-1/2 conv code,5.0,1.5,0.5,0.4,3,0.95
+Evaluate: required Eb/N0 for BPSK BER=10^-5 uncoded,2.4 dB,38.4 dB,9.6 dB,-9.6 dB,3,0.95
+Evaluate: soft-decision coding gain over hard-decision,approx 2 dB_c,approx 2 dB,approx 2 dB_b,approx 2 dB_a,2,0.95
+Evaluate: LDPC code proximity to Shannon limit,within 0.0045 dB for long codes_b,within 0.0045 dB for long codes,within 0.0045 dB for long codes_c,within 0.0045 dB for long codes_a,2,0.95
+Evaluate: effective Eb/N0 with R_c=1/2 code and 6 dB coding gain,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_c,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_a,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_b,1,0.95
+"Evaluate: throughput of (n,k) ARQ with BER p_b",R_c*(1-p_b)^n approximately_b,R_c*(1-p_b)^n approximately,R_c*(1-p_b)^n approximately_a,R_c*(1-p_b)^n approximately_c,2,0.95
+"Evaluate: number of parity bits in (n,k) Hamming code satisfying 2^(n-k)>=n+1 for n=15",8,2,16,4,4,0.95
+Evaluate: free distance d_free for rate-1/2 K=3 conv code (standard),5,20,15,4,1,0.95
+"What is the result of code rate of (7,4) Hamming code?",0 /7,4/7,3 /7,40 /7,2,0.95
+"What is the result of error correction capability of (7,4) code?",t=1 (single error),t=1 (single error)_b,t=1 (single error)_a,t=1 (single error)_c,1,0.95
+"What is the result of d_min of (7,4) Hamming code?",1,3,0,9,2,0.95
+"What is the result of error detection capability of (7,4) code?",1 errors,2 errors,0 errors,3 errors,2,0.95
+What is the result of bandwidth expansion factor for R_c=1/2 code?,20 (requires double bandwidth),1 (requires double bandwidth),2 (requires double bandwidth),4 (requires double bandwidth),3,0.95
+What is the result of bandwidth expansion factor for R_c=3/4 code?,4/3,1 /3,8 /3,-4 /3,1,0.95
+"What is the result of coding gain of (7,4) Hamming code over uncoded BPSK?",approx 1.1 dB_c,approx 1.1 dB,approx 1.1 dB_a,approx 1.1 dB_b,2,0.95
+"What is the result of overhead bits in (15,11) Hamming code?",-4 redundancy bits,4 redundancy bits,3 redundancy bits,1 redundancy bits,2,0.95
+What is the result of d_min needed to correct 2 errors?,5,1,10,20,1,0.95
+What is the result of d_min needed to detect 3 errors?,0,6,4,12,3,0.95
+What is the result of maximum coding gain of turbo codes vs Shannon limit?,within 0.5 dB,within 0.5 dB_b,within 0.5 dB_c,within 0.5 dB_a,1,0.95
+What is the result of constraint length of convolutional code with 3 shift registers?,12,4,6,3,4,0.95
+What is the result of number of states in Viterbi trellis for K=4?,8,-8,24,3,1,0.95
+What is the result of number of states for K=3 conv code?,2,0,4,40,3,0.95
+What is the result of code rate of rate-1/2 conv code?,0.4,1.0,-0.5,0.5,4,0.95
+What is the result of required Eb/N0 for BPSK BER=10^-5 uncoded?,4.8 dB,28.8 dB,-9.6 dB,9.6 dB,4,0.95
+What is the result of soft-decision coding gain over hard-decision?,approx 2 dB_c,approx 2 dB_a,approx 2 dB,approx 2 dB_b,3,0.95
+What is the result of LDPC code proximity to Shannon limit?,within 0.0045 dB for long codes_c,within 0.0045 dB for long codes,within 0.0045 dB for long codes_a,within 0.0045 dB for long codes_b,2,0.95
+What is the result of effective Eb/N0 with R_c=1/2 code and 6 dB coding gain?,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_a,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_b,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain_c,Eb/N0 - 3 dB (code rate loss) + 6 dB = net 3 dB gain,4,0.95
+"What is the result of throughput of (n,k) ARQ with BER p_b?",R_c*(1-p_b)^n approximately_a,R_c*(1-p_b)^n approximately,R_c*(1-p_b)^n approximately_c,R_c*(1-p_b)^n approximately_b,2,0.95
+"What is the result of number of parity bits in (n,k) Hamming code satisfying 2^(n-k)>=n+1 for n=15?",-4,1,4,12,3,0.95
+What is the result of free distance d_free for rate-1/2 K=3 conv code (standard)?,-5,10,2,5,4,0.95
+"Calculate: code rate of (7,4) Hamming code",8 /7,0 /7,1 /7,4/7,4,0.95
+"Calculate: error correction capability of (7,4) code",t=1 (single error),t=1 (single error)_b,t=1 (single error)_c,t=1 (single error)_a,1,0.95
+"Calculate: d_min of (7,4) Hamming code",1,2,-3,3,4,0.95
+"Calculate: error detection capability of (7,4) code",0 errors,2 errors,3 errors,approx 2 errors*2,2,0.95
+Calculate: bandwidth expansion factor for R_c=1/2 code,1 (requires double bandwidth),4 (requires double bandwidth),2 (requires double bandwidth),20 (requires double bandwidth),3,0.95
+Calculate: bandwidth expansion factor for R_c=3/4 code,12 /3,4/3,2 /3,8 /3,2,0.95
+Evaluate: Shannon capacity for AWGN BW=10 MHz SNR=30 dB,10 Mbps,100 Mbps,25 Mbps,400 Mbps,2,1.0
+Evaluate: Shannon capacity for BW=1 MHz SNR=7 (approx),0 Mbps,1 Mbps,3 Mbps,2 Mbps,3,1.0
+Evaluate: BER of uncoded BPSK at Eb/N0=6 dB,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_a,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_b,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_c,3,1.0
+Evaluate: effective spectral efficiency of 64-QAM with R_c=3/4,4.5 b/s/Hz,1.1 b/s/Hz,2.2 b/s/Hz,13.5 b/s/Hz,1,1.0
+Evaluate: effective spectral efficiency of QPSK with R_c=1/2,1 b/s/Hz,-1 b/s/Hz,0 b/s/Hz,4 b/s/Hz,1,1.0
+Evaluate: required Eb/N0 increase from Rayleigh vs AWGN at BER=10^-3,approx 24 dB_c,approx 24 dB_a,approx 24 dB,approx 24 dB_b,3,1.0
+Evaluate: diversity order required for slope -L in BER vs SNR curve,L_c,L_a,L_b,L,4,1.0
+Evaluate: Friis transmission equation: received power,Pt*Gt*Gr*(lambda/4pi*d)^2_c,Pt*Gt*Gr*(lambda/4pi*d)^2_b,Pt*Gt*Gr*(lambda/4pi*d)^2,Pt*Gt*Gr*(lambda/4pi*d)^2_a,3,1.0
+Evaluate: free-space path loss at 1 GHz 1 km,92.4 dB,924.0 dB,277.2 dB,184.8 dB,1,1.0
+"Evaluate: noise figure cascade: two stages F1,F2 gain G1",F1 + (F2-1)/G1_a,F1 + (F2-1)/G1,F1 + (F2-1)/G1_c,F1 + (F2-1)/G1_b,2,1.0
+Evaluate: spectral efficiency of 802.11n MIMO 4x4 64-QAM R_c=5/6,2 b/s/Hz,60 b/s/Hz,15 b/s/Hz,20 b/s/Hz,4,1.0
+Evaluate: OFDM spectral efficiency advantage vs single carrier,better utilisation of available bandwidth_b,better utilisation of available bandwidth,better utilisation of available bandwidth_a,better utilisation of available bandwidth_c,2,1.0
+Evaluate: turbo code vs LDPC code comparison,"both near-Shannon; LDPC faster decode, turbo better short block_b","both near-Shannon; LDPC faster decode, turbo better short block_c","both near-Shannon; LDPC faster decode, turbo better short block","both near-Shannon; LDPC faster decode, turbo better short block_a",3,1.0
+Evaluate: HARQ advantage over basic ARQ,combines retransmitted copies for gain instead of discarding_b,combines retransmitted copies for gain instead of discarding_a,combines retransmitted copies for gain instead of discarding,combines retransmitted copies for gain instead of discarding_c,3,1.0
+Evaluate: PAPR reduction technique for OFDM,"clipping, SLM, PTS, tone reservation_a","clipping, SLM, PTS, tone reservation_b","clipping, SLM, PTS, tone reservation","clipping, SLM, PTS, tone reservation_c",3,1.0
+Evaluate: MRC output SNR formula L branches equal gamma_bar,L*gamma_bar_b,L*gamma_bar_a,L*gamma_bar,L*gamma_bar_c,3,1.0
+Evaluate: capacity gain of MIMO Nt=Nr=4 over SISO at high SNR,4x (6 dB) capacity gain,approx 4x (6 dB) capacity gain*2,1 x (6 dB) capacity gain,16 x (6 dB) capacity gain,1,1.0
+Evaluate: spectral efficiency required for 1 Gbps in 20 MHz,50 b/s/Hz,75 b/s/Hz,150 b/s/Hz,500 b/s/Hz,1,1.0
+Evaluate: adaptive modulation advantage,maximises throughput by matching modulation to instantaneous SNR,maximises throughput by matching modulation to instantaneous SNR_a,maximises throughput by matching modulation to instantaneous SNR_c,maximises throughput by matching modulation to instantaneous SNR_b,1,1.0
+Evaluate: pilot-aided channel estimation purpose,inserts known symbols to estimate channel for coherent detection_b,inserts known symbols to estimate channel for coherent detection,inserts known symbols to estimate channel for coherent detection_c,inserts known symbols to estimate channel for coherent detection_a,2,1.0
+Evaluate: spread-spectrum processing gain Gp,"TW product, ratio of spread BW to information BW","TW product, ratio of spread BW to information BW_a","TW product, ratio of spread BW to information BW_b","TW product, ratio of spread BW to information BW_c",1,1.0
+Evaluate: CDMA advantage vs TDMA/FDMA,"soft capacity limit, handles more users gracefully_c","soft capacity limit, handles more users gracefully_b","soft capacity limit, handles more users gracefully","soft capacity limit, handles more users gracefully_a",3,1.0
+What is the result of Shannon capacity for AWGN BW=10 MHz SNR=30 dB?,300 Mbps,50 Mbps,100 Mbps,25 Mbps,3,1.0
+What is the result of Shannon capacity for BW=1 MHz SNR=7 (approx)?,1 Mbps,12 Mbps,3 Mbps,2 Mbps,3,1.0
+What is the result of BER of uncoded BPSK at Eb/N0=6 dB?,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_a,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_b,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_c,1,1.0
+What is the result of effective spectral efficiency of 64-QAM with R_c=3/4?,4.5 b/s/Hz,2.2 b/s/Hz,9.0 b/s/Hz,1.1 b/s/Hz,1,1.0
+What is the result of effective spectral efficiency of QPSK with R_c=1/2?,4 b/s/Hz,approx 1 b/s/Hz*2,1 b/s/Hz,0 b/s/Hz,3,1.0
+What is the result of required Eb/N0 increase from Rayleigh vs AWGN at BER=10^-3?,approx 24 dB_b,approx 24 dB_c,approx 24 dB,approx 24 dB_a,3,1.0
+What is the result of diversity order required for slope -L in BER vs SNR curve?,L,L_b,L_c,L_a,1,1.0
+What is the result of Friis transmission equation: received power?,Pt*Gt*Gr*(lambda/4pi*d)^2,Pt*Gt*Gr*(lambda/4pi*d)^2_a,Pt*Gt*Gr*(lambda/4pi*d)^2_c,Pt*Gt*Gr*(lambda/4pi*d)^2_b,1,1.0
+What is the result of free-space path loss at 1 GHz 1 km?,23.1 dB,30.8 dB,92.4 dB,9.2 dB,3,1.0
+"What is the result of noise figure cascade: two stages F1,F2 gain G1?",F1 + (F2-1)/G1_a,F1 + (F2-1)/G1_b,F1 + (F2-1)/G1,F1 + (F2-1)/G1_c,3,1.0
+What is the result of spectral efficiency of 802.11n MIMO 4x4 64-QAM R_c=5/6?,20 b/s/Hz,80 b/s/Hz,7 b/s/Hz,200 b/s/Hz,1,1.0
+What is the result of OFDM spectral efficiency advantage vs single carrier?,better utilisation of available bandwidth_b,better utilisation of available bandwidth_a,better utilisation of available bandwidth,better utilisation of available bandwidth_c,3,1.0
+What is the result of turbo code vs LDPC code comparison?,"both near-Shannon; LDPC faster decode, turbo better short block","both near-Shannon; LDPC faster decode, turbo better short block_a","both near-Shannon; LDPC faster decode, turbo better short block_c","both near-Shannon; LDPC faster decode, turbo better short block_b",1,1.0
+What is the result of HARQ advantage over basic ARQ?,combines retransmitted copies for gain instead of discarding_a,combines retransmitted copies for gain instead of discarding,combines retransmitted copies for gain instead of discarding_c,combines retransmitted copies for gain instead of discarding_b,2,1.0
+What is the result of PAPR reduction technique for OFDM?,"clipping, SLM, PTS, tone reservation_b","clipping, SLM, PTS, tone reservation","clipping, SLM, PTS, tone reservation_c","clipping, SLM, PTS, tone reservation_a",2,1.0
+What is the result of MRC output SNR formula L branches equal gamma_bar?,L*gamma_bar,L*gamma_bar_a,L*gamma_bar_c,L*gamma_bar_b,1,1.0
+What is the result of capacity gain of MIMO Nt=Nr=4 over SISO at high SNR?,6 x (6 dB) capacity gain,4x (6 dB) capacity gain,12 x (6 dB) capacity gain,16 x (6 dB) capacity gain,2,1.0
+What is the result of spectral efficiency required for 1 Gbps in 20 MHz?,50 b/s/Hz,17 b/s/Hz,5 b/s/Hz,200 b/s/Hz,1,1.0
+What is the result of adaptive modulation advantage?,maximises throughput by matching modulation to instantaneous SNR,maximises throughput by matching modulation to instantaneous SNR_c,maximises throughput by matching modulation to instantaneous SNR_b,maximises throughput by matching modulation to instantaneous SNR_a,1,1.0
+What is the result of pilot-aided channel estimation purpose?,inserts known symbols to estimate channel for coherent detection,inserts known symbols to estimate channel for coherent detection_a,inserts known symbols to estimate channel for coherent detection_b,inserts known symbols to estimate channel for coherent detection_c,1,1.0
+What is the result of spread-spectrum processing gain Gp?,"TW product, ratio of spread BW to information BW","TW product, ratio of spread BW to information BW_c","TW product, ratio of spread BW to information BW_a","TW product, ratio of spread BW to information BW_b",1,1.0
+What is the result of CDMA advantage vs TDMA/FDMA?,"soft capacity limit, handles more users gracefully","soft capacity limit, handles more users gracefully_a","soft capacity limit, handles more users gracefully_c","soft capacity limit, handles more users gracefully_b",1,1.0
+Calculate: Shannon capacity for AWGN BW=10 MHz SNR=30 dB,33 Mbps,150 Mbps,100 Mbps,200 Mbps,3,1.0
+Calculate: Shannon capacity for BW=1 MHz SNR=7 (approx),3 Mbps,9 Mbps,6 Mbps,-3 Mbps,1,1.0
+Calculate: BER of uncoded BPSK at Eb/N0=6 dB,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_a,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_c,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023,Q(sqrt(2*4)) = Q(2.83) ≈ 0.0023_b,3,1.0
+Calculate: effective spectral efficiency of 64-QAM with R_c=3/4,45.0 b/s/Hz,2.2 b/s/Hz,4.5 b/s/Hz,3.4 b/s/Hz,3,1.0
+Calculate: effective spectral efficiency of QPSK with R_c=1/2,approx 1 b/s/Hz*2,0 b/s/Hz,1 b/s/Hz,approx 1 b/s/Hz/2,3,1.0
+Calculate: required Eb/N0 increase from Rayleigh vs AWGN at BER=10^-3,approx 24 dB_a,approx 24 dB_c,approx 24 dB,approx 24 dB_b,3,1.0
